@@ -275,9 +275,11 @@ screening and claim-verification runs themselves.
 
 The four Web of Science Core Collection journal-list CSVs (SCIE, SSCI, AHCI, ESCI)
 that the optional venue filter reads are licensed content of Clarivate. They are not
-tracked in this repository and not in the release archive. A user with a Clarivate licence
-places the four files, under their exact file names, in `backend/data/wos/` and
-restarts the backend. The boot import is advisory-locked and import-if-empty, so it
+tracked in this repository, not in the release archive, and not covered by the MIT
+license in `LICENSE.txt`. A user with a Clarivate licence supplies their own copy of
+the four files, under their exact file names, in `backend/data/wos/` and
+restarts the backend. Without them, ScholarRAG runs with the venue filter inactive.
+The boot import is advisory-locked and import-if-empty, so it
 is safe to run with multiple backend workers. The filter is a journal-level venue
 filter matched on exact ISSN or eISSN: a record with no ISSN is never matched, and
 books, chapters, and non-indexed venues are excluded by construction. Database

@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE: The Web of Science Core Collection journal lists (SCIE, SSCI, AHCI,
-ESCI) that the optional venue filter reads from backend/data/wos/ are
-licensed content of Clarivate. They are NOT tracked in this repository and
-NOT included in the release archive, and they are NOT covered by this MIT
-license. Users who want to enable the venue filter
-must obtain these lists themselves, under their own Clarivate licence, and
-place them in backend/data/wos/. Without them ScholarRAG runs with the venue
-filter inactive. See README.md ("Data notice") for details.
