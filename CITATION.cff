@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "ScholarRAG"
+version: 1.1.0
+date-released: "2026-09-19"
+license: MIT
+repository-code: "https://github.com/Scholarag2026/scholarrag-v1.1.0"
+abstract: >-
+  An open-source retrieval-augmented research platform for literature screening
+  and citation-grounded drafting. Retrieval draws exclusively on OpenAlex.
+  An optional Web of Science
+  journal-level venue filter is followed by LLM title-and-abstract screening,
+  with an exportable screening record. Generated text is checked with
+  record-level checks against Crossref and claim-level checks of drafted
+  statements against the cited full text.
+authors:
+  - family-names: "Wu"
+    given-names: "Liqun"
+    orcid: "https://orcid.org/0009-0000-9708-0729"
+  - family-names: "Xu"
+    given-names: "Yunjie"
+    orcid: "https://orcid.org/0009-0004-0230-0717"
+  - family-names: "Li"
+    given-names: "Defeng"
+    orcid: "https://orcid.org/0000-0002-9316-3313"
+  - family-names: "Lei"
+    given-names: "Victoria Lai Cheng"
+    orcid: "https://orcid.org/0000-0001-7125-9579"

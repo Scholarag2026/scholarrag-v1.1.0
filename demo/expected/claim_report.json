@@ -1,0 +1,2508 @@
+{
+  "draft_id": "ca5b153f-6dd8-4f83-9461-48e8c0551413",
+  "verifications": [
+    {
+      "claim_text": "found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — that the experimental group outperformed the control group on writing performance — is stated verbatim in the Results and discussion section, together with the exact effect size d = 1.32 (Table 3 also lists d = 1.32 for writing skill). The intervention proposition (direct unfocused WCF given only to the experimental group) is supported by the abstract and the Procedure section. The two peripheral direction assertions are also supported: the experimental group's posttest WSEQ mean (51.30) exceeded the control group's (42.15), and its posttest SLWAI mean (49.96) was lower than the control group's (71.19), both statistically significant. No assertion is contradicted and none is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "An experimental group received direct unfocused WCF.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The experimental group students were provided with WCF on their writing tasks",
+          "central": false,
+          "entity": "experimental group of 26 Iranian male EFL learners",
+          "measure": "type of written corrective feedback provided",
+          "quotes": [
+            "The experimental group students were provided with WCF on their writing tasks",
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+          ]
+        },
+        {
+          "text": "The experimental group outperformed the control group on writing performance.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+          "central": true,
+          "entity": "experimental group vs. control group (26 vs. 26 Iranian male EFL learners)",
+          "measure": "posttest writing performance mean score",
+          "quotes": [
+            "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32"
+          ]
+        },
+        {
+          "text": "The effect size for the writing performance difference was d = 1.32.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "1.32",
+          "source_value": "1.32",
+          "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+          "central": false,
+          "entity": "experimental vs. control group writing performance posttest",
+          "measure": "Cohen's d effect size",
+          "quotes": [
+            "t (50) = 4.722, p < 0.05, d = 1.32"
+          ]
+        },
+        {
+          "text": "The experimental group reported higher writing self-efficacy than the control group.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+          "central": false,
+          "entity": "experimental group vs. control group",
+          "measure": "posttest WSEQ mean score",
+          "quotes": [
+            "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08"
+          ]
+        },
+        {
+          "text": "The experimental group reported lower writing anxiety than the control group.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+          "central": false,
+          "entity": "experimental group vs. control group",
+          "measure": "posttest SLWAI mean score",
+          "quotes": [
+            "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+        "t (50) = 4.722, p < 0.05, d = 1.32",
+        "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+        "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+        "The experimental group students were provided with WCF on their writing tasks",
+        "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Razmi and Ghane (2024) found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+      "citation": "Razmi and Ghane (2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+            "t (50) = 4.722, p < 0.05, d = 1.32",
+            "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+            "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+            "The experimental group students were provided with WCF on their writing tasks",
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+          ],
+          "tokens": {
+            "input_tokens": 14350,
+            "output_tokens": 1753
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "the authors acknowledged that the small, gender-restricted sample constrains generalisability",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "First, the sample size was relatively small, with only 52 participants.",
+      "explanation": "The claim decomposes into three propositions: (a) the authors acknowledge a small sample size as a limitation; (b) the authors acknowledge the sample was restricted in gender (exclusively male); and (c) the authors state that these features make generalising the findings to other contexts implausible. All three are stated in the Conclusion's limitations paragraph: \"First, the sample size was relatively small, with only 52 participants. Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study's findings to other contexts may be implausible.\" The central assertion (the generalisability constraint) is directly supported, and the peripheral assertions about sample size and gender restriction are also supported, so the status is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The authors acknowledged that the small sample size constrains generalisability of the findings.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "First, the sample size was relatively small, with only 52 participants.",
+          "central": true,
+          "entity": "the authors of the study",
+          "measure": "acknowledgement that the small sample size limits generalisation of findings",
+          "quotes": [
+            "First, the sample size was relatively small, with only 52 participants.",
+            "As a result, generalizing the study’s findings to other contexts may be implausible."
+          ]
+        },
+        {
+          "text": "The sample was restricted in gender (exclusively male).",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+          "central": false,
+          "entity": "the study's participants",
+          "measure": "gender composition of the sample",
+          "quotes": [
+            "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+          ]
+        },
+        {
+          "text": "The authors acknowledged that these sample features make generalising the findings to other contexts implausible.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "As a result, generalizing the study’s findings to other contexts may be implausible.",
+          "central": false,
+          "entity": "the authors of the study",
+          "measure": "acknowledgement that generalisation to other contexts may be implausible",
+          "quotes": [
+            "As a result, generalizing the study’s findings to other contexts may be implausible."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "First, the sample size was relatively small, with only 52 participants.",
+        "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+        "As a result, generalizing the study’s findings to other contexts may be implausible."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+      "citation": "(Razmi & Ghane, 2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "First, the sample size was relatively small, with only 52 participants.",
+            "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+            "As a result, generalizing the study’s findings to other contexts may be implausible."
+          ],
+          "tokens": {
+            "input_tokens": 14322,
+            "output_tokens": 894
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+      "explanation": "The claim's central proposition — that 52 intermediate male EFL learners aged 12–18 took part in the study — is stated verbatim in the source. The Participants section reads: \"52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study,\" and the limitations section confirms \"the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.\" The peripheral assertion that the design was limited is also supported: \"The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.\" No assertion is contradicted or absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "52 intermediate male EFL learners aged 12–18 were assessed in the study",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "52 intermediate male EFL learners aged 12–18",
+          "source_value": "52 EFL male students (age range of 12-18) ... at the level B1",
+          "quote": "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+          "central": true,
+          "entity": "participants in the study (EFL learners)",
+          "measure": "number, gender, proficiency level and age range of participants",
+          "quotes": [
+            "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+            "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+          ]
+        },
+        {
+          "text": "The study's design was limited",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": "limited design",
+          "source_value": "limitations: small sample size, single gender, restricted age range",
+          "quote": "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.",
+          "central": false,
+          "entity": "the study's design",
+          "measure": "acknowledged limitations of the design",
+          "quotes": [
+            "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.",
+            "As a result, generalizing the study’s findings to other contexts may be implausible."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+        "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+        "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+      "citation": "(Razmi & Ghane, 2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+            "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+            "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants."
+          ],
+          "tokens": {
+            "input_tokens": 14329,
+            "output_tokens": 906
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+      "explanation": "Every proposition in the claim is stated in the source. The abstract states \"Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).\" The Methods section corroborates the group composition and the self-correction control: \"The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27)\" and \"The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.\" The central assertion (random assignment of 139 low-intermediate EFL writers to four experimental conditions plus a self-correction control group) is supported, and no peripheral assertion is absent or contradicted.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "139",
+          "source_value": "139",
+          "quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+          "central": true,
+          "entity": "139 low-intermediate EFL writers in the study",
+          "measure": "random assignment to four experimental conditions plus a self-correction control group",
+          "quotes": [
+            "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+            "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27)."
+          ]
+        },
+        {
+          "text": "The control group was a self-correction group.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": "self-correction",
+          "source_value": "self-correction",
+          "quote": "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.",
+          "central": false,
+          "entity": "the control group",
+          "measure": "nature of the control condition (self-correction)",
+          "quotes": [
+            "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.",
+            "and a control group (self-correction)."
+          ]
+        },
+        {
+          "text": "The participants were low-intermediate EFL writers.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "low-intermediate EFL writers",
+          "source_value": "lower intermediate",
+          "quote": "Their native language was Spanish, and their mean English proficiency level was lower intermediate (SD = .79) as ascertained by Oxfords’ Quick Placement test (QPT)",
+          "central": false,
+          "entity": "the participants",
+          "measure": "proficiency level and language background",
+          "quotes": [
+            "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions",
+            "Their native language was Spanish, and their mean English proficiency level was lower intermediate (SD = .79) as ascertained by Oxfords’ Quick Placement test (QPT)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+        "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27).",
+        "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group (Bonilla López et al., 2018).",
+      "citation": "(Bonilla López et al., 2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+            "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27).",
+            "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text."
+          ],
+          "tokens": {
+            "input_tokens": 22179,
+            "output_tokens": 1363
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+      "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+      "status": "verified",
+      "evidence_quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — that ChatGPT's error-flagging ability improved substantially with prompt sophistication — is supported by \"We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.\" The recall figures are supported by the total row of Table 1 and by the prose: \"the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively\" (10% → 55% across the three prompt conditions). The precision figures are supported by \"ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).\" The claim's \"94–98%\" range matches the reported 94%, 98%, 94%, and \"exceeding Grammarly's 85%\" matches \"higher than Grammarly (85%)\". No assertion is contradicted and none is absent.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "ChatGPT's error-flagging ability improved substantially with prompt sophistication",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "improved substantially",
+          "source_value": "grew considerably",
+          "quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+          "central": true,
+          "entity": "ChatGPT (GPT-P1, GPT-P2, GPT-P3)",
+          "measure": "error-flagging ability across three prompt conditions of ascending sophistication",
+          "quotes": [
+            "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples."
+          ]
+        },
+        {
+          "text": "Recall rose from 10% to 55% across three prompt conditions",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "10% to 55%",
+          "source_value": "10%, 33% and 55%",
+          "quote": "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "central": false,
+          "entity": "ChatGPT with Prompt 1, Prompt 2 and Prompt 3",
+          "measure": "recall (coverage) across the three prompts",
+          "quotes": [
+            "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+          ]
+        },
+        {
+          "text": "Precision remained consistently high (94–98%) across the three prompt conditions",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "94–98%",
+          "source_value": "94%, 98% and 94%",
+          "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+          "central": false,
+          "entity": "ChatGPT with Prompt 1, Prompt 2 and Prompt 3",
+          "measure": "precision (accuracy) across the three prompts",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+            "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+          ]
+        },
+        {
+          "text": "ChatGPT's precision exceeded Grammarly's 85%",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "higher than 85%",
+          "source_value": "higher than Grammarly (85%)",
+          "quote": "higher than Grammarly (85%)",
+          "central": false,
+          "entity": "ChatGPT (all three prompts) vs. Grammarly",
+          "measure": "overall precision",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+        "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+        "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+        "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Luo et al. (2025) demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+      "citation": "Luo et al. (2025)",
+      "paper_doi": "10.1017/s095834402510044x",
+      "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+            "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+            "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+          ],
+          "tokens": {
+            "input_tokens": 14851,
+            "output_tokens": 1489
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres",
+      "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+      "status": "verified",
+      "evidence_quote": "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — the corpus size of 30 essays — is stated verbatim in Section 5.1: \"The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.\" The writers' intermediate proficiency and Chinese undergraduate status are supported by \"These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6\" together with the same sentence naming non-English-major undergraduates at a university in China. The characterization of the corpus as small is supported by \"We opted for the small corpus because of our intention for in-depth analysis\" and \"We acknowledge several limitations in the current study, including the small corpus size\". The generalizability caveat is supported by the Conclusion: \"the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds\" (the claim's omission of \"linguistic backgrounds\" is a narrowing, not a contradiction). No assertion is contradicted and none is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The corpus consisted of 30 essays.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "30",
+          "source_value": "30",
+          "quote": "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+          "central": true,
+          "entity": "the corpus of the study",
+          "measure": "number of essays",
+          "quotes": [
+            "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author."
+          ]
+        },
+        {
+          "text": "The essays were written by intermediate Chinese undergraduates.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "intermediate Chinese undergraduates",
+          "source_value": "intermediate English proficiency; non-English-major undergraduates at a university in China",
+          "quote": "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+          "central": false,
+          "entity": "essay writers",
+          "measure": "proficiency level and nationality/status",
+          "quotes": [
+            "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+            "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6."
+          ]
+        },
+        {
+          "text": "The corpus was small.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": "small",
+          "source_value": "small corpus size",
+          "quote": "We acknowledge several limitations in the current study, including the small corpus size",
+          "central": false,
+          "entity": "the corpus of the study",
+          "measure": "size characterization",
+          "quotes": [
+            "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+            "We acknowledge several limitations in the current study, including the small corpus size"
+          ]
+        },
+        {
+          "text": "The authors noted that findings may not generalise to other proficiency levels or genres.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "may not be generalized to other proficiency levels, text genres",
+          "source_value": "may not be generalized to other proficiency levels, text genres or linguistic backgrounds",
+          "quote": "the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds",
+          "central": false,
+          "entity": "the authors' stated limitation",
+          "measure": "generalizability of findings",
+          "quotes": [
+            "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+        "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+        "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+        "We acknowledge several limitations in the current study, including the small corpus size",
+        "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres (Luo et al., 2025).",
+      "citation": "(Luo et al., 2025)",
+      "paper_doi": "10.1017/s095834402510044x",
+      "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+            "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+            "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+            "We acknowledge several limitations in the current study, including the small corpus size",
+            "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+          ],
+          "tokens": {
+            "input_tokens": 14832,
+            "output_tokens": 1194
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+      "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+      "status": "verified",
+      "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+      "explanation": "The central assertion — that the study found no division of labour between teachers and Grammarly — is stated verbatim in the abstract: \"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.\" The peripheral assertions are also supported: the abstract states \"The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement,\" and the findings section states \"all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.\" The claim's \"all six participating teachers\" matches the study's six participants (Mik, Mei, Maria, Rob, Jackson, and Heaven). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study found no division of labour between teachers and Grammarly (i.e., no arrangement in which the teacher handles higher-order concerns and Grammarly handles lower-order concerns).",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+          "central": true,
+          "entity": "the study's findings on teacher–Grammarly feedback division of labour",
+          "measure": "presence/absence of a division of labour between teachers and Grammarly",
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns."
+          ]
+        },
+        {
+          "text": "All six participating teachers provided feedback on both higher-order and lower-order concerns.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "all six",
+          "source_value": "all six",
+          "quote": "all six participants provided feedback on both HOCs and LOCs",
+          "central": false,
+          "entity": "the six participating teachers",
+          "measure": "provision of feedback on both HOCs and LOCs",
+          "quotes": [
+            "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+          ]
+        },
+        {
+          "text": "The teachers provided feedback on both higher-order and lower-order concerns despite Grammarly's availability as a complement.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "despite having Grammarly feedback on LOCs as a complement",
+          "central": false,
+          "entity": "the participating teachers",
+          "measure": "feedback provision on HOCs and LOCs while Grammarly was available as a complement",
+          "quotes": [
+            "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+        "Of the 15 graduate teaching associates pursuing their doctorate or master’s degree in applied linguistics and working in an L2 writing program at a US university, six consented to participate in the study."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Yet Koltovskaia (2022) found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+      "citation": "Koltovskaia (2022)",
+      "paper_doi": "10.1017/s0958344022000179",
+      "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+            "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+            "Of the 15 graduate teaching associates pursuing their doctorate or master’s degree in applied linguistics and working in an L2 writing program at a US university, six consented to participate in the study."
+          ],
+          "tokens": {
+            "input_tokens": 14440,
+            "output_tokens": 1019
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — that 88% of the 33 students submitted to the AWE system more than five times, with a mean of 9.5 submissions — is reproduced verbatim in section 6.1: \"88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07)\". The peripheral assertions about reported revision time are also supported: \"the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).\" The direction (AWE > peer > teacher) matches the claim, and no assertion is contradicted or absent.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "88% of the 33 students submitted to the AWE system more than five times",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "88%",
+          "source_value": "88%",
+          "quote": "88% of the 33 students submitted to the AWE system more than five times",
+          "central": true,
+          "entity": "the 33 students in the study",
+          "measure": "percentage submitting to the AWE system more than five times",
+          "quotes": [
+            "88% of the 33 students submitted to the AWE system more than five times"
+          ]
+        },
+        {
+          "text": "the mean number of AWE submissions was 9.5",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "9.5",
+          "source_value": "9.5",
+          "quote": "with a mean number of submissions of 9.5 (SD = 4.07)",
+          "central": false,
+          "entity": "the 33 students in the study",
+          "measure": "mean number of AWE submissions",
+          "quotes": [
+            "with a mean number of submissions of 9.5 (SD = 4.07)"
+          ]
+        },
+        {
+          "text": "students reported spending an average of 6.2 hours revising after AWE feedback",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "6.2 hours",
+          "source_value": "6.2 hours",
+          "quote": "they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback",
+          "central": false,
+          "entity": "the interviewed students",
+          "measure": "self-reported average hours revising after AWE feedback",
+          "quotes": [
+            "they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback"
+          ]
+        },
+        {
+          "text": "students reported spending more time revising after AWE feedback than after peer feedback",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "AWE (6.2) > peer (5.8)",
+          "source_value": "AWE (6.2) > peer (5.8)",
+          "quote": "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4)",
+          "central": false,
+          "entity": "the interviewed students",
+          "measure": "comparison of reported revision time after AWE vs peer feedback",
+          "quotes": [
+            "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4)"
+          ]
+        },
+        {
+          "text": "students reported spending an average of 5.8 hours revising after peer feedback",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "5.8 hours",
+          "source_value": "5.8 hours",
+          "quote": "peer feedback (average of 5.8 hours, SD = 2.4)",
+          "central": false,
+          "entity": "the interviewed students",
+          "measure": "self-reported average hours revising after peer feedback",
+          "quotes": [
+            "peer feedback (average of 5.8 hours, SD = 2.4)"
+          ]
+        },
+        {
+          "text": "students reported spending an average of 4.7 hours revising after teacher feedback",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "4.7 hours",
+          "source_value": "4.7 hours",
+          "quote": "teacher feedback (4.7 hours, SD = 2.14)",
+          "central": false,
+          "entity": "the interviewed students",
+          "measure": "self-reported average hours revising after teacher feedback",
+          "quotes": [
+            "teacher feedback (4.7 hours, SD = 2.14)"
+          ]
+        },
+        {
+          "text": "students reported spending more time revising after AWE feedback than after teacher feedback",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "AWE (6.2) > teacher (4.7)",
+          "source_value": "AWE (6.2) > teacher (4.7)",
+          "quote": "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)",
+          "central": false,
+          "entity": "the interviewed students",
+          "measure": "comparison of reported revision time after AWE vs teacher feedback",
+          "quotes": [
+            "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+        "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2021) reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+      "citation": "Zhang and Hyland (2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+            "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+          ],
+          "tokens": {
+            "input_tokens": 12756,
+            "output_tokens": 1633
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+      "explanation": "All three propositions are stated in the source. The review's final sample is 50 journal articles (\"Our final sample contains 50 journal articles, which are listed in Table 1.\"), and Section 4 states verbatim: \"Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.\" The central assertion (most studies not theoretically motivated) is supported, as is the 22% figure (11 of 50 = 22.0%). No assertion is contradicted or absent, and no hedge is removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The review synthesised 50 naturalistic classroom studies.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "50",
+          "source_value": "50",
+          "quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+          "central": false,
+          "entity": "the review (Mao, Lee & Li)",
+          "measure": "number of naturalistic classroom studies synthesised",
+          "quotes": [
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review"
+          ]
+        },
+        {
+          "text": "Most of the synthesised studies were not theoretically motivated.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "most were not theoretically motivated",
+          "source_value": "most were not theoretically motivated",
+          "quote": "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+          "central": true,
+          "entity": "the 50 studies included in the review",
+          "measure": "theoretical motivation",
+          "quotes": [
+            "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets."
+          ]
+        },
+        {
+          "text": "Only 22% of the studies made explicit reference to theoretical tenets.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "22%",
+          "source_value": "22.0% (11 studies)",
+          "quote": "only 11 studies (22.0%) made explicit reference to theoretical tenets",
+          "central": false,
+          "entity": "the 50 studies included in the review",
+          "measure": "percentage making explicit reference to theoretical tenets",
+          "quotes": [
+            "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Our final sample contains 50 journal articles, which are listed in Table 1.",
+        "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+        "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+        "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+      "citation": "Mao et al. (2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+            "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+          ],
+          "tokens": {
+            "input_tokens": 24904,
+            "output_tokens": 905
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "The review focused exclusively on teacher WCF, excluding peer and computational feedback",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+      "explanation": "The claim's central assertion — that the review focused exclusively on teacher WCF — is stated verbatim in the Conclusion: \"One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.\" The peripheral assertion that peer and computational feedback were excluded is supported by the same span (\"without including research into WCF provided from other sources such as peers and computational tools\") and reinforced by the exclusion criterion \"(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)\". No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The review focused exclusively on teacher WCF.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+          "central": true,
+          "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+          "measure": "focus of the review (teacher WCF only)",
+          "quotes": [
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+          ]
+        },
+        {
+          "text": "The review excluded peer feedback.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+          "central": false,
+          "entity": "the review",
+          "measure": "exclusion of peer-provided WCF",
+          "quotes": [
+            "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+          ]
+        },
+        {
+          "text": "The review excluded computational (automated) feedback.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+          "central": false,
+          "entity": "the review",
+          "measure": "exclusion of computer/automated-provided WCF",
+          "quotes": [
+            "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+        "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "The review focused exclusively on teacher WCF, excluding peer and computational feedback (Mao et al., 2024).",
+      "citation": "(Mao et al., 2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 8 (methods)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+            "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)"
+          ],
+          "tokens": {
+            "input_tokens": 24890,
+            "output_tokens": 819
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+      "explanation": "The abstract states verbatim that \"A systematic search generated 50 empirical studies that met our inclusion criteria for the current review, which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions.\" The count of 50 is corroborated by \"Our final sample contains 50 journal articles\" and the four themes are restated in Section 5 as \"(a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and perspectives on WCF; and (d) WCF-related motivation and emotions.\" The claim's use of \"feedback\" for \"WCF\" (written corrective feedback) is a faithful abbreviation of the source's term, and every proposition — the systematic search, the 50 studies, the inclusion criteria, and all four themes — is stated in the chunks.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "A systematic search for the review identified 50 empirical studies that met the review's inclusion criteria.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "50",
+          "source_value": "50",
+          "quote": "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+          "central": true,
+          "entity": "the review's systematic search",
+          "measure": "number of empirical studies meeting inclusion criteria",
+          "quotes": [
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "Our final sample contains 50 journal articles, which are listed in Table 1."
+          ]
+        },
+        {
+          "text": "The review revealed four major themes.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "four",
+          "source_value": "four",
+          "quote": "which revealed four major themes",
+          "central": false,
+          "entity": "the review",
+          "measure": "number of major themes",
+          "quotes": [
+            "which revealed four major themes",
+            "and synthesized the key empirical findings into four research strands"
+          ]
+        },
+        {
+          "text": "One theme is teacher feedback practices in L2 writing classrooms.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(1) teacher WCF practices in L2 writing classrooms",
+          "central": false,
+          "entity": "the review's themes",
+          "measure": "theme content",
+          "quotes": [
+            "(1) teacher WCF practices in L2 writing classrooms",
+            "(a) teacher WCF practices in L2 writing classrooms"
+          ]
+        },
+        {
+          "text": "One theme is L2 learner responses to feedback.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(2) L2 learner responses to WCF",
+          "central": false,
+          "entity": "the review's themes",
+          "measure": "theme content",
+          "quotes": [
+            "(2) L2 learner responses to WCF",
+            "(b) L2 learners’ responses to WCF"
+          ]
+        },
+        {
+          "text": "One theme is stakeholders' beliefs and perspectives about feedback.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(3) stakeholders’ beliefs and perspectives on WCF",
+          "central": false,
+          "entity": "the review's themes",
+          "measure": "theme content",
+          "quotes": [
+            "(3) stakeholders’ beliefs and perspectives on WCF",
+            "(c) stakeholders’ beliefs and perspectives on WCF"
+          ]
+        },
+        {
+          "text": "One theme is feedback-related motivation and emotions.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "(4) WCF-related motivation and emotions",
+          "central": false,
+          "entity": "the review's themes",
+          "measure": "theme content",
+          "quotes": [
+            "(4) WCF-related motivation and emotions",
+            "(d) WCF-related motivation and emotions"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+        "which revealed four major themes",
+        "Our final sample contains 50 journal articles, which are listed in Table 1.",
+        "(1) teacher WCF practices in L2 writing classrooms",
+        "(2) L2 learner responses to WCF",
+        "(3) stakeholders’ beliefs and perspectives on WCF",
+        "(4) WCF-related motivation and emotions",
+        "and synthesized the key empirical findings into four research strands",
+        "(a) teacher WCF practices in L2 writing classrooms",
+        "(b) L2 learners’ responses to WCF",
+        "(c) stakeholders’ beliefs and perspectives on WCF",
+        "(d) WCF-related motivation and emotions"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+      "citation": "(Mao et al., 2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "which revealed four major themes",
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "(1) teacher WCF practices in L2 writing classrooms",
+            "(2) L2 learner responses to WCF",
+            "(3) stakeholders’ beliefs and perspectives on WCF",
+            "(4) WCF-related motivation and emotions",
+            "we synthesized the key empirical findings into four research strands",
+            "(a) teacher WCF practices in L2 writing classrooms",
+            "(b) L2 learners’ responses to WCF",
+            "(c) stakeholders’ beliefs and perspectives on WCF",
+            "(d) WCF-related motivation and emotions"
+          ],
+          "tokens": {
+            "input_tokens": 24927,
+            "output_tokens": 1273
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [
+            "quote_not_verbatim"
+          ],
+          "repair_prompt_version": null
+        },
+        {
+          "quotes": [
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "which revealed four major themes",
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "(1) teacher WCF practices in L2 writing classrooms",
+            "(2) L2 learner responses to WCF",
+            "(3) stakeholders’ beliefs and perspectives on WCF",
+            "(4) WCF-related motivation and emotions",
+            "and synthesized the key empirical findings into four research strands",
+            "(a) teacher WCF practices in L2 writing classrooms",
+            "(b) L2 learners’ responses to WCF",
+            "(c) stakeholders’ beliefs and perspectives on WCF",
+            "(d) WCF-related motivation and emotions"
+          ],
+          "tokens": {
+            "input_tokens": 26479,
+            "output_tokens": 1273
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": "sha256:7ec7cffe852d"
+        }
+      ]
+    },
+    {
+      "claim_text": "Screening yielded the same 50 eligible studies for the review, sorted into two major themes: writing accuracy outcomes and learner motivation only",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "unsupported",
+      "evidence_quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+      "explanation": "The claim asserts that screening produced 50 eligible studies organized into exactly two themes: writing accuracy outcomes and learner motivation. The source does state the sample size (\"Our final sample contains 50 journal articles\" / \"A systematic search generated 50 empirical studies that met our inclusion criteria\"), so the count of 50 is supported. However, the CENTRAL assertion — the thematic organization — is contradicted: the source states the review \"revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders' beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions,\" and later \"synthesized the key empirical findings into four research strands.\" The claim's \"two major themes\" and its theme labels (\"writing accuracy outcomes\", \"learner motivation only\") differ in number and content from the source's four themes, and the source nowhere restricts the themes to those two. Because a contradicted proposition condemns the whole claim, the status is unsupported.",
+      "suggested_revision": "Screening yielded 50 eligible studies for the review, which were synthesized into four major themes: teacher WCF practices in L2 writing classrooms, L2 learner responses to WCF, stakeholders' beliefs and perspectives on WCF, and WCF-related motivation and emotions.",
+      "assertions": [
+        {
+          "text": "Screening yielded 50 eligible studies for the review.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "50",
+          "source_value": "50",
+          "quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+          "central": false,
+          "entity": "the review's included studies",
+          "measure": "number of eligible studies",
+          "quotes": [
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review"
+          ]
+        },
+        {
+          "text": "The 50 eligible studies were sorted into two major themes.",
+          "kind": "scope",
+          "verdict": "contradicted",
+          "claim_value": "two major themes",
+          "source_value": "four major themes",
+          "quote": "which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions",
+          "central": true,
+          "entity": "the 50 included studies",
+          "measure": "number of major themes identified",
+          "quotes": [
+            "which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions",
+            "we looked for patterns, similarities, differences, and gaps across the studies, and synthesized the key empirical findings into four research strands: (a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and per-spectives on WCF; and (d) WCF-related motivation and emotions."
+          ]
+        },
+        {
+          "text": "The two themes are writing accuracy outcomes and learner motivation only.",
+          "kind": "scope",
+          "verdict": "contradicted",
+          "claim_value": "writing accuracy outcomes and learner motivation only",
+          "source_value": "teacher WCF practices; L2 learner responses to WCF; stakeholders' beliefs and perspectives on WCF; WCF-related motivation and emotions",
+          "quote": "synthesized the key empirical findings into four research strands: (a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and per-spectives on WCF; and (d) WCF-related motivation and emotions.",
+          "central": false,
+          "entity": "the review's themes",
+          "measure": "identity of the major themes",
+          "quotes": [
+            "synthesized the key empirical findings into four research strands: (a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and per-spectives on WCF; and (d) WCF-related motivation and emotions."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Our final sample contains 50 journal articles, which are listed in Table 1.",
+        "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+        "which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions",
+        "we looked for patterns, similarities, differences, and gaps across the studies, and synthesized the key empirical findings into four research strands: (a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and per-spectives on WCF; and (d) WCF-related motivation and emotions."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Screening yielded the same 50 eligible studies for the review, sorted into two major themes: writing accuracy outcomes and learner motivation only (Mao et al., 2024).",
+      "citation": "(Mao et al., 2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 6 (findings)",
+      "model_status": "unsupported",
+      "machine_reasons": [
+        "assertion_status_inconsistent"
+      ],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions",
+            "we looked for patterns, similarities, differences, and gaps across the studies, and synthesized the key empirical findings into four research strands: (a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and per-spectives on WCF; and (d) WCF-related motivation and emotions."
+          ],
+          "tokens": {
+            "input_tokens": 24901,
+            "output_tokens": 1355
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "unsupported",
+          "machine_reasons": [
+            "assertion_status_inconsistent"
+          ],
+          "repair_prompt_version": null
+        }
+      ]
+    }
+  ],
+  "verified_count": 11,
+  "unsupported_count": 1,
+  "nuance_count": 0,
+  "abstract_only_count": 0,
+  "error_count": 0,
+  "needs_rewrite": 0,
+  "needs_removal": 1,
+  "provenance": {
+    "agent": "claim_verification",
+    "calls": 13,
+    "temperature": 0.0,
+    "guard_digest": "8a6c833ffc329f89",
+    "input_tokens": 248160,
+    "output_tokens": 15876,
+    "model_reported": [
+      "deepseek-flash"
+    ],
+    "prompt_version": "sha256:49fcfbfaf2f6",
+    "model_configured": "deepseek-chat",
+    "system_fingerprints": [
+      "aeb56401ca74e127821c4f9126dcb669"
+    ],
+    "repair_prompt_version": "sha256:7ec7cffe852d",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc"
+  },
+  "full_text_coverage": 1.0,
+  "task_id": "4363113f-6a70-4020-b1a8-dfeeff6ec130",
+  "contradicted_count": 1,
+  "guarded_count": 0,
+  "citation_coverage": {
+    "found": 11,
+    "linked": 11,
+    "sent_to_verifier": 12,
+    "unresolved": 0,
+    "unresolved_citations": [],
+    "by_source": {
+      "mapping": 11,
+      "numbered": 0,
+      "author-year": 0
+    }
+  },
+  "healed": true,
+  "finalize_stats": {
+    "frame_spans_accepted": 1,
+    "sentences_residue_excised": 0,
+    "sentences_removed_dangling": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_unverified": 1,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 0,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 0,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "final_report": {
+    "verifications": [
+      {
+        "claim_text": "found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — that the experimental group outperformed the control group on writing performance — is stated verbatim in the Results and discussion section, together with the exact effect size d = 1.32 (Table 3 also lists d = 1.32 for writing skill). The intervention proposition (direct unfocused WCF given only to the experimental group) is supported by the abstract and the Procedure section. The two peripheral direction assertions are also supported: the experimental group's posttest WSEQ mean (51.30) exceeded the control group's (42.15), and its posttest SLWAI mean (49.96) was lower than the control group's (71.19), both statistically significant. No assertion is contradicted and none is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "An experimental group received direct unfocused WCF.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The experimental group students were provided with WCF on their writing tasks",
+            "central": false,
+            "entity": "experimental group of 26 Iranian male EFL learners",
+            "measure": "type of written corrective feedback provided",
+            "quotes": [
+              "The experimental group students were provided with WCF on their writing tasks",
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+            ]
+          },
+          {
+            "text": "The experimental group outperformed the control group on writing performance.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+            "central": true,
+            "entity": "experimental group vs. control group (26 vs. 26 Iranian male EFL learners)",
+            "measure": "posttest writing performance mean score",
+            "quotes": [
+              "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32"
+            ]
+          },
+          {
+            "text": "The effect size for the writing performance difference was d = 1.32.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "1.32",
+            "source_value": "1.32",
+            "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+            "central": false,
+            "entity": "experimental vs. control group writing performance posttest",
+            "measure": "Cohen's d effect size",
+            "quotes": [
+              "t (50) = 4.722, p < 0.05, d = 1.32"
+            ]
+          },
+          {
+            "text": "The experimental group reported higher writing self-efficacy than the control group.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+            "central": false,
+            "entity": "experimental group vs. control group",
+            "measure": "posttest WSEQ mean score",
+            "quotes": [
+              "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08"
+            ]
+          },
+          {
+            "text": "The experimental group reported lower writing anxiety than the control group.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+            "central": false,
+            "entity": "experimental group vs. control group",
+            "measure": "posttest SLWAI mean score",
+            "quotes": [
+              "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+          "t (50) = 4.722, p < 0.05, d = 1.32",
+          "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+          "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+          "The experimental group students were provided with WCF on their writing tasks",
+          "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Razmi and Ghane (2024) found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+              "t (50) = 4.722, p < 0.05, d = 1.32",
+              "the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08",
+              "the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26",
+              "The experimental group students were provided with WCF on their writing tasks",
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+            ],
+            "tokens": {
+              "input_tokens": 14350,
+              "output_tokens": 1753
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "the authors acknowledged that the small, gender-restricted sample constrains generalisability",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "First, the sample size was relatively small, with only 52 participants.",
+        "explanation": "The claim decomposes into three propositions: (a) the authors acknowledge a small sample size as a limitation; (b) the authors acknowledge the sample was restricted in gender (exclusively male); and (c) the authors state that these features make generalising the findings to other contexts implausible. All three are stated in the Conclusion's limitations paragraph: \"First, the sample size was relatively small, with only 52 participants. Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study's findings to other contexts may be implausible.\" The central assertion (the generalisability constraint) is directly supported, and the peripheral assertions about sample size and gender restriction are also supported, so the status is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The authors acknowledged that the small sample size constrains generalisability of the findings.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "First, the sample size was relatively small, with only 52 participants.",
+            "central": true,
+            "entity": "the authors of the study",
+            "measure": "acknowledgement that the small sample size limits generalisation of findings",
+            "quotes": [
+              "First, the sample size was relatively small, with only 52 participants.",
+              "As a result, generalizing the study’s findings to other contexts may be implausible."
+            ]
+          },
+          {
+            "text": "The sample was restricted in gender (exclusively male).",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+            "central": false,
+            "entity": "the study's participants",
+            "measure": "gender composition of the sample",
+            "quotes": [
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+            ]
+          },
+          {
+            "text": "The authors acknowledged that these sample features make generalising the findings to other contexts implausible.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "As a result, generalizing the study’s findings to other contexts may be implausible.",
+            "central": false,
+            "entity": "the authors of the study",
+            "measure": "acknowledgement that generalisation to other contexts may be implausible",
+            "quotes": [
+              "As a result, generalizing the study’s findings to other contexts may be implausible."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "First, the sample size was relatively small, with only 52 participants.",
+          "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+          "As a result, generalizing the study’s findings to other contexts may be implausible."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+        "citation": "(Razmi & Ghane, 2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "First, the sample size was relatively small, with only 52 participants.",
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+              "As a result, generalizing the study’s findings to other contexts may be implausible."
+            ],
+            "tokens": {
+              "input_tokens": 14322,
+              "output_tokens": 894
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+        "explanation": "The claim's central proposition — that 52 intermediate male EFL learners aged 12–18 took part in the study — is stated verbatim in the source. The Participants section reads: \"52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study,\" and the limitations section confirms \"the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.\" The peripheral assertion that the design was limited is also supported: \"The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.\" No assertion is contradicted or absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "52 intermediate male EFL learners aged 12–18 were assessed in the study",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "52 intermediate male EFL learners aged 12–18",
+            "source_value": "52 EFL male students (age range of 12-18) ... at the level B1",
+            "quote": "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+            "central": true,
+            "entity": "participants in the study (EFL learners)",
+            "measure": "number, gender, proficiency level and age range of participants",
+            "quotes": [
+              "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+            ]
+          },
+          {
+            "text": "The study's design was limited",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": "limited design",
+            "source_value": "limitations: small sample size, single gender, restricted age range",
+            "quote": "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.",
+            "central": false,
+            "entity": "the study's design",
+            "measure": "acknowledged limitations of the design",
+            "quotes": [
+              "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants.",
+              "As a result, generalizing the study’s findings to other contexts may be implausible."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+          "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+          "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+        "citation": "(Razmi & Ghane, 2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years.",
+              "The findings of the current study should be cautiously taken together with its limitations. First, the sample size was relatively small, with only 52 participants."
+            ],
+            "tokens": {
+              "input_tokens": 14329,
+              "output_tokens": 906
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+        "explanation": "Every proposition in the claim is stated in the source. The abstract states \"Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).\" The Methods section corroborates the group composition and the self-correction control: \"The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27)\" and \"The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.\" The central assertion (random assignment of 139 low-intermediate EFL writers to four experimental conditions plus a self-correction control group) is supported, and no peripheral assertion is absent or contradicted.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "139",
+            "source_value": "139",
+            "quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+            "central": true,
+            "entity": "139 low-intermediate EFL writers in the study",
+            "measure": "random assignment to four experimental conditions plus a self-correction control group",
+            "quotes": [
+              "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+              "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27)."
+            ]
+          },
+          {
+            "text": "The control group was a self-correction group.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": "self-correction",
+            "source_value": "self-correction",
+            "quote": "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.",
+            "central": false,
+            "entity": "the control group",
+            "measure": "nature of the control condition (self-correction)",
+            "quotes": [
+              "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text.",
+              "and a control group (self-correction)."
+            ]
+          },
+          {
+            "text": "The participants were low-intermediate EFL writers.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "low-intermediate EFL writers",
+            "source_value": "lower intermediate",
+            "quote": "Their native language was Spanish, and their mean English proficiency level was lower intermediate (SD = .79) as ascertained by Oxfords’ Quick Placement test (QPT)",
+            "central": false,
+            "entity": "the participants",
+            "measure": "proficiency level and language background",
+            "quotes": [
+              "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions",
+              "Their native language was Spanish, and their mean English proficiency level was lower intermediate (SD = .79) as ascertained by Oxfords’ Quick Placement test (QPT)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+          "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27).",
+          "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group (Bonilla López et al., 2018).",
+        "citation": "(Bonilla López et al., 2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions (direct corrections on grammatical errors, metalinguistic codes on grammatical errors, direct corrections on grammatical and non-grammatical errors, or metalinguistic codes on grammatical and non-grammatical errors) and a control group (self-correction).",
+              "The participants were randomly assigned to five groups: direct CF on grammatical errors (n = 29), metalinguistic CF with codes on grammatical errors (n = 28), direct CF on grammatical and non-grammatical errors (n = 27), metalinguistic CF with codes on grammatical and non-grammatical errors (n = 28), and a control group (n = 27).",
+              "The study also had a self-correction (i.e., control) group (hereafter SC), where learners did not receive any corrections in their text."
+            ],
+            "tokens": {
+              "input_tokens": 22179,
+              "output_tokens": 1363
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+        "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+        "status": "verified",
+        "evidence_quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — that ChatGPT's error-flagging ability improved substantially with prompt sophistication — is supported by \"We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.\" The recall figures are supported by the total row of Table 1 and by the prose: \"the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively\" (10% → 55% across the three prompt conditions). The precision figures are supported by \"ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).\" The claim's \"94–98%\" range matches the reported 94%, 98%, 94%, and \"exceeding Grammarly's 85%\" matches \"higher than Grammarly (85%)\". No assertion is contradicted and none is absent.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "ChatGPT's error-flagging ability improved substantially with prompt sophistication",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "improved substantially",
+            "source_value": "grew considerably",
+            "quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+            "central": true,
+            "entity": "ChatGPT (GPT-P1, GPT-P2, GPT-P3)",
+            "measure": "error-flagging ability across three prompt conditions of ascending sophistication",
+            "quotes": [
+              "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples."
+            ]
+          },
+          {
+            "text": "Recall rose from 10% to 55% across three prompt conditions",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "10% to 55%",
+            "source_value": "10%, 33% and 55%",
+            "quote": "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "central": false,
+            "entity": "ChatGPT with Prompt 1, Prompt 2 and Prompt 3",
+            "measure": "recall (coverage) across the three prompts",
+            "quotes": [
+              "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+              "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+            ]
+          },
+          {
+            "text": "Precision remained consistently high (94–98%) across the three prompt conditions",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "94–98%",
+            "source_value": "94%, 98% and 94%",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+            "central": false,
+            "entity": "ChatGPT with Prompt 1, Prompt 2 and Prompt 3",
+            "measure": "precision (accuracy) across the three prompts",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+              "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+            ]
+          },
+          {
+            "text": "ChatGPT's precision exceeded Grammarly's 85%",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "higher than 85%",
+            "source_value": "higher than Grammarly (85%)",
+            "quote": "higher than Grammarly (85%)",
+            "central": false,
+            "entity": "ChatGPT (all three prompts) vs. Grammarly",
+            "measure": "overall precision",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+          "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+          "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Luo et al. (2025) demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+        "citation": "Luo et al. (2025)",
+        "paper_doi": "10.1017/s095834402510044x",
+        "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+              "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+              "Total\n94\n(33/35)\n10\n(33/334)\n98\n(110/112)\n33\n(110/334)\n94\n(184/196)\n55\n(184/334)\n85\n(117/137)\n35\n(117/334)"
+            ],
+            "tokens": {
+              "input_tokens": 14851,
+              "output_tokens": 1489
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres",
+        "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+        "status": "verified",
+        "evidence_quote": "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — the corpus size of 30 essays — is stated verbatim in Section 5.1: \"The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.\" The writers' intermediate proficiency and Chinese undergraduate status are supported by \"These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6\" together with the same sentence naming non-English-major undergraduates at a university in China. The characterization of the corpus as small is supported by \"We opted for the small corpus because of our intention for in-depth analysis\" and \"We acknowledge several limitations in the current study, including the small corpus size\". The generalizability caveat is supported by the Conclusion: \"the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds\" (the claim's omission of \"linguistic backgrounds\" is a narrowing, not a contradiction). No assertion is contradicted and none is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The corpus consisted of 30 essays.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "30",
+            "source_value": "30",
+            "quote": "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+            "central": true,
+            "entity": "the corpus of the study",
+            "measure": "number of essays",
+            "quotes": [
+              "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author."
+            ]
+          },
+          {
+            "text": "The essays were written by intermediate Chinese undergraduates.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "intermediate Chinese undergraduates",
+            "source_value": "intermediate English proficiency; non-English-major undergraduates at a university in China",
+            "quote": "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+            "central": false,
+            "entity": "essay writers",
+            "measure": "proficiency level and nationality/status",
+            "quotes": [
+              "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+              "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6."
+            ]
+          },
+          {
+            "text": "The corpus was small.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": "small",
+            "source_value": "small corpus size",
+            "quote": "We acknowledge several limitations in the current study, including the small corpus size",
+            "central": false,
+            "entity": "the corpus of the study",
+            "measure": "size characterization",
+            "quotes": [
+              "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+              "We acknowledge several limitations in the current study, including the small corpus size"
+            ]
+          },
+          {
+            "text": "The authors noted that findings may not generalise to other proficiency levels or genres.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "may not be generalized to other proficiency levels, text genres",
+            "source_value": "may not be generalized to other proficiency levels, text genres or linguistic backgrounds",
+            "quote": "the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds",
+            "central": false,
+            "entity": "the authors' stated limitation",
+            "measure": "generalizability of findings",
+            "quotes": [
+              "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+          "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+          "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+          "We acknowledge several limitations in the current study, including the small corpus size",
+          "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres (Luo et al., 2025).",
+        "citation": "(Luo et al., 2025)",
+        "paper_doi": "10.1017/s095834402510044x",
+        "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The corpus consisted of 30 essays written by non-English-major undergraduates at a university in China for a comprehensive English course taught by the first author.",
+              "These students demonstrated intermediate English proficiency, having passed CET-4 but not CET-6.",
+              "We opted for the small corpus because of our intention for in-depth analysis of both accuracy and coverage of the AWCF from both ChatGPT with three different prompts and Grammarly.",
+              "We acknowledge several limitations in the current study, including the small corpus size",
+              "Moreover, as all essays in the corpus were written by intermediate-level Chinese learners within a single institutional setting, the findings may not be generalized to other proficiency levels, text genres or linguistic backgrounds."
+            ],
+            "tokens": {
+              "input_tokens": 14832,
+              "output_tokens": 1194
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+        "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+        "status": "verified",
+        "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "explanation": "The central assertion — that the study found no division of labour between teachers and Grammarly — is stated verbatim in the abstract: \"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.\" The peripheral assertions are also supported: the abstract states \"The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement,\" and the findings section states \"all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.\" The claim's \"all six participating teachers\" matches the study's six participants (Mik, Mei, Maria, Rob, Jackson, and Heaven). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study found no division of labour between teachers and Grammarly (i.e., no arrangement in which the teacher handles higher-order concerns and Grammarly handles lower-order concerns).",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+            "central": true,
+            "entity": "the study's findings on teacher–Grammarly feedback division of labour",
+            "measure": "presence/absence of a division of labour between teachers and Grammarly",
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns."
+            ]
+          },
+          {
+            "text": "All six participating teachers provided feedback on both higher-order and lower-order concerns.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "all six",
+            "source_value": "all six",
+            "quote": "all six participants provided feedback on both HOCs and LOCs",
+            "central": false,
+            "entity": "the six participating teachers",
+            "measure": "provision of feedback on both HOCs and LOCs",
+            "quotes": [
+              "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+            ]
+          },
+          {
+            "text": "The teachers provided feedback on both higher-order and lower-order concerns despite Grammarly's availability as a complement.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "despite having Grammarly feedback on LOCs as a complement",
+            "central": false,
+            "entity": "the participating teachers",
+            "measure": "feedback provision on HOCs and LOCs while Grammarly was available as a complement",
+            "quotes": [
+              "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+          "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+          "Of the 15 graduate teaching associates pursuing their doctorate or master’s degree in applied linguistics and working in an L2 writing program at a US university, six consented to participate in the study."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Yet Koltovskaia (2022) found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+        "citation": "Koltovskaia (2022)",
+        "paper_doi": "10.1017/s0958344022000179",
+        "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+              "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+              "Of the 15 graduate teaching associates pursuing their doctorate or master’s degree in applied linguistics and working in an L2 writing program at a US university, six consented to participate in the study."
+            ],
+            "tokens": {
+              "input_tokens": 14440,
+              "output_tokens": 1019
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — that 88% of the 33 students submitted to the AWE system more than five times, with a mean of 9.5 submissions — is reproduced verbatim in section 6.1: \"88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07)\". The peripheral assertions about reported revision time are also supported: \"the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).\" The direction (AWE > peer > teacher) matches the claim, and no assertion is contradicted or absent.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "88% of the 33 students submitted to the AWE system more than five times",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "88%",
+            "source_value": "88%",
+            "quote": "88% of the 33 students submitted to the AWE system more than five times",
+            "central": true,
+            "entity": "the 33 students in the study",
+            "measure": "percentage submitting to the AWE system more than five times",
+            "quotes": [
+              "88% of the 33 students submitted to the AWE system more than five times"
+            ]
+          },
+          {
+            "text": "the mean number of AWE submissions was 9.5",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "9.5",
+            "source_value": "9.5",
+            "quote": "with a mean number of submissions of 9.5 (SD = 4.07)",
+            "central": false,
+            "entity": "the 33 students in the study",
+            "measure": "mean number of AWE submissions",
+            "quotes": [
+              "with a mean number of submissions of 9.5 (SD = 4.07)"
+            ]
+          },
+          {
+            "text": "students reported spending an average of 6.2 hours revising after AWE feedback",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "6.2 hours",
+            "source_value": "6.2 hours",
+            "quote": "they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback",
+            "central": false,
+            "entity": "the interviewed students",
+            "measure": "self-reported average hours revising after AWE feedback",
+            "quotes": [
+              "they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback"
+            ]
+          },
+          {
+            "text": "students reported spending more time revising after AWE feedback than after peer feedback",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "AWE (6.2) > peer (5.8)",
+            "source_value": "AWE (6.2) > peer (5.8)",
+            "quote": "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4)",
+            "central": false,
+            "entity": "the interviewed students",
+            "measure": "comparison of reported revision time after AWE vs peer feedback",
+            "quotes": [
+              "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4)"
+            ]
+          },
+          {
+            "text": "students reported spending an average of 5.8 hours revising after peer feedback",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "5.8 hours",
+            "source_value": "5.8 hours",
+            "quote": "peer feedback (average of 5.8 hours, SD = 2.4)",
+            "central": false,
+            "entity": "the interviewed students",
+            "measure": "self-reported average hours revising after peer feedback",
+            "quotes": [
+              "peer feedback (average of 5.8 hours, SD = 2.4)"
+            ]
+          },
+          {
+            "text": "students reported spending an average of 4.7 hours revising after teacher feedback",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "4.7 hours",
+            "source_value": "4.7 hours",
+            "quote": "teacher feedback (4.7 hours, SD = 2.14)",
+            "central": false,
+            "entity": "the interviewed students",
+            "measure": "self-reported average hours revising after teacher feedback",
+            "quotes": [
+              "teacher feedback (4.7 hours, SD = 2.14)"
+            ]
+          },
+          {
+            "text": "students reported spending more time revising after AWE feedback than after teacher feedback",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "AWE (6.2) > teacher (4.7)",
+            "source_value": "AWE (6.2) > teacher (4.7)",
+            "quote": "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)",
+            "central": false,
+            "entity": "the interviewed students",
+            "measure": "comparison of reported revision time after AWE vs teacher feedback",
+            "quotes": [
+              "This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+          "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2021) reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+        "citation": "Zhang and Hyland (2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+              "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+            ],
+            "tokens": {
+              "input_tokens": 12756,
+              "output_tokens": 1633
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+        "explanation": "All three propositions are stated in the source. The review's final sample is 50 journal articles (\"Our final sample contains 50 journal articles, which are listed in Table 1.\"), and Section 4 states verbatim: \"Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.\" The central assertion (most studies not theoretically motivated) is supported, as is the 22% figure (11 of 50 = 22.0%). No assertion is contradicted or absent, and no hedge is removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The review synthesised 50 naturalistic classroom studies.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "50",
+            "source_value": "50",
+            "quote": "Our final sample contains 50 journal articles, which are listed in Table 1.",
+            "central": false,
+            "entity": "the review (Mao, Lee & Li)",
+            "measure": "number of naturalistic classroom studies synthesised",
+            "quotes": [
+              "Our final sample contains 50 journal articles, which are listed in Table 1.",
+              "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review"
+            ]
+          },
+          {
+            "text": "Most of the synthesised studies were not theoretically motivated.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "most were not theoretically motivated",
+            "source_value": "most were not theoretically motivated",
+            "quote": "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+            "central": true,
+            "entity": "the 50 studies included in the review",
+            "measure": "theoretical motivation",
+            "quotes": [
+              "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets."
+            ]
+          },
+          {
+            "text": "Only 22% of the studies made explicit reference to theoretical tenets.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "22%",
+            "source_value": "22.0% (11 studies)",
+            "quote": "only 11 studies (22.0%) made explicit reference to theoretical tenets",
+            "central": false,
+            "entity": "the 50 studies included in the review",
+            "measure": "percentage making explicit reference to theoretical tenets",
+            "quotes": [
+              "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Our final sample contains 50 journal articles, which are listed in Table 1.",
+          "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+          "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+          "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+        "citation": "Mao et al. (2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Our final sample contains 50 journal articles, which are listed in Table 1.",
+              "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+              "Among the 50 articles included in this review, most were not the-\noretically motivated, and only 11 studies (22.0%) made explicit reference to theoretical tenets.",
+              "only 11 studies (22.0%) made explicit reference to theoretical tenets"
+            ],
+            "tokens": {
+              "input_tokens": 24904,
+              "output_tokens": 905
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "The review focused exclusively on teacher WCF, excluding peer and computational feedback",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+        "explanation": "The claim's central assertion — that the review focused exclusively on teacher WCF — is stated verbatim in the Conclusion: \"One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.\" The peripheral assertion that peer and computational feedback were excluded is supported by the same span (\"without including research into WCF provided from other sources such as peers and computational tools\") and reinforced by the exclusion criterion \"(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)\". No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The review focused exclusively on teacher WCF.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+            "central": true,
+            "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+            "measure": "focus of the review (teacher WCF only)",
+            "quotes": [
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+            ]
+          },
+          {
+            "text": "The review excluded peer feedback.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+            "central": false,
+            "entity": "the review",
+            "measure": "exclusion of peer-provided WCF",
+            "quotes": [
+              "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+            ]
+          },
+          {
+            "text": "The review excluded computational (automated) feedback.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+            "central": false,
+            "entity": "the review",
+            "measure": "exclusion of computer/automated-provided WCF",
+            "quotes": [
+              "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)",
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+          "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "The review focused exclusively on teacher WCF, excluding peer and computational feedback (Mao et al., 2024).",
+        "citation": "(Mao et al., 2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 8 (methods)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+              "(c) it focused exclusively on WCF provided by peers or computers (i.e., research on peer feedback or automated feedback)"
+            ],
+            "tokens": {
+              "input_tokens": 24890,
+              "output_tokens": 819
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+        "explanation": "The abstract states verbatim that \"A systematic search generated 50 empirical studies that met our inclusion criteria for the current review, which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders’ beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions.\" The count of 50 is corroborated by \"Our final sample contains 50 journal articles\" and the four themes are restated in Section 5 as \"(a) teacher WCF practices in L2 writing classrooms; (b) L2 learners’ responses to WCF; (c) stakeholders’ beliefs and perspectives on WCF; and (d) WCF-related motivation and emotions.\" The claim's use of \"feedback\" for \"WCF\" (written corrective feedback) is a faithful abbreviation of the source's term, and every proposition — the systematic search, the 50 studies, the inclusion criteria, and all four themes — is stated in the chunks.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "A systematic search for the review identified 50 empirical studies that met the review's inclusion criteria.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "50",
+            "source_value": "50",
+            "quote": "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+            "central": true,
+            "entity": "the review's systematic search",
+            "measure": "number of empirical studies meeting inclusion criteria",
+            "quotes": [
+              "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+              "Our final sample contains 50 journal articles, which are listed in Table 1."
+            ]
+          },
+          {
+            "text": "The review revealed four major themes.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "four",
+            "source_value": "four",
+            "quote": "which revealed four major themes",
+            "central": false,
+            "entity": "the review",
+            "measure": "number of major themes",
+            "quotes": [
+              "which revealed four major themes",
+              "and synthesized the key empirical findings into four research strands"
+            ]
+          },
+          {
+            "text": "One theme is teacher feedback practices in L2 writing classrooms.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(1) teacher WCF practices in L2 writing classrooms",
+            "central": false,
+            "entity": "the review's themes",
+            "measure": "theme content",
+            "quotes": [
+              "(1) teacher WCF practices in L2 writing classrooms",
+              "(a) teacher WCF practices in L2 writing classrooms"
+            ]
+          },
+          {
+            "text": "One theme is L2 learner responses to feedback.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(2) L2 learner responses to WCF",
+            "central": false,
+            "entity": "the review's themes",
+            "measure": "theme content",
+            "quotes": [
+              "(2) L2 learner responses to WCF",
+              "(b) L2 learners’ responses to WCF"
+            ]
+          },
+          {
+            "text": "One theme is stakeholders' beliefs and perspectives about feedback.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(3) stakeholders’ beliefs and perspectives on WCF",
+            "central": false,
+            "entity": "the review's themes",
+            "measure": "theme content",
+            "quotes": [
+              "(3) stakeholders’ beliefs and perspectives on WCF",
+              "(c) stakeholders’ beliefs and perspectives on WCF"
+            ]
+          },
+          {
+            "text": "One theme is feedback-related motivation and emotions.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "(4) WCF-related motivation and emotions",
+            "central": false,
+            "entity": "the review's themes",
+            "measure": "theme content",
+            "quotes": [
+              "(4) WCF-related motivation and emotions",
+              "(d) WCF-related motivation and emotions"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+          "which revealed four major themes",
+          "Our final sample contains 50 journal articles, which are listed in Table 1.",
+          "(1) teacher WCF practices in L2 writing classrooms",
+          "(2) L2 learner responses to WCF",
+          "(3) stakeholders’ beliefs and perspectives on WCF",
+          "(4) WCF-related motivation and emotions",
+          "and synthesized the key empirical findings into four research strands",
+          "(a) teacher WCF practices in L2 writing classrooms",
+          "(b) L2 learners’ responses to WCF",
+          "(c) stakeholders’ beliefs and perspectives on WCF",
+          "(d) WCF-related motivation and emotions"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+        "citation": "(Mao et al., 2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+              "which revealed four major themes",
+              "Our final sample contains 50 journal articles, which are listed in Table 1.",
+              "(1) teacher WCF practices in L2 writing classrooms",
+              "(2) L2 learner responses to WCF",
+              "(3) stakeholders’ beliefs and perspectives on WCF",
+              "(4) WCF-related motivation and emotions",
+              "we synthesized the key empirical findings into four research strands",
+              "(a) teacher WCF practices in L2 writing classrooms",
+              "(b) L2 learners’ responses to WCF",
+              "(c) stakeholders’ beliefs and perspectives on WCF",
+              "(d) WCF-related motivation and emotions"
+            ],
+            "tokens": {
+              "input_tokens": 24927,
+              "output_tokens": 1273
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [
+              "quote_not_verbatim"
+            ],
+            "repair_prompt_version": null
+          },
+          {
+            "quotes": [
+              "A systematic search generated 50 empirical studies that met our inclusion criteria for the current review",
+              "which revealed four major themes",
+              "Our final sample contains 50 journal articles, which are listed in Table 1.",
+              "(1) teacher WCF practices in L2 writing classrooms",
+              "(2) L2 learner responses to WCF",
+              "(3) stakeholders’ beliefs and perspectives on WCF",
+              "(4) WCF-related motivation and emotions",
+              "and synthesized the key empirical findings into four research strands",
+              "(a) teacher WCF practices in L2 writing classrooms",
+              "(b) L2 learners’ responses to WCF",
+              "(c) stakeholders’ beliefs and perspectives on WCF",
+              "(d) WCF-related motivation and emotions"
+            ],
+            "tokens": {
+              "input_tokens": 26479,
+              "output_tokens": 1273
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": "sha256:7ec7cffe852d"
+          }
+        ]
+      }
+    ],
+    "verified_count": 11
+  }
+}

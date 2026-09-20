@@ -1,0 +1,98 @@
+{
+  "dataset_id": "Smid_2020",
+  "source_review_doi": "10.1080/10705511.2019.1577140",
+  "source_review": {
+    "title": "Bayesian Versus Frequentist Estimation for Structural Equation Models in Small Sample Contexts: A Systematic Review",
+    "authors": "Smid SC, McNeish D, Miocevic M, van de Schoot R",
+    "journal": "Structural Equation Modeling: A Multidisciplinary Journal",
+    "year": 2020,
+    "volume_issue": "27(1):131-161",
+    "url": "https://doi.org/10.1080/10705511.2019.1577140"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY (asreview/synergy-dataset, v2; De Bruin et al. 2023, DOI 10.34894/HE6NAQ)",
+    "route": "v2",
+    "ids_url": "https://raw.githubusercontent.com/asreview/synergy-dataset/master/datasets/Smid_2020/Smid_2020_ids.csv",
+    "license": "CC0 (SYNERGY collection); deposit DOI 10.17605/OSF.IO/PUQ7X; article CC BY-NC 4.0",
+    "n_records": 2627,
+    "n_label_abstract_screening": null,
+    "n_label_included": 27,
+    "n_missing_abstract": 640,
+    "n_missing_title": 33,
+    "n_with_issn": 2403,
+    "fetched_at": "2026-09-03T00:15:42+00:00",
+    "hydration": {
+      "mode": "openalex_id",
+      "lookup": "openalex",
+      "date": "2026-09-03"
+    }
+  },
+  "research_question": "What is the performance of Bayesian estimation for structural equation models (SEM) with small samples in comparison to frequentist estimation? The review seeks simulation studies that compare the two estimation approaches for the same SEM under small-sample conditions, to report the conditions investigated, which sample sizes the authors defined as small, and which prior distributions were used, to aggregate coverage, power and relative bias, and to derive recommendations for analysing small data sets and specifying thoughtful priors.",
+  "inclusion_criteria": [
+    "A simulation study was used to investigate and compare the performance of Bayesian estimation to frequentist methods in structural equation models with a small sample size.",
+    {
+      "text": "Peer-reviewed paper in the field of social sciences.",
+      "stage": "full_text",
+      "stage_rationale": "Peer-review status and field are properties of the venue, not stated in the paper's own title and abstract."
+    },
+    "Simulation study: multiple replicated datasets were analyzed, and results were summarized for all simulated data sets.",
+    {
+      "text": "Bayesian estimation was compared to frequentist estimation methods: the performance of Bayesian and frequentist estimation was investigated for the exact same model, so that the results can be compared across the two estimation methods.",
+      "stage": "full_text",
+      "stage_rationale": "WP-B28 screener design round 2 (.superpowers/sdd/wpB28-design-screener-r2.md section 6): this criterion requires that the performance of Bayesian and frequentist estimation was investigated for the exact same model, a Methods-level fact about the simulation design in the same way I6's explicit small-sample condition is, and it further requires classifying a named estimator as frequentist against the review's own definition, the same external-classification judgement E9 turns on."
+    },
+    "Structural equation models: models of interest fall under the umbrella of structural equation models including mediation, CFA, latent growth, multilevel, and mixture models.",
+    {
+      "text": "Small sample size: the original authors stated that at least one of the sample sizes in the simulation study represents a small sample size for their specific model, and small sample conditions were reported explicitly.",
+      "stage": "full_text",
+      "stage_rationale": "Whether the authors explicitly declared and reported a small-sample condition is a Methods-section fact, not routinely stated in an abstract."
+    }
+  ],
+  "exclusion_criteria": [
+    "Non-English reference.",
+    {
+      "text": "Book, book chapter, conference talk or software manual.",
+      "stage": "abstract",
+      "absence": false
+    },
+    {
+      "text": "Network analysis, machine learning, meta-analysis or item response theory (not SEM as defined).",
+      "stage": "abstract",
+      "absence": false
+    },
+    {
+      "text": "Aggregated results that include small sample conditions without reporting them explicitly.",
+      "stage": "full_text",
+      "stage_rationale": "Whether a small-sample condition was explicitly reported, as against merely aggregated into a broader result, is a Methods/Results-section fact (see the parallel inclusion criterion's stage_rationale)."
+    },
+    "No Bayesian estimation.",
+    "No simulation study.",
+    {
+      "text": "No small samples.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of the small-sample inclusion criterion: whether small-sample conditions were declared and reported is a Methods-section fact."
+    },
+    {
+      "text": "No peer review, or outside the field of social sciences.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of the peer-review/field inclusion criterion: peer-review status and field are venue properties, not title/abstract text."
+    },
+    {
+      "text": "No SEM as defined in the inclusion criteria.",
+      "stage": "full_text",
+      "stage_rationale": "WP-B28 screener design element 4 (.superpowers/sdd/wpB28-design-screener.md section 4): whether a named model falls under the review's own SEM definition (mediation, CFA, latent growth, multilevel, mixture models -- I5 above, itself an illustrative, not exhaustive, list) is a classification judgement against the review's adopted taxonomy of model types, not a fact an abstract states about itself, the same kind of judgement Nagtegaal_2019's I1/E1 turn on."
+    },
+    {
+      "text": "Not interested in estimating model parameters.",
+      "stage": "full_text",
+      "stage_rationale": "Whether parameter estimation was the paper's target, as against a different analytic goal, is a Methods-section fact."
+    },
+    {
+      "text": "No comparison of estimation methods.",
+      "stage": "full_text",
+      "stage_rationale": "WP-B28 screener design round 2 (.superpowers/sdd/wpB28-design-screener-r2.md section 6): negation of I4. Carries the same stage as I4 by the repository's own negation-stage invariant."
+    }
+  ],
+  "label_field": "label_included",
+  "notes": "Source review: Methods, subsections 'Inclusion and exclusion criteria' and 'Search strategy' (pp. 132-134) and 'Goals of the study' (p. 132) of the open-access PDF fetched from Utrecht University's repository (https://dspace.library.uu.nl/bitstreams/8558b148-3b1c-4557-856b-c33ab8aeda8a/download, landing page https://dspace.library.uu.nl/handle/1874/389632; publisher PDF https://www.tandfonline.com/doi/pdf/10.1080/10705511.2019.1577140) on 2026-09-02 and read with PyMuPDF. Research question compiled from 'Goals of the study' ('to provide a comprehensive overview of the performance of Bayesian estimation for SEMs with small samples in comparison to frequentist estimation ... conditions investigated ... which sample sizes were defined as small ... which prior distributions were used ... coverage, power, and relative bias ... recommendations'). Inclusion criteria quoted from 'Inclusion and exclusion criteria' (opening sentence, 'only included peer-reviewed papers in the field of social sciences', and the four bulleted definitions). Exclusion items 1-4 are the exclusions stated in the same subsection (non-English; books, book chapters, conference talks and software manuals; 'Network analysis, machine learning, meta-analysis and item response theory were excluded'; 'aggregated results including small sample conditions were excluded'); items 5-11 are the full-text exclusion reasons listed in the PRISMA flow chart (Figure 2): no Bayesian estimation, no simulation study, no small samples, no peer review, outside field of social sciences, no SEM as defined, not interested in estimating model parameters, no comparison of estimation methods. Screening: the first author screened; a random 10 % of abstracts and 20 % of full texts were reviewed by each co-author. Flow: 5,050 references identified, 3,592 after removing duplicates and records found by earlier searches, 3,106 excluded on title/abstract, 486 full texts retrieved, 27 papers (32 simulation studies) included. label_field = label_included because the SYNERGY v2 export carries only the final inclusion decision (no title/abstract label); summarize.py notes that the gold set is therefore the final inclusion set, which is smaller than what a title/abstract screener should keep. Fetch 2026-09-03 (fetch_synergy.py --route v2): the ids CSV lists 3,980 rows; 1,067 rows without any identifier were dropped and 286 duplicate OpenAlex ids merged, leaving 2,627 distinct works (SYNERGY's published count); 2,594 hydrated from OpenAlex (33 works no longer returned by the API keep an empty title), 27 included, 640 without abstract in OpenAlex (24.4 %; 4 of the 27 inclusions), 2,403 with ISSN, 2,554 with DOI. Data state (2026-09-03): 33 of the 2,627 works have neither title nor abstract because OpenAlex no longer returns the work for its id; none of them is a final inclusion (label_included = 1), so they can only add false positives; run rows carry has_title and summarize.py reports the count (Table E1-b). Route v2 hydration attaches an ISSN to 2,403 of 2,627 works. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta), because the SYNERGY export lists the human-included records first and file-order batches would be label-sorted; the order is identical for runs A and B and across resumes (see protocols/README.md). WP-B9 S8 (2026-09-06, .superpowers/sdd/wpB9-S8-brief.md) marks I2 (peer review and field), I6 (small sample size), E4 (aggregated results without explicit reporting), E7 (no small samples), E8 (no peer review, or outside field) and E10 (not interested in estimating model parameters) full_text: peer-review status and field, and whether the authors declared and explicitly reported a small-sample condition and whether parameter estimation was the target, are facts of the paper's body, not its title and abstract, independent of any record, result or run. E2 (non-article publication formats) and E3 ('network analysis, machine learning, meta-analysis or item response theory') carry an explicit absence: false, because each tests a positively established fact about the publication type or method rather than the absence of one. WP-B28 screener design element 4 (2026-09-14, .superpowers/sdd/wpB28-design-screener.md section 4) marks E9 ('No SEM as defined in the inclusion criteria') full_text: whether a named model falls under the review's own SEM definition is a classification judgement against the review's adopted taxonomy of model types, not a fact an abstract states about itself, the same kind of judgement Nagtegaal_2019's I1/E1 turn on. WP-B28 screener design round 2 (2026-09-14, .superpowers/sdd/wpB28-design-screener-r2.md section 6) additionally marks I4 ('Bayesian estimation was compared to frequentist estimation methods...') and its negation E11 ('No comparison of estimation methods.') full_text, for the same external-classification reason as E9: whether the performance of Bayesian and frequentist estimation was investigated for the exact same model, and whether a named estimator is frequentist under the review's own definition, are Methods-section facts and a classification judgement, not properties an abstract states about itself. This changes protocol_sha from sha256:c70f0897c136 (see evaluation/screening/FREEZE_v2.md section 4's 2026-09-14 staleness note)."
+}

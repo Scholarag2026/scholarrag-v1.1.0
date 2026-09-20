@@ -1,0 +1,107 @@
+{
+  "dataset": "Smid_2020",
+  "run": "A",
+  "dry_run": false,
+  "record_order_seed": 20260902,
+  "retried_failed": 0,
+  "started": "2026-09-15T05:19:04+00:00",
+  "finished": "2026-09-15T05:20:29+00:00",
+  "sessions": [
+    {
+      "started": "2026-09-15T05:19:04+00:00",
+      "finished": "2026-09-15T05:20:29+00:00",
+      "retried_failed": 0
+    }
+  ],
+  "protocol_file": "Smid_2020.json",
+  "protocol_sha": "sha256:5ff574cb49e8",
+  "full_text_criteria": [
+    "I2",
+    "I4",
+    "I6",
+    "E4",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11"
+  ],
+  "label_field": "label_included",
+  "model_configured": "deepseek-flash",
+  "model_reported": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "aeb56401ca74e127821c4f9126dcb669"
+  ],
+  "temperature": 0.0,
+  "prompt_version": [
+    "sha256:9bc741046cd6"
+  ],
+  "prompt_version_flag": "v3",
+  "abstract_cap": 10000,
+  "batch_size": 10,
+  "concurrency": 8,
+  "limit": null,
+  "n_records": 2627,
+  "n_batches": 263,
+  "reask_batches_run": 0,
+  "n_batches_completed": 263,
+  "n_calls": 263,
+  "superseded_calls": 0,
+  "superseded_input_tokens": 0,
+  "superseded_output_tokens": 0,
+  "superseded_call_rows": [],
+  "failures": 0,
+  "n_rows": 2627,
+  "n_unscreened_records": 0,
+  "n_padded_include": 0,
+  "n_padded_decisions": 0,
+  "price": {
+    "model": "deepseek-flash",
+    "price_model": "deepseek-v4-flash",
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "tiers": {
+      "input_cache_miss": {
+        "peak": 0.44,
+        "offpeak": 0.22
+      },
+      "input_cache_hit": {
+        "peak": 0.014,
+        "offpeak": 0.007
+      },
+      "output": {
+        "peak": 1.32,
+        "offpeak": 0.66
+      }
+    },
+    "peak_hours_utc": "01:00-04:00 and 06:00-10:00, Monday-Friday; all other hours off-peak",
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "accessed": "2026-09-02"
+  },
+  "n_missing_abstract": 640,
+  "share_missing_abstract": 0.24362390559573657,
+  "n_missing_title": 33,
+  "total_input_tokens": 1258386,
+  "total_output_tokens": 146441,
+  "cost_basis": "list price, tier by call time, cache-miss assumed (upper bound)",
+  "total_cost": 0.37349598,
+  "total_cost_flat": null,
+  "latency_s": {
+    "n": 263,
+    "median": 2.477,
+    "p90": 2.933,
+    "mean": 2.532840304182509,
+    "total": 666.137
+  },
+  "second_pass": {
+    "calls": 0,
+    "model_reported": [],
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_cost": null
+  }
+}

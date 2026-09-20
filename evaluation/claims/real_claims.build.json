@@ -1,0 +1,498 @@
+{
+  "seed": 20260910,
+  "n_dev_target": 20,
+  "n_test_target": 60,
+  "n_dev": 0,
+  "n_test": 26,
+  "max_per_review": 4,
+  "n_reviews_cached": 81,
+  "n_reviews_with_items": 18,
+  "n_sentences_seen": 4105,
+  "n_single_citation": 300,
+  "n_resolved": 236,
+  "n_oa": 85,
+  "n_fetched": 28,
+  "n_kept": 26,
+  "per_review": {
+    "10.1002/berj.3527": {
+      "title": "The impact of the Prevent duty on schools: A review of the evidence",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s00787-022-02012-8": {
+      "title": "Impact of mobile phones and wireless devices use on children and adolescents’ mental health: a systematic review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10459-015-9645-6": {
+      "title": "Deep and surface learning in problem-based learning: a review of the literature",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10639-023-11846-x": {
+      "title": "Implementing educational technology in Higher Education Institutions: A review of technologies, stakeholder perceptions, frameworks and metrics",
+      "n_candidates": 3,
+      "n_used": 3
+    },
+    "10.1007/s10639-023-11969-1": {
+      "title": "Second and Foreign Language Vocabulary Learning through Digital Reading: A Meta-Analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10643-024-01804-8": {
+      "title": "Early Childhood Digital Pedagogy: A Scoping Review of Its Practices, Profiles, and Predictors",
+      "n_candidates": 2,
+      "n_used": 2
+    },
+    "10.1007/s10643-025-02019-1": {
+      "title": "Children's Experience of Transition from Preschool To Primary School: A Scoping Literature Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-017-9414-6": {
+      "title": "A Learning Patterns Perspective on Student Learning in Higher Education: State of the Art and Moving Forward",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1007/s10648-018-9457-3": {
+      "title": "The Role of School in Adolescents’ Identity Development. A Literature Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-019-09510-3": {
+      "title": "The Impact of Peer Assessment on Academic Performance: A Meta-analysis of Control Group Studies",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-021-09637-2": {
+      "title": "Learning to Argue Through Dialogue: a Review of Instructional Approaches",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-021-09649-y": {
+      "title": "Is Empathy the Key to Effective Teaching? A Systematic Review of Its Association with Teacher-Student Interactions and Student Outcomes",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-023-09757-x": {
+      "title": "Situating Higher-Order, Critical, and Critical-Analytic Thinking in Problem- and Project-Based Learning Environments: A Systematic Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-023-09815-4": {
+      "title": "Measuring Children’s Engagement in Early Childhood Education and Care Settings: A Scoping Literature Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10648-026-10193-w": {
+      "title": "Linking Language Attitudes to Proficiency Across Learning Contexts: A Systematic Review and Meta-Analysis of Correlational Evidence",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10671-025-09410-0": {
+      "title": "Scoping review of student wellbeing policies for Australian school systems",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1007/s10734-019-00458-5": {
+      "title": "Students’ trajectories through higher education: a review of quantitative research",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10758-020-09477-z": {
+      "title": "Blended Learning Adoption and Implementation in Higher Education: A Theoretical and Systematic Review",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1007/s10763-026-10681-z": {
+      "title": "A Scoping Review of Mathematics Teachers' Use of Evidence of Students' Learning for Informing Instructional Decisions: Two Approaches",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1007/s10791-025-09861-2": {
+      "title": "A scoping review of AI for sustainability and sustainable AI in higher education",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10833-026-09544-9": {
+      "title": "How can we develop teachers’ innovative capacity to drive complex educational change? A scoping review",
+      "n_candidates": 3,
+      "n_used": 3
+    },
+    "10.1007/s10964-019-01072-5": {
+      "title": "Risk Factors for School Absenteeism and Dropout: A Meta-Analytic Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10984-019-09303-z": {
+      "title": "A systematic literature review on synchronous hybrid learning: gaps identified",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s10993-023-09661-8": {
+      "title": "Conceptualisation of family and language practice in family language policy research on migrants: a systematic review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11125-025-09728-w": {
+      "title": "A scoping review of research on school-age youth activism in global citizenship education",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11136-025-03958-3": {
+      "title": "Use of the adult social care outcomes toolkit (ASCOT) in research studies: an international scoping review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11159-024-10092-8": {
+      "title": "What is needed to act as a professional change agent for sustainability? A scoping review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11191-024-00542-y": {
+      "title": "Teaching Socioscientific Issues: A Systematic Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11256-025-00773-5": {
+      "title": "The Role of Language Ideologies in Community Literacy Spaces: A Scoping Review for New Times",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11625-020-00855-1": {
+      "title": "Current practice of assessing students’ sustainability competencies: a review of tools",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11625-022-01226-8": {
+      "title": "Towards coherence on sustainability in education: a systematic review of Whole Institution Approaches",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11858-020-01213-2": {
+      "title": "Designing and enacting instruction that enhances language for mathematics learning: a review of the state of development and research",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11858-020-01216-z": {
+      "title": "Mathematics teacher learning to notice: a systematic review of studies of video-based programs",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11858-023-01494-3": {
+      "title": "Characterizing external visualization in mathematics education research: a scoping review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s11858-023-01527-x": {
+      "title": "Teacher noticing in mathematics education: a review of recent developments",
+      "n_candidates": 2,
+      "n_used": 2
+    },
+    "10.1007/s11858-025-01700-4": {
+      "title": "International comparative studies in mathematics education: a scoping review of the literature from 2014 to 2023",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s12187-020-09782-0": {
+      "title": "Does Household Income Affect children’s Outcomes? A Systematic Review of the Evidence",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s13384-022-00526-3": {
+      "title": "Teacher self-efficacy and reform: a systematic literature review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s13384-023-00611-1": {
+      "title": "Takanga 'enau fohe: a scoping review of the educational successes and challenges of Pacific learners in Australia 2010-2021",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40670-022-01583-0": {
+      "title": "Training to Support ePortfolio Users During Clinical Placements: a Scoping Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40670-025-02535-0": {
+      "title": "Teaching Methods that Promote Medical Student Attendance: A Scoping Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40670-025-02583-6": {
+      "title": "Development of a Case-Based Learning Framework for Medical Education: A Scoping Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40894-015-0006-8": {
+      "title": "School Resource Officers and Exclusionary Discipline in U.S. High Schools: A Systematic Review and Meta-analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40894-017-0063-2": {
+      "title": "Facilitating a Successful Transition to Secondary School: (How) Does it Work? A Systematic Literature Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s40894-019-00129-7": {
+      "title": "Studies on the Acculturation of Young Refugees in the Educational Domain: A Scoping Review of Research and Methods",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1007/s44186-024-00239-4": {
+      "title": "Available assessment tools for evaluating feedback quality: a scoping review oriented to education in digital media",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1007/s44217-024-00253-0": {
+      "title": "Impact of online learning on student's performance and engagement: a systematic review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1016/j.brat.2015.01.009": {
+      "title": "Computerised therapies for anxiety and depression in children and young people: A systematic review and meta-analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1016/j.compedu.2020.103819": {
+      "title": "Facilitating student engagement through the flipped learning approach in K-12: A systematic review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1016/j.ijinfomgt.2015.12.007": {
+      "title": "Review and discussion: E-learning for academia and industry",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1016/j.jclepro.2018.06.238": {
+      "title": "A sustainable consumption teaching review: From building competencies to transformative learning",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0142716418000036": {
+      "title": "A methodological synthesis of self-paced reading in second language research",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0261444822000507": {
+      "title": "How effective is second language incidental vocabulary learning? A meta-analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0261444826101323": {
+      "title": "Review of doctoral research in additional language education in Germany (2019–2023)",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0261444826101359": {
+      "title": "Language education with adult migrants: A critical review of research 2017-2024",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0267190517000162": {
+      "title": "A Critical Review of Bilingual Education in the United States: From Basements and Pride to Boutiques and Profit",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1017/s0958344021000239": {
+      "title": "A meta-analysis examining technology-assisted L2 vocabulary learning",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1038/s41539-017-0012-7": {
+      "title": "Montessori education: a review of the evidence base",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1038/s41562-018-0461-x": {
+      "title": "A systematic review and meta-analysis of effects of early life non-cognitive skills on academic, psychosocial, cognitive and health outcomes",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1038/s41562-023-01712-8": {
+      "title": "An umbrella review of the benefits and risks associated with youths’ interactions with electronic screens",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1080/01434632.2025.2504121": {
+      "title": "Conceptualising a continuum of plurilingual family language policy: a systematic literature review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1080/13636820.2018.1498907": {
+      "title": "Socio-technical imaginary of the fourth industrial revolution and its implications for vocational education and training: a literature review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1080/14664208.2024.2341203": {
+      "title": "Language policy and planning for heritage language maintenance: a scoping review",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1108/jea-02-2018-0023": {
+      "title": "A review of the empirical research on teacher leadership (2003–2017)",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1111/cdev.13225": {
+      "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+      "n_candidates": 2,
+      "n_used": 2
+    },
+    "10.1111/joes.12301": {
+      "title": "DOES STUDENT WORK REALLY AFFECT EDUCATIONAL OUTCOMES? A REVIEW OF THE LITERATURE",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.11649/cs.2852": {
+      "title": "Review: Gerd Hentschel, Jolanta Tambor, István Fekete: “Das Schlesische und seine Sprecher: Etablierung in der Gesellschaft, Attitüden, Vitalität der Germanismen / Śląski lekt i jego użytkownicy: rozpowszechnienie, postawy społeczne wobec śląszczyzny, żywotność germanizmów w lekcie śląskim” (Berlin: Peter Lang, 2022, Seiten 344)",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1177/0741713617739347": {
+      "title": "The Methodological Underdog: A Review of Quantitative Research in the Key Adult Education Journals",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.1186/s40862-017-0036-9": {
+      "title": "An investigation of cross-linguistic transfer between Chinese and English: a meta-analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1186/s40862-026-00412-w": {
+      "title": "Trends in corpus linguistics and artificial intelligence language technology research: a bibliometric review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1186/s40862-026-00444-2": {
+      "title": "Effectiveness of GenAI in enhancing writing performance: a meta-analysis",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.12973/ijem.8.4.769": {
+      "title": "Best Practices for Teaching Chemistry Disciplines to Graduates Majoring in Pharmacy During the COVID-19 Restrictions: A Systematic Review",
+      "n_candidates": 1,
+      "n_used": 1
+    },
+    "10.12973/iji.2015.816a": {
+      "title": "Predictors of E-Learning Satisfaction in Teaching and Learning for School Teachers: A Literature Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.12973/iji.2018.11434a": {
+      "title": "Traditional and Inquiry-Based Learning Pedagogy: A Systematic Critical Review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1344/der.2020.37.343-360": {
+      "title": "Digital technologies in support of students learning in Higher Education: literature review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1371/journal.pone.0237725": {
+      "title": "Psychological impacts of “screen time” and “green time” for children and adolescents: A systematic scoping review",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.1371/journal.pone.0322322": {
+      "title": "Evaluating language policy implementation in South African higher education - three decades of progress and challenges: A scoping review protocol",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.14483/22487085.22043": {
+      "title": "The Review on Eye-Tracking Studies in L2 Assessment",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.14483/22487085.22179": {
+      "title": "Meaning-Making in Colombian Applied Linguistics, A Two-Decade Synthesis of Trends and Contributions",
+      "n_candidates": 2,
+      "n_used": 2
+    },
+    "10.14483/calj.v18n2.10014": {
+      "title": "Olowalu Review: Developing identity through translanguaging in a multilingual literary magazine",
+      "n_candidates": 0,
+      "n_used": 0
+    },
+    "10.14742/ajet.2528": {
+      "title": "e-Portfolios enhancing students’ self-directed learning: A systematic review of influencing factors",
+      "n_candidates": 1,
+      "n_used": 1
+    }
+  },
+  "review_split": {
+    "10.1007/s10833-026-09544-9": "test",
+    "10.1177/0741713617739347": "test",
+    "10.14742/ajet.2528": "test",
+    "10.14483/22487085.22179": "test",
+    "10.1111/joes.12301": "test",
+    "10.1007/s10643-024-01804-8": "test",
+    "10.1007/s11858-023-01527-x": "test",
+    "10.1007/s10639-023-11846-x": "test",
+    "10.1007/s10758-020-09477-z": "test",
+    "10.1016/j.ijinfomgt.2015.12.007": "test",
+    "10.1111/cdev.13225": "test",
+    "10.1080/14664208.2024.2341203": "test",
+    "10.1007/s10763-026-10681-z": "test",
+    "10.1017/s0958344021000239": "test",
+    "10.12973/ijem.8.4.769": "test",
+    "10.1007/s10648-017-9414-6": "test",
+    "10.1007/s40894-019-00129-7": "test",
+    "10.1007/s10671-025-09410-0": "test"
+  },
+  "excluded_dois": [
+    "10.1057/s41599-023-01718-7",
+    "10.1080/09588221.2010.523285",
+    "10.1186/s40468-019-0085-8",
+    "10.14483/22487085.12966",
+    "10.14483/22487085.14086",
+    "10.14483/22487085.14514",
+    "10.14483/22487085.17087",
+    "10.14746/ssllt.2019.9.1.2",
+    "10.14746/ssllt.2020.10.1.3",
+    "10.14746/ssllt.2020.10.1.6",
+    "10.14746/ssllt.2020.10.3.10",
+    "10.14746/ssllt.2021.11.1.2",
+    "10.14746/ssllt.2022.12.1.3",
+    "10.14746/ssllt.2022.12.1.4",
+    "10.17011/apples/urn.201903251959",
+    "10.17323/jle.2019.9809",
+    "10.17323/jle.2021.10737",
+    "10.17323/jle.2021.10771",
+    "10.17323/jle.2021.11494",
+    "10.17323/jle.2021.11522",
+    "10.17323/jle.2022.15962",
+    "10.17323/jle.2023.17379",
+    "10.18806/tesl.v36i1.1301",
+    "10.29140/jaltcall.v17n2.336",
+    "10.29140/jaltcall.v18n2.632",
+    "10.29140/tltl.v6n1.1142",
+    "10.29140/tltl.v6n1.1168",
+    "10.32601/ejal.543778",
+    "10.32601/ejal.599230",
+    "10.32601/ejal.651346",
+    "10.32601/ejal.710194",
+    "10.32601/ejal.710204",
+    "10.32601/ejal.775793",
+    "10.32601/ejal.776002",
+    "10.32601/ejal.911245",
+    "10.55593/ej.25100a3",
+    "10.55593/ej.26103a1",
+    "10.55593/ej.26103a13",
+    "10.55593/ej.26103a4",
+    "10.55593/ej.26103a9",
+    "10.55593/ej.27105a9",
+    "10.55593/ej.27107int",
+    "10.55593/ej.28109a8"
+  ],
+  "n_excluded": 43,
+  "wrong_work_sources": [],
+  "n_wrong_work_sources": 0,
+  "extraction_filter": "readings",
+  "n_items_by_extraction": {
+    "readings": 26
+  },
+  "out_dev_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "out_test_sha256": "1f85e699c76f5a1cf17b49e893651a5c339ee9173c0a6d26852b8b1f269a0de6",
+  "built_at": "2026-09-07T16:59:43+00:00"
+}

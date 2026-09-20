@@ -1,0 +1,1133 @@
+{
+  "agreement": {
+    "human_quote_supports": {
+      "mean_kappa": 0.5004940446040739,
+      "mean_percent_agreement": 0.9215686274509803,
+      "pairs": {
+        "reviewer_1_reviewer_2": {
+          "kappa": 0.6271929824561406,
+          "n": 68,
+          "n_agree": 63,
+          "percent_agreement": 0.9264705882352942
+        },
+        "reviewer_1_reviewer_3": {
+          "kappa": 0.40972222222222265,
+          "n": 68,
+          "n_agree": 63,
+          "percent_agreement": 0.9264705882352942
+        },
+        "reviewer_2_reviewer_3": {
+          "kappa": 0.46456692913385833,
+          "n": 68,
+          "n_agree": 62,
+          "percent_agreement": 0.9117647058823529
+        }
+      }
+    },
+    "human_sentence_correct": {
+      "mean_kappa": 0.15693904020752267,
+      "mean_percent_agreement": 0.9411764705882354,
+      "pairs": {
+        "reviewer_1_reviewer_2": {
+          "kappa": 0.47081712062256803,
+          "n": 68,
+          "n_agree": 64,
+          "percent_agreement": 0.9411764705882353
+        },
+        "reviewer_1_reviewer_3": {
+          "kappa": 0.0,
+          "n": 68,
+          "n_agree": 63,
+          "percent_agreement": 0.9264705882352942
+        },
+        "reviewer_2_reviewer_3": {
+          "kappa": 0.0,
+          "n": 68,
+          "n_agree": 65,
+          "percent_agreement": 0.9558823529411765
+        }
+      }
+    }
+  },
+  "demo_run_id": "20260916-154140",
+  "export_time": "2026-09-17T02:51:19+00:00",
+  "majority": {
+    "by_section": {
+      "Automated written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 5,
+        "n_rows": 5,
+        "quote_supports_count": 4,
+        "quote_supports_rate": 0.8,
+        "quote_supports_wilson_95": {
+          "hi": 0.9637758913675698,
+          "lo": 0.37553462976252544
+        },
+        "sentence_correct_count": 5,
+        "sentence_correct_rate": 1.0,
+        "sentence_correct_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.5655175352168254
+        }
+      },
+      "Direct versus indirect written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 12,
+        "n_rows": 12,
+        "quote_supports_count": 12,
+        "quote_supports_rate": 1.0,
+        "quote_supports_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7575059933447592
+        },
+        "sentence_correct_count": 12,
+        "sentence_correct_rate": 1.0,
+        "sentence_correct_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7575059933447592
+        }
+      },
+      "Effects of written corrective feedback on L2 writing accuracy": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 11,
+        "n_rows": 11,
+        "quote_supports_count": 9,
+        "quote_supports_rate": 0.8181818181818182,
+        "quote_supports_wilson_95": {
+          "hi": 0.948632310253915,
+          "lo": 0.5230194380391561
+        },
+        "sentence_correct_count": 10,
+        "sentence_correct_rate": 0.9090909090909091,
+        "sentence_correct_wilson_95": {
+          "hi": 0.9837678271141153,
+          "lo": 0.6226415635484045
+        }
+      },
+      "Learner engagement with written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 14,
+        "n_rows": 14,
+        "quote_supports_count": 13,
+        "quote_supports_rate": 0.9285714285714286,
+        "quote_supports_wilson_95": {
+          "hi": 0.9872777847521091,
+          "lo": 0.6853129557584889
+        },
+        "sentence_correct_count": 14,
+        "sentence_correct_rate": 1.0,
+        "sentence_correct_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7846891972623643
+        }
+      },
+      "Metalinguistic codes as written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 7,
+        "n_rows": 7,
+        "quote_supports_count": 6,
+        "quote_supports_rate": 0.8571428571428571,
+        "quote_supports_wilson_95": {
+          "hi": 0.9743203756552564,
+          "lo": 0.4868721707256811
+        },
+        "sentence_correct_count": 6,
+        "sentence_correct_rate": 0.8571428571428571,
+        "sentence_correct_wilson_95": {
+          "hi": 0.9743203756552564,
+          "lo": 0.4868721707256811
+        }
+      },
+      "Peer written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 9,
+        "n_rows": 9,
+        "quote_supports_count": 9,
+        "quote_supports_rate": 1.0,
+        "quote_supports_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7008549515804561
+        },
+        "sentence_correct_count": 9,
+        "sentence_correct_rate": 1.0,
+        "sentence_correct_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7008549515804561
+        }
+      },
+      "Revision behaviour after written corrective feedback": {
+        "n_fidelity_excluded": 0,
+        "n_judged": 10,
+        "n_rows": 10,
+        "quote_supports_count": 9,
+        "quote_supports_rate": 0.9,
+        "quote_supports_wilson_95": {
+          "hi": 0.9821237869049271,
+          "lo": 0.5958499732047615
+        },
+        "sentence_correct_count": 10,
+        "sentence_correct_rate": 1.0,
+        "sentence_correct_wilson_95": {
+          "hi": 1.0,
+          "lo": 0.7224672001371109
+        }
+      }
+    },
+    "by_sentence": {
+      "n_sentences": 50,
+      "quote_supports": {
+        "n": 50,
+        "n_yes": 44,
+        "rate": 0.88,
+        "wilson_95": {
+          "hi": 0.9438239984906772,
+          "lo": 0.7619518261679701
+        }
+      },
+      "sentence_correct": {
+        "n": 50,
+        "n_yes": 48,
+        "rate": 0.96,
+        "wilson_95": {
+          "hi": 0.9889611156723801,
+          "lo": 0.8653990931249298
+        }
+      }
+    },
+    "n_fidelity_excluded": 0,
+    "n_judged": 68,
+    "n_rows": 68,
+    "n_sections": 7,
+    "quote_supports_count": 62,
+    "quote_supports_rate": 0.9117647058823529,
+    "quote_supports_wilson_95": {
+      "hi": 0.9589318846855107,
+      "lo": 0.820562308768549
+    },
+    "sentence_correct_count": 66,
+    "sentence_correct_rate": 0.9705882352941176,
+    "sentence_correct_wilson_95": {
+      "hi": 0.9918968204568702,
+      "lo": 0.8989536863477694
+    }
+  },
+  "majority_rule": "yes when at least half plus one of the reviewers answer yes (n // 2 + 1 out of n reviewers). With three reviewers this is two of three. With two reviewers both must say yes. This rule never ties.",
+  "n_reviewers": 3,
+  "n_rows": 68,
+  "per_reviewer": {
+    "reviewer_1": {
+      "by_section": {
+        "Automated written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 5,
+          "n_rows": 5,
+          "quote_supports_count": 4,
+          "quote_supports_rate": 0.8,
+          "quote_supports_wilson_95": {
+            "hi": 0.9637758913675698,
+            "lo": 0.37553462976252544
+          },
+          "sentence_correct_count": 4,
+          "sentence_correct_rate": 0.8,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9637758913675698,
+            "lo": 0.37553462976252544
+          }
+        },
+        "Direct versus indirect written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 12,
+          "n_rows": 12,
+          "quote_supports_count": 12,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7575059933447592
+          },
+          "sentence_correct_count": 12,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7575059933447592
+          }
+        },
+        "Effects of written corrective feedback on L2 writing accuracy": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 11,
+          "n_rows": 11,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 0.8181818181818182,
+          "quote_supports_wilson_95": {
+            "hi": 0.948632310253915,
+            "lo": 0.5230194380391561
+          },
+          "sentence_correct_count": 9,
+          "sentence_correct_rate": 0.8181818181818182,
+          "sentence_correct_wilson_95": {
+            "hi": 0.948632310253915,
+            "lo": 0.5230194380391561
+          }
+        },
+        "Learner engagement with written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 14,
+          "n_rows": 14,
+          "quote_supports_count": 13,
+          "quote_supports_rate": 0.9285714285714286,
+          "quote_supports_wilson_95": {
+            "hi": 0.9872777847521091,
+            "lo": 0.6853129557584889
+          },
+          "sentence_correct_count": 13,
+          "sentence_correct_rate": 0.9285714285714286,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9872777847521091,
+            "lo": 0.6853129557584889
+          }
+        },
+        "Metalinguistic codes as written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 7,
+          "n_rows": 7,
+          "quote_supports_count": 6,
+          "quote_supports_rate": 0.8571428571428571,
+          "quote_supports_wilson_95": {
+            "hi": 0.9743203756552564,
+            "lo": 0.4868721707256811
+          },
+          "sentence_correct_count": 6,
+          "sentence_correct_rate": 0.8571428571428571,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9743203756552564,
+            "lo": 0.4868721707256811
+          }
+        },
+        "Peer written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 9,
+          "n_rows": 9,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          },
+          "sentence_correct_count": 9,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          }
+        },
+        "Revision behaviour after written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 10,
+          "n_rows": 10,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 0.9,
+          "quote_supports_wilson_95": {
+            "hi": 0.9821237869049271,
+            "lo": 0.5958499732047615
+          },
+          "sentence_correct_count": 10,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7224672001371109
+          }
+        }
+      },
+      "by_sentence": {
+        "n_sentences": 50,
+        "quote_supports": {
+          "n": 50,
+          "n_yes": 44,
+          "rate": 0.88,
+          "wilson_95": {
+            "hi": 0.9438239984906772,
+            "lo": 0.7619518261679701
+          }
+        },
+        "sentence_correct": {
+          "n": 50,
+          "n_yes": 45,
+          "rate": 0.9,
+          "wilson_95": {
+            "hi": 0.9565242350681097,
+            "lo": 0.7863976856252035
+          }
+        }
+      },
+      "fidelity_excluded_rows": [],
+      "location_mismatch_rows": [],
+      "n_fidelity_excluded": 0,
+      "n_judged": 68,
+      "n_rows": 68,
+      "n_sections": 7,
+      "quote_supports_count": 62,
+      "quote_supports_rate": 0.9117647058823529,
+      "quote_supports_wilson_95": {
+        "hi": 0.9589318846855107,
+        "lo": 0.820562308768549
+      },
+      "rows_judged_no": [
+        {
+          "claim_checked": "found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+          "human_note": "The citation does not name the paper shown in the source passage, which lists Ghane, Razmi, Dehghanpoor, and Nematollahi rather than Razmi and Ghane. The quoted results themselves support the findings part of the claim.",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "no",
+          "row": 1,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "Razmi and Ghane (2024) found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety."
+        },
+        {
+          "claim_checked": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+          "human_note": "The quotes support the 50-study count and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 9,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets."
+        },
+        {
+          "claim_checked": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+          "human_note": "The claim drops the source's WCF/written corrective qualifier in the theme list, generalizing the themes from written corrective feedback to feedback generally. The quotes likewise specify WCF rather than feedback generally.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 11,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024)."
+        },
+        {
+          "claim_checked": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+          "human_note": "The quotes support lower cognitive load estimates for direct corrections targeting grammatical issues, but they do not explicitly state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 1,
+          "section": "Revision behaviour after written corrective feedback",
+          "sentence": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (Bonilla L\u00f3pez et al., 2018)."
+        },
+        {
+          "claim_checked": "over half of the surveyed teachers experienced negative emotions when providing WCF",
+          "human_note": "The quotes support over half of 27 teacher participants reporting negative emotions from providing WCF, but they do not establish that the teachers were surveyed; the passage describes interview-based qualitative data.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 2,
+          "section": "Learner engagement with written corrective feedback",
+          "sentence": "Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF."
+        },
+        {
+          "claim_checked": "their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF",
+          "human_note": "The claim says revision can boost the effect of direct WCF, but the passage and quotes support only direct unfocused WCF, dropping the unfocused qualifier.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 4,
+          "section": "Metalinguistic codes as written corrective feedback",
+          "sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF."
+        },
+        {
+          "claim_checked": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+          "human_note": "The claim drops the passage's scope qualifier that the inability concerns feedback on rhetorical and pragmatic aspects of arguments produced by real human writers/student writing. The quotes likewise state only that inability for real human writers' arguments, so they do not support the unqualified claim.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 1,
+          "section": "Automated written corrective feedback",
+          "sentence": "Hyland (2025) argues that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback."
+        }
+      ],
+      "sentence_correct_count": 63,
+      "sentence_correct_rate": 0.9264705882352942,
+      "sentence_correct_wilson_95": {
+        "hi": 0.9681851557488821,
+        "lo": 0.8391481160428226
+      }
+    },
+    "reviewer_2": {
+      "by_section": {
+        "Automated written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 5,
+          "n_rows": 5,
+          "quote_supports_count": 3,
+          "quote_supports_rate": 0.6,
+          "quote_supports_wilson_95": {
+            "hi": 0.882379225767352,
+            "lo": 0.230724281276013
+          },
+          "sentence_correct_count": 5,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.5655175352168254
+          }
+        },
+        "Direct versus indirect written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 12,
+          "n_rows": 12,
+          "quote_supports_count": 11,
+          "quote_supports_rate": 0.9166666666666666,
+          "quote_supports_wilson_95": {
+            "hi": 0.985134905595083,
+            "lo": 0.6461200888588831
+          },
+          "sentence_correct_count": 11,
+          "sentence_correct_rate": 0.9166666666666666,
+          "sentence_correct_wilson_95": {
+            "hi": 0.985134905595083,
+            "lo": 0.6461200888588831
+          }
+        },
+        "Effects of written corrective feedback on L2 writing accuracy": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 11,
+          "n_rows": 11,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 0.8181818181818182,
+          "quote_supports_wilson_95": {
+            "hi": 0.948632310253915,
+            "lo": 0.5230194380391561
+          },
+          "sentence_correct_count": 10,
+          "sentence_correct_rate": 0.9090909090909091,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9837678271141153,
+            "lo": 0.6226415635484045
+          }
+        },
+        "Learner engagement with written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 14,
+          "n_rows": 14,
+          "quote_supports_count": 13,
+          "quote_supports_rate": 0.9285714285714286,
+          "quote_supports_wilson_95": {
+            "hi": 0.9872777847521091,
+            "lo": 0.6853129557584889
+          },
+          "sentence_correct_count": 14,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7846891972623643
+          }
+        },
+        "Metalinguistic codes as written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 7,
+          "n_rows": 7,
+          "quote_supports_count": 5,
+          "quote_supports_rate": 0.7142857142857143,
+          "quote_supports_wilson_95": {
+            "hi": 0.9177810759959433,
+            "lo": 0.3589344518326194
+          },
+          "sentence_correct_count": 6,
+          "sentence_correct_rate": 0.8571428571428571,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9743203756552564,
+            "lo": 0.4868721707256811
+          }
+        },
+        "Peer written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 9,
+          "n_rows": 9,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          },
+          "sentence_correct_count": 9,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          }
+        },
+        "Revision behaviour after written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 10,
+          "n_rows": 10,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 0.9,
+          "quote_supports_wilson_95": {
+            "hi": 0.9821237869049271,
+            "lo": 0.5958499732047615
+          },
+          "sentence_correct_count": 10,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7224672001371109
+          }
+        }
+      },
+      "by_sentence": {
+        "n_sentences": 50,
+        "quote_supports": {
+          "n": 50,
+          "n_yes": 41,
+          "rate": 0.82,
+          "wilson_95": {
+            "hi": 0.9022980732976582,
+            "lo": 0.6920394632569922
+          }
+        },
+        "sentence_correct": {
+          "n": 50,
+          "n_yes": 47,
+          "rate": 0.94,
+          "wilson_95": {
+            "hi": 0.9793850296510261,
+            "lo": 0.8378290831116183
+          }
+        }
+      },
+      "fidelity_excluded_rows": [],
+      "location_mismatch_rows": [],
+      "n_fidelity_excluded": 0,
+      "n_judged": 68,
+      "n_rows": 68,
+      "n_sections": 7,
+      "quote_supports_count": 59,
+      "quote_supports_rate": 0.8676470588235294,
+      "quote_supports_wilson_95": {
+        "hi": 0.928777555897702,
+        "lo": 0.7671994025434228
+      },
+      "rows_judged_no": [
+        {
+          "claim_checked": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+          "human_note": "The quotes support the 50-study count and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies or that the paper synthesised them.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 9,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets."
+        },
+        {
+          "claim_checked": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+          "human_note": "The claim describes the four themes as feedback themes, but the source passage and quotes identify them as WCF (written corrective feedback) themes, so the claim generalizes beyond the passage.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 11,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024)."
+        },
+        {
+          "claim_checked": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+          "human_note": "The quotes state lower cognitive load estimates for direct corrections on grammatical errors, but they do not explicitly state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 1,
+          "section": "Revision behaviour after written corrective feedback",
+          "sentence": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (Bonilla L\u00f3pez et al., 2018)."
+        },
+        {
+          "claim_checked": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+          "human_note": "The quotes support FRSP as the strongest/most important predictor and identify 708 Chinese participants, but they do not explicitly state that the participants were EFL learners.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 13,
+          "section": "Learner engagement with written corrective feedback",
+          "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference."
+        },
+        {
+          "claim_checked": "attributed the magnitude of this effect partly to the absence of revision opportunities in their design",
+          "human_note": "The passage only says the reason \"might be\" the lack of revision opportunities, so the claim overstates a tentative explanation as a definite partial attribution. The quotes alone contain that same tentative \"might be\" formulation and do not support the claim as written.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 4,
+          "section": "Direct versus indirect written corrective feedback",
+          "sentence": "Razmi and Ghane (2024) similarly reported that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size, and attributed the magnitude of this effect partly to the absence of revision opportunities in their design."
+        },
+        {
+          "claim_checked": "metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision",
+          "human_note": "The quotes establish that codes improved immediate grammatical and non-grammatical accuracy during text revision, but they do not explicitly identify those codes as metalinguistic, so the \u201cmetalinguistic\u201d qualifier is not supported by the quotes alone.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 1,
+          "section": "Metalinguistic codes as written corrective feedback",
+          "sentence": "Bonilla L\u00f3pez et al. (2018) found that metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision."
+        },
+        {
+          "claim_checked": "their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF",
+          "human_note": "The claim's \"direct WCF\" omits the source's qualifier \"unfocused\"; the passage and quotes support boosting the effect of direct unfocused WCF, not direct WCF generally.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no",
+          "row": 4,
+          "section": "Metalinguistic codes as written corrective feedback",
+          "sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF."
+        },
+        {
+          "claim_checked": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+          "human_note": "The quotes report a lower frequency of hedges, boosters, attitude markers, and self-mention and an inability due to a retiring stance, but they do not explicitly state that the lower frequency is of stance features or that it causes the inability.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 1,
+          "section": "Automated written corrective feedback",
+          "sentence": "Hyland (2025) argues that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback."
+        },
+        {
+          "claim_checked": "ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+          "human_note": "The evidence quotes support the precision/recall figures and the four/five category comparisons, but they do not themselves establish that GPT-P1 to GPT-P3 represent increasing prompt sophistication.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 2,
+          "section": "Automated written corrective feedback",
+          "sentence": "Luo et al. (2025) found that ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others."
+        }
+      ],
+      "sentence_correct_count": 65,
+      "sentence_correct_rate": 0.9558823529411765,
+      "sentence_correct_wilson_95": {
+        "hi": 0.9848833802919585,
+        "lo": 0.8781280481750361
+      }
+    },
+    "reviewer_3": {
+      "by_section": {
+        "Automated written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 5,
+          "n_rows": 5,
+          "quote_supports_count": 5,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.5655175352168254
+          },
+          "sentence_correct_count": 5,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.5655175352168254
+          }
+        },
+        "Direct versus indirect written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 12,
+          "n_rows": 12,
+          "quote_supports_count": 12,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7575059933447592
+          },
+          "sentence_correct_count": 12,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7575059933447592
+          }
+        },
+        "Effects of written corrective feedback on L2 writing accuracy": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 11,
+          "n_rows": 11,
+          "quote_supports_count": 10,
+          "quote_supports_rate": 0.9090909090909091,
+          "quote_supports_wilson_95": {
+            "hi": 0.9837678271141153,
+            "lo": 0.6226415635484045
+          },
+          "sentence_correct_count": 11,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7411670330319684
+          }
+        },
+        "Learner engagement with written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 14,
+          "n_rows": 14,
+          "quote_supports_count": 13,
+          "quote_supports_rate": 0.9285714285714286,
+          "quote_supports_wilson_95": {
+            "hi": 0.9872777847521091,
+            "lo": 0.6853129557584889
+          },
+          "sentence_correct_count": 14,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7846891972623643
+          }
+        },
+        "Metalinguistic codes as written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 7,
+          "n_rows": 7,
+          "quote_supports_count": 7,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 0.9999999999999999,
+            "lo": 0.6456695649333126
+          },
+          "sentence_correct_count": 7,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 0.9999999999999999,
+            "lo": 0.6456695649333126
+          }
+        },
+        "Peer written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 9,
+          "n_rows": 9,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 1.0,
+          "quote_supports_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          },
+          "sentence_correct_count": 9,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7008549515804561
+          }
+        },
+        "Revision behaviour after written corrective feedback": {
+          "n_fidelity_excluded": 0,
+          "n_judged": 10,
+          "n_rows": 10,
+          "quote_supports_count": 9,
+          "quote_supports_rate": 0.9,
+          "quote_supports_wilson_95": {
+            "hi": 0.9821237869049271,
+            "lo": 0.5958499732047615
+          },
+          "sentence_correct_count": 10,
+          "sentence_correct_rate": 1.0,
+          "sentence_correct_wilson_95": {
+            "hi": 1.0,
+            "lo": 0.7224672001371109
+          }
+        }
+      },
+      "by_sentence": {
+        "n_sentences": 50,
+        "quote_supports": {
+          "n": 50,
+          "n_yes": 47,
+          "rate": 0.94,
+          "wilson_95": {
+            "hi": 0.9793850296510261,
+            "lo": 0.8378290831116183
+          }
+        },
+        "sentence_correct": {
+          "n": 50,
+          "n_yes": 50,
+          "rate": 1.0,
+          "wilson_95": {
+            "hi": 1.0,
+            "lo": 0.9286524008666414
+          }
+        }
+      },
+      "fidelity_excluded_rows": [],
+      "location_mismatch_rows": [],
+      "n_fidelity_excluded": 0,
+      "n_judged": 68,
+      "n_rows": 68,
+      "n_sections": 7,
+      "quote_supports_count": 65,
+      "quote_supports_rate": 0.9558823529411765,
+      "quote_supports_wilson_95": {
+        "hi": 0.9848833802919585,
+        "lo": 0.8781280481750361
+      },
+      "rows_judged_no": [
+        {
+          "claim_checked": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+          "human_note": "The quotes support the 50-study review and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies or that the paper synthesised them.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 9,
+          "section": "Effects of written corrective feedback on L2 writing accuracy",
+          "sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets."
+        },
+        {
+          "claim_checked": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+          "human_note": "The quotes state that cognitive load estimates or ratings were significantly lower for direct corrections targeting grammatical issues, but they do not themselves state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 1,
+          "section": "Revision behaviour after written corrective feedback",
+          "sentence": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (Bonilla L\u00f3pez et al., 2018)."
+        },
+        {
+          "claim_checked": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+          "human_note": "The quotes establish FRSP as the most important predictor and a 708-student Chinese sample, but they do not explicitly state that the participants were EFL learners.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes",
+          "row": 13,
+          "section": "Learner engagement with written corrective feedback",
+          "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference."
+        }
+      ],
+      "sentence_correct_count": 68,
+      "sentence_correct_rate": 1.0,
+      "sentence_correct_wilson_95": {
+        "hi": 1.0,
+        "lo": 0.9465286634799295
+      }
+    }
+  },
+  "reviewers": [
+    "reviewer_1",
+    "reviewer_2",
+    "reviewer_3"
+  ],
+  "rows_judged_no": [
+    {
+      "claim_checked": "found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The citation does not name the paper shown in the source passage, which lists Ghane, Razmi, Dehghanpoor, and Nematollahi rather than Razmi and Ghane. The quoted results themselves support the findings part of the claim.",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_2": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 1,
+      "section": "Effects of written corrective feedback on L2 writing accuracy"
+    },
+    {
+      "claim_checked": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The quotes support the 50-study count and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The quotes support the 50-study count and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies or that the paper synthesised them.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "The quotes support the 50-study review and the 22% theoretical-reference finding, but they do not state that the studies were naturalistic classroom studies or that the paper synthesised them.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 9,
+      "section": "Effects of written corrective feedback on L2 writing accuracy"
+    },
+    {
+      "claim_checked": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The claim drops the source's WCF/written corrective qualifier in the theme list, generalizing the themes from written corrective feedback to feedback generally. The quotes likewise specify WCF rather than feedback generally.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_2": {
+          "human_note": "The claim describes the four themes as feedback themes, but the source passage and quotes identify them as WCF (written corrective feedback) themes, so the claim generalizes beyond the passage.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 11,
+      "section": "Effects of written corrective feedback on L2 writing accuracy"
+    },
+    {
+      "claim_checked": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The quotes support lower cognitive load estimates for direct corrections targeting grammatical issues, but they do not explicitly state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The quotes state lower cognitive load estimates for direct corrections on grammatical errors, but they do not explicitly state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "The quotes state that cognitive load estimates or ratings were significantly lower for direct corrections targeting grammatical issues, but they do not themselves state that learners reported lower mental effort.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 1,
+      "section": "Revision behaviour after written corrective feedback"
+    },
+    {
+      "claim_checked": "over half of the surveyed teachers experienced negative emotions when providing WCF",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The quotes support over half of 27 teacher participants reporting negative emotions from providing WCF, but they do not establish that the teachers were surveyed; the passage describes interview-based qualitative data.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_2": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 2,
+      "section": "Learner engagement with written corrective feedback"
+    },
+    {
+      "claim_checked": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The quotes support FRSP as the strongest/most important predictor and identify 708 Chinese participants, but they do not explicitly state that the participants were EFL learners.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "The quotes establish FRSP as the most important predictor and a 708-student Chinese sample, but they do not explicitly state that the participants were EFL learners.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 13,
+      "section": "Learner engagement with written corrective feedback"
+    },
+    {
+      "claim_checked": "attributed the magnitude of this effect partly to the absence of revision opportunities in their design",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The passage only says the reason \"might be\" the lack of revision opportunities, so the claim overstates a tentative explanation as a definite partial attribution. The quotes alone contain that same tentative \"might be\" formulation and do not support the claim as written.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 4,
+      "section": "Direct versus indirect written corrective feedback"
+    },
+    {
+      "claim_checked": "metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The quotes establish that codes improved immediate grammatical and non-grammatical accuracy during text revision, but they do not explicitly identify those codes as metalinguistic, so the \u201cmetalinguistic\u201d qualifier is not supported by the quotes alone.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 1,
+      "section": "Metalinguistic codes as written corrective feedback"
+    },
+    {
+      "claim_checked": "their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The claim says revision can boost the effect of direct WCF, but the passage and quotes support only direct unfocused WCF, dropping the unfocused qualifier.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_2": {
+          "human_note": "The claim's \"direct WCF\" omits the source's qualifier \"unfocused\"; the passage and quotes support boosting the effect of direct unfocused WCF, not direct WCF generally.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 4,
+      "section": "Metalinguistic codes as written corrective feedback"
+    },
+    {
+      "claim_checked": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "The claim drops the passage's scope qualifier that the inability concerns feedback on rhetorical and pragmatic aspects of arguments produced by real human writers/student writing. The quotes likewise state only that inability for real human writers' arguments, so they do not support the unqualified claim.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "no"
+        },
+        "reviewer_2": {
+          "human_note": "The quotes report a lower frequency of hedges, boosters, attitude markers, and self-mention and an inability due to a retiring stance, but they do not explicitly state that the lower frequency is of stance features or that it causes the inability.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 1,
+      "section": "Automated written corrective feedback"
+    },
+    {
+      "claim_checked": "ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+      "reviewers": {
+        "reviewer_1": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_2": {
+          "human_note": "The evidence quotes support the precision/recall figures and the four/five category comparisons, but they do not themselves establish that GPT-P1 to GPT-P3 represent increasing prompt sophistication.",
+          "human_quote_supports": "no",
+          "human_sentence_correct": "yes"
+        },
+        "reviewer_3": {
+          "human_note": "",
+          "human_quote_supports": "yes",
+          "human_sentence_correct": "yes"
+        }
+      },
+      "row": 2,
+      "section": "Automated written corrective feedback"
+    }
+  ],
+  "unit": "verified claim row",
+  "workbook_id": "6ee61df4ad585e41"
+}

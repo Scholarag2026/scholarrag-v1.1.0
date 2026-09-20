@@ -1,0 +1,64 @@
+{
+  "dataset": "Nagtegaal_2019",
+  "generated": "2026-09-15T22:40:13+00:00",
+  "collections_loaded": {
+    "SCIE": 17305,
+    "SSCI": 6735,
+    "AHCI": 3252,
+    "ESCI": 15107
+  },
+  "missing_collections": [],
+  "label_field": "label_included",
+  "all_records": {
+    "n": 2019,
+    "n_with_issn": 297,
+    "n_unresolved": 1722,
+    "n_in_wos_any": 251,
+    "share_in_wos_any": 0.12431896978702328,
+    "share_in_wos_any_of_resolved": 0.8451178451178452,
+    "per_collection": {
+      "SCIE": {
+        "n": 242,
+        "share": 0.11986131748390293
+      },
+      "SSCI": {
+        "n": 87,
+        "share": 0.04309063893016345
+      },
+      "AHCI": {
+        "n": 0,
+        "share": 0.0
+      },
+      "ESCI": {
+        "n": 3,
+        "share": 0.0014858841010401188
+      }
+    }
+  },
+  "included_records": {
+    "n": 101,
+    "n_with_issn": 77,
+    "n_unresolved": 24,
+    "n_in_wos_any": 69,
+    "share_in_wos_any": 0.6831683168316832,
+    "share_in_wos_any_of_resolved": 0.8961038961038961,
+    "per_collection": {
+      "SCIE": {
+        "n": 68,
+        "share": 0.6732673267326733
+      },
+      "SSCI": {
+        "n": 21,
+        "share": 0.2079207920792079
+      },
+      "AHCI": {
+        "n": 0,
+        "share": 0.0
+      },
+      "ESCI": {
+        "n": 1,
+        "share": 0.009900990099009901
+      }
+    }
+  }
+}

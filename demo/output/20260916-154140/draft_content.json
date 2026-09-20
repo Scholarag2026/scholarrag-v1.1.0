@@ -1,0 +1,215 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "sectionType": "literature_review"
+      },
+      "content": [
+        {
+          "text": "Literature Review",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "razmi_2024"
+            ],
+            "sentence": "Razmi and Ghane (2024) found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+            "proposition": "found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety.",
+            "evidence_ids": [
+              "e77",
+              "e78",
+              "e80"
+            ],
+            "citation_text": "Razmi and Ghane (2024)"
+          },
+          {
+            "keys": [
+              "razmi_2024"
+            ],
+            "sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+            "proposition": "the authors acknowledged that the small, gender-restricted sample constrains generalisability",
+            "evidence_ids": [
+              "e74",
+              "e82"
+            ],
+            "citation_text": "(Razmi & Ghane, 2024)"
+          },
+          {
+            "keys": [
+              "razmi_2024"
+            ],
+            "sentence": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024).",
+            "proposition": "The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed",
+            "evidence_ids": [
+              "e75",
+              "e74"
+            ],
+            "citation_text": "(Razmi & Ghane, 2024)"
+          },
+          {
+            "keys": [
+              "lópez_2018"
+            ],
+            "sentence": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group (Bonilla López et al., 2018).",
+            "proposition": "The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group",
+            "evidence_ids": [
+              "e15"
+            ],
+            "citation_text": "(Bonilla López et al., 2018)"
+          }
+        ],
+        "uncitedSentences": [
+          {
+            "tag": "framing",
+            "sentence": "Research on written corrective feedback (WCF) in second-language (L2) writing has examined whether teacher-provided, peer-provided, and automated feedback improve accuracy, revision behaviour, and engagement."
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Research on written corrective feedback (WCF) in second-language (L2) writing has examined whether teacher-provided, peer-provided, and automated feedback improve accuracy, revision behaviour, and engagement. Razmi and Ghane (2024) found that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance, with a large effect size (d = 1.32), and also reported higher writing self-efficacy and lower writing anxiety. The study's design, however, was limited: 52 intermediate male EFL learners aged 12–18 were assessed, and the authors acknowledged that the small, gender-restricted sample constrains generalisability (Razmi & Ghane, 2024). The study randomly assigned 139 low-intermediate EFL writers to four experimental conditions and a self-correction control group (Bonilla López et al., 2018).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "luo_2025"
+            ],
+            "sentence": "Luo et al. (2025) demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+            "proposition": "demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%.",
+            "evidence_ids": [
+              "e37",
+              "e39"
+            ],
+            "citation_text": "Luo et al. (2025)"
+          },
+          {
+            "keys": [
+              "luo_2025"
+            ],
+            "sentence": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres (Luo et al., 2025).",
+            "proposition": "The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres",
+            "evidence_ids": [
+              "e38",
+              "e29"
+            ],
+            "citation_text": "(Luo et al., 2025)"
+          },
+          {
+            "keys": [
+              "koltovskaia_2022"
+            ],
+            "sentence": "Yet Koltovskaia (2022) found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+            "proposition": "found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability.",
+            "evidence_ids": [
+              "e46",
+              "e42"
+            ],
+            "citation_text": "Koltovskaia (2022)"
+          },
+          {
+            "keys": [
+              "zhang_2021"
+            ],
+            "sentence": "Zhang and Hyland (2021) reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+            "proposition": "reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+            "evidence_ids": [
+              "e85",
+              "e94"
+            ],
+            "citation_text": "Zhang and Hyland (2021)"
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Luo et al. (2025) demonstrated that ChatGPT's error-flagging ability improved substantially with prompt sophistication, with recall rising from 10% to 55% across three prompt conditions while precision remained consistently high (94–98%), exceeding Grammarly's 85%. The corpus was small—30 essays from intermediate Chinese undergraduates—and the authors noted that findings may not generalise to other proficiency levels or genres (Luo et al., 2025). Yet Koltovskaia (2022) found no division of labour between teachers and Grammarly, with all six participating teachers providing feedback on both higher-order and lower-order concerns despite Grammarly's availability. Zhang and Hyland (2021) reported that 88% of 33 students submitted to an AWE system more than five times (mean = 9.5 submissions), and students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "mao_2024"
+            ],
+            "sentence": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+            "proposition": "synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets.",
+            "evidence_ids": [
+              "e107",
+              "e108"
+            ],
+            "citation_text": "Mao et al. (2024)"
+          },
+          {
+            "keys": [
+              "mao_2024"
+            ],
+            "sentence": "The review focused exclusively on teacher WCF, excluding peer and computational feedback (Mao et al., 2024).",
+            "proposition": "The review focused exclusively on teacher WCF, excluding peer and computational feedback",
+            "evidence_ids": [
+              "e116"
+            ],
+            "citation_text": "(Mao et al., 2024)"
+          }
+        ],
+        "uncitedSentences": [
+          {
+            "tag": "framing",
+            "sentence": "This gap motivates the present study."
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Mao et al. (2024) synthesised 50 naturalistic classroom studies and found that most were not theoretically motivated, with only 22% making explicit reference to theoretical tenets. The review focused exclusively on teacher WCF, excluding peer and computational feedback (Mao et al., 2024). This gap motivates the present study.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "mao_2024"
+            ],
+            "sentence": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+            "proposition": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions",
+            "evidence_ids": [],
+            "citation_text": "(Mao et al., 2024)",
+            "residue_spans": [],
+            "meta_evaluation": false,
+            "paragraph_index": 0,
+            "coverage_incomplete": false
+          }
+        ],
+        "uncitedSentences": []
+      },
+      "content": [
+        {
+          "text": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "generated": "2026-09-16T03:25:02+00:00",
+  "metrics": [
+    "verified_precision",
+    "verified_recall",
+    "verified_f1",
+    "accuracy",
+    "quote_fidelity",
+    "kappa_AB"
+  ],
+  "rows": [
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "verified_precision",
+      "value": 0.9827586206896551
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "verified_recall",
+      "value": 0.41304347826086957
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "verified_f1",
+      "value": 0.5816326530612245
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "accuracy",
+      "value": 0.75
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "quote_fidelity",
+      "value": 1.0
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run A",
+      "metric": "kappa_AB",
+      "value": 0.9587407253311143
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "verified_precision",
+      "value": 0.9827586206896551
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "verified_recall",
+      "value": 0.41304347826086957
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "verified_f1",
+      "value": 0.5816326530612245
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "accuracy",
+      "value": 0.75
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "quote_fidelity",
+      "value": 1.0
+    },
+    {
+      "set": "scifact",
+      "series": "LLM run B",
+      "metric": "kappa_AB",
+      "value": 0.9587407253311143
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "verified_precision",
+      "value": 0.5
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "verified_recall",
+      "value": 0.007246376811594203
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "verified_f1",
+      "value": 0.014285714285714285
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "accuracy",
+      "value": 0.5941176470588235
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "quote_fidelity",
+      "value": null
+    },
+    {
+      "set": "scifact",
+      "series": "lexical baseline",
+      "metric": "kappa_AB",
+      "value": null
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "verified_precision",
+      "value": 1.0
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "verified_recall",
+      "value": 0.875
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "verified_f1",
+      "value": 0.9333333333333333
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "accuracy",
+      "value": 0.9166666666666666
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "quote_fidelity",
+      "value": 1.0
+    },
+    {
+      "set": "hss",
+      "series": "LLM run A",
+      "metric": "kappa_AB",
+      "value": 0.967316153362665
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "verified_precision",
+      "value": 1.0
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "verified_recall",
+      "value": 0.8125
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "verified_f1",
+      "value": 0.896551724137931
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "accuracy",
+      "value": 0.9
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "quote_fidelity",
+      "value": 1.0
+    },
+    {
+      "set": "hss",
+      "series": "LLM run B",
+      "metric": "kappa_AB",
+      "value": 0.967316153362665
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "verified_precision",
+      "value": 0.36363636363636365
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "verified_recall",
+      "value": 1.0
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "verified_f1",
+      "value": 0.5333333333333333
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "accuracy",
+      "value": 0.5333333333333333
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "quote_fidelity",
+      "value": null
+    },
+    {
+      "set": "hss",
+      "series": "lexical baseline",
+      "metric": "kappa_AB",
+      "value": null
+    }
+  ]
+}

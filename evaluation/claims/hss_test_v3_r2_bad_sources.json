@@ -1,0 +1,61 @@
+{
+  "purpose": "Sources cached under data/hss_test_v3_fulltext that carry a pervasive PDF-extraction hazard (a running header or similar artefact glued mid-sentence at page breaks) discovered across several reading-based rebuilds. None is a wrong or misidentified work, and none is excluded from the build: each still backs at least one live, clean item this round confirmed by direct read, and the correct durable fix (stripping the header at extraction time) is a build_hss_set.py change, not something this rebuild step makes itself. Recorded here so whichever rebuild next changes the builder has a concrete list to work from, and so a future rebuild's own build-time scan is not surprised by a recurrence.",
+  "reviewed": "Reviewed by reading the build output directly on 2026-09-07, tracing a cascade of vetoes back to the running-header and heading-glue extraction hazards listed below.",
+  "sources": [
+    {
+      "doi": "10.55593/ej.25100a3",
+      "journal": "TESL-EJ",
+      "author": "Pontier",
+      "issue": "journal-abbreviation-plus-volume-plus-date-plus-author-plus-page running header glued mid-sentence at page breaks",
+      "evidence": "14 sentence-interrupting occurrences counted across the abstract, literature review and conclusion chunks (this build's own scan); two of its sentences vetoed in hss_veto.json (\"Note [1] TCs were only permitted...\", \"...my TESL-EJ 25.4, February 2022 Pontier 2 data analysis...\").",
+      "live_items_this_round": ["hss-verbatim-03", "hss-altered-18", "hss-no_full_text-08"],
+      "disposition": "flagged, not excluded: all three live items this round were read directly and are clean of the header signature."
+    },
+    {
+      "doi": "10.17011/apples/urn.201903251959",
+      "journal": "Apples: Journal of Applied Language Studies",
+      "author": "Wedin and Norlund Shaswar",
+      "issue": "running header of the form \"A. Wedin & A. Norlund Shaswar NN\" sitting mid-sentence, opening with a single-letter author initial that the sentence splitter treats as a sentence-terminating period",
+      "evidence": "two sentences vetoed in hss_veto.json across rounds (\"...that were interesting, and A.\", the truncation behind the original hss-wrong_paper-04 pick); also the donor of the generic-ethics hss-wrong_paper-04 veto applied this round for an unrelated (not_a_claim) reason.",
+      "live_items_this_round": ["hss-altered-06", "hss-over_specified-09", "hss-wrong_paper-03", "hss-wrong_paper-04"],
+      "disposition": "flagged, not excluded: all four live items this round were read directly and are clean of the header signature."
+    },
+    {
+      "doi": "10.29140/tltl.v6n1.1142",
+      "journal": "TLTL",
+      "author": "Mena Octavio et al.",
+      "issue": "unpunctuated inline section headings and list labels glued to the following sentence",
+      "evidence": "produced a glued list label in an earlier rebuild round and a glued heading in an earlier phase, both at the paraphrase-05 slot.",
+      "live_items_this_round": ["hss-paraphrase-05", "hss-altered-12", "hss-no_full_text-02"],
+      "disposition": "flagged, not excluded: all three live items this round were read directly and are clean."
+    },
+    {
+      "doi": "10.55593/ej.26103a1",
+      "journal": "TESL-EJ",
+      "author": "Savski and Prabjandee",
+      "issue": "the same journal-abbreviation-plus-volume-plus-date-plus-author-plus-page running header as the Pontier TESL-EJ paper above, glued mid-sentence at a page break; newly identified this round, a second TESL-EJ paper carrying the same hazard, plus a distinct, unrelated defect: several of its own candidate sentences that satisfy the over_specified rule's finding-verb gate are conceptual/literature-review claims rather than this (conceptual policy) paper's own empirical findings, since the paper (\"CEFR: A Global Framework for Global Englishes?\") reports no empirical study of its own",
+      "evidence": "one sentence vetoed in hss_veto.json this round (\"...following TESL-EJ 26.3, November 2022 Savski & Prabjandee 2 what norms.\"); eight further sentences from this paper vetoed this round for the separate conceptual-claim-not-a-finding defect before hss-over_specified-01 converged on a sentence describing concrete professional-development activities (\"The activities were reported useful ... during the winter semester\").",
+      "live_items_this_round": ["hss-verbatim-04", "hss-over_specified-01"],
+      "disposition": "flagged, not excluded: both live items this round were read directly and are clean of the header signature; the second, distinct defect (conceptual paper mismatched with the over_specified rule) has no header-strip fix and instead needs the agentive-subject/eventive-verb gate on instrument and manner modifiers that an earlier review already recommended for build_hss_set.py, which does not yet implement it."
+    },
+    {
+      "doi": "10.14746/ssllt.2021.11.1.2",
+      "journal": "Studies in Second Language Learning and Teaching",
+      "author": "Kruk, Pawlak and Zawodniak",
+      "issue": "author-name-plus-page running header (\"Mariusz Kruk, Miroslaw Pawlak, Joanna Zawodniak NN\") glued mid-sentence at a page break; newly identified this round, the first SSLLT paper found to carry this hazard",
+      "evidence": "one sentence vetoed in hss_veto.json this round (\"...the level of Mariusz Kruk, Miroslaw Pawlak, Joanna Zawodniak 26 boredom decreased a little...\"); five further sentences from this paper's over_specified-06 slot vetoed this round for a separate, unrelated defect (the instrument modifier \"using eye-tracking software\" repeatedly landing on a non-agentive subject describing a measured boredom level rather than a person) before the slot converged on a self-referential \"It reports a study which examined...\" sentence.",
+      "live_items_this_round": ["hss-altered-03", "hss-over_specified-06", "hss-wrong_paper-01"],
+      "disposition": "flagged, not excluded: all three live items this round were read directly and are clean of the header signature; the second, distinct defect again needs the agentive-subject/eventive-verb gate recommended for build_hss_set.py."
+    },
+    {
+      "doi": "10.14746/ssllt.2022.12.1.3",
+      "journal": "Studies in Second Language Learning and Teaching",
+      "author": "unspecified (companion paper to the Kruk/Pawlak/Zawodniak boredom study)",
+      "issue": "a heading-glue extraction artefact (\"Participants and setting\" glued directly to the start of the following sentence with no separating punctuation), found once in this paper's over_specified-07 candidate pool this round; not confirmed as a running header",
+      "evidence": "one sentence vetoed in hss_veto.json this round (\"Participants and setting Thirty-seven English language learners...\"); five further sentences from this paper's over_specified-07 slot vetoed this round for the same non-agentive-subject instrument-modifier mismatch as the companion SSLLT paper above, before the slot converged on a self-referential \"In the present study, PQ Method (Schmolck, 2002) was employed...\" sentence.",
+      "live_items_this_round": ["hss-altered-04", "hss-over_specified-07", "hss-wrong_paper-01", "hss-wrong_paper-02"],
+      "disposition": "flagged, not excluded: all four live items this round were read directly and are clean."
+    }
+  ],
+  "recommendation": "Two independent, unimplemented builder-level fixes would remove essentially all of the cascade this round's own build-time scan absorbed sentence by sentence: (1) a running-header strip at cache/extraction time for the journal-plus-volume-plus-author-plus-page (TESL-EJ) and author-name-plus-page (SSLLT) header shapes named above, and (2) gating instrument and manner over-specifications (OVER_SPECIFIED_MODIFIERS entries such as \"using eye-tracking software\") on an agentive subject and an eventive verb, or splitting the modifier pool by the clause type each entry can attach to. This recommendation was made in an earlier review and is still not implemented after several rebuilds. Neither fix is implemented in build_hss_set.py yet."
+}

@@ -1,0 +1,1185 @@
+{
+  "draft_id": "c786ba0b-8d7d-4433-8a9e-65cccdb558ef",
+  "verifications": [
+    {
+      "claim_text": "metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+      "explanation": "The claim's central proposition — that metalinguistic codes enhanced learners' immediate grammatical accuracy during text revision — is directly supported: the abstract states that \"direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision),\" and the results section reports that both metalinguistic groups (ME+G, p = 0.009; ME+GN, p < 0.001) significantly outperformed the control group on grammatical errors successfully corrected during revision. The peripheral proposition about non-grammatical accuracy is also supported: ME+GN significantly outperformed the control group (p < 0.001) on non-grammatical errors successfully corrected. The population (low intermediate EFL writers) and the timing/scope (immediate, during revision) are likewise stated in the source. No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Metalinguistic codes were effective for enhancing learners' immediate grammatical accuracy during text revision.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "effective (significantly outperformed control)",
+          "source_value": "ME+G and ME+GN significantly outperformed the control group",
+          "quote": "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+          "central": true,
+          "entity": "EFL learners receiving metalinguistic CF with codes (ME+G and ME+GN groups)",
+          "measure": "immediate grammatical accuracy during text revision (grammatical errors successfully corrected)",
+          "quotes": [
+            "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+            "***ME+G > SC \n0.23[0.04, 0.42]",
+            "***ME+GN > SC \n0.41 [0.22, 0.61]"
+          ]
+        },
+        {
+          "text": "Metalinguistic codes were effective for enhancing learners' immediate non-grammatical accuracy during text revision.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "effective (significantly outperformed control)",
+          "source_value": "ME+GN significantly outperformed the SC group",
+          "quote": "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+          "central": false,
+          "entity": "EFL learners receiving metalinguistic CF with codes on grammatical and non-grammatical errors (ME+GN group)",
+          "measure": "immediate non-grammatical accuracy during text revision (non-grammatical errors successfully corrected)",
+          "quotes": [
+            "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+            "***ME+GN > SC \n0.43 [0.26, 0.60]"
+          ]
+        },
+        {
+          "text": "The learners were low intermediate EFL writers.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "low intermediate EFL writers",
+          "source_value": "low intermediate EFL writers",
+          "quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions",
+          "central": false,
+          "entity": "participants",
+          "measure": "proficiency level",
+          "quotes": [
+            "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+          ]
+        },
+        {
+          "text": "The accuracy enhancement occurred during text revision (immediate, not long-term).",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "during text revision (immediate)",
+          "source_value": "immediate grammatical and non-grammatical accuracy (i.e., during text revision)",
+          "quote": "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+          "central": false,
+          "entity": "EFL learners",
+          "measure": "timing of accuracy effect (immediate during revision vs. long-term)",
+          "quotes": [
+            "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+        "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+        "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+        "***ME+G > SC \n0.23[0.04, 0.42]",
+        "***ME+GN > SC \n0.41 [0.22, 0.61]",
+        "***ME+GN > SC \n0.43 [0.26, 0.60]",
+        "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Bonilla López et al. (2018) found that metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision.",
+      "citation": "Bonilla López et al. (2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+            "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+            "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+            "***ME+G > SC \n0.23[0.04, 0.42]",
+            "***ME+GN > SC \n0.41 [0.22, 0.61]",
+            "***ME+GN > SC \n0.43 [0.26, 0.60]",
+            "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+          ],
+          "tokens": {
+            "input_tokens": 22179,
+            "output_tokens": 1663
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%), followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+      "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+      "status": "verified",
+      "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+      "explanation": "The central assertion — that students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) — is stated verbatim in the source: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" The peripheral assertion about the second-ranked option (direct correction without metalinguistic explanations, 111/447, 24.83%) is likewise stated in the same span. Both the entity (students, 447 choices) and the measures (counts and percentages) match exactly, with no contradiction and no hedge removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Students favoured direct correction in conjunction with metalinguistic explanations, at 215/447 (48.10%).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "215/447, 48.10%",
+          "source_value": "215/447, 48.10%",
+          "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%)",
+          "central": true,
+          "entity": "students (ESL program survey respondents, 447 choices)",
+          "measure": "preference share for direct correction with metalinguistic explanations",
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%)"
+          ]
+        },
+        {
+          "text": "Direct correction without metalinguistic explanations was the next most favoured option, at 111/447 (24.83%).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "111/447, 24.83%",
+          "source_value": "111/447, 24.83%",
+          "quote": "followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+          "central": false,
+          "entity": "students (ESL program survey respondents, 447 choices)",
+          "measure": "preference share for direct correction without metalinguistic explanations, ranked second",
+          "quotes": [
+            "followed by direct correction without metalinguistic explanations (111/447, 24.83%)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Liu and Wu (2019) found that students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%), followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+      "citation": "Liu and Wu (2019)",
+      "paper_doi": "10.17239/jowr-2019.11.02.03",
+      "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+          ],
+          "tokens": {
+            "input_tokens": 17511,
+            "output_tokens": 808
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "direct unfocused WCF improved writing performance (d = 1.32)",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+      "explanation": "The claim's central assertion — that direct unfocused WCF improved writing performance — is stated in the source: the abstract describes the study as investigating \"the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement,\" and the results section reports that \"the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.\" The effect-size assertion is also supported: the reported value is exactly d = 1.32, matching the claim's number (and Table 3 lists 1.32 for writing skill). No assertion is contradicted, and no peripheral assertion is absent, so the claim is verified as written.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Direct unfocused WCF improved writing performance in the study's experimental group relative to the control group.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+          "central": true,
+          "entity": "EFL learners receiving direct unfocused WCF (experimental group)",
+          "measure": "writing performance posttest comparison with control group",
+          "quotes": [
+            "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+          ]
+        },
+        {
+          "text": "The effect size for the writing performance difference was d = 1.32.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "1.32",
+          "source_value": "1.32",
+          "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+          "central": false,
+          "entity": "experimental vs. control group writing performance posttest",
+          "measure": "Cohen's d effect size",
+          "quotes": [
+            "t (50) = 4.722, p < 0.05, d = 1.32",
+            "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+        "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+        "t (50) = 4.722, p < 0.05, d = 1.32",
+        "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF.",
+      "citation": "Razmi and Ghane (2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+            "t (50) = 4.722, p < 0.05, d = 1.32",
+            "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+          ],
+          "tokens": {
+            "input_tokens": 14321,
+            "output_tokens": 1130
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+      "explanation": "Both propositions are stated in the source. The central assertion — that the study's design did not provide revision opportunities — is supported by the discussion passage: \"The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.\" and reinforced by \"Third, the present study did not require learners to revise.\" The peripheral attribution assertion is supported verbatim by \"Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.\" The claim's hedge (\"speculated\") matches the source's own hedge (\"it can be assumed\"), so the hedge test does not fire. No assertion is contradicted or absent.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study's design did not provide learners with opportunities to revise their papers.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+          "central": true,
+          "entity": "the present study's design",
+          "measure": "provision of revision opportunities",
+          "quotes": [
+            "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "Third, the present study did not require learners to revise."
+          ]
+        },
+        {
+          "text": "The authors speculated that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+          "central": false,
+          "entity": "the authors",
+          "measure": "speculation about the effect of engaging learners in revision on direct unfocused WCF",
+          "quotes": [
+            "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+        "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+        "Third, the present study did not require learners to revise."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF.",
+      "citation": "Razmi and Ghane (2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+            "Third, the present study did not require learners to revise."
+          ],
+          "tokens": {
+            "input_tokens": 14331,
+            "output_tokens": 719
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "a mental-effort measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues, implying that metalinguistic codes impose greater processing demands",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+      "explanation": "The central assertion is stated almost verbatim in the abstract: \"A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.\" Section 5.4 confirms the underlying contrast: \"the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)\", and Table 3 reports \"***ME+GN > DCF+G 1.91 [0.95, 2.88]\". The peripheral interpretive assertion (metalinguistic codes impose greater processing demands) is also supported by the discussion: \"it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load\". No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "A mental-effort based measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "significantly lower for direct corrections on grammatical errors",
+          "source_value": "significantly lower for DCF+G than ME+GN (p < 0.001)",
+          "quote": "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+          "central": true,
+          "entity": "EFL learners (N = 139) revising texts after comprehensive CF",
+          "measure": "self-reported mental effort (Paas 1992 scale) after text revision",
+          "quotes": [
+            "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+            "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "***ME+GN > DCF+G \n1.91 [0.95, 2.88]"
+          ]
+        },
+        {
+          "text": "Metalinguistic codes impose greater processing demands than direct corrections.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": "metalinguistic codes impose greater demands",
+          "source_value": "metalinguistic CF types placed more attentional demands and increased cognitive load",
+          "quote": "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+          "central": false,
+          "entity": "metalinguistic CF with codes vs. direct CF",
+          "measure": "cognitive load / processing demands of feedback processing forms",
+          "quotes": [
+            "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+            "That would explain why the former was significantly less overloading than the latter"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+        "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+        "***ME+GN > DCF+G \n1.91 [0.95, 2.88]",
+        "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+        "That would explain why the former was significantly less overloading than the latter"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "On engagement, Bonilla López et al. (2018) found that a mental-effort measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues, implying that metalinguistic codes impose greater processing demands.",
+      "citation": "Bonilla López et al. (2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+            "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "***ME+GN > DCF+G \n1.91 [0.95, 2.88]",
+            "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+            "That would explain why the former was significantly less overloading than the latter"
+          ],
+          "tokens": {
+            "input_tokens": 22188,
+            "output_tokens": 1060
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "teachers provided feedback on both higher-order and lower-order concerns despite using Grammarly as a complement, with no division of labour",
+      "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+      "status": "verified",
+      "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+      "explanation": "The claim's central proposition — that teachers provided feedback on both HOCs and LOCs despite using Grammarly as a complement — is stated almost verbatim in the abstract (\"The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement\") and in the findings (\"all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement\"). The peripheral proposition of \"no division of labour\" is likewise stated in the abstract (\"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns\") and in the discussion (\"there is no division of labor, such as that AWE takes care of LOCs ... and a teacher takes care of HOCs\"). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Teachers provided feedback on both higher-order concerns (HOCs) and lower-order concerns (LOCs) despite using Grammarly as a complement.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "feedback on both HOCs and LOCs",
+          "source_value": "feedback on both HOCs and LOCs",
+          "quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+          "central": true,
+          "entity": "postsecondary L2 writing teachers (six participants) using Grammarly as a complement",
+          "measure": "provision of feedback on both HOCs and LOCs",
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+            "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+          ]
+        },
+        {
+          "text": "There was no division of labour between teachers and Grammarly (e.g., teachers taking HOCs and Grammarly taking LOCs).",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "no division of labour",
+          "source_value": "no division of labor",
+          "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+          "central": false,
+          "entity": "teachers and Grammarly as feedback agents",
+          "measure": "division of labour between teacher and AWE",
+          "quotes": [
+            "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+            "there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+        "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs (Jiang et al., 2020; Wilson & Czik, 2016)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Koltovskaia (2022) observed that teachers provided feedback on both higher-order and lower-order concerns despite using Grammarly as a complement, with no division of labour.",
+      "citation": "Koltovskaia (2022)",
+      "paper_doi": "10.1017/s0958344022000179",
+      "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+            "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+            "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs (Jiang et al., 2020; Wilson & Czik, 2016)."
+          ],
+          "tokens": {
+            "input_tokens": 14432,
+            "output_tokens": 1004
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "low-proficiency learners preferred explicit direct correction while high-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+      "explanation": "The source states both propositions directly: 117 students surveyed by Zhang et al. (2021) expressed preferences for explicit WCF in the form of direct correction, especially low-proficiency learners, while high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful. The central assertion (low-proficiency learners' preference for explicit direct correction) is supported, and the peripheral assertion about high-proficiency learners is also supported, with no contradiction and no hedge removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Low-proficiency learners preferred explicit WCF in the form of direct correction.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "preferred explicit direct correction",
+          "source_value": "preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+          "quote": "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+          "central": true,
+          "entity": "low-proficiency learners (surveyed students in Zhang et al., 2021)",
+          "measure": "preference for explicit WCF in the form of direct correction",
+          "quotes": [
+            "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)"
+          ]
+        },
+        {
+          "text": "High-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "regarded less explicit WCF as helpful",
+          "source_value": "regarded less explicit WCF (e.g., underlining and error code) to be helpful",
+          "quote": "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful",
+          "central": false,
+          "entity": "high-proficiency learners (surveyed students in Zhang et al., 2021)",
+          "measure": "regarding less explicit WCF (underlining and error code) as helpful",
+          "quotes": [
+            "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+        "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Mao et al. (2024) reported that low-proficiency learners preferred explicit direct correction while high-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful.",
+      "citation": "Mao et al. (2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 6 (findings)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+            "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+          ],
+          "tokens": {
+            "input_tokens": 24905,
+            "output_tokens": 813
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    }
+  ],
+  "verified_count": 7,
+  "unsupported_count": 0,
+  "nuance_count": 0,
+  "abstract_only_count": 0,
+  "error_count": 0,
+  "needs_rewrite": 0,
+  "needs_removal": 0,
+  "provenance": {
+    "agent": "claim_verification",
+    "calls": 7,
+    "temperature": 0.0,
+    "guard_digest": "8a6c833ffc329f89",
+    "input_tokens": 129867,
+    "output_tokens": 7197,
+    "model_reported": [
+      "deepseek-flash"
+    ],
+    "prompt_version": "sha256:49fcfbfaf2f6",
+    "model_configured": "deepseek-chat",
+    "system_fingerprints": [
+      "aeb56401ca74e127821c4f9126dcb669"
+    ],
+    "repair_prompt_version": "sha256:7ec7cffe852d",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc"
+  },
+  "full_text_coverage": 1.0,
+  "task_id": "656b7e6a-30ae-4303-8f16-a1e9dd686f51",
+  "contradicted_count": 0,
+  "guarded_count": 0,
+  "citation_coverage": {
+    "found": 6,
+    "linked": 6,
+    "sent_to_verifier": 7,
+    "unresolved": 0,
+    "unresolved_citations": [],
+    "by_source": {
+      "mapping": 6,
+      "numbered": 0,
+      "author-year": 0
+    }
+  },
+  "healed": true,
+  "finalize_stats": {
+    "frame_spans_accepted": 8,
+    "sentences_residue_excised": 0,
+    "sentences_removed_dangling": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_unverified": 0,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 0,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 0,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "final_report": {
+    "verifications": [
+      {
+        "claim_text": "metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+        "explanation": "The claim's central proposition — that metalinguistic codes enhanced learners' immediate grammatical accuracy during text revision — is directly supported: the abstract states that \"direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision),\" and the results section reports that both metalinguistic groups (ME+G, p = 0.009; ME+GN, p < 0.001) significantly outperformed the control group on grammatical errors successfully corrected during revision. The peripheral proposition about non-grammatical accuracy is also supported: ME+GN significantly outperformed the control group (p < 0.001) on non-grammatical errors successfully corrected. The population (low intermediate EFL writers) and the timing/scope (immediate, during revision) are likewise stated in the source. No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Metalinguistic codes were effective for enhancing learners' immediate grammatical accuracy during text revision.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "effective (significantly outperformed control)",
+            "source_value": "ME+G and ME+GN significantly outperformed the control group",
+            "quote": "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+            "central": true,
+            "entity": "EFL learners receiving metalinguistic CF with codes (ME+G and ME+GN groups)",
+            "measure": "immediate grammatical accuracy during text revision (grammatical errors successfully corrected)",
+            "quotes": [
+              "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+              "***ME+G > SC \n0.23[0.04, 0.42]",
+              "***ME+GN > SC \n0.41 [0.22, 0.61]"
+            ]
+          },
+          {
+            "text": "Metalinguistic codes were effective for enhancing learners' immediate non-grammatical accuracy during text revision.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "effective (significantly outperformed control)",
+            "source_value": "ME+GN significantly outperformed the SC group",
+            "quote": "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+            "central": false,
+            "entity": "EFL learners receiving metalinguistic CF with codes on grammatical and non-grammatical errors (ME+GN group)",
+            "measure": "immediate non-grammatical accuracy during text revision (non-grammatical errors successfully corrected)",
+            "quotes": [
+              "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+              "***ME+GN > SC \n0.43 [0.26, 0.60]"
+            ]
+          },
+          {
+            "text": "The learners were low intermediate EFL writers.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "low intermediate EFL writers",
+            "source_value": "low intermediate EFL writers",
+            "quote": "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions",
+            "central": false,
+            "entity": "participants",
+            "measure": "proficiency level",
+            "quotes": [
+              "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+            ]
+          },
+          {
+            "text": "The accuracy enhancement occurred during text revision (immediate, not long-term).",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "during text revision (immediate)",
+            "source_value": "immediate grammatical and non-grammatical accuracy (i.e., during text revision)",
+            "quote": "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+            "central": false,
+            "entity": "EFL learners",
+            "measure": "timing of accuracy effect (immediate during revision vs. long-term)",
+            "quotes": [
+              "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+          "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+          "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+          "***ME+G > SC \n0.23[0.04, 0.42]",
+          "***ME+GN > SC \n0.41 [0.22, 0.61]",
+          "***ME+GN > SC \n0.43 [0.26, 0.60]",
+          "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Bonilla López et al. (2018) found that metalinguistic codes were effective for enhancing learners' immediate grammatical and non-grammatical accuracy during text revision.",
+        "citation": "Bonilla López et al. (2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "although direct corrections and codes were effective to enhance learners’ immediate grammatical and non-grammatical accuracy (i.e., during text revision), a long-term advantage (i.e., four weeks after feedback provision) was only evident for direct corrections",
+              "During text revision, experimental groups DCF+G (p < 0.001, SE = 0.069), ME+G (p = 0.009, SE = 0.070), DCF+GN (p < 0.001, SE = 0.070), and ME+GN (p < 0.001, SE = 0.070) significantly outperformed the control group.",
+              "The same was true for ME+GN, which significantly outperformed the SC (p < 0.001, SE = 0.060), DCF+G (p < 0.001, SE = 0.059), and ME+G groups (p < 0.001, SE = 0.059).",
+              "***ME+G > SC \n0.23[0.04, 0.42]",
+              "***ME+GN > SC \n0.41 [0.22, 0.61]",
+              "***ME+GN > SC \n0.43 [0.26, 0.60]",
+              "Low intermediate EFL writers (N = 139) were randomly assigned to four experimental conditions"
+            ],
+            "tokens": {
+              "input_tokens": 22179,
+              "output_tokens": 1663
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%), followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+        "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+        "status": "verified",
+        "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+        "explanation": "The central assertion — that students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) — is stated verbatim in the source: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" The peripheral assertion about the second-ranked option (direct correction without metalinguistic explanations, 111/447, 24.83%) is likewise stated in the same span. Both the entity (students, 447 choices) and the measures (counts and percentages) match exactly, with no contradiction and no hedge removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Students favoured direct correction in conjunction with metalinguistic explanations, at 215/447 (48.10%).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "215/447, 48.10%",
+            "source_value": "215/447, 48.10%",
+            "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%)",
+            "central": true,
+            "entity": "students (ESL program survey respondents, 447 choices)",
+            "measure": "preference share for direct correction with metalinguistic explanations",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%)"
+            ]
+          },
+          {
+            "text": "Direct correction without metalinguistic explanations was the next most favoured option, at 111/447 (24.83%).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "111/447, 24.83%",
+            "source_value": "111/447, 24.83%",
+            "quote": "followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+            "central": false,
+            "entity": "students (ESL program survey respondents, 447 choices)",
+            "measure": "preference share for direct correction without metalinguistic explanations, ranked second",
+            "quotes": [
+              "followed by direct correction without metalinguistic explanations (111/447, 24.83%)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Liu and Wu (2019) found that students favoured direct correction in conjunction with metalinguistic explanations (215/447, 48.10%), followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+        "citation": "Liu and Wu (2019)",
+        "paper_doi": "10.17239/jowr-2019.11.02.03",
+        "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+            ],
+            "tokens": {
+              "input_tokens": 17511,
+              "output_tokens": 808
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "direct unfocused WCF improved writing performance (d = 1.32)",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+        "explanation": "The claim's central assertion — that direct unfocused WCF improved writing performance — is stated in the source: the abstract describes the study as investigating \"the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement,\" and the results section reports that \"the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.\" The effect-size assertion is also supported: the reported value is exactly d = 1.32, matching the claim's number (and Table 3 lists 1.32 for writing skill). No assertion is contradicted, and no peripheral assertion is absent, so the claim is verified as written.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Direct unfocused WCF improved writing performance in the study's experimental group relative to the control group.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+            "central": true,
+            "entity": "EFL learners receiving direct unfocused WCF (experimental group)",
+            "measure": "writing performance posttest comparison with control group",
+            "quotes": [
+              "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety."
+            ]
+          },
+          {
+            "text": "The effect size for the writing performance difference was d = 1.32.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "1.32",
+            "source_value": "1.32",
+            "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+            "central": false,
+            "entity": "experimental vs. control group writing performance posttest",
+            "measure": "Cohen's d effect size",
+            "quotes": [
+              "t (50) = 4.722, p < 0.05, d = 1.32",
+              "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+          "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+          "t (50) = 4.722, p < 0.05, d = 1.32",
+          "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF.",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32",
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+              "t (50) = 4.722, p < 0.05, d = 1.32",
+              "Writing \nskill \nExperimental \nControl \n26 \n26 \n79.34 \n62.53 \n11.14 \n14.32 \n4.722 \n50 \n.<001 \n1.32"
+            ],
+            "tokens": {
+              "input_tokens": 14321,
+              "output_tokens": 1130
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+        "explanation": "Both propositions are stated in the source. The central assertion — that the study's design did not provide revision opportunities — is supported by the discussion passage: \"The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.\" and reinforced by \"Third, the present study did not require learners to revise.\" The peripheral attribution assertion is supported verbatim by \"Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.\" The claim's hedge (\"speculated\") matches the source's own hedge (\"it can be assumed\"), so the hedge test does not fire. No assertion is contradicted or absent.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study's design did not provide learners with opportunities to revise their papers.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "central": true,
+            "entity": "the present study's design",
+            "measure": "provision of revision opportunities",
+            "quotes": [
+              "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+              "Third, the present study did not require learners to revise."
+            ]
+          },
+          {
+            "text": "The authors speculated that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+            "central": false,
+            "entity": "the authors",
+            "measure": "speculation about the effect of engaging learners in revision on direct unfocused WCF",
+            "quotes": [
+              "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+          "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+          "Third, the present study did not require learners to revise."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Razmi and Ghane (2024) reported that direct unfocused WCF improved writing performance (d = 1.32), but their design did not provide revision opportunities, and the authors speculated that engaging learners in revision can boost the effect of direct WCF.",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+              "Therefore, it can be assumed that engaging learners in revising their papers can boost the effect of direct unfocused WCF.",
+              "Third, the present study did not require learners to revise."
+            ],
+            "tokens": {
+              "input_tokens": 14331,
+              "output_tokens": 719
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "a mental-effort measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues, implying that metalinguistic codes impose greater processing demands",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+        "explanation": "The central assertion is stated almost verbatim in the abstract: \"A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.\" Section 5.4 confirms the underlying contrast: \"the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)\", and Table 3 reports \"***ME+GN > DCF+G 1.91 [0.95, 2.88]\". The peripheral interpretive assertion (metalinguistic codes impose greater processing demands) is also supported by the discussion: \"it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load\". No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "A mental-effort based measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "significantly lower for direct corrections on grammatical errors",
+            "source_value": "significantly lower for DCF+G than ME+GN (p < 0.001)",
+            "quote": "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+            "central": true,
+            "entity": "EFL learners (N = 139) revising texts after comprehensive CF",
+            "measure": "self-reported mental effort (Paas 1992 scale) after text revision",
+            "quotes": [
+              "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+              "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+              "***ME+GN > DCF+G \n1.91 [0.95, 2.88]"
+            ]
+          },
+          {
+            "text": "Metalinguistic codes impose greater processing demands than direct corrections.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": "metalinguistic codes impose greater demands",
+            "source_value": "metalinguistic CF types placed more attentional demands and increased cognitive load",
+            "quote": "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+            "central": false,
+            "entity": "metalinguistic CF with codes vs. direct CF",
+            "measure": "cognitive load / processing demands of feedback processing forms",
+            "quotes": [
+              "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+              "That would explain why the former was significantly less overloading than the latter"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+          "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+          "***ME+GN > DCF+G \n1.91 [0.95, 2.88]",
+          "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+          "That would explain why the former was significantly less overloading than the latter"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "On engagement, Bonilla López et al. (2018) found that a mental-effort measure of cognitive load was significantly lower when learners processed direct corrections targeting grammatical issues, implying that metalinguistic codes impose greater processing demands.",
+        "citation": "Bonilla López et al. (2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "A mental-effort based measure of cognitive load revealed that learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.",
+              "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+              "***ME+GN > DCF+G \n1.91 [0.95, 2.88]",
+              "it is plausible that the problem-solving nature of the metalinguistic CF types may have placed more attentional demands on learners than the explicit provision of correct forms of the direct CF ones, which may have in turn increased their cognitive load",
+              "That would explain why the former was significantly less overloading than the latter"
+            ],
+            "tokens": {
+              "input_tokens": 22188,
+              "output_tokens": 1060
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "teachers provided feedback on both higher-order and lower-order concerns despite using Grammarly as a complement, with no division of labour",
+        "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+        "status": "verified",
+        "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "explanation": "The claim's central proposition — that teachers provided feedback on both HOCs and LOCs despite using Grammarly as a complement — is stated almost verbatim in the abstract (\"The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement\") and in the findings (\"all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement\"). The peripheral proposition of \"no division of labour\" is likewise stated in the abstract (\"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns\") and in the discussion (\"there is no division of labor, such as that AWE takes care of LOCs ... and a teacher takes care of HOCs\"). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Teachers provided feedback on both higher-order concerns (HOCs) and lower-order concerns (LOCs) despite using Grammarly as a complement.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "feedback on both HOCs and LOCs",
+            "source_value": "feedback on both HOCs and LOCs",
+            "quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+            "central": true,
+            "entity": "postsecondary L2 writing teachers (six participants) using Grammarly as a complement",
+            "measure": "provision of feedback on both HOCs and LOCs",
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+              "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement."
+            ]
+          },
+          {
+            "text": "There was no division of labour between teachers and Grammarly (e.g., teachers taking HOCs and Grammarly taking LOCs).",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "no division of labour",
+            "source_value": "no division of labor",
+            "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+            "central": false,
+            "entity": "teachers and Grammarly as feedback agents",
+            "measure": "division of labour between teacher and AWE",
+            "quotes": [
+              "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+              "there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+          "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+          "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs (Jiang et al., 2020; Wilson & Czik, 2016)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Koltovskaia (2022) observed that teachers provided feedback on both higher-order and lower-order concerns despite using Grammarly as a complement, with no division of labour.",
+        "citation": "Koltovskaia (2022)",
+        "paper_doi": "10.1017/s0958344022000179",
+        "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+              "According to Figure 2, all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.",
+              "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs (Jiang et al., 2020; Wilson & Czik, 2016)."
+            ],
+            "tokens": {
+              "input_tokens": 14432,
+              "output_tokens": 1004
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "low-proficiency learners preferred explicit direct correction while high-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+        "explanation": "The source states both propositions directly: 117 students surveyed by Zhang et al. (2021) expressed preferences for explicit WCF in the form of direct correction, especially low-proficiency learners, while high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful. The central assertion (low-proficiency learners' preference for explicit direct correction) is supported, and the peripheral assertion about high-proficiency learners is also supported, with no contradiction and no hedge removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Low-proficiency learners preferred explicit WCF in the form of direct correction.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "preferred explicit direct correction",
+            "source_value": "preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+            "quote": "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+            "central": true,
+            "entity": "low-proficiency learners (surveyed students in Zhang et al., 2021)",
+            "measure": "preference for explicit WCF in the form of direct correction",
+            "quotes": [
+              "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)"
+            ]
+          },
+          {
+            "text": "High-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "regarded less explicit WCF as helpful",
+            "source_value": "regarded less explicit WCF (e.g., underlining and error code) to be helpful",
+            "quote": "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful",
+            "central": false,
+            "entity": "high-proficiency learners (surveyed students in Zhang et al., 2021)",
+            "measure": "regarding less explicit WCF (underlining and error code) as helpful",
+            "quotes": [
+              "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+          "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Mao et al. (2024) reported that low-proficiency learners preferred explicit direct correction while high-proficiency learners regarded less explicit WCF, such as underlining and error codes, as helpful.",
+        "citation": "Mao et al. (2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 6 (findings)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "117 students surveyed by Zhang et al. (2021) expressed their preferences on explicit WCF in the form of direct correction (especially low-proficiency learners)",
+              "whereas high-proficiency learners regarded less explicit WCF (e.g., underlining and error code) to be helpful"
+            ],
+            "tokens": {
+              "input_tokens": 24905,
+              "output_tokens": 813
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      }
+    ],
+    "verified_count": 7
+  }
+}

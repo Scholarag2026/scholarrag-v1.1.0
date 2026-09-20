@@ -1,0 +1,99 @@
+{
+  "dataset_id": "Fong_2021",
+  "source_review_doi": "10.1016/j.edurev.2021.100407",
+  "source_review": {
+    "title": "LASSI's great adventure: A meta-analysis of the Learning and Study Strategies Inventory and academic outcomes",
+    "authors": "Fong CJ, Krou MR, Johnston-Ashton K, Hoff MA, Lin S, Gonzales C",
+    "journal": "Educational Research Review",
+    "year": 2021,
+    "volume_issue": "34:100407",
+    "url": "https://doi.org/10.1016/j.edurev.2021.100407"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY+ (Campos DG, Futterer T, Gfrorer T, Lavelle-Hill R, Murayama K, Konig L, Hecht M, Zitzmann S, Scherer R. Screening Smarter, Not Harder: A Comparative Analysis of Machine Learning Screening Algorithms and Heuristic Stopping Criteria for Systematic Reviews in Educational Research. Educational Psychology Review 2024;36(1). DOI 10.1007/s10648-024-09862-5)",
+    "cache_path": "~/.synergy_dataset_source/synergy-dataset-plus/Fong_2021/ (read-only upstream release cache, not part of this repository; no works archive cached for this dataset)",
+    "deposit_doi": "10.17605/OSF.IO/UYB7X",
+    "license": "CC BY 4.0 (DataCite record for the OSF deposit https://doi.org/10.17605/OSF.IO/UYB7X, checked 2026-09-06)",
+    "route": "plus (planned; evaluation/screening/fetch_synergy.py has no --route plus yet, added at WP-B9 phase S3; this protocol records eligibility criteria only and was not produced by running the fetch harness)",
+    "n_records": 1299,
+    "n_label_included": 122,
+    "n_label_abstract_included": 196,
+    "n_with_doi": 564,
+    "catalogue_n_records": 1339,
+    "catalogue_n_records_included": 119,
+    "catalogue_note": "metadata.json's data.n_records / data.n_records_included (1,339/119) disagree with the labels.csv row/positive counts above; per wpB9-lean-brief.md section 1, labels.csv is the counted source for n, positives and record_id, and the catalogue figures are kept here for reference only.",
+    "read_at": "2026-09-06"
+  },
+  "primary_label": "label_included",
+  "research_question": "What is the relationship between scores on the Learning and Study Strategies Inventory (LASSI) and students' academic achievement outcomes (GPA, course grade, an achievement-test score, or persistence), synthesised by meta-analysis across the studies that report, or provide enough information to compute, an effect size linking a LASSI (sub)scale to one of these outcomes?",
+  "inclusion_criteria": [
+    {
+      "text": "The study used the Learning and Study Strategies Inventory (LASSI), in any of its versions, to measure students' study strategies or attitudes.",
+      "stage": "full_text",
+      "stage_rationale": "Which instrument was administered to measure study strategies or attitudes is a Method-section fact; an abstract may name no instrument at all without that being evidence the LASSI was not used."
+    },
+    "The study reported an achievement outcome: GPA, course grade, an achievement-test score, or persistence.",
+    {
+      "text": "The study reported, or provided enough information to compute, an effect size linking a LASSI (sub)scale to the achievement outcome.",
+      "stage": "full_text",
+      "stage_rationale": "Whether a LASSI (sub)scale-to-outcome effect size is reported, or can be computed from what is reported, is a Results-section fact that an abstract routinely omits even when the study did compute one."
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "text": "Did not use the LASSI, in any version, to measure study strategies or attitudes.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of I1: which instrument was administered is a Method-section fact (see I1's stage_rationale)."
+    },
+    "Did not report an achievement outcome (GPA, grade, achievement test, persistence).",
+    {
+      "text": "Did not report, and could not be used to compute, an effect size linking a LASSI (sub)scale to the achievement outcome.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of I3: whether an effect size is reported or computable is a Results-section fact (see I3's stage_rationale)."
+    }
+  ],
+  "label_field": "label_abstract_screening",
+  "criteria_provenance": {
+    "inclusion": [
+      {
+        "id": "I1",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I2",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I3",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria, metadata.json",
+        "derived": false
+      }
+    ],
+    "exclusion": [
+      {
+        "id": "E1",
+        "source": "derived",
+        "location": "negation of I1; the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E2",
+        "source": "derived",
+        "location": "negation of I2; the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E3",
+        "source": "derived",
+        "location": "negation of I3; the source states no separate exclusion list",
+        "derived": true
+      }
+    ]
+  },
+  "notes": "Transcribed 2026-09-06 from the SYNERGY+ cache (~/.synergy_dataset_source/synergy-dataset-plus/Fong_2021/metadata.json, read-only, not part of this repository), publication.eligibility_criteria: 'Once potentially relevant studies were identified, titles and abstracts were evaluated using the following inclusion criteria: (1) use of LASSI, (2) an achievement outcome (GPA, grade, achievement test, persistence), and (3) an effect size measure. There was no restriction on language of publication; we included studies written in any language.' The three inclusion criteria above are that string transcribed into full sentences (source=metadata, derived=false for all three, see criteria_provenance); the 'no restriction on language of publication' clause is not rendered as a fourth numbered criterion because it imposes no eligibility test (nothing is excluded on this ground) and is recorded here instead. The three exclusion_criteria are negations of the inclusion criteria written by the protocol transcriber (source=derived, derived=true for all three): the source gives no separate stated exclusion list, and the article itself is closed access (OpenAlex work W3197439049: open_access.is_oa=false, oa_status=closed, any_repository_has_fulltext=false; no abstract_inverted_index; checked via api.openalex.org 2026-09-06), so the Method section could not be read to check whether it states exclusion reasons the metadata string omits, unlike the fuller access available for Anmarkrud_2021. This is the weakest-evidenced of the three new protocols (wpB9-lean-brief.md section 10 risk 1: 'Fong_2021's [eligibility_criteria] is only three criteria long'); the authors should re-read the published Method section (Educational Research Review 2021;34:100407, via institutional access) against these three criteria and the exclusion negations before the manuscript relies on them. label_field = label_abstract_screening because the evaluated task is title-and-abstract screening and the cached labels.csv carries a distinct label_abstract_included column (196/1,299 positives), renamed to label_abstract_screening by fetch_synergy.py's route-plus export per wpB9-lean-brief.md section 1.1 rule 4; primary_label = label_included (122/1,299 positives, the review's final inclusion decision) per protocols/README.md's 'Choosing the primary label and label_field' section. Counts (n_records, n_label_included, n_label_abstract_included, n_with_doi) were read directly from the cached labels.csv on 2026-09-06 with a one-off script, not via fetch_synergy.py (whose --route plus does not exist yet; it is added at WP-B9 phase S3), so no data/Fong_2021.fetch.json exists yet and no hydration has been run. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta); this is unchanged by this protocol (see protocols/README.md). WP-B9 S8 wording history and stage markings (2026-09-06, .superpowers/sdd/wpB9-S8-brief.md), superseding the 2026-09-06 S4 correction below: E1 ran under 'Did not use the LASSI, in any version, to measure study strategies or attitudes.' for iterations 1 to 5; commit 7ea78d9 (iteration 6) rewrote it to 'The shown text names a different instrument as the study's measure of study strategies or attitudes and gives no sign that any version of the LASSI was also administered. An abstract that names no instrument at all does not meet this exclusion.'; the S8 protocol-fix review found that rewrite added a named-alternative requirement and a carve-out for silence the source text does not support, sized to the dev-set records it recovered, so E1 is reverted here, byte for byte, to the iterations-1-to-5 wording, and the silence logic that wording lacked is now carried by the stage flag (full_text) as structure rather than prose. E3 has the same history and the same reversion: iterations 1 to 5 ran under 'Did not report, and could not be used to compute, an effect size linking a LASSI (sub)scale to the achievement outcome.'; commit 7ea78d9 rewrote it to 'The shown text states that the relationship between a LASSI (sub)scale and an achievement outcome was not quantified, for example because the study is qualitative, reports no analysis connecting the two, or reports LASSI scores with no achievement outcome at all. An abstract that simply does not state an effect size does not meet this exclusion.'; reverted here, byte for byte, to the iterations-1-to-5 wording, again carrying the silence logic in the full_text stage flag instead. E2 ran under 'Did not report GPA, course grade, an achievement-test score, or persistence as an outcome.' for iterations 1 to 5; commit 7ea78d9 rewrote it to 'The shown text reports no academic achievement outcome of any kind. GPA, a course grade, an achievement or attainment test score, and persistence or retention are examples of such an outcome, not the whole of it; any comparable measure of academic achievement counts.'; E2 is not reverted to either prior wording here but rewritten a third time to 'Did not report an achievement outcome (GPA, grade, achievement test, persistence).', the source item (publication.eligibility_criteria's '(2) an achievement outcome (GPA, grade, achievement test, persistence)') negated in the source's own words with nothing added: this restores the head term 'an achievement outcome' the original transcription dropped, the one real transcription defect the S8 diagnosis found, and drops 'any comparable measure of academic achievement counts', which the S8 protocol-fix review's finding 8 called an unbounded addition. I1 and I3 are marked full_text (see their stage_rationale); I2 stays abstract: a quantitative study's outcome variable is named in its abstract. Wording by iteration, stated plainly rather than as a claim about tuning: results from screening iterations 1 to 5 (results/dev/v2-iter1/ to v2-iter5/) were produced under the pre-7ea78d9 wording quoted above; iteration 6 (7ea78d9) ran under the rewrite quoted above, which the S8 review found sized to the dev-set records it recovered; iterations 7 to 10 (results/dev/v2-iter7/ through v2-iter10/, protocol_sha sha256:9bc2dfc7e611) ran under exactly the wording and stage markings committed at 363aaf4 and unchanged since, and FREEZE_v2.md section 6's selected iteration 9 is one of them. WP-B9 S11 review, 2026-09-07: .superpowers/sdd/wpB9-vandis-diagnosis.md section 5 recommended reapplying wpB9-excluded-positives.md section 5's fixes 1 to 3 to E1, E2 and E3, stating they were 'never applied' because the recorded protocol_sha was unchanged across the ten dev iterations it checked. That premise does not hold against this file's own history, recorded above: fixes 1 to 3 were committed at 7ea78d9 and run for dev iteration 6, then reverted for E1 and E3 (byte for byte, to the iterations-1-to-5 wording) and rewritten a third time for E2, by the S8 protocol-fix review, on the finding that the E1/E3 rewrite was 'sized to the dev-set records it recovered' and that E2's added clause was an unbounded addition (S8 protocol-fix review finding 8); the silence problem those fixes targeted is instead carried structurally by the full_text stage flag on E1 and E3, which the S8 review introduced for exactly that reason. Reapplying fixes 1 to 3 now would revert that considered correction and restore wording already found to be tuned to observed dev-set results, which protocols/README.md's 'Provenance rules' forbids independent of the vandis-diagnosis's mistaken premise; the decision rests on that argument alone. (The vandis-diagnosis's D1 about 0.846 and D2 about 121/122 are its projected effect of three category-level prompt edits that are not applied yet, not measured iteration-9 results (wpB9-vandis-diagnosis.md section 5, 'Expected effect', 'D1 to about 77/91 = 0.846 with the prompt edits alone' and 'D2 to about 121/122 on both runs'); iteration 9 as actually run measured D1 at 69/91=0.7582 (run A) and 70/91=0.7692 (run B), and D2 at 112/122 (run A) and 109/122 (run B), per FREEZE_v2.md section 6, both below the WP-B9 S11 internal floors (D1 >= 73/91 = 0.8022; D2 >= 110/122 = 0.9016 on run B). The projection is conditional on prompt edits this review does not make and is not evidence for or against the reapplication; it plays no part in the decision above.) E1, E2 and E3 are therefore left as committed by the S8 review; no criterion text is changed by this review. WP-B9 S11 review round 2 fix (2026-09-07, closing .superpowers/sdd/wpB9-S11-protocols-review.md commit af58b8a645b52c3da2ea795bf5a9af5106f3f4db, major 2 and minors 3-4): the clause above stating that iterations 7 to 10 ran under the wording and stage markings committed at 363aaf4 replaces a prior clause, 'no iteration has yet run under the wording and stage markings committed here', which was false against this file's own history for exactly those four iterations. Separately: protocol_sha() (run_screening.py) hashes the whole file's raw bytes, not the criteria fields alone, so every notes-only edit since 363aaf4, including the two made earlier on 2026-09-07 and this fix-round paragraph, moves the file's own sha256 away from the sha256:9bc2dfc7e611 that FREEZE_v2.md section 4 and the results/dev/v2-iter7/ through v2-iter10/ run metas record; inclusion_criteria, exclusion_criteria and their stage/stage_rationale/absence fields are byte-identical to the 363aaf4 commit throughout every one of those notes-only edits, so the recorded protocol_sha continues to describe exactly the criteria and stage markings this file ships, even though the whole-file hash it names no longer matches the working-tree bytes. The 'it is also unnecessary' framing of the reapplication decision above is dropped for the reason review round 2's minor 4 finding states: measured iteration 9 fails the internal D1 and D2 floors, so the decision rests on the provenance-rules argument alone, not on the vandis-diagnosis's projection."
+}

@@ -1,0 +1,686 @@
+{
+  "built_at": "2026-09-07T18:40:35+00:00",
+  "seed": 20260908,
+  "n_items": 15,
+  "counts": {
+    "verbatim": 0,
+    "paraphrase": 0,
+    "altered": 10,
+    "over_specified": 5,
+    "wrong_paper": 0,
+    "no_full_text": 0
+  },
+  "expected": {
+    "verbatim": [
+      "verified"
+    ],
+    "paraphrase": [
+      "verified"
+    ],
+    "altered": [
+      "unsupported"
+    ],
+    "over_specified": [
+      "needs_nuance"
+    ],
+    "wrong_paper": [
+      "unsupported"
+    ],
+    "no_full_text": [
+      "no_full_text"
+    ]
+  },
+  "altered_expected_mode": "strict",
+  "sources": [
+    "10.1186/s40468-019-0085-8",
+    "10.14746/ssllt.2020.10.1.6",
+    "10.14746/ssllt.2020.10.3.10",
+    "10.17323/jle.2021.10737",
+    "10.17323/jle.2021.11522",
+    "10.32601/ejal.599230",
+    "10.32601/ejal.775793",
+    "10.55593/ej.26103a13",
+    "10.55593/ej.26103a9",
+    "10.55593/ej.28109a8"
+  ],
+  "n_sources": 10,
+  "candidates_per_source": {
+    "10.1186/s40468-019-0085-8": 128,
+    "10.14746/ssllt.2020.10.1.6": 108,
+    "10.14746/ssllt.2020.10.3.10": 31,
+    "10.17323/jle.2021.10737": 116,
+    "10.17323/jle.2021.11522": 141,
+    "10.32601/ejal.599230": 104,
+    "10.32601/ejal.775793": 68,
+    "10.55593/ej.26103a13": 209,
+    "10.55593/ej.26103a9": 80,
+    "10.55593/ej.28109a8": 237
+  },
+  "dropped_reference_chunks": {
+    "10.1186/s40468-019-0085-8": 1,
+    "10.14746/ssllt.2020.10.1.6": 1,
+    "10.14746/ssllt.2020.10.3.10": 1,
+    "10.17323/jle.2021.10737": 1,
+    "10.17323/jle.2021.11522": 1,
+    "10.32601/ejal.599230": 2,
+    "10.32601/ejal.775793": 2,
+    "10.55593/ej.26103a13": 1,
+    "10.55593/ej.26103a9": 1,
+    "10.55593/ej.28109a8": 1
+  },
+  "identity_check": true,
+  "wrong_work_sources": [],
+  "n_wrong_work_sources": 0,
+  "identity_check_exceptions": [
+    "10.55593/ej.26103a4"
+  ],
+  "identity_check_exception_reasons": {
+    "10.55593/ej.26103a4": "frozen 30-item test set: disclosed mis-fetch, kept so the committed hss_claims.jsonl stays byte identical"
+  },
+  "veto_strict": true,
+  "substitutions": [
+    [
+      "showed",
+      "demonstrated"
+    ],
+    [
+      "shows",
+      "demonstrates"
+    ],
+    [
+      "revealed",
+      "demonstrated"
+    ],
+    [
+      "found",
+      "observed"
+    ],
+    [
+      "students",
+      "learners"
+    ],
+    [
+      "results",
+      "findings"
+    ],
+    [
+      "suggest",
+      "indicate"
+    ],
+    [
+      "suggests",
+      "indicates"
+    ],
+    [
+      "teachers",
+      "instructors"
+    ],
+    [
+      "study",
+      "investigation"
+    ],
+    [
+      "in addition",
+      "moreover"
+    ],
+    [
+      "however",
+      "nevertheless"
+    ],
+    [
+      "furthermore",
+      "moreover"
+    ],
+    [
+      "therefore",
+      "consequently"
+    ]
+  ],
+  "over_specified_rejections": [
+    {
+      "source_doi": "10.55593/ej.26103a9",
+      "sentence": "WE was established in the 1980s with an emancipation of post-colonial varieties of English with claim of their legitimacy (Kachru, 1992) and later with a focus to codify phonological and morph-syntactic features of such varieties.",
+      "modifier": "among adult learners",
+      "matched_token": "learners"
+    },
+    {
+      "source_doi": "10.55593/ej.26103a9",
+      "sentence": "WE was established in the 1980s with an emancipation of post-colonial varieties of English with claim of their legitimacy (Kachru, 1992) and later with a focus to codify phonological and morph-syntactic features of such varieties.",
+      "modifier": "in an online setting",
+      "matched_token": "online"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "in an online setting",
+      "matched_token": "online"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "during the winter semester",
+      "matched_token": "semester"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "using a mobile application",
+      "matched_token": "application"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "in a bilingual classroom",
+      "matched_token": "classroom"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "over a two-year period",
+      "matched_token": "year"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "among graduate students",
+      "matched_token": "students"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "in a rural school",
+      "matched_token": "school"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "using eye-tracking software",
+      "matched_token": "software"
+    },
+    {
+      "source_doi": "10.55593/ej.28109a8",
+      "sentence": "This suggests a potential avenue for future research, exploring the correlation between the utilization of ChatGPT (or other chatbots) and the enhancement of metacognitive awareness, a significant aspect of language learning emphasized by researchers such as Cohen and Henry (2020).",
+      "modifier": "during a single class period",
+      "matched_token": "period"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "using a mobile application",
+      "matched_token": "application"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "in a bilingual classroom",
+      "matched_token": "classroom"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "over a two-year period",
+      "matched_token": "year"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "among graduate students",
+      "matched_token": "students"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "in a rural school",
+      "matched_token": "school"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "using eye-tracking software",
+      "matched_token": "software"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "during a single class period",
+      "matched_token": "period"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "among heritage speakers",
+      "matched_token": "speakers"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "in a study-abroad context",
+      "matched_token": "context"
+    },
+    {
+      "source_doi": "10.14746/ssllt.2020.10.1.6",
+      "sentence": "In addition, it is important to note that WTC was also found to correlate with measures of actual communication-related behavior.",
+      "modifier": "among adult learners",
+      "matched_token": "learners"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "in a bilingual classroom",
+      "matched_token": "classroom"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "over a two-year period",
+      "matched_token": "year"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "among graduate students",
+      "matched_token": "students"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "in a rural school",
+      "matched_token": "school"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "using eye-tracking software",
+      "matched_token": "software"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "during a single class period",
+      "matched_token": "class"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "among heritage speakers",
+      "matched_token": "speakers"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "in a study-abroad context",
+      "matched_token": "context"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "among adult learners",
+      "matched_token": "learners"
+    },
+    {
+      "source_doi": "10.17323/jle.2021.10737",
+      "sentence": "The findings showed that the environmental factor was the primary factor, along with other factors impacting EFL learners’ poor OECS performance in EFL contexts.",
+      "modifier": "in an online setting",
+      "matched_token": "online"
+    }
+  ],
+  "n_over_specified_rejections": 31,
+  "alterations": {
+    "order": [
+      "direction_flip",
+      "numeric_x2_percent_capped_99",
+      "quantifier_flip"
+    ],
+    "direction_flips": [
+      [
+        "increased",
+        "decreased"
+      ],
+      [
+        "decreased",
+        "increased"
+      ],
+      [
+        "increases",
+        "decreases"
+      ],
+      [
+        "decreases",
+        "increases"
+      ],
+      [
+        "increase",
+        "decrease"
+      ],
+      [
+        "decrease",
+        "increase"
+      ],
+      [
+        "increasing",
+        "decreasing"
+      ],
+      [
+        "decreasing",
+        "increasing"
+      ],
+      [
+        "higher",
+        "lower"
+      ],
+      [
+        "lower",
+        "higher"
+      ],
+      [
+        "positively",
+        "negatively"
+      ],
+      [
+        "negatively",
+        "positively"
+      ],
+      [
+        "positive",
+        "negative"
+      ],
+      [
+        "negative",
+        "positive"
+      ],
+      [
+        "improved",
+        "worsened"
+      ],
+      [
+        "worsened",
+        "improved"
+      ],
+      [
+        "improve",
+        "worsen"
+      ],
+      [
+        "worsen",
+        "improve"
+      ],
+      [
+        "improvement",
+        "decline"
+      ],
+      [
+        "outperformed",
+        "underperformed"
+      ],
+      [
+        "better",
+        "worse"
+      ],
+      [
+        "worse",
+        "better"
+      ],
+      [
+        "greater",
+        "smaller"
+      ],
+      [
+        "stronger",
+        "weaker"
+      ],
+      [
+        "weaker",
+        "stronger"
+      ],
+      [
+        "faster",
+        "slower"
+      ],
+      [
+        "slower",
+        "faster"
+      ],
+      [
+        "more",
+        "less"
+      ],
+      [
+        "fewer",
+        "more"
+      ],
+      [
+        "less",
+        "more"
+      ],
+      [
+        "statistically significant",
+        "not statistically significant"
+      ],
+      [
+        "significantly",
+        "not significantly"
+      ],
+      [
+        "is significant",
+        "is not significant"
+      ],
+      [
+        "are significant",
+        "are not significant"
+      ],
+      [
+        "was significant",
+        "was not significant"
+      ],
+      [
+        "were significant",
+        "were not significant"
+      ],
+      [
+        "significant",
+        "no significant"
+      ]
+    ],
+    "quantifier_flips": [
+      [
+        "all of",
+        "none of"
+      ],
+      [
+        "all",
+        "no"
+      ],
+      [
+        "most",
+        "few"
+      ],
+      [
+        "majority",
+        "minority"
+      ],
+      [
+        "always",
+        "never"
+      ],
+      [
+        "every",
+        "no"
+      ],
+      [
+        "often",
+        "rarely"
+      ],
+      [
+        "frequently",
+        "rarely"
+      ]
+    ],
+    "numeric_mode": "nonround",
+    "numeric_factors_nonround": [
+      1.37,
+      0.63,
+      1.19,
+      0.81
+    ]
+  },
+  "candidate_ranking": "common.select_candidate_sentences; results/findings/discussion/conclusion chunks first; is_clean_sentence(title) rejects extraction artefacts, reference lines, running headers, author-stance openers, anaphoric fragments and attributed findings or procedures of other studies (ATTRIBUTION_RE: citation subjects followed by a reporting or procedural verb, 'the authors/researchers ...' in any clause, 'his/her/their study ...', 'Some/several ... studies/examples (...) show ...'); headings glued to the front of a sentence (HEADING_PREFIX_RE); an 'L2'-style token is not a numeral antecedent for an anaphoric opener; paraphrase never splits 'case/pilot/cohort study' (SUBSTITUTION_GUARDS); quoted passages are skipped (is_quoted_in_chunk: a page-referenced parenthetical citation right after the sentence, or an unclosed quotation mark before it in the chunk); quantifier flips never touch 'the most' or 'at all' (QUANTIFIER_GUARDS); 'significantly' is only negated when it premodifies an adjective/participle, never when it postmodifies a verb (DIRECTION_GUARDS: 'differed significantly' has no grammatical negation here); hss_veto.json sentences are skipped",
+  "veto": [
+    "A Pearson product-moment correlation coefficient was computed to determine the correlations between the dependent variables.",
+    "A social context that provides a choice to communicate or not was found Peter MacIntyre 116 to increase WTC (Clément, Baker, & MacIntyre, 2003).",
+    "According to the results, the most cited features were pressure (publish-or-perish and cultural) (1st); collaboration/co-authorship potential and material support (2nd); promotion/tenure (4th); research funding (5th).",
+    "All WE, ELF and EIL contribute to the overarching paradigm of GE (Cogo et al., 2021; Jenkins, 2015).",
+    "All but one of the motivational drivers are positive reinforcers based on strategies to strengthen behaviour.",
+    "All of this indicates that boredom is a distinct construct which deserves to be examined in its own right.",
+    "Apart from interaction through different types of more or less authentic conversation, tasks including information gaps have also been found to be useful to create the type Å.",
+    "As a result of the piloting stage, three ambiguous statements, were discarded, leading to the final total of 40 statements.",
+    "As a result of the study, suggestions covering many issues like coursebooks, assessment, teacher training, and European projects were proposed with an aim to diminish the gap between theories and applications in real classes. © 2019 EJAL & the Authors.",
+    "As a result, adaptability and intelligibility become key benchmarks to assess competence in English, rather than conformity to a fixed learning goal, anchored in standard language ideology (Rose & Galloway, 2019).",
+    "As a social practice, this concept suggests that that pre-service teachers benefit from this process of meaning-making by the shaping of knowledge and their experiences through language practice (Swain, 2013).",
+    "As editors of this SI, our aim is not to create the illusion that all authors share a unified view of the multi/plural turn in language education.",
+    "As indicated above, simply telling teachers to implement GELT may not be effective because they have considerably established cognition, ideology, and belief about their profession (Prabjandee, 2020; Prabjandee & Fang, in press).",
+    "As it was explained, colonialism consists of the political, economic, and cultural hegemony and domination of the colonizers over the minds, bodies, and hearts of the colonized.",
+    "At this age, learners might start to be aware of the importance of English for their future, as to find a better job, travel abroad or simply watch any of the numerous streaming platforms with multiple English shows.",
+    "Attentional problems are related to individual differences between learners and can arise as a result of the cognitive demands of a task but can also be traced back to interests, concerns or values (Mercer-Lynn et al., 2014).",
+    "Beyond forced entries and exploitation of resources, colonialism establishes a status quo that elevates the knowledge, culture, and practices of the colonizers while degrading those of the colonized.",
+    "Communicative competence: Some roles of comprehensible input and comprehensible output in its development.",
+    "Data analysis The data obtained from the questionnaires were analyzed both quantitatively (section 1 and 3 in Appendix B) and qualitatively (section 2 in Appendix B, and thermometers).",
+    "Developing intercultural communication strategies, considering different rhetorical styles and conventions After selecting outcomes and adding a GELT perspective, the teachers must then decide on an approach to classroom implementation.",
+    "Excerpt 2 below shows the prompt elaborated by the teacher in June, being specific and fulfilling four steps, which indicates that she reached a level of mastery in the use of ChatGPT, and thus, the expected quality of the output.",
+    "Factor 3: Activity-induced boredom Factor 3 explained 12% of the variance and nine participants were significantly associated with it.",
+    "Finally, this study would not have been possible without the willingness and time from the participants: We thank you.",
+    "Findings in these two studies reinforced the importance of helping teachers see themselves as agents of change through the realization that their teaching could have a profound effect on their learners’ lives.",
+    "For ethical reasons, the research has been carried out in ways that show respect for individual students.",
+    "For example, the communicative teaching method (n=1) was found effective for enhancing EFL 236 PRODHAN MAHBUB IBNA SERAJ, HADINA HABIL learners’ OECSs.",
+    "For the method of teaching learners’ OECSs, the use of technology is rapidly increasing in different 238 PRODHAN MAHBUB IBNA SERAJ, HADINA HABIL EFL contexts.",
+    "Formats of PR ordered from the most effective mode to the least effective Excluding the last option, “other”, the results of descriptive statistics of the Kruskal Wallis tests (Tables 3 & 4) reveal only two significant differences between the groups.",
+    "From a critical pedagogy perspective, the nature and role of the English language should be revisited and re-negotiated in English language education policies, pedagogies and practices to resist the ideology of native-speakerism (Cogo et al., 2021).",
+    "From a decolonising pedagogy perspective, the nature of race, inequality, language and education should be reconsidered to counter raciolinguistic ideologies in English language education (Alim et al., 2016; Flores & Rosa, 2015).",
+    "Furthermore, Elahi Shirvan and Talebzadeh (2018a) indicated that learners’ feeling of enjoyment fluctuates over time under the influence of topics presented to them.",
+    "Furthermore, the association between affective and cognitive learning strategies (r = .25, p < .001) was small but positive and significant.",
+    "Gardner (1985) defined motivation as the desire to achieve the goal of mastering a language and to expend effort to do so combined with favorable attitudes towards it.",
+    "Holding interviews with participants who rank items (in a Q study) is essential for Q methodology research because interviews can provide researchers with a more comprehensive, rich, and detailed understanding of various points of view (Watts & Stenner, 2012).",
+    "However, a comparison with literature on GELT suggests that at least two more intertwined aspects of competence must be considered in addition to action, namely awareness and attitude.",
+    "However, a look at the descriptive scheme does suggest some potential compatibility between the two, for instance when considering the broad way in which the CEFR descriptive scheme is presented.",
+    "However, according to the results of the ANCOVAs, it was only in the area of intrinsic motivation that the improvements of the two groups differed significantly.",
+    "However, co-occurrence anal­ yses revealed that even unnecessary changes (e.g., adding content or rephrasing an error-free textual fragment) in half of the cases ultimately led to improvement of the text, which means that they were effective revisions.",
+    "However, differently, the current studies within the scope of ICC have been found to focus on culture teaching rather than ICC teaching, especially regarding English major, most of the time (Liu, 2009).",
+    "I begin with the theoretical framework that guided my approach to the focal classes and my TESL-EJ 25.4, February 2022 Pontier 2 data analysis and interpretation of findings.",
+    "In a nutshell, the typology indicates that in some instances the experience of boredom may serve as a motivator enabling students to realize what inhibits the performance of the task at hand, thereby encouraging them to switch goals.",
+    "In addition, those studying more FLs also scored significantly higher on FLE, where FLCA was not associated with studying more FLs.",
+    "In both cases, no negative answers were recorded this time against the dictogloss task, which suggests that whether individually or in pairs, the dictogloss proved to successfully engage these students in the learning process.",
+    "In conclusion, the research study presented in this article oﬀ ers consideration on diversifying strategies and approaches to ESL pedagogy and classroom language policies concerning English language education in higher education contexts in Canada.",
+    "In formal and pedagogical contexts such changes may also occur as an effect of carrying out specific tasks (Dörnyei, 2019; Kormos & Dörnyei, 2004).",
+    "In many countries, global mobility and migration have resulted in an increasing need for language education for adults to support their learning of the dominant language in their new context.",
+    "In other words, the application of the verb “to engage” offers a natural way of mapping the most important facets of the learning experience, which in turn allows us to capture the key aspects in measurable terms.",
+    "In response to the first research aim concerning teachers’ perceptions of their classroom translanguaging practice, the results show the teachers’ overall positive attitude towards translanguaging.",
+    "In this last decade, however, the same search reveals a sharp increase in the number of publications.",
+    "It should be noted, though, that during this listening activity the level of Mariusz Kruk, Mirosław Pawlak, Joanna Zawodniak 26 boredom decreased a little, with the difference between M60 and M65 equaling 0.28.",
+    "Klassrumsinteraktion och flerspråkighet: Ett kritiskt perspektiv [Classroom interaction and multilingualism: A critical perspective].",
+    "Last, the researchers showed the video to participants from various external sites through focus group interviews.",
+    "Like the other two female participants, Nancy’s ﬁ rst language is English.",
+    "Moreover, a post-test was not administered in the study and as a result, it is not known if L2 students can become more effective English writers through the use of intelligent writing assistants.",
+    "Moreover, their initial medium-level anxiety decreased Marta Kopinska, Agurtzane Azkarai 618 significantly (p = .045, ŋ² = .06), which shows that their uneasiness towards using English diminished with time.",
+    "Nearly all the participants are within the high levels of ICC (n=202).",
+    "No significant differences were found between respondents in Basic Education and those in Higher Education (p=0.168).",
+    "Norton (2001) suggests that the opportunity to talk to other students about important things is what drives the (extended) interaction and results in learning opportunities.",
+    "Not all TCs demonstrated shifts from a deficit perspective to a strengths-based perspective.",
+    "Note [1] TCs were only permitted to observe and interact with students in this grade range since their ESOL Endorsement only covered K-12.",
+    "On the other hand, the interview extracts show how contextual factors (type of school and type of instrument) influenced the participants’ theoretical framework.",
+    "Only three students (2%), all of whom are NSs, reported that they did not use PR because they found it ineffective.",
+    "Participants and setting Thirty-seven English language learners (26 females, 11 males) were purposefully selected from two private online language learning institutes during the COVID- 19 pandemic in Mashhad, the second largest city of Iran.",
+    "Perhaps most importantly, results showed that participants continued to use ChatGPT as a study aid beyond the term of the current study.",
+    "Problems with attention are associated with individual differences among learners and can occur due to the cognitive difficulty of a task but can as well be linked with interests, obsessions and values (Mercer-Lynn et al., 2014).",
+    "Prompt Crafting Prompt crafting shows the ability of the teacher to ask ChatGPT to suit their teaching needs.",
+    "Publish-or-perish pressure reducing was the lowest-ranked (5th). • The top university management stakeholder – The highest-ranked were university reputation (1st), increases in university subsidies (2nd), and increases in university accreditation/rating scores (3rd).",
+    "Q methodology is most often employed in investigating very complicated and socially challenging constructs from the participants’ viewpoints (Stainton Rogers, 1995; Watts & Stenner, 2003).",
+    "Quantitative analysis revealed a significant, positive correlation between general boredom proneness and boredom proneness specific to EFL classes, with the intensity of this negative emotion increasing over time.",
+    "Research on translanguaging conducted in the ﬁ eld of bilingual education has suggested that it is a valuable resource for learning.",
+    "Results and discussion The research questions referred to the dynamics of the changes in motivation, both general and task-specific, of the EFL YLs observed when they worked on several dictogloss tasks over the span of a year.",
+    "Results indicate increased awareness regarding the complex linguistic and power dynamics, particularly in relation to minoritized languages, and an openness towards the adoption of translanguaging practices thus transgressing a monolingual stance.",
+    "Results showed that a growing number of teachers are using technological tools on a regular basis in their classrooms and the majority of them revealed high satisfaction in using digital technologies to motivate and build autonomy among their language learners.",
+    "Retrieved on August 28, 2018, from https://www.lancaster.ac.uk/fss/ organisations/lingethn/documents/discussion_paper_jan_05.pdf Rosén, J., & Wedin, Å.",
+    "She found that learners generated more words, turns, ideas, and lexical discussions in the FTF mode, while text-chat mode resulted in more equal participation.",
+    "Similarly, within the ‘Language’ segment, the tool conferred a score of 2 in contrast to the officially designated 3, as indicated in the official handbook.",
+    "Specific skills included maintaining high expectations for students (“teachers should not ‘lower the bar’ just because they're emergent bilinguals”) and creating effective learning environments (“Teachers need to make sure all children feel safe in welcome to improve learning outcomes”).",
+    "Studies that do investigate instructors’ aĴ itudes have found that they often experience tensions related to how often, when, where, and why they should use translanguaging in the classroom (Carroll & Sambolín Morales, 2016).",
+    "Such mobility has significant consequences for language education, since it means that questions are naturally raised regarding many conventional assumptions about which languages should be taught, why, how, and following TESL-EJ 26.3, November 2022 Savski & Prabjandee 2 what norms.",
+    "Texts were recorded at a normal pace by the same speaker (a sample of these texts can be found in Appendix A).",
+    "The authors found that witnessing other students cheat increases cheating behavior in the observers.",
+    "The data revealed that the teachers all showed a generally positive attitude towards classroom translanguaging practices (i.e. the use of learners’ L1 in the classroom) for L2 and content learning.",
+    "The ecological perspective of English use should not only cover those legitimised TESL-EJ 26.3, November 2022 Fang & Xu 11 varieties (as WE scholars endeavour to do); it should also embrace diverse minoritised and underexplored linguistic resources.",
+    "The finding that learners could not grasp the purpose of the task and, as a result found it boring, can be linked to the control-value theory (Pekrun, 2006).",
+    "The findings revealed that, overall, these children’s motivation was high and consolidated with time, while their level of anxiety decreased.",
+    "The higher the value of this criterion, the higher the intensity of the effect (Hair et al., 2019).",
+    "The ideology of native-speakerism prioritises a standardised variety of English and erases linguistic diversity (Canagarajah, 1999; Phillipson, 1992).",
+    "The interviews took place at the location of participants’ choosing, either in their private work oﬃ ce or in their homes.",
+    "The practicality of GELT (or lack thereof) has been a significant area of critique, reflecting the rather conceptual nature of many early proposals (Galloway & Rose, 2018).",
+    "The restrictive period, from the 1880s to the 1960s, saw the continued cultural genocide of Native Americans, the Spanish-American War, and two World Wars.",
+    "The result here corroborated with the observed class lessons as all the participants deployed the learners’ L1 in the classroom throughout their lessons.",
+    "The results indicated that that participants showed generally positive attitudes towards all four tasks and highlighted children’s preference of pair work to individual work.",
+    "The results of his contribution proved that there is a significant correlation between the ideal L2-self and WTC.",
+    "The results showed a great variation in the comments provided by the peer reviewers and thus increased chances of intercultural thought exchanges.",
+    "The results showed that the students with a higher overall GPA use metacognitive and cognitive language learning strategies significantly more frequently than those with a lower overall GPA.",
+    "Then the level of boredom increased by 0.64 during a vocabulary quiz (M15) and remained the same until its completion (M20).",
+    "There was not a significant difference (p=0.28) between teachers in Basic Education (54%) and those in Higher Education (59%).",
+    "Therefore, ICC can be developed by improving the cultural knowledge, attitudes and behaviors related to the language, all of which are crucial for successful intercultural communication (Alptekin, 2002; Baker, 2012; Ozuorcun, 2014).",
+    "Therefore, this paper argues that the two paradigms should be incorporated for greater inclusion of all-embracing discursive practices in classroom discourse to promote effective and equitable English language education.",
+    "These findings support the benefits of collaborative work, and the Marta Kopinska, Agurtzane Azkarai 608 dictogloss, as an appropriate task that engages children in their learning of a foreign language.",
+    "These outcomes offered justification for developing a new theoretical construct that was centered around the Ideal L2 Self, with an obvious second component to be included in this construct being the Ought-to L2 Self.",
+    "They are included in the model for two reasons: 1. the high rank in the sample results and 2. the current situation in which Bulgarian researchers work.",
+    "This choice was made because we found similarities and differences in the two classrooms that were interesting, and Å.",
+    "This involves ‘turning’ an existing teaching/learning context by shifting objectives in line with CEFR and GELT, as we have indicated above.",
+    "This is also expressed in the study of Arias, Maturana and Restrepo (2012), whose studies show conceptual coherence in the academic discourse of participants when constructing and appropriating terminology for language assessment.",
+    "This is evident in the fact that the initially reported boredom level equaled 2.36 points and it was even lower in M15 (2.18 points, a difference of 0.18).",
+    "This last finding suggests that these EFL YL’s attitudes towards individual work was neutral, while they were more positive in the case of collaborative work.",
+    "This might suggest a trade-off effect in how the two modes impact engagement Scott Aubrey 78 during CW tasks.",
+    "This suggests that while many conceptual elements of CEFR can support a Global Englishes orientation toward language pedagogy, there is a need to ‘bridge the gap’ between what the framework offers and what such a pedagogy demands.",
+    "This tool was a thermometer, based on Al Khalil (2016), which contained a scale from 0 (lowest grade) to 10 (highest grade) and different statements.",
+    "Thus, all six dictogloss texts were short narrations of a similar number of words and lexical diversity, following Guiraud’s (1960) index.",
+    "Thus, the use of CEFR together with GELT can also suggest a different approach, which can be described as integration.",
+    "Thus, they are less motivated to show any mental interest in these classroom events and, as a result, they get easily bored.",
+    "Towards an analysis of discourse: The English used by teachers and pupils.",
+    "Translanguaging has been found to be a natural and spontaneous phenomenon among students, rather than a behaviour consciously triggered by teachers through specific pedagogical strategies (Canagarajah, 2011; Cenoz & Gorter, 2017; Fang & Liu, 2020) in English language education.",
+    "We believe this number would have been significantly lower just a month or two later.",
+    "We suggest that the opportunity to talk to other students about important things is what drives the (extended) interaction and results in learning opportunities."
+  ],
+  "veto_file": "hss_veto.json",
+  "stimulus_constants_sha256": {
+    "OVER_SPECIFIED_MODIFIERS": "f10a5c259809ed8a97282875d6c308f7faaa05c22d7a7e003340176b9fbdba1e",
+    "OVER_SPECIFIED_STOPWORDS": "74008be95474dd58fe2dbf00f6daa4af0f99becdb4630ebca80c0bfbb6c512c7",
+    "NUMERIC_FACTORS_NONROUND": "2c917d7abe563335c58fb3feaee89ba4cb9c4a86251b3bbb676cff174c5e590d"
+  },
+  "sources_file": "hss_dev_sources.json",
+  "journals": {},
+  "attempts": [],
+  "journals_rejected": [
+    {
+      "journal": "CALL-EJ",
+      "issn": "1442-438X",
+      "reason": "sources/issn:1442-438X and api.crossref.org/journals/1442-438X both HTTP 404"
+    },
+    {
+      "journal": "International Journal of Language Testing",
+      "issn": "2476-5880",
+      "openalex": "S7407062991",
+      "reason": "works_count 0 under the production OA filter"
+    }
+  ],
+  "n_attempts": null,
+  "min_chars": 15000,
+  "min_chunks": 3,
+  "excluded_dois": [],
+  "n_excluded": 0,
+  "quotas": {
+    "verbatim": 0,
+    "paraphrase": 0,
+    "altered": 10,
+    "over_specified": 5,
+    "wrong_paper": 0,
+    "no_full_text": 0
+  },
+  "n_items_requested": 15,
+  "alteration_quotas": {
+    "numeric": 5,
+    "quantifier_flip": 5
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "dataset_id": "Nagtegaal_2019",
+  "source_review_doi": "10.30636/jbpa.22.71",
+  "source_review": {
+    "title": "Nudging healthcare professionals towards evidence-based medicine: A systematic scoping review",
+    "authors": "Nagtegaal R, Tummers L, Noordegraaf M, Bekkers V",
+    "journal": "Journal of Behavioral Public Administration",
+    "year": 2019,
+    "volume_issue": "2(2)",
+    "url": "https://www.journal-bpa.org/index.php/jbpa/article/view/71"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY (asreview/systematic-review-datasets, metadata-v1-final)",
+    "route": "v1",
+    "url": "https://raw.githubusercontent.com/asreview/systematic-review-datasets/metadata-v1-final/datasets/Nagtegaal_2019/output/Nagtegaal_2019.csv",
+    "license": "CC0",
+    "n_records": 2019,
+    "n_label_abstract_screening": 392,
+    "n_label_included": 101,
+    "n_missing_abstract": 169,
+    "n_missing_title": 0,
+    "n_with_issn": 297,
+    "fetched_at": "2026-09-03T01:25:45+00:00",
+    "hydration": {
+      "mode": "included",
+      "lookup": "crossref",
+      "date": "2026-09-03",
+      "n_targets": 392,
+      "n_targets_with_issn": 297,
+      "n_final_inclusions_with_issn": 77,
+      "by_doi": 0,
+      "by_title_exact": 297,
+      "by_title_exact_year": 0,
+      "year_check": "not possible: the v1 CSV carries no year (columns record_id, title, abstract, label_included, label_abstract_screening, duplicate_record_id)",
+      "reprint_venues_excluded": {
+        "date": "2026-09-03",
+        "rule": "fetch_synergy.is_reprint_venue ('Yearbook of ...' container titles)",
+        "records_rehydrated": [
+          700
+        ],
+        "resolved_again": 0,
+        "note": "record 700 ('Electronic medical records to increase the clinical treatment of tobacco dependence: a systematic review') had matched the Yearbook of Psychiatry and Applied Mental Health (ISSN 0084-3970); after the exclusion it was looked up again and is unresolved"
+      },
+      "spot_check": {
+        "date": "2026-09-03",
+        "judged_by": "harness fix agent, 2026-09-03 (not yet re-read by the authors)",
+        "method": "screening/spot_check_hydration.py --dataset Nagtegaal_2019 --n 20 --seed 20260903 --judgements protocols/spot_checks/Nagtegaal_2019.judgements.json --judged-by 'harness fix agent, 2026-09-03' --judged-on 2026-09-03: seeded random sample of title_exact matches, Crossref record of the matched DOI (title, container title, year, type) read against the SYNERGY title/abstract head and judged record by record for venue plausibility; the judged 20-record file is committed as protocols/spot_checks/Nagtegaal_2019.spot_check.json",
+        "n": 20,
+        "correct": 20,
+        "incorrect": 0,
+        "unsure": 0,
+        "incorrect_record_ids": [],
+        "evidence_file": "protocols/spot_checks/Nagtegaal_2019.spot_check.json",
+        "note": "sample drawn from the 297 title_exact matches that remain after the 'Yearbook of ...' exclusion, so the reprint found by the earlier (unrecorded) check, record 700 ('Electronic medical records to increase the clinical treatment of tobacco dependence: a systematic review', matched to the Yearbook of Psychiatry and Applied Mental Health, ISSN 0084-3970), is no longer in the pool: it was re-hydrated and is unresolved. The v1 CSV has no year, so the 'synergy_year' shown in the evidence file is the Crossref year attached by hydration, not an export value; year agreement cannot be checked for this dataset."
+      }
+    }
+  },
+  "research_question": "Nudges applied to healthcare professionals to promote evidence-based medicine (including adherence to clinical practice guidelines): which nudges have been tested in experimental studies, which professional behaviours do they target, what is the design and methodological quality of these experiments, and how is a nudge's success related to the task, organizational and occupational context?",
+  "inclusion_criteria": [
+    {
+      "text": "The study deals with nudges (softly steering interventions, classified with the Munscher, Vetter & Scheuerle 2016 nudge taxonomy) applied to healthcare professionals at the individual level. The taxonomy's three main categories are (a) decision information -- changing how information is presented without changing the options themselves (e.g. presenting guidelines in plain English, providing a social reference point); (b) decision structure -- altering the arrangement of options and the decision-making format (e.g. reducing the number of easily selectable options, changing a default); and (c) decision assistance -- closing the intention-behaviour gap with tools that help people follow through on an intention (e.g. reminders, asking people to specify when and where they will act).",
+      "stage": "full_text",
+      "stage_rationale": "WP-B28 screener design element 4 (.superpowers/sdd/wpB28-design-screener.md section 4): whether a named intervention belongs to the Munscher, Vetter & Scheuerle (2016) nudge taxonomy is a property of the intervention's mechanism, judged against a published external classification, not a fact an abstract states about itself -- the same kind of judgement Smid_2020's E9 turns on. The taxonomy's own three categories and one example each are quoted above so the record can still be read against them at full text; an abstract that merely fails to use the word 'nudge' does not fail this criterion."
+    },
+    "The nudge aims to promote evidence-based medicine, i.e. to encourage decisions that are in accordance with evidence; studies focusing on adherence to clinical practice guidelines are eligible (e.g. which diagnostic or screening test to order, how to provide medical or surgical services, hand hygiene, prescribing).",
+    "The report is an experiment comparing the effects of two or more interventions: randomized controlled trial, before-and-after study, or interrupted time series.",
+    "Written in English; no constraint on year of publication."
+  ],
+  "exclusion_criteria": [
+    {
+      "text": "Not a nudge: the intervention is not a soft steering of behaviour according to the nudge taxonomy.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of I1 (WP-B28 screener design element 4): whether a named intervention falls outside the Munscher, Vetter & Scheuerle (2016) nudge taxonomy is the same external-classification judgement I1 turns on, so it carries the same stage. Diagnosis measurement (wpB28-design-screener.md section 2): on Nagtegaal_2019 run A, 8 of the 12 missed final inclusions were excluded on this ground while naming reminders, alerts or clinical decision support, and I1's own shown text lists reminders as a decision-assistance example -- so those exclusions contradicted the criterion as shown, not the record."
+    },
+    "Not on evidence-based medicine or adherence to evidence/guidelines.",
+    "Not on healthcare professionals (e.g. targets patients or the general public).",
+    {
+      "text": "Not an experiment (no comparison of two or more interventions), or a systematic review/overview article.",
+      "stage": "abstract",
+      "absence": false
+    },
+    {
+      "text": "The nudge is not analysed as a main effect, the study is incomplete, or the outcome is not a behaviour.",
+      "stage": "full_text",
+      "stage_rationale": "Whether the nudge is analysed as a main effect (as against, for example, an interaction term or a secondary analysis) is an analysis-level property reported in the Results, not stated in an abstract describing the intervention."
+    },
+    "Not written in English."
+  ],
+  "primary_label": "label_included",
+  "label_field": "label_abstract_screening",
+  "derived_from": {
+    "criterion": "I1",
+    "added": "the taxonomy's three main categories (decision information, decision structure, decision assistance) and one illustrative example of each, completing I1's existing reference to the taxonomy without reproducing it",
+    "citation": "Munscher R, Vetter M, Scheuerle T. A review and taxonomy of choice architecture techniques. Journal of Behavioral Decision Making 2016;29(5):511-524.",
+    "doi": "10.1002/bdm.1897",
+    "completed_on": "2026-09-06",
+    "secondary_source": "Nagtegaal, Tummers, Noordegraaf & Bekkers (2019) p.4 ('Theory'), which explains the taxonomy this review adopted and is itself citing Munscher et al. (2016) verbatim for the three category names and one example each; the primary taxonomy paper is closed access (OpenAlex work for DOI 10.1002/bdm.1897: open_access.is_oa=false, oa_status=closed, any_repository_has_fulltext=false, checked 2026-09-06), so its own page-level table of sub-techniques was not read directly and the authors should verify the category descriptions against the primary source before the manuscript relies on them.",
+    "note": "No other criterion in this protocol is changed by this completion; the review's own I2-I4/E1-E6 text is untouched."
+  },
+  "notes": "Research question compiled from the four research questions stated in the Introduction of the source review (RQ1-RQ4). Inclusion criteria transcribed from the Methodology section 'Scope of review' (nudge taxonomy, healthcare professionals at the individual level, evidence-based medicine incl. practice guidelines, experiments = RCT/before-after/ITS, English, any year). Exclusion criteria are the exclusion reasons listed in the review's PRISMA flow diagram (Figure 1). The review did not publish a separately itemised eligibility list, so these items are derived from those passages (source: article PDF fetched from the journal site on 2026-09-02). label_field = label_abstract_screening because the evaluated task is title-and-abstract screening: 392 records were deemed potentially eligible by the human screeners (the paper reports 2,006 titles/abstracts screened after de-duplication and 377 full texts reviewed; the SYNERGY export contains 2,019 records). label_included (101 final inclusions after full-text reading) is reported as a secondary recall target by summarize.py. Hydration (2026-09-03): the v1 CSV carries no identifiers, so the 392 title/abstract-included records were looked up by exact normalised title in Crossref (fetch_synergy.py --hydrate included --lookup crossref; OpenAlex was used for the first attempt but its shared-IP daily budget was exhausted); 297/392 resolved to an ISSN (77/101 of the final inclusions; 298 before the 2026-09-03 exclusion of 'Yearbook of ...' reprint hits, which removed record 700), the remainder is reported as unresolved by wos_gate_effect.py and summarize.py and never enters a share. Title and abstract text are never changed by hydration. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta), because the SYNERGY export lists the human-included records first and file-order batches would be label-sorted; the order is identical for runs A and B and across resumes (see protocols/README.md). Title-only matches carry a same-title risk: a comment, reprint, erratum or conference abstract that repeats the title would attribute a wrong venue (ISSN) to the WoS test; the v1 CSV carries no year or author, so Nagtegaal matches cannot be year-checked. A seeded random sample of 20 title_exact matches was checked on 2026-09-03 (dataset_source.hydration.spot_check; per-record judgements in protocols/spot_checks/Nagtegaal_2019.spot_check.json, judged by the harness fix agent, to be re-read by the authors): an earlier pass found 1 yearbook reprint among 20 (record 700), after which 'Yearbook of ...' container titles are skipped by rule (fetch_synergy.is_reprint_venue) and the record was re-hydrated (unresolved); the recorded sample of 20 drawn from the remaining 297 matches is 20/20 plausible journal articles with the matching title. summarize.py reports the gate's recall ceiling as an interval: lower bound = in WoS / 392 (unresolved counted as outside WoS), upper bound = (in WoS + unresolved) / 392 (unresolved counted as inside WoS), with the share of resolved records only (in WoS / 297) reported alongside as a point estimate; with the 2026-09-03 hydration this is 0.640-0.883 (resolved-only 0.845). I1 was completed on 2026-09-06 to list the Munscher, Vetter & Scheuerle (2016) taxonomy's three categories (decision information, decision structure, decision assistance) with one example each, marked derived_from (see the top-level derived_from key) and citing Munscher R, Vetter M, Scheuerle T. A review and taxonomy of choice architecture techniques. Journal of Behavioral Decision Making 2016;29(5):511-524, DOI 10.1002/bdm.1897; the review's own coding of nudges by this taxonomy is unchanged, and no other criterion in this protocol was edited (see derived_from.note). primary_label = label_included was added on 2026-09-06 per protocols/README.md's 'Choosing the primary label and label_field' section; label_field (label_abstract_screening, 392/2,019 title/abstract-included) is unchanged and is now reported as the sensitivity label rather than the primary metric. WP-B9 S8 (2026-09-06, .superpowers/sdd/wpB9-S8-brief.md) marks E5 full_text: whether a nudge is analysed as a main effect is an analysis-level property of the Results section, a fact about the criterion text itself, independent of any record, result or run. E4 ('not an experiment ..., or a systematic review/overview article') carries an explicit absence: false, because 'a systematic review/overview article' is a positively established fact about the publication type, not the absence of one. WP-B28 screener design element 4 (2026-09-14, .superpowers/sdd/wpB28-design-screener.md section 4) marks I1 and its negation E1 full_text: whether a named intervention belongs to the Munscher, Vetter & Scheuerle (2016) nudge taxonomy is judged against a published external classification, not a fact an abstract states about itself, the same kind of judgement Smid_2020's E9 turns on; measured on the committed v2 run A, 221 EXCLUDEs cited E1 or I1 and 8 of the 12 missed final inclusions were among them, naming reminders, alerts or clinical decision support while I1's own shown text lists reminders as a decision-assistance example, so their exclusion contradicted the criterion as shown. I2 to I4, E2 to E4 and E6 stay abstract-stage."
+}

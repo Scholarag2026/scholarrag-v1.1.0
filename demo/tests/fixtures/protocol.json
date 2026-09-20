@@ -1,0 +1,29 @@
+{
+  "topic": "Test fixture topic",
+  "research_question": "How is X used in applied linguistics classrooms?",
+  "inclusion_criteria": ["empirical study", "language learning context"],
+  "exclusion_criteria": ["non-English", "conference abstract only"],
+  "wos_filter": "off",
+  "section": {
+    "title": "Literature Review",
+    "instructions": "Write about 300 words. Cite only the library papers.",
+    "target_words": 300
+  },
+  "claims": [
+    {
+      "id": "supported-1",
+      "text": "Fixture paper one reported a gain in vocabulary retention (Beta, 2016).",
+      "source_doi": "10.5555/demo-001",
+      "expected_status": "verified",
+      "construction": "verbatim from the abstract"
+    },
+    {
+      "id": "unsupported-1",
+      "text": "Fixture paper two found no effect of feedback on writing accuracy",
+      "source_doi": "10.5555/demo-002",
+      "expected_status": "unsupported",
+      "construction": "negated finding; citation deliberately omitted so the runner appends it"
+    }
+  ],
+  "notes": "Fixture for demo/tests only."
+}

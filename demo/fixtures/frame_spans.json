@@ -1,0 +1,213 @@
+[
+  {
+    "row": 1,
+    "text": "add that",
+    "class": "f1"
+  },
+  {
+    "row": 1,
+    "text": "underscoring the persistent value of human judgement",
+    "class": null
+  },
+  {
+    "row": 2,
+    "text": "similarly documented selective uptake",
+    "class": "f2"
+  },
+  {
+    "row": 3,
+    "text": "In a small ethnographic case study of four L2 PhD students",
+    "class": null
+  },
+  {
+    "row": 3,
+    "text": "found that",
+    "class": "f1"
+  },
+  {
+    "row": 4,
+    "text": "Affect also shaped outcomes, though",
+    "class": null
+  },
+  {
+    "row": 6,
+    "text": "demonstrated that",
+    "class": "f1"
+  },
+  {
+    "row": 8,
+    "text": "The same study reported that",
+    "class": "f1"
+  },
+  {
+    "row": 9,
+    "text": "Cognitive load data complicate this picture",
+    "class": "f2"
+  },
+  {
+    "row": 11,
+    "text": "yet some students ignored specific feedback categories, and the study did not establish a causal role for self-reflection",
+    "class": null
+  },
+  {
+    "row": 12,
+    "text": "showed that",
+    "class": "f1"
+  },
+  {
+    "row": 13,
+    "text": "On the automated side",
+    "class": "f3"
+  },
+  {
+    "row": "topic-shift-where-peer-comments-focus",
+    "text": "Where peer comments focus is concerned",
+    "class": "f3"
+  },
+  {
+    "row": 16,
+    "text": "note that",
+    "class": "f1"
+  },
+  {
+    "row": 17,
+    "text": "In an ethnographic case study of four L2 PhD students",
+    "class": null
+  },
+  {
+    "row": 21,
+    "text": "Teacher perceptions also diverge",
+    "class": "f2"
+  },
+  {
+    "row": 23,
+    "text": "Revision behaviour is treated most directly by",
+    "class": null
+  },
+  {
+    "row": 24,
+    "text": "while",
+    "class": "f1"
+  },
+  {
+    "row": 27,
+    "text": "to direct corrections on grammatical errors (DCF+G), metalinguistic codes on grammatical errors (ME+G), direct corrections on grammatical and non-grammatical errors (DCF+GN), metalinguistic codes on grammatical and non-grammatical errors (ME+GN), or a self-correction control",
+    "class": null
+  },
+  {
+    "row": 28,
+    "text": "reported that",
+    "class": "f1"
+  },
+  {
+    "row": 28,
+    "text": "while self-correcting with no feedback available imposed significantly lower load than ME+G, DCF+GN, and ME+GN",
+    "class": null
+  },
+  {
+    "row": 29,
+    "text": "yet most included studies were qualitative and only 22% were theoretically motivated, so the synthesis cannot adjudicate ME's relative accuracy effects",
+    "class": null
+  },
+  {
+    "row": 30,
+    "text": "notes that",
+    "class": "f1"
+  },
+  {
+    "row": 30,
+    "text": "and that far less attention has been given to whether feedback is received attentively—a gap directly relevant to ME, whose effectiveness depends on learners decoding and acting on codes",
+    "class": null
+  },
+  {
+    "row": 37,
+    "text": "In an ethnographic case study of four L2 doctoral students over three months, drawing on 15 drafts, 60 reviews and 12 revision plans",
+    "class": null
+  },
+  {
+    "row": 38,
+    "text": "This suggests that the uptake of peer feedback depends less on its volume than on its discursive type",
+    "class": null
+  },
+  {
+    "row": 39,
+    "text": "In a study of 12 Chinese-speaking first-year students revising persuasive essays through asynchronous online peer review",
+    "class": null
+  },
+  {
+    "row": 40,
+    "text": "Affective engagement is likewise consequential",
+    "class": "f2"
+  },
+  {
+    "row": 40,
+    "text": "though explicit praise appeared in only about 8% of comments",
+    "class": null
+  },
+  {
+    "row": 42,
+    "text": "which limits causal inference about engagement's role in revision",
+    "class": null
+  },
+  {
+    "row": 43,
+    "text": "and",
+    "class": "f1"
+  },
+  {
+    "row": "verdict-independent-clause-before-claim",
+    "text": "Teacher feedback remains the gold standard for second language writing instruction and",
+    "class": null,
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "subordinator-frame-before-claim",
+    "text": "Automated feedback cannot replace a teacher because",
+    "class": null,
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "concessive-frame-before-claim-1",
+    "text": "While teachers remain indispensable to writing instruction",
+    "class": null,
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "concessive-frame-before-claim-2",
+    "text": "Research that has repeatedly demonstrated the limits of automated feedback over the past decade shows",
+    "class": null,
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "hedge-lexicon-cautioned",
+    "text": "cautioned that",
+    "class": "f1",
+    "start": 14,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "lexicon-liu-wu-conceded",
+    "text": "Yet the authors conceded that",
+    "class": "f1",
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": " "
+  },
+  {
+    "row": "lexicon-luo-regarding-error-detection",
+    "text": "Regarding error detection and accuracy",
+    "class": null,
+    "start": 0,
+    "before_first_claim": true,
+    "trailing_gap": ", "
+  }
+]

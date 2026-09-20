@@ -1,0 +1,1676 @@
+{
+  "content": "Research on written corrective feedback (WCF) in second-language (L2) writing has moved from asking whether feedback works to asking how learners engage with it. This review synthesises what the project library establishes about uptake, attention, and affective response across teacher-provided, peer-provided, and automated feedback, treating engagement as the mechanism that conditions whether feedback translates into revision.\n\nLiu and Wu (2019) found that students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency. Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF. Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.\n\nZhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability. Luo et al. (2025) found that ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise.\n\nPeer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.\n\nAffective and motivational responses are increasingly treated as outcomes in their own right. Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation. Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+  "metrics": {
+    "analysis": {
+      "papers": 0,
+      "papers_failed": 0,
+      "verbatim_rate": 1.0,
+      "evidence_items": 0,
+      "rejected_items": 0,
+      "papers_attempted": 0
+    }
+  },
+  "loop_stats": {
+    "loop_revised": true,
+    "survival_rate": 0.71,
+    "length_trimmed": false,
+    "link_map_failed": false,
+    "headings_removed": 0,
+    "regeneration_kept": "first",
+    "length_regenerated": false,
+    "frame_spans_accepted": 14,
+    "verb_initial_reasons": [],
+    "heading_shaped_reasons": [],
+    "meta_evaluation_reasons": [],
+    "first_pass_verified_rate": 0.8,
+    "headings_removed_reasons": [],
+    "empty_section_regenerated": 0,
+    "sentences_residue_excised": 0,
+    "link_coverage_retry_failed": false,
+    "sentences_removed_dangling": 0,
+    "truncated_fragment_reasons": [],
+    "coverage_incomplete_reasons": [],
+    "links_unmatched_to_sentence": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_title_echo": 0,
+    "sentences_removed_unverified": 0,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 1,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "empty_section_after_regeneration": false,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 4,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "provenance": {
+    "agent": "writing",
+    "length": {
+      "words": 466,
+      "final_words": 284,
+      "over_target": true,
+      "regenerated": false,
+      "hard_maximum": 500,
+      "target_words": 400
+    },
+    "provider": "deepseek",
+    "thinking": "disabled",
+    "called_at": "2026-09-16T19:56:39.777933Z",
+    "max_tokens": 4096,
+    "output_mode": null,
+    "temperature": 0.7,
+    "total_calls": 22,
+    "input_tokens": 21213,
+    "output_tokens": 651,
+    "analysis_calls": [],
+    "model_reported": "deepseek-flash",
+    "prompt_version": "sha256:c3c9ad6a4400",
+    "model_configured": "deepseek-chat",
+    "reasoning_effort": null,
+    "guard_conversions": 0,
+    "citation_link_call": {
+      "agent": "citation_link",
+      "provider": "deepseek",
+      "called_at": "2026-09-16T19:57:07.728542Z",
+      "output_mode": null,
+      "temperature": null,
+      "input_tokens": 8474,
+      "output_tokens": 487,
+      "model_reported": "deepseek-flash",
+      "prompt_version": "sha256:5a8092ebd77b",
+      "model_configured": "deepseek-chat",
+      "reasoning_effort": null,
+      "guard_conversions": 0,
+      "system_fingerprint": null,
+      "provider_response_id": "a1deccda-f48f-4f89-b3ce-a8121cff0acb"
+    },
+    "regeneration_calls": [],
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+    "total_input_tokens": 371038,
+    "verification_calls": [
+      {
+        "agent": "claim_verification",
+        "calls": 10,
+        "temperature": 0.0,
+        "guard_digest": "8a6c833ffc329f89",
+        "input_tokens": 180637,
+        "output_tokens": 10975,
+        "model_reported": [
+          "deepseek-flash"
+        ],
+        "prompt_version": "sha256:49fcfbfaf2f6",
+        "model_configured": "deepseek-chat",
+        "system_fingerprints": [
+          "aeb56401ca74e127821c4f9126dcb669"
+        ],
+        "repair_prompt_version": "sha256:7ec7cffe852d",
+        "quote_relocation_version": "0269a13351c0da7d",
+        "verification_policy_version": "667bcc9209126ddc"
+      },
+      {
+        "agent": "claim_verification",
+        "calls": 7,
+        "temperature": 0.0,
+        "guard_digest": "8a6c833ffc329f89",
+        "input_tokens": 120159,
+        "output_tokens": 5682,
+        "model_reported": [
+          "deepseek-flash"
+        ],
+        "prompt_version": "sha256:49fcfbfaf2f6",
+        "model_configured": "deepseek-chat",
+        "system_fingerprints": [
+          "aeb56401ca74e127821c4f9126dcb669"
+        ],
+        "repair_prompt_version": "sha256:7ec7cffe852d",
+        "quote_relocation_version": "0269a13351c0da7d",
+        "verification_policy_version": "667bcc9209126ddc"
+      }
+    ],
+    "citation_link_calls": [
+      {
+        "agent": "citation_link",
+        "provider": "deepseek",
+        "called_at": "2026-09-16T19:56:47.042923Z",
+        "output_mode": null,
+        "temperature": null,
+        "input_tokens": 9055,
+        "output_tokens": 2511,
+        "model_reported": "deepseek-flash",
+        "prompt_version": "sha256:5a8092ebd77b",
+        "model_configured": "deepseek-chat",
+        "reasoning_effort": null,
+        "guard_conversions": 0,
+        "system_fingerprint": null,
+        "provider_response_id": "4bd17ca6-ab17-47db-82d5-af67cc6bb9ae"
+      },
+      {
+        "agent": "citation_link",
+        "provider": "deepseek",
+        "called_at": "2026-09-16T19:57:05.747903Z",
+        "output_mode": null,
+        "temperature": null,
+        "input_tokens": 8881,
+        "output_tokens": 1713,
+        "model_reported": "deepseek-flash",
+        "prompt_version": "sha256:5a8092ebd77b",
+        "model_configured": "deepseek-chat",
+        "reasoning_effort": null,
+        "guard_conversions": 0,
+        "system_fingerprint": null,
+        "provider_response_id": "934f6ab1-5d6b-4d46-9904-942c78306f03"
+      },
+      {
+        "agent": "citation_link",
+        "provider": "deepseek",
+        "called_at": "2026-09-16T19:57:07.728542Z",
+        "output_mode": null,
+        "temperature": null,
+        "input_tokens": 8474,
+        "output_tokens": 487,
+        "model_reported": "deepseek-flash",
+        "prompt_version": "sha256:5a8092ebd77b",
+        "model_configured": "deepseek-chat",
+        "reasoning_effort": null,
+        "guard_conversions": 0,
+        "system_fingerprint": null,
+        "provider_response_id": "a1deccda-f48f-4f89-b3ce-a8121cff0acb"
+      }
+    ],
+    "total_output_tokens": 22491,
+    "provider_response_id": "3c49519c-f6d8-4d39-9144-3ded86005d19",
+    "prompt_template_version": "sha256:beb00d2d0e42"
+  },
+  "papers_used": 12,
+  "claim_report": {
+    "draft_id": "0dab08d5-ae00-4969-a439-cf9f93bbc2d2",
+    "error_count": 0,
+    "nuance_count": 0,
+    "verifications": [
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Overall, the majority of respondents (42/70, 60%) preferred feedback given by teachers.",
+              "One overriding finding is that students at all proficiency levels preferred teachers’ guidance in error identification and correction, and none expressed faith in relying on peers as the sole source of feedback.",
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+              "Overall, students preferred direct correction accompanied by metalinguistic explanations.",
+              "It is also clear from this study that proficiency plays an intricate role in how students view feedback and its impact on learning.",
+              "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased.",
+              "As shown in Figure 7, Level 6 differed from the other three levels in that students at this level generally preferred error coding (20/41, 48.78%) to the three other types of CF."
+            ],
+            "tokens": {
+              "input_tokens": 17489,
+              "output_tokens": 1149
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Liu and Wu (2019)",
+        "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+        "paper_doi": "10.17239/jowr-2019.11.02.03",
+        "assertions": [
+          {
+            "kind": "population",
+            "text": "Students preferred feedback given by teachers.",
+            "quote": "Overall, the majority of respondents (42/70, 60%) preferred feedback given by teachers.",
+            "entity": "ESL students in the surveyed program",
+            "quotes": [
+              "Overall, the majority of respondents (42/70, 60%) preferred feedback given by teachers.",
+              "One overriding finding is that students at all proficiency levels preferred teachers’ guidance in error identification and correction, and none expressed faith in relying on peers as the sole source of feedback."
+            ],
+            "central": false,
+            "measure": "preference for source of feedback",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "intervention",
+            "text": "Students preferred direct correction in conjunction with metalinguistic explanations.",
+            "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "entity": "ESL students in the surveyed program",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+              "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+            ],
+            "central": true,
+            "measure": "preference for explicitness of corrective feedback",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "scope",
+            "text": "Students' preferences varied by proficiency level.",
+            "quote": "It is also clear from this study that proficiency plays an intricate role in how students view feedback and its impact on learning.",
+            "entity": "ESL students at different proficiency levels",
+            "quotes": [
+              "It is also clear from this study that proficiency plays an intricate role in how students view feedback and its impact on learning.",
+              "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased.",
+              "As shown in Figure 7, Level 6 differed from the other three levels in that students at this level generally preferred error coding (20/41, 48.78%) to the three other types of CF."
+            ],
+            "central": false,
+            "measure": "variation in feedback preferences across proficiency levels",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency",
+        "diagnostics": [],
+        "explanation": "The central assertion — that students preferred direct correction with metalinguistic explanations — is stated verbatim in the results (\"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%)\") and reiterated in the discussion (\"Overall, students preferred direct correction accompanied by metalinguistic explanations.\"). The peripheral assertion about teacher feedback is supported by \"the majority of respondents (42/70, 60%) preferred feedback given by teachers\" and by the discussion's \"students at all proficiency levels preferred teachers’ guidance in error identification and correction.\" The peripheral assertion about proficiency-based variation is supported by the conclusion's \"proficiency plays an intricate role in how students view feedback,\" with concrete level differences reported (e.g., Level 6 preferring error coding, 20/41, 48.78%). No assertion is contradicted and none is absent, so the claim is verified.",
+        "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+        "model_status": "verified",
+        "claim_sentence": "Liu and Wu (2019) found that students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency.",
+        "evidence_quote": "Overall, the majority of respondents (42/70, 60%) preferred feedback given by teachers.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Overall, the majority of respondents (42/70, 60%) preferred feedback given by teachers.",
+          "One overriding finding is that students at all proficiency levels preferred teachers’ guidance in error identification and correction, and none expressed faith in relying on peers as the sole source of feedback.",
+          "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+          "Overall, students preferred direct correction accompanied by metalinguistic explanations.",
+          "It is also clear from this study that proficiency plays an intricate role in how students view feedback and its impact on learning.",
+          "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased.",
+          "As shown in Figure 7, Level 6 differed from the other three levels in that students at this level generally preferred error coding (20/41, 48.78%) to the three other types of CF."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (implications)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences.",
+              "the provision of WCF induced negative emotional experiences"
+            ],
+            "tokens": {
+              "input_tokens": 24889,
+              "output_tokens": 633
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Mao et al. (2024)",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "paper_doi": "10.1017/s0261444823000393",
+        "assertions": [
+          {
+            "kind": "quantity",
+            "text": "Over half of the surveyed teachers (i.e., more than 50% of the teacher participants) reported negative emotional experiences when providing WCF.",
+            "quote": "Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences.",
+            "entity": "27 EFL writing teachers in Chinese universities surveyed by Yu et al. (2021b)",
+            "quotes": [
+              "Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences."
+            ],
+            "central": true,
+            "measure": "proportion of teachers reporting negative emotional experiences when giving WCF",
+            "verdict": "supported",
+            "claim_value": "over half (>50%)",
+            "source_value": "Over half of the 27 teacher participants (i.e., 16 participants)"
+          },
+          {
+            "kind": "other",
+            "text": "The teachers' negative emotions occurred in the context of providing WCF.",
+            "quote": "the provision of WCF induced negative emotional experiences",
+            "entity": "27 EFL writing teachers in Chinese universities",
+            "quotes": [
+              "the provision of WCF induced negative emotional experiences"
+            ],
+            "central": false,
+            "measure": "context of the reported negative emotions",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "over half of the surveyed teachers experienced negative emotions when providing WCF",
+        "diagnostics": [],
+        "explanation": "The source states, in the section on teachers' emotional experiences in WCF situations, that \"Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences.\" This directly supports the central assertion that over half of the surveyed teachers experienced negative emotions when providing WCF (16 of 27 is over half). No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "model_status": "verified",
+        "claim_sentence": "Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF.",
+        "evidence_quote": "Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Over half of the 27 teacher participants (i.e., 16 participants) reported that the provision of WCF induced negative emotional experiences.",
+          "the provision of WCF induced negative emotional experiences"
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (findings)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+              "all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement",
+              "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+              "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs"
+            ],
+            "tokens": {
+              "input_tokens": 14430,
+              "output_tokens": 928
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Koltovskaia (2022)",
+        "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+        "paper_doi": "10.1017/s0958344022000179",
+        "assertions": [
+          {
+            "kind": "quantity",
+            "text": "Teachers provided feedback on both higher-order concerns (HOCs) and lower-order concerns (LOCs) despite using Grammarly as a complement.",
+            "quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+            "entity": "postsecondary L2 writing teachers in the study",
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+              "all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement"
+            ],
+            "central": true,
+            "measure": "provision of feedback on both HOCs and LOCs while using Grammarly as a complement",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "scope",
+            "text": "There was no division of labour such that a teacher takes care of higher-order concerns and Grammarly takes care of lower-order concerns.",
+            "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+            "entity": "postsecondary L2 writing teachers in the study",
+            "quotes": [
+              "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+              "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs"
+            ],
+            "central": false,
+            "measure": "division of labour between teacher and Grammarly",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour",
+        "diagnostics": [],
+        "explanation": "The claim's central assertion — that teachers provided feedback on both higher-order (global) and lower-order (local) concerns despite Grammarly's presence — is stated verbatim in the abstract: \"The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement.\" The findings section corroborates this: \"all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement.\" The peripheral assertion of no division of labour is likewise stated: \"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns,\" and the discussion reiterates that this aligns with prior research suggesting no division of labor. No assertion is contradicted, no peripheral assertion is absent, and no hedge is removed, so the claim is verified.",
+        "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+        "model_status": "verified",
+        "claim_sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+        "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement",
+          "all six participants provided feedback on both HOCs and LOCs, despite having Grammarly feedback on LOCs as a complement",
+          "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+          "This is in line with previous research that suggests that there is no division of labor, such as that AWE takes care of LOCs as it is more computationally adept at providing such feedback and a teacher takes care of HOCs"
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+              "Future studies should be conducted in the actual L2 writing classroom and should explore how teachers’ use and perceptions of AWE change over time."
+            ],
+            "tokens": {
+              "input_tokens": 14419,
+              "output_tokens": 826
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Koltovskaia (2022)",
+        "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+        "paper_doi": "10.1017/s0958344022000179",
+        "assertions": [
+          {
+            "kind": "scope",
+            "text": "The study's design was hypothetical.",
+            "quote": "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+            "entity": "the study",
+            "quotes": [
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+            ],
+            "central": false,
+            "measure": "design type (hypothetical scenario)",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "scope",
+            "text": "The study's design involved one-time use of Grammarly by the teachers.",
+            "quote": "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+            "entity": "the study",
+            "quotes": [
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+            ],
+            "central": false,
+            "measure": "number of uses of Grammarly (one-time)",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "attribution",
+            "text": "The hypothetical, one-time design limits claims about sustained practice.",
+            "quote": "Future studies should be conducted in the actual L2 writing classroom and should explore how teachers’ use and perceptions of AWE change over time.",
+            "entity": "the study's hypothetical, one-time design",
+            "quotes": [
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+              "Future studies should be conducted in the actual L2 writing classroom and should explore how teachers’ use and perceptions of AWE change over time."
+            ],
+            "central": true,
+            "measure": "limitation on claims about sustained practice",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "although the hypothetical, one-time design limits claims about sustained practice",
+        "diagnostics": [],
+        "explanation": "The claim is a limitation statement: the study's design was hypothetical and involved one-time use, and this limits claims about sustained practice. The source states both components. It says \"The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly\" and immediately adds \"Future studies should be conducted in the actual L2 writing classroom and should explore how teachers’ use and perceptions of AWE change over time,\" which is the source's own statement that the design constrains what can be claimed about practice over time. The central assertion (the design limits claims about sustained practice) is supported by the conjunction of these two statements, and the peripheral assertions (hypothetical scenario; one-time use) are stated verbatim in the source. No assertion is contradicted and no hedge is removed.",
+        "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+        "model_status": "verified",
+        "claim_sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+        "evidence_quote": "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+          "Future studies should be conducted in the actual L2 writing classroom and should explore how teachers’ use and perceptions of AWE change over time."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity.",
+              "The high number of resubmissions to the programme show that Flora was fully engaged behaviorally with the revision task.",
+              "David therefore showed a low level of behavioral engagement with AWE feedback.",
+              "It is clear that the two students engaged with teacher and AWE feedback on their writing differently",
+              "The participants in this study were two Chinese students in the first semester of their third year in a university in China."
+            ],
+            "tokens": {
+              "input_tokens": 17550,
+              "output_tokens": 826
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Zhang and Hyland (2018)",
+        "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+        "paper_doi": "10.1016/j.asw.2018.02.004",
+        "assertions": [
+          {
+            "kind": "direction",
+            "text": "Engagement with AWE feedback differed sharply between the two learners studied.",
+            "quote": "The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity.",
+            "entity": "the two L2 students (Flora and David) engaging with AWE feedback",
+            "quotes": [
+              "The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity.",
+              "The high number of resubmissions to the programme show that Flora was fully engaged behaviorally with the revision task.",
+              "David therefore showed a low level of behavioral engagement with AWE feedback.",
+              "It is clear that the two students engaged with teacher and AWE feedback on their writing differently"
+            ],
+            "central": true,
+            "measure": "degree/level of engagement with AWE feedback",
+            "verdict": "supported",
+            "claim_value": "varied sharply",
+            "source_value": "differences became more obvious in their responses to AWE feedback"
+          },
+          {
+            "kind": "population",
+            "text": "The learners in question are the two case-study participants (Flora and David).",
+            "quote": "The participants in this study were two Chinese students in the first semester of their third year in a university in China.",
+            "entity": "the two case-study participants",
+            "quotes": [
+              "The participants in this study were two Chinese students in the first semester of their third year in a university in China."
+            ],
+            "central": false,
+            "measure": "number and identity of learners",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "engagement with AWE varied sharply between learners",
+        "diagnostics": [],
+        "explanation": "The claim's central proposition — that engagement with AWE feedback differed sharply between learners — is supported. The source states that \"The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity\" and that \"It is clear that the two students engaged with teacher and AWE feedback on their writing differently.\" The contrast is documented concretely: Flora \"resubmitted her essay 13 times\" and \"was fully engaged behaviorally with the revision task,\" whereas David \"only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task,\" showing \"a low level of behavioral engagement with AWE feedback.\" The peripheral assertion about the learner population (two Chinese case-study students) is also supported. No assertion is contradicted and no hedge is removed.",
+        "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+        "model_status": "verified",
+        "claim_sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+        "evidence_quote": "The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "The differences between their engagement types became more obvious in their responses to AWE feedback when there was a multiple drafting opportunity.",
+          "The high number of resubmissions to the programme show that Flora was fully engaged behaviorally with the revision task.",
+          "David therefore showed a low level of behavioral engagement with AWE feedback.",
+          "It is clear that the two students engaged with teacher and AWE feedback on their writing differently",
+          "The participants in this study were two Chinese students in the first semester of their third year in a university in China."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers."
+            ],
+            "tokens": {
+              "input_tokens": 14540,
+              "output_tokens": 660
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Hyland (2025)",
+        "paper_id": "97cf5561-3b51-4078-8195-5daec01ec5cd",
+        "paper_doi": "10.1017/s0261444825101018",
+        "assertions": [
+          {
+            "kind": "scope",
+            "text": "A lot of the research has been conducted outside of naturalistic learning contexts.",
+            "quote": "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers.",
+            "entity": "research on AI feedback",
+            "quotes": [
+              "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers."
+            ],
+            "central": true,
+            "measure": "proportion of research conducted outside naturalistic learning contexts",
+            "verdict": "supported",
+            "claim_value": "much",
+            "source_value": "a lot of"
+          },
+          {
+            "kind": "attribution",
+            "text": "This raises questions about the research's applicability to classrooms.",
+            "quote": "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers.",
+            "entity": "research on AI feedback",
+            "quotes": [
+              "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers."
+            ],
+            "central": false,
+            "measure": "implication drawn about usefulness to classroom teachers",
+            "verdict": "supported",
+            "claim_value": "raises questions about classroom applicability",
+            "source_value": "raising questions about their usefulness to classroom teachers"
+          }
+        ],
+        "claim_text": "much research occurs outside naturalistic contexts, raising questions about classroom applicability",
+        "diagnostics": [],
+        "explanation": "The claim's central proposition — that a lot of the research has been conducted outside naturalistic learning contexts, raising questions about its usefulness to classroom teachers — is stated almost verbatim in the Conclusions: \"One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers.\" The quantifier \"much\" corresponds to the source's \"a lot of\", and the consequence (\"raising questions about classroom applicability\") matches \"raising questions about their usefulness to classroom teachers\". No peripheral assertion is absent and nothing is contradicted.",
+        "paper_title": "EFL teachers and feedback fatigue: AI to the rescue?",
+        "model_status": "verified",
+        "claim_sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+        "evidence_quote": "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "One problem is that a lot of the research has been conducted outside of naturalistic learning contexts, raising questions about their usefulness to classroom teachers."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+              "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+              "with much higher recall (55%) than Grammarly and persistently high precision (94%)",
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%)."
+            ],
+            "tokens": {
+              "input_tokens": 14825,
+              "output_tokens": 1068
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Luo et al. (2025)",
+        "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+        "paper_doi": "10.1017/s095834402510044x",
+        "assertions": [
+          {
+            "kind": "direction",
+            "text": "ChatGPT's error detection improved substantially as prompt sophistication increased.",
+            "quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+            "entity": "ChatGPT (GPT-P1, GPT-P2, GPT-P3)",
+            "quotes": [
+              "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+              "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+            ],
+            "central": true,
+            "measure": "error detection performance across prompts of ascending sophistication",
+            "verdict": "supported",
+            "claim_value": "improved substantially",
+            "source_value": "grew considerably"
+          },
+          {
+            "kind": "direction",
+            "text": "ChatGPT overtook Grammarly in recall.",
+            "quote": "with much higher recall (55%) than Grammarly and persistently high precision (94%)",
+            "entity": "ChatGPT with the one-shot domain-specific prompt (GPT-P3) vs. Grammarly",
+            "quotes": [
+              "with much higher recall (55%) than Grammarly and persistently high precision (94%)",
+              "the one-shot prompt surpassed it considerably in error detection"
+            ],
+            "central": false,
+            "measure": "recall",
+            "verdict": "supported",
+            "claim_value": "ChatGPT recall > Grammarly recall",
+            "source_value": "GPT-P3 55% vs. Grammarly 35%"
+          },
+          {
+            "kind": "quantity",
+            "text": "ChatGPT remained highly precise.",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+            "entity": "ChatGPT across the three prompts",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%)."
+            ],
+            "central": false,
+            "measure": "precision",
+            "verdict": "supported",
+            "claim_value": "highly precise",
+            "source_value": "94%, 98%, 94%"
+          }
+        ],
+        "claim_text": "ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise",
+        "diagnostics": [],
+        "explanation": "The central assertion — that ChatGPT's error detection improved substantially with prompt sophistication — is stated directly: \"We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples,\" and the recall figures (10%, 33%, 55% for GPT-P1, GPT-P2, GPT-P3) confirm the improvement. The peripheral assertion that ChatGPT overtook Grammarly in recall is supported by the discussion of GPT-P3: \"with much higher recall (55%) than Grammarly and persistently high precision (94%)\" (Grammarly's recall was 35%). The peripheral assertion of high precision is supported by \"ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).\" No assertion is contradicted and none is absent, so the claim is verified.",
+        "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+        "model_status": "verified",
+        "claim_sentence": "Luo et al. (2025) found that ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise.",
+        "evidence_quote": "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "We find that ChatGPT’s ability in flagging language errors grew considerably with prompt sophistication driven by the integration of domain-specific knowledge and examples.",
+          "the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "with much higher recall (55%) than Grammarly and persistently high precision (94%)",
+          "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%)."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+              "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts."
+            ],
+            "tokens": {
+              "input_tokens": 18212,
+              "output_tokens": 776
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Li and Hébert (2023)",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "assertions": [
+          {
+            "kind": "quantity",
+            "text": "All students incorporated support-related peer feedback.",
+            "quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+            "entity": "the twelve participating L2 students who sought online peer feedback",
+            "quotes": [
+              "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+            ],
+            "central": true,
+            "measure": "incorporation of support-related peer feedback into the second draft",
+            "verdict": "supported",
+            "claim_value": "all students",
+            "source_value": "all students"
+          },
+          {
+            "kind": "population",
+            "text": "The students referred to are the study's participants (L2 students who sought online peer feedback).",
+            "quote": "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+            "entity": "study participants",
+            "quotes": [
+              "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts."
+            ],
+            "central": false,
+            "measure": "recruitment of students who sought online peer feedback",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "all students incorporated support-related peer feedback",
+        "diagnostics": [],
+        "explanation": "The claim's central assertion — that all students incorporated support-related peer feedback — is stated verbatim in the source: \"By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts\". The quantifier \"all\" matches the source's \"all students\", and the entity (the twelve participating students who sought online peer feedback) and measure (incorporation of support-related peer feedback into the second draft) match. The peripheral assertion that the students are the study's participants is also supported (\"Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited\"). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "model_status": "verified",
+        "claim_sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+        "evidence_quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+          "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (introduction)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+              "Cohen's d = 1.62"
+            ],
+            "tokens": {
+              "input_tokens": 18218,
+              "output_tokens": 937
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Li and Hébert (2023)",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "assertions": [
+          {
+            "kind": "direction",
+            "text": "Paper ratings improved between the first and second drafts.",
+            "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+            "entity": "paper ratings of the twelve recruited L2 English students' persuasive essays",
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7)"
+            ],
+            "central": true,
+            "measure": "change in rubric scores from first to second draft",
+            "verdict": "supported",
+            "claim_value": "improved",
+            "source_value": "improved"
+          },
+          {
+            "kind": "quantity",
+            "text": "The improvement was statistically significant.",
+            "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62)",
+            "entity": "paper ratings of the twelve recruited L2 English students' persuasive essays",
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62)"
+            ],
+            "central": false,
+            "measure": "paired t-test significance",
+            "verdict": "supported",
+            "claim_value": "significant",
+            "source_value": "p < 0.000"
+          },
+          {
+            "kind": "quantity",
+            "text": "The effect size was d = 1.62.",
+            "quote": "Cohen's d = 1.62",
+            "entity": "paper ratings of the twelve recruited L2 English students' persuasive essays",
+            "quotes": [
+              "Cohen's d = 1.62"
+            ],
+            "central": false,
+            "measure": "Cohen's d",
+            "verdict": "supported",
+            "claim_value": "1.62",
+            "source_value": "1.62"
+          }
+        ],
+        "claim_text": "paper ratings improved significantly between drafts (d = 1.62)",
+        "diagnostics": [],
+        "explanation": "The source states verbatim: \"A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7), suggesting that the feedback led to students' revisions produced meaningful improvements in the scores between drafts.\" This supports the central assertion (ratings improved between drafts), the significance assertion (p < 0.000), and the effect-size assertion (Cohen's d = 1.62) exactly as the claim states. No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "model_status": "verified",
+        "claim_sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+        "evidence_quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "A paired t-test (t(11) = 6.51, p < 0.000, Cohen's d = 1.62) of paper ratings from the first to the sec-ond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+          "Cohen's d = 1.62"
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (introduction)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ],
+            "tokens": {
+              "input_tokens": 18216,
+              "output_tokens": 557
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Li and Hébert (2023)",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "assertions": [
+          {
+            "kind": "direction",
+            "text": "Some students ignored unity-related peer comments.",
+            "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+            "entity": "students (L2 English writers in the study)",
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ],
+            "central": true,
+            "measure": "ignoring of unity-related peer feedback",
+            "verdict": "supported",
+            "claim_value": "some students",
+            "source_value": "Four students"
+          },
+          {
+            "kind": "direction",
+            "text": "Some students ignored word-use-related peer comments.",
+            "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+            "entity": "students (L2 English writers in the study)",
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ],
+            "central": false,
+            "measure": "ignoring of word-use-related peer feedback",
+            "verdict": "supported",
+            "claim_value": "some students",
+            "source_value": "two students"
+          }
+        ],
+        "claim_text": "yet some students ignored unity- and word-use-related comments",
+        "diagnostics": [],
+        "explanation": "The claim's central assertion — that some students ignored unity-related and word-use-related peer comments — is stated directly in the source: \"Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.\" The peripheral quantifier \"some\" is licensed by the source's counts (four and two students), and Table 7 documents the individual students' decisions to ignore such comments. No assertion is contradicted and no hedge is removed.",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "model_status": "verified",
+        "claim_sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+        "evidence_quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (introduction)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Furthermore, the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08.",
+              "Similarly, the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26.",
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+              "the experimental group received direct unfocused WCF while the control group did not",
+              "in either an experimental group who received WCF or a control group who did not receive any feedback"
+            ],
+            "tokens": {
+              "input_tokens": 14323,
+              "output_tokens": 1787
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "assertions": [
+          {
+            "kind": "direction",
+            "text": "Direct unfocused WCF raised writing self-efficacy in the experimental group relative to the control group",
+            "quote": "Furthermore, the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08.",
+            "entity": "Iranian EFL learners (experimental group receiving direct unfocused WCF vs. control group)",
+            "quotes": [
+              "Furthermore, the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08."
+            ],
+            "central": true,
+            "measure": "posttest writing self-efficacy (WSEQ) mean score comparison between groups",
+            "verdict": "supported",
+            "claim_value": "higher self-efficacy in WCF group than control",
+            "source_value": "M = 51.30, SD = 7.29 vs. M = 42.15, SD = 9.64, t (50) = 3.858, p < 0.05, d = 1.08"
+          },
+          {
+            "kind": "direction",
+            "text": "Direct unfocused WCF reduced writing anxiety in the experimental group relative to the control group",
+            "quote": "Similarly, the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26.",
+            "entity": "Iranian EFL learners (experimental group receiving direct unfocused WCF vs. control group)",
+            "quotes": [
+              "Similarly, the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26."
+            ],
+            "central": false,
+            "measure": "posttest writing anxiety (SLWAI) mean score comparison between groups",
+            "verdict": "supported",
+            "claim_value": "lower anxiety in WCF group than control",
+            "source_value": "M = 49.96, SD = 18.75 vs. M = 71.19, SD = 14.91, t (50) = 4.518, p < 0.05, d = 1.26"
+          },
+          {
+            "kind": "intervention",
+            "text": "The feedback type was direct unfocused WCF",
+            "quote": "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+            "entity": "experimental group",
+            "quotes": [
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+              "the experimental group received direct unfocused WCF while the control group did not"
+            ],
+            "central": false,
+            "measure": "type of written corrective feedback provided",
+            "verdict": "supported",
+            "claim_value": "direct unfocused WCF",
+            "source_value": "direct unfocused written corrective feedback (WCF)"
+          },
+          {
+            "kind": "population",
+            "text": "The comparison condition was a control group that received no WCF",
+            "quote": "in either an experimental group who received WCF or a control group who did not receive any feedback",
+            "entity": "control group",
+            "quotes": [
+              "in either an experimental group who received WCF or a control group who did not receive any feedback"
+            ],
+            "central": false,
+            "measure": "feedback condition",
+            "verdict": "supported",
+            "claim_value": "no feedback",
+            "source_value": "did not receive any feedback"
+          }
+        ],
+        "claim_text": "direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group",
+        "diagnostics": [],
+        "explanation": "The claim's central proposition — that the direct unfocused WCF group showed higher writing self-efficacy and lower writing anxiety than the control group — is stated in the source. Table 3 reports the experimental group's posttest WSEQ mean (M = 51.30, SD = 7.29) versus the control group's (M = 42.15, SD = 9.64), t (50) = 3.858, p < 0.05, d = 1.08, and the experimental group's posttest SLWAI mean (M = 49.96, SD = 18.75) versus the control group's (M = 71.19, SD = 14.91), t (50) = 4.518, p < 0.05, d = 1.26. The text states \"the experimental group reported higher levels of writing self-efficacy ... compared to the control group\" and \"the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment.\" The intervention is identified as direct unfocused WCF (\"the impact of direct unfocused written corrective feedback (WCF) on EFL students' writing improvement, self-efficacy, and anxiety\"; \"the experimental group received direct unfocused WCF while the control group did not\"). The control group is the comparison condition (\"a control group who did not receive any feedback\"). All peripheral assertions (population, intervention type, comparison group) are supported, and no assertion is contradicted.",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "model_status": "verified",
+        "claim_sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+        "evidence_quote": "Furthermore, the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Furthermore, the experimental group reported higher levels of writing self-efficacy, M = 51.30, SD = 7.29 compared to the control group, M = 42.15, SD = 9.64, with a statistically significant difference, t (50) = 3.858, p < 0.05, d = 1.08.",
+          "Similarly, the experimental group demonstrated a significant decrease in writing anxiety, as evidenced by their lower mean score on the posttest anxiety assessment, M = 49.96, SD = 18.75 compared to the control group, M = 71.19, SD=14.91, with a statistically significant difference, t (50) = 4.518, p < 0.05, d = 1.26.",
+          "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+          "the experimental group received direct unfocused WCF while the control group did not",
+          "in either an experimental group who received WCF or a control group who did not receive any feedback"
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.",
+              "First, feedback-related strategies in participation (FRSP) have been found to be the most important predictor of academic writing performance.",
+              "The participants were 708 second-year students from a university in China, of whom 365 were men and 343 were women.",
+              "They were from 16 classes, and their first language was Mandarin Chinese.",
+              "The mean score of the academic writing test was 78.57."
+            ],
+            "tokens": {
+              "input_tokens": 18395,
+              "output_tokens": 1064
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Teng and Ma (2024)",
+        "paper_id": "f2672624-30ce-41bd-9223-dc3a349507d7",
+        "paper_doi": "10.1016/j.asw.2024.100811",
+        "assertions": [
+          {
+            "kind": "attribution",
+            "text": "Feedback-related strategies in participation (FRSP) were the strongest (highest-importance) predictor of academic writing performance.",
+            "quote": "Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.",
+            "entity": "feedback-related strategies in participation (FRSP) as predictor of academic writing performance",
+            "quotes": [
+              "Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.",
+              "First, feedback-related strategies in participation (FRSP) have been found to be the most important predictor of academic writing performance."
+            ],
+            "central": true,
+            "measure": "relative importance/strength of prediction of academic writing performance",
+            "verdict": "supported",
+            "claim_value": "strongest predictor",
+            "source_value": "holds the highest importance in predicting academic writing scores"
+          },
+          {
+            "kind": "quantity",
+            "text": "The study involved 708 learners.",
+            "quote": "The participants were 708 second-year students from a university in China, of whom 365 were men and 343 were women.",
+            "entity": "study participants",
+            "quotes": [
+              "The participants were 708 second-year students from a university in China, of whom 365 were men and 343 were women."
+            ],
+            "central": false,
+            "measure": "sample size",
+            "verdict": "supported",
+            "claim_value": "708",
+            "source_value": "708"
+          },
+          {
+            "kind": "population",
+            "text": "The learners were Chinese EFL learners.",
+            "quote": "They were from 16 classes, and their first language was Mandarin Chinese.",
+            "entity": "participants",
+            "quotes": [
+              "The participants were 708 second-year students from a university in China, of whom 365 were men and 343 were women.",
+              "They were from 16 classes, and their first language was Mandarin Chinese."
+            ],
+            "central": false,
+            "measure": "nationality/first language and EFL status",
+            "verdict": "supported",
+            "claim_value": "Chinese EFL learners",
+            "source_value": "students from a university in China ... their first language was Mandarin Chinese"
+          },
+          {
+            "kind": "other",
+            "text": "The predicted outcome was academic writing performance.",
+            "quote": "The mean score of the academic writing test was 78.57.",
+            "entity": "academic writing performance",
+            "quotes": [
+              "The mean score of the academic writing test was 78.57."
+            ],
+            "central": false,
+            "measure": "outcome variable in prediction analysis",
+            "verdict": "supported",
+            "claim_value": "academic writing performance",
+            "source_value": "academic writing performance (AW test)"
+          }
+        ],
+        "claim_text": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+        "diagnostics": [],
+        "explanation": "The central assertion — that feedback-related strategies in participation (FRSP) were the strongest predictor of academic writing performance — is stated in the source: \"Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.\" The peripheral assertions are also supported: the sample is \"708 second-year students from a university in China\" whose \"first language was Mandarin Chinese\" (Chinese EFL learners), and the outcome is academic writing performance (AW test, M = 78.57). No assertion is contradicted and none is absent, so the claim is verified.",
+        "paper_title": "Assessing metacognition-based student feedback literacy for academic writing",
+        "model_status": "verified",
+        "claim_sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+        "evidence_quote": "Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Analyzing Fig. 7 reveals that FRSP holds the highest importance in predicting academic writing scores, followed by M, and with FRMS and SK closely trailing behind.",
+          "First, feedback-related strategies in participation (FRSP) have been found to be the most important predictor of academic writing performance.",
+          "The participants were 708 second-year students from a university in China, of whom 365 were men and 343 were women.",
+          "They were from 16 classes, and their first language was Mandarin Chinese.",
+          "The mean score of the academic writing test was 78.57."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study’s findings to other contexts may be implausible.",
+              "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+              "Their scores ranged from 41 to 52 and were at the level B1 as measured by OPT."
+            ],
+            "tokens": {
+              "input_tokens": 14316,
+              "output_tokens": 932
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "assertions": [
+          {
+            "kind": "population",
+            "text": "The study's sample was exclusively male.",
+            "quote": "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+            "entity": "the study's sample (52 EFL learners)",
+            "quotes": [
+              "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+              "the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+            ],
+            "central": false,
+            "measure": "gender composition of the sample",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "population",
+            "text": "The study's sample was at the intermediate level.",
+            "quote": "Their scores ranged from 41 to 52 and were at the level B1 as measured by OPT.",
+            "entity": "the study's sample (52 EFL learners)",
+            "quotes": [
+              "Their scores ranged from 41 to 52 and were at the level B1 as measured by OPT.",
+              "the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years."
+            ],
+            "central": false,
+            "measure": "proficiency level of the sample",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "scope",
+            "text": "The exclusively male, intermediate-level sample limits generalisation of the study's findings.",
+            "quote": "As a result, generalizing the study’s findings to other contexts may be implausible.",
+            "entity": "the study's findings",
+            "quotes": [
+              "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study’s findings to other contexts may be implausible."
+            ],
+            "central": true,
+            "measure": "generalizability to other contexts given the exclusively male, intermediate-level sample",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "the exclusively male, intermediate-level sample limits generalisation",
+        "diagnostics": [],
+        "explanation": "The claim's central assertion — that the sample's exclusively male, intermediate-level composition limits generalisation — is stated in the source's limitations section: \"the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study’s findings to other contexts may be implausible.\" The peripheral assertions (sample was exclusively male; sample was intermediate level) are also supported by the Participants section (\"52 EFL male students ... were at the level B1 as measured by OPT\"). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "model_status": "verified",
+        "claim_sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+        "evidence_quote": "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study’s findings to other contexts may be implausible.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Second, the study focused solely on intermediate level students who were exclusively male, with the age range limited to 12-18 years. As a result, generalizing the study’s findings to other contexts may be implausible.",
+          "52 EFL male students (age range of 12-18), selected among 82 students based on the Oxford Placement Test (OPT) results in an English institute, constituted the participants in this study.",
+          "Their scores ranged from 41 to 52 and were at the level B1 as measured by OPT."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      },
+      {
+        "passes": [
+          {
+            "quotes": [
+              "Second, the findings were mainly based on self-report data. The scale may not fully reflect learners’ feedback literacy in academic writing.",
+              "The findings were mainly based on self-report data."
+            ],
+            "tokens": {
+              "input_tokens": 18383,
+              "output_tokens": 590
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ],
+        "status": "verified",
+        "citation": "Teng and Ma (2024)",
+        "paper_id": "f2672624-30ce-41bd-9223-dc3a349507d7",
+        "paper_doi": "10.1016/j.asw.2024.100811",
+        "assertions": [
+          {
+            "kind": "other",
+            "text": "The study's findings were based on self-report data, which limits what can be inferred (the scale may not fully reflect learners' feedback literacy).",
+            "quote": "Second, the findings were mainly based on self-report data. The scale may not fully reflect learners’ feedback literacy in academic writing.",
+            "entity": "the present study's findings",
+            "quotes": [
+              "Second, the findings were mainly based on self-report data. The scale may not fully reflect learners’ feedback literacy in academic writing."
+            ],
+            "central": true,
+            "measure": "limitation of inference due to self-report data",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          },
+          {
+            "kind": "population",
+            "text": "The study's data were self-report data.",
+            "quote": "The findings were mainly based on self-report data.",
+            "entity": "the present study's data",
+            "quotes": [
+              "The findings were mainly based on self-report data."
+            ],
+            "central": false,
+            "measure": "data source (self-report)",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null
+          }
+        ],
+        "claim_text": "the self-report design constrains inference",
+        "diagnostics": [],
+        "explanation": "The claim asserts that the study's reliance on self-report data limits what can be inferred. The source states this directly in the limitations section: \"Second, the findings were mainly based on self-report data. The scale may not fully reflect learners' feedback literacy in academic writing.\" The central assertion (self-report design constrains inference) is supported by the conjunction of these two sentences, and the peripheral assertion that the data were self-report is likewise supported (\"the findings were mainly based on self-report data\"). No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "paper_title": "Assessing metacognition-based student feedback literacy for academic writing",
+        "model_status": "verified",
+        "claim_sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+        "evidence_quote": "Second, the findings were mainly based on self-report data. The scale may not fully reflect learners’ feedback literacy in academic writing.",
+        "model_reported": "deepseek-flash",
+        "evidence_quotes": [
+          "Second, the findings were mainly based on self-report data. The scale may not fully reflect learners’ feedback literacy in academic writing.",
+          "The findings were mainly based on self-report data."
+        ],
+        "machine_reasons": [],
+        "unstated_details": [],
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "quote_relocations": [],
+        "suggested_revision": null
+      }
+    ],
+    "verified_count": 14,
+    "unsupported_count": 0,
+    "abstract_only_count": 0
+  },
+  "section_type": "literature_review",
+  "citation_audit": {
+    "total": 9,
+    "matched": [
+      "Liu, 2019",
+      "Mao, 2024",
+      "Koltovskaia, 2022",
+      "Zhang, 2018",
+      "Hyland, 2025",
+      "Luo, 2025",
+      "Li, 2023",
+      "Razmi, 2024",
+      "Teng, 2024"
+    ],
+    "unmatched": [],
+    "needs_citation_flags": 1
+  },
+  "citation_links": [
+    {
+      "keys": [
+        "liu_2019"
+      ],
+      "sentence": "Liu and Wu (2019) found that students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency.",
+      "proposition": "students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency",
+      "evidence_ids": [
+        "e30"
+      ],
+      "citation_text": "Liu and Wu (2019)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 1,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "mao_2024"
+      ],
+      "sentence": "Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF.",
+      "proposition": "over half of the surveyed teachers experienced negative emotions when providing WCF",
+      "evidence_ids": [
+        "e110"
+      ],
+      "citation_text": "Mao et al. (2024)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 1,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "koltovskaia_2022"
+      ],
+      "sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+      "proposition": "teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour",
+      "evidence_ids": [
+        "e55"
+      ],
+      "citation_text": "Koltovskaia (2022)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 1,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "koltovskaia_2022"
+      ],
+      "sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+      "proposition": "although the hypothetical, one-time design limits claims about sustained practice",
+      "evidence_ids": [
+        "e56"
+      ],
+      "citation_text": "Koltovskaia (2022)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 1,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "zhang_2018"
+      ],
+      "sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+      "proposition": "engagement with AWE varied sharply between learners",
+      "evidence_ids": [
+        "e72"
+      ],
+      "citation_text": "Zhang and Hyland (2018)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 2,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "hyland_2025"
+      ],
+      "sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+      "proposition": "much research occurs outside naturalistic contexts, raising questions about classroom applicability",
+      "evidence_ids": [
+        "e60"
+      ],
+      "citation_text": "Hyland (2025)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 2,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "luo_2025"
+      ],
+      "sentence": "Luo et al. (2025) found that ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise.",
+      "proposition": "ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise",
+      "evidence_ids": [
+        "e46",
+        "e48"
+      ],
+      "citation_text": "Luo et al. (2025)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 2,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "li_2023"
+      ],
+      "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+      "proposition": "all students incorporated support-related peer feedback",
+      "evidence_ids": [
+        "e1"
+      ],
+      "citation_text": "Li and Hébert (2023)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 3,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "li_2023"
+      ],
+      "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+      "proposition": "paper ratings improved significantly between drafts (d = 1.62)",
+      "evidence_ids": [
+        "e4"
+      ],
+      "citation_text": "Li and Hébert (2023)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 3,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "li_2023"
+      ],
+      "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+      "proposition": "yet some students ignored unity- and word-use-related comments",
+      "evidence_ids": [
+        "e5"
+      ],
+      "citation_text": "Li and Hébert (2023)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 3,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "razmi_2024"
+      ],
+      "sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+      "proposition": "direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group",
+      "evidence_ids": [
+        "e78",
+        "e80"
+      ],
+      "citation_text": "Razmi and Ghane (2024)",
+      "residue_spans": [
+        "but the exclusively male, intermediate-level sample limits generalisation"
+      ],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": true
+    },
+    {
+      "keys": [
+        "razmi_2024"
+      ],
+      "sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+      "proposition": "direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group",
+      "evidence_ids": [
+        "e78",
+        "e80"
+      ],
+      "citation_text": "Razmi and Ghane (2024)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "razmi_2024"
+      ],
+      "sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+      "proposition": "the exclusively male, intermediate-level sample limits generalisation",
+      "evidence_ids": [
+        "e74"
+      ],
+      "citation_text": "Razmi and Ghane (2024)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "teng_2024"
+      ],
+      "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+      "proposition": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+      "evidence_ids": [
+        "e10",
+        "e15",
+        "e17"
+      ],
+      "citation_text": "Teng and Ma (2024)",
+      "residue_spans": [
+        "though the self-report design constrains inference"
+      ],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": true
+    },
+    {
+      "keys": [
+        "teng_2024"
+      ],
+      "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+      "proposition": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+      "evidence_ids": [
+        "e10",
+        "e12",
+        "e17",
+        "e15"
+      ],
+      "citation_text": "Teng and Ma (2024)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": false
+    },
+    {
+      "keys": [
+        "teng_2024"
+      ],
+      "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+      "proposition": "the self-report design constrains inference",
+      "evidence_ids": [
+        "e14"
+      ],
+      "citation_text": "Teng and Ma (2024)",
+      "residue_spans": [],
+      "meta_evaluation": false,
+      "paragraph_index": 4,
+      "coverage_incomplete": false
+    }
+  ],
+  "uncited_sentences": [
+    {
+      "tag": "framing",
+      "sentence": "Research on written corrective feedback (WCF) in second-language (L2) writing has moved from asking whether feedback works to asking how learners engage with it.",
+      "paragraph_index": 0
+    },
+    {
+      "tag": "framing",
+      "sentence": "This review synthesises what the project library establishes about uptake, attention, and affective response across teacher-provided, peer-provided, and automated feedback, treating engagement as the mechanism that conditions whether feedback translates into revision.",
+      "paragraph_index": 0
+    },
+    {
+      "tag": "finding",
+      "sentence": "Teacher feedback remains the default preference.",
+      "paragraph_index": 1
+    },
+    {
+      "tag": "finding",
+      "sentence": "Automated writing evaluation (AWE) is treated as a complement rather than a replacement.",
+      "paragraph_index": 2
+    },
+    {
+      "tag": "framing",
+      "sentence": "Affective and motivational responses are increasingly treated as outcomes in their own right.",
+      "paragraph_index": 4
+    },
+    {
+      "tag": "finding",
+      "sentence": "What is established is that feedback type shapes immediate accuracy and that engagement varies by learner.",
+      "paragraph_index": 5
+    },
+    {
+      "tag": "finding",
+      "sentence": "What remains contested is whether these gains persist, and whether AWE can support rhetorical development rather than surface correction alone.",
+      "paragraph_index": 5
+    }
+  ]
+}

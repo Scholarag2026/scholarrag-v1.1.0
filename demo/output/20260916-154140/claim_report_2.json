@@ -1,0 +1,1633 @@
+{
+  "draft_id": "919d8717-3429-407d-b5a3-235928a20c3f",
+  "verifications": [
+    {
+      "claim_text": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+      "explanation": "The claim's central proposition — that learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues — is stated in the source. Section 5.4 reports: \"the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)\", and the abstract states \"learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.\" The mental-effort scale (Paas, 1992) is the measure of cognitive load, so \"mental effort\" and \"cognitive load\" refer to the same measure. The significance qualifier is supported by the reported p < 0.001. No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (DCF+G) than when processing metalinguistic codes on grammatical and non-grammatical errors (ME+GN).",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "significantly lower mental effort for DCF+G",
+          "source_value": "significantly lower cognitive load for DCF+G than ME+GN (p < 0.001)",
+          "quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+          "central": true,
+          "entity": "EFL learners (low intermediate, N = 139) revising texts after comprehensive CF",
+          "measure": "self-reported mental effort (Paas 1992 scale) after text revision",
+          "quotes": [
+            "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+          ]
+        },
+        {
+          "text": "The lower mental effort for direct corrections on grammatical issues was statistically significant.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+          "central": false,
+          "entity": "EFL learners revising texts after comprehensive CF",
+          "measure": "statistical significance of the mental effort difference",
+          "quotes": [
+            "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+        "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (Bonilla López et al., 2018).",
+      "citation": "(Bonilla López et al., 2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+          ],
+          "tokens": {
+            "input_tokens": 22170,
+            "output_tokens": 825
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "Direct correction combined with metalinguistic explanation was favoured most often (215/447 responses, 48.10%), ahead of direct correction alone (111/447, 24.83%)",
+      "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+      "status": "verified",
+      "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+      "explanation": "The source's Section 4.1.6 (Explicitness of CF) states verbatim: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" Both the central assertion (DC + metalinguistic explanation favoured most often, 215/447, 48.10%) and the peripheral ranking assertion (direct correction alone second, 111/447, 24.83%) match the source's entities, measures, values and ordering exactly. No assertion is contradicted, absent, or hedged relative to the source.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Students favoured direct correction in conjunction with metalinguistic explanations most often, at 215/447 responses (48.10%).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "215/447, 48.10%",
+          "source_value": "215/447, 48.10%",
+          "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+          "central": true,
+          "entity": "students in the ESL program survey (447 choices on explicitness of CF)",
+          "measure": "number and percentage of choices for direct correction with metalinguistic explanation",
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+          ]
+        },
+        {
+          "text": "Direct correction alone (without metalinguistic explanations) ranked second, at 111/447 responses (24.83%).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "111/447, 24.83%",
+          "source_value": "111/447, 24.83%",
+          "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+          "central": false,
+          "entity": "students in the ESL program survey (447 choices on explicitness of CF)",
+          "measure": "number and percentage of choices for direct correction without metalinguistic explanations",
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Direct correction combined with metalinguistic explanation was favoured most often (215/447 responses, 48.10%), ahead of direct correction alone (111/447, 24.83%) (Liu & Wu, 2019).",
+      "citation": "(Liu & Wu, 2019)",
+      "paper_doi": "10.17239/jowr-2019.11.02.03",
+      "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+          ],
+          "tokens": {
+            "input_tokens": 17508,
+            "output_tokens": 898
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "Preferences also varied by proficiency: at the lower level, 7 of 8 students wanted feedback solely from teachers, whereas at the higher level, 5 of 6 preferred feedback from both teachers and peers",
+      "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+      "status": "verified",
+      "evidence_quote": "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+      "explanation": "The source states verbatim: \"The contrast between Level 3 and Level 6 was most conspicuous: all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers, whereas all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers.\" Both counts (7 of 8; 5 of 6) match the claim exactly, and the source also supports the general framing that preferences varied by proficiency (\"students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased\"). All assertions are supported, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "At the lower proficiency level, 7 of 8 students wanted feedback solely from teachers.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "7 of 8",
+          "source_value": "7/8, 87.5%",
+          "quote": "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+          "central": true,
+          "entity": "Level 3 (lower proficiency) students in the ESL program survey",
+          "measure": "number preferring feedback solely from teachers",
+          "quotes": [
+            "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers"
+          ]
+        },
+        {
+          "text": "At the higher proficiency level, 5 of 6 students preferred feedback from both teachers and peers.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "5 of 6",
+          "source_value": "5/6, 83.33%",
+          "quote": "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+          "central": false,
+          "entity": "Level 6 (higher proficiency) students in the ESL program survey",
+          "measure": "number preferring feedback from both teachers and peers",
+          "quotes": [
+            "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers"
+          ]
+        },
+        {
+          "text": "Preferences varied by proficiency level.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased.",
+          "central": false,
+          "entity": "ESL students at different proficiency levels",
+          "measure": "variation in feedback source preferences across proficiency levels",
+          "quotes": [
+            "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+        "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+        "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Preferences also varied by proficiency: at the lower level, 7 of 8 students wanted feedback solely from teachers, whereas at the higher level, 5 of 6 preferred feedback from both teachers and peers (Liu & Wu, 2019).",
+      "citation": "(Liu & Wu, 2019)",
+      "paper_doi": "10.17239/jowr-2019.11.02.03",
+      "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+            "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+            "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+          ],
+          "tokens": {
+            "input_tokens": 17511,
+            "output_tokens": 894
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task",
+      "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+      "status": "verified",
+      "evidence_quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+      "explanation": "All four propositions are stated in the source. The central assertion — that one learner (Flora) resubmitted her essay 13 times and raised her score from 79 to 90 — is supported by \"Flora resubmitted her essay 13 times, while David made one resubmission\" and \"Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)\". The peripheral assertions about the other learner (David) are supported by \"David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task\". No assertion is contradicted and none is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "One learner (Flora) resubmitted an essay 13 times.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "13",
+          "source_value": "13",
+          "quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+          "central": true,
+          "entity": "Flora, a highly engaged L2 learner in the case study",
+          "measure": "number of resubmissions of her essay to the AWE system",
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+          ]
+        },
+        {
+          "text": "That learner raised her score from 79 to 90.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "79 to 90",
+          "source_value": "79 to 90",
+          "quote": "the score rose from 79 to 90 (100 as the full score)",
+          "central": false,
+          "entity": "Flora",
+          "measure": "AWE score change across resubmissions",
+          "quotes": [
+            "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+          ]
+        },
+        {
+          "text": "Another learner (David) resubmitted once.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "once",
+          "source_value": "once",
+          "quote": "David only resubmitted his essay once after receiving AWE feedback",
+          "central": false,
+          "entity": "David, a moderately engaged L2 learner in the case study",
+          "measure": "number of resubmissions after AWE feedback",
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+          ]
+        },
+        {
+          "text": "That other learner spent under 14 minutes on the task.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "under 14 minutes",
+          "source_value": "less than 14 minutes",
+          "quote": "only spent less than 14 minutes on the task",
+          "central": false,
+          "entity": "David",
+          "measure": "time spent on the AWE revision task",
+          "quotes": [
+            "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Flora resubmitted her essay 13 times, while David made one resubmission.",
+        "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+        "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2018) documented contrasting engagement profiles: one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task.",
+      "citation": "Zhang and Hyland (2018)",
+      "paper_doi": "10.1016/j.asw.2018.02.004",
+      "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+            "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+          ],
+          "tokens": {
+            "input_tokens": 17578,
+            "output_tokens": 1124
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "documented contrasting engagement profiles",
+      "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+      "status": "verified",
+      "evidence_quote": "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+      "explanation": "The claim's single proposition — that the study documented contrasting engagement profiles — is stated in the source. The paper explicitly contrasts the two case-study students: \"The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.\" Section 8 is titled \"Comparison between the two types of learners\" and states \"It is clear that the two students engaged with teacher and AWE feedback on their writing differently\". The central assertion is supported, no assertion is contradicted, and no peripheral assertion is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study documented contrasting engagement profiles of the two L2 students.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+          "central": true,
+          "entity": "the two L2 students in the study",
+          "measure": "documented engagement profiles (contrasting)",
+          "quotes": [
+            "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+            "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+        "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2018) documented contrasting engagement profiles: one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task.",
+      "citation": "Zhang and Hyland (2018)",
+      "paper_doi": "10.1016/j.asw.2018.02.004",
+      "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+            "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+          ],
+          "tokens": {
+            "input_tokens": 17546,
+            "output_tokens": 664
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "Teacher feedback addressed more error types (16) than AWE feedback (8), though assignment differences may have confounded this comparison",
+      "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+      "status": "verified",
+      "evidence_quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+      "explanation": "The source states verbatim in Section 5 that \"Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.\" Table 1 confirms the totals of 16 and 8. The central direction assertion (more error types for teacher feedback) and the two quantity assertions (16 and 8) are supported, and the peripheral attribution that assignment differences may have confounded the comparison is also supported by the source's own hedge about assignment differences. No assertion is contradicted or absent, and the claim preserves the source's hedge.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Teacher feedback addressed more error types than AWE feedback.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "more",
+          "source_value": "more",
+          "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "central": true,
+          "entity": "Teacher feedback and AWE feedback in the study",
+          "measure": "number of error types addressed",
+          "quotes": [
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8)"
+          ]
+        },
+        {
+          "text": "Teacher feedback addressed 16 error types.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "16",
+          "source_value": "16",
+          "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "central": false,
+          "entity": "Teacher feedback",
+          "measure": "number of error types addressed",
+          "quotes": [
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "Total \n16 \n8"
+          ]
+        },
+        {
+          "text": "AWE feedback addressed 8 error types.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "8",
+          "source_value": "8",
+          "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "central": false,
+          "entity": "AWE feedback",
+          "measure": "number of error types addressed",
+          "quotes": [
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "Total \n16 \n8"
+          ]
+        },
+        {
+          "text": "Assignment differences may have confounded the comparison of error types addressed.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": "may have confounded",
+          "source_value": "may have influenced",
+          "quote": "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+          "central": false,
+          "entity": "The comparison between teacher and AWE feedback error types",
+          "measure": "possible confounding by assignment differences",
+          "quotes": [
+            "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+        "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+        "Total \n16 \n8"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Teacher feedback addressed more error types (16) than AWE feedback (8), though assignment differences may have confounded this comparison (Zhang & Hyland, 2018).",
+      "citation": "(Zhang & Hyland, 2018)",
+      "paper_doi": "10.1016/j.asw.2018.02.004",
+      "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+            "Total \n16 \n8"
+          ],
+          "tokens": {
+            "input_tokens": 17567,
+            "output_tokens": 933
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8) or teacher feedback (4.7), and 88% submitted more than five times",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — that students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours) — is supported verbatim by the behavioural engagement section: \"they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).\" The peripheral assertion about submission frequency is likewise supported: \"88% of the 33 students submitted to the AWE system more than five times\". No assertion is contradicted, no peripheral assertion is absent, and no hedge is removed (the source itself frames the time figures as self-reported: \"the students reported that they spent an average of...\").",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer feedback (5.8 hours) or teacher feedback (4.7 hours).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "AWE 6.2 hours > peer 5.8 hours > teacher 4.7 hours",
+          "source_value": "AWE 6.2 hours > peer 5.8 hours > teacher 4.7 hours",
+          "quote": "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+          "central": true,
+          "entity": "33 third-year Chinese university students in Hong's Advanced Academic English course",
+          "measure": "self-reported average hours spent revising drafts after each feedback type",
+          "quotes": [
+            "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+          ]
+        },
+        {
+          "text": "88% of the students submitted to the AWE system more than five times.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "88%",
+          "source_value": "88%",
+          "quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+          "central": false,
+          "entity": "33 third-year Chinese university students in Hong's Advanced Academic English course",
+          "measure": "percentage of students submitting to the AWE system more than five times",
+          "quotes": [
+            "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+        "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8) or teacher feedback (4.7), and 88% submitted more than five times (Zhang & Hyland, 2021).",
+      "citation": "(Zhang & Hyland, 2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+            "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+          ],
+          "tokens": {
+            "input_tokens": 12735,
+            "output_tokens": 1148
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "This case study's single-classroom scope limits generalisability",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+      "explanation": "The claim has two propositions: (a) the study is a case study confined to a single classroom (one teacher and 33 students in one class at a Chinese university), and (b) this scope limits generalisability. Both are stated in the source. The central assertion — that the single-classroom scope limits generalisability — is supported by \"While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth\" and by \"We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.\" The peripheral assertion about the single-classroom scope is supported by \"The participants in this study were one teacher and 33 students at a Chinese university\" and \"The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class\". No assertion is contradicted and no hedge is removed (the source itself asserts the limitation), so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study is a case study confined to a single classroom (one teacher and 33 students in one class at a Chinese university).",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "one classroom, one teacher, 33 students",
+          "source_value": "one teacher and 33 students at a Chinese university; 33 third-year Chinese students majoring in English in the same class",
+          "quote": "The participants in this study were one teacher and 33 students at a Chinese university.",
+          "central": false,
+          "entity": "the study's participants and setting",
+          "measure": "number of teachers, students and classrooms",
+          "quotes": [
+            "The participants in this study were one teacher and 33 students at a Chinese university.",
+            "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+          ]
+        },
+        {
+          "text": "This single-classroom scope limits generalisability.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "limited",
+          "source_value": "limited generalisability; raises issues of generalisability",
+          "quote": "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+          "central": true,
+          "entity": "this case study",
+          "measure": "generalisability of findings",
+          "quotes": [
+            "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+            "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+        "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth.",
+        "The participants in this study were one teacher and 33 students at a Chinese university.",
+        "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "This case study's single-classroom scope limits generalisability (Zhang & Hyland, 2021).",
+      "citation": "(Zhang & Hyland, 2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+            "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth.",
+            "The participants in this study were one teacher and 33 students at a Chinese university.",
+            "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+          ],
+          "tokens": {
+            "input_tokens": 12706,
+            "output_tokens": 917
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "EFL teachers largely marked all errors comprehensively, whereas ESL teachers tended toward selective feedback on frequent error types",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+      "explanation": "The central assertion — that EFL teachers largely marked all errors comprehensively — is stated verbatim in the source: \"In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing.\" The peripheral contrast is also supported: \"teachers working in ESL contexts were inclined to a more selective approach ... through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.\" Both propositions are supported with matching entities, measures, direction and quantifiers, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "EFL teachers largely employed a comprehensive approach to WCF provision by marking all errors in student writing",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "largely comprehensive, all errors",
+          "source_value": "largely comprehensive, all errors",
+          "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+          "central": true,
+          "entity": "EFL teachers",
+          "measure": "scope of WCF provision (comprehensive marking of all errors)",
+          "quotes": [
+            "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing"
+          ]
+        },
+        {
+          "text": "ESL teachers were inclined toward a more selective approach, paying special attention to the most frequent error types in student texts",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "selective, frequent error types",
+          "source_value": "selective, most frequent error types",
+          "quote": "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts",
+          "central": false,
+          "entity": "ESL teachers",
+          "measure": "scope of WCF provision (selective approach targeting frequent error types)",
+          "quotes": [
+            "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+        "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "EFL teachers largely marked all errors comprehensively, whereas ESL teachers tended toward selective feedback on frequent error types (Mao et al., 2024).",
+      "citation": "(Mao et al., 2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 6 (findings)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+            "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+          ],
+          "tokens": {
+            "input_tokens": 24895,
+            "output_tokens": 797
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "That review is limited by its exclusion of peer and computational feedback and by possible publication bias",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+      "explanation": "The claim attributes two acknowledged limitations to the review. Both are stated verbatim in the Conclusion: \"One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools\" supports the exclusion-of-peer-and-computational-feedback assertion, and \"Another limitation is that the publication bias of the review cannot be eliminated\" supports the publication-bias assertion. The central assertion (the review is limited by excluding peer and computational feedback) is supported, and the peripheral assertion (possible publication bias) is also supported, so no assertion is absent or contradicted and no hedge is removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The review is limited by its exclusion of peer and computational feedback.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+          "central": true,
+          "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+          "measure": "acknowledged limitation: exclusive focus on teacher WCF, excluding peer and computational feedback",
+          "quotes": [
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+          ]
+        },
+        {
+          "text": "The review is limited by possible publication bias.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases.",
+          "central": false,
+          "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+          "measure": "acknowledged limitation: publication bias cannot be eliminated",
+          "quotes": [
+            "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+        "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "That review is limited by its exclusion of peer and computational feedback and by possible publication bias (Mao et al., 2024).",
+      "citation": "(Mao et al., 2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 8 (methods)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+            "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+          ],
+          "tokens": {
+            "input_tokens": 24893,
+            "output_tokens": 697
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    }
+  ],
+  "verified_count": 10,
+  "unsupported_count": 0,
+  "nuance_count": 0,
+  "abstract_only_count": 0,
+  "error_count": 0,
+  "needs_rewrite": 0,
+  "needs_removal": 0,
+  "provenance": {
+    "agent": "claim_verification",
+    "calls": 10,
+    "temperature": 0.0,
+    "guard_digest": "8a6c833ffc329f89",
+    "input_tokens": 185109,
+    "output_tokens": 8897,
+    "model_reported": [
+      "deepseek-flash"
+    ],
+    "prompt_version": "sha256:49fcfbfaf2f6",
+    "model_configured": "deepseek-chat",
+    "system_fingerprints": [
+      "aeb56401ca74e127821c4f9126dcb669"
+    ],
+    "repair_prompt_version": "sha256:7ec7cffe852d",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc"
+  },
+  "full_text_coverage": 1.0,
+  "task_id": "962d4104-df6f-4c48-abdb-6e5062b1bb52",
+  "contradicted_count": 0,
+  "guarded_count": 0,
+  "citation_coverage": {
+    "found": 9,
+    "linked": 9,
+    "sent_to_verifier": 10,
+    "unresolved": 0,
+    "unresolved_citations": [],
+    "by_source": {
+      "mapping": 9,
+      "numbered": 0,
+      "author-year": 0
+    }
+  },
+  "healed": true,
+  "finalize_stats": {
+    "frame_spans_accepted": 0,
+    "sentences_residue_excised": 0,
+    "sentences_removed_dangling": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_unverified": 0,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 0,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 0,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "final_report": {
+    "verifications": [
+      {
+        "claim_text": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+        "explanation": "The claim's central proposition — that learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues — is stated in the source. Section 5.4 reports: \"the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)\", and the abstract states \"learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues.\" The mental-effort scale (Paas, 1992) is the measure of cognitive load, so \"mental effort\" and \"cognitive load\" refer to the same measure. The significance qualifier is supported by the reported p < 0.001. No assertion is contradicted and no peripheral assertion is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (DCF+G) than when processing metalinguistic codes on grammatical and non-grammatical errors (ME+GN).",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "significantly lower mental effort for DCF+G",
+            "source_value": "significantly lower cognitive load for DCF+G than ME+GN (p < 0.001)",
+            "quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "central": true,
+            "entity": "EFL learners (low intermediate, N = 139) revising texts after comprehensive CF",
+            "measure": "self-reported mental effort (Paas 1992 scale) after text revision",
+            "quotes": [
+              "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+              "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+            ]
+          },
+          {
+            "text": "The lower mental effort for direct corrections on grammatical issues was statistically significant.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+            "central": false,
+            "entity": "EFL learners revising texts after comprehensive CF",
+            "measure": "statistical significance of the mental effort difference",
+            "quotes": [
+              "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+          "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Learners reported significantly lower mental effort when processing direct corrections targeting grammatical issues (Bonilla López et al., 2018).",
+        "citation": "(Bonilla López et al., 2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "the cognitive load imposed by revision after DCF+G was significantly lower than that after ME+GN (p < 0.001, SE = 0.350)",
+              "learners’ cognitive load estimates proved significantly lower processing direct corrections targeting grammatical issues"
+            ],
+            "tokens": {
+              "input_tokens": 22170,
+              "output_tokens": 825
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "Direct correction combined with metalinguistic explanation was favoured most often (215/447 responses, 48.10%), ahead of direct correction alone (111/447, 24.83%)",
+        "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+        "status": "verified",
+        "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+        "explanation": "The source's Section 4.1.6 (Explicitness of CF) states verbatim: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" Both the central assertion (DC + metalinguistic explanation favoured most often, 215/447, 48.10%) and the peripheral ranking assertion (direct correction alone second, 111/447, 24.83%) match the source's entities, measures, values and ordering exactly. No assertion is contradicted, absent, or hedged relative to the source.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Students favoured direct correction in conjunction with metalinguistic explanations most often, at 215/447 responses (48.10%).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "215/447, 48.10%",
+            "source_value": "215/447, 48.10%",
+            "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "central": true,
+            "entity": "students in the ESL program survey (447 choices on explicitness of CF)",
+            "measure": "number and percentage of choices for direct correction with metalinguistic explanation",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+            ]
+          },
+          {
+            "text": "Direct correction alone (without metalinguistic explanations) ranked second, at 111/447 responses (24.83%).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "111/447, 24.83%",
+            "source_value": "111/447, 24.83%",
+            "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "central": false,
+            "entity": "students in the ESL program survey (447 choices on explicitness of CF)",
+            "measure": "number and percentage of choices for direct correction without metalinguistic explanations",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Direct correction combined with metalinguistic explanation was favoured most often (215/447 responses, 48.10%), ahead of direct correction alone (111/447, 24.83%) (Liu & Wu, 2019).",
+        "citation": "(Liu & Wu, 2019)",
+        "paper_doi": "10.17239/jowr-2019.11.02.03",
+        "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+            ],
+            "tokens": {
+              "input_tokens": 17508,
+              "output_tokens": 898
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "Preferences also varied by proficiency: at the lower level, 7 of 8 students wanted feedback solely from teachers, whereas at the higher level, 5 of 6 preferred feedback from both teachers and peers",
+        "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+        "status": "verified",
+        "evidence_quote": "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+        "explanation": "The source states verbatim: \"The contrast between Level 3 and Level 6 was most conspicuous: all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers, whereas all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers.\" Both counts (7 of 8; 5 of 6) match the claim exactly, and the source also supports the general framing that preferences varied by proficiency (\"students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased\"). All assertions are supported, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "At the lower proficiency level, 7 of 8 students wanted feedback solely from teachers.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "7 of 8",
+            "source_value": "7/8, 87.5%",
+            "quote": "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+            "central": true,
+            "entity": "Level 3 (lower proficiency) students in the ESL program survey",
+            "measure": "number preferring feedback solely from teachers",
+            "quotes": [
+              "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers"
+            ]
+          },
+          {
+            "text": "At the higher proficiency level, 5 of 6 students preferred feedback from both teachers and peers.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "5 of 6",
+            "source_value": "5/6, 83.33%",
+            "quote": "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+            "central": false,
+            "entity": "Level 6 (higher proficiency) students in the ESL program survey",
+            "measure": "number preferring feedback from both teachers and peers",
+            "quotes": [
+              "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers"
+            ]
+          },
+          {
+            "text": "Preferences varied by proficiency level.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased.",
+            "central": false,
+            "entity": "ESL students at different proficiency levels",
+            "measure": "variation in feedback source preferences across proficiency levels",
+            "quotes": [
+              "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+          "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+          "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Preferences also varied by proficiency: at the lower level, 7 of 8 students wanted feedback solely from teachers, whereas at the higher level, 5 of 6 preferred feedback from both teachers and peers (Liu & Wu, 2019).",
+        "citation": "(Liu & Wu, 2019)",
+        "paper_doi": "10.17239/jowr-2019.11.02.03",
+        "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "all except one from the lower level (7/8, 87.5%) desired feedback solely from teachers",
+              "all except one from the higher level (5/6, 83.33%) preferred feedback from both teachers and peers",
+              "It is clear that students’ reliance on teachers as an exclusive source of feedback declined as their proficiency increased."
+            ],
+            "tokens": {
+              "input_tokens": 17511,
+              "output_tokens": 894
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task",
+        "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+        "status": "verified",
+        "evidence_quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+        "explanation": "All four propositions are stated in the source. The central assertion — that one learner (Flora) resubmitted her essay 13 times and raised her score from 79 to 90 — is supported by \"Flora resubmitted her essay 13 times, while David made one resubmission\" and \"Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)\". The peripheral assertions about the other learner (David) are supported by \"David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task\". No assertion is contradicted and none is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "One learner (Flora) resubmitted an essay 13 times.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "13",
+            "source_value": "13",
+            "quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "central": true,
+            "entity": "Flora, a highly engaged L2 learner in the case study",
+            "measure": "number of resubmissions of her essay to the AWE system",
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+            ]
+          },
+          {
+            "text": "That learner raised her score from 79 to 90.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "79 to 90",
+            "source_value": "79 to 90",
+            "quote": "the score rose from 79 to 90 (100 as the full score)",
+            "central": false,
+            "entity": "Flora",
+            "measure": "AWE score change across resubmissions",
+            "quotes": [
+              "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+            ]
+          },
+          {
+            "text": "Another learner (David) resubmitted once.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "once",
+            "source_value": "once",
+            "quote": "David only resubmitted his essay once after receiving AWE feedback",
+            "central": false,
+            "entity": "David, a moderately engaged L2 learner in the case study",
+            "measure": "number of resubmissions after AWE feedback",
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+            ]
+          },
+          {
+            "text": "That other learner spent under 14 minutes on the task.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "under 14 minutes",
+            "source_value": "less than 14 minutes",
+            "quote": "only spent less than 14 minutes on the task",
+            "central": false,
+            "entity": "David",
+            "measure": "time spent on the AWE revision task",
+            "quotes": [
+              "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Flora resubmitted her essay 13 times, while David made one resubmission.",
+          "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+          "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2018) documented contrasting engagement profiles: one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task.",
+        "citation": "Zhang and Hyland (2018)",
+        "paper_doi": "10.1016/j.asw.2018.02.004",
+        "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+              "We can see in the screenshot in Figure 6 that David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+            ],
+            "tokens": {
+              "input_tokens": 17578,
+              "output_tokens": 1124
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "documented contrasting engagement profiles",
+        "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+        "status": "verified",
+        "evidence_quote": "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+        "explanation": "The claim's single proposition — that the study documented contrasting engagement profiles — is stated in the source. The paper explicitly contrasts the two case-study students: \"The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.\" Section 8 is titled \"Comparison between the two types of learners\" and states \"It is clear that the two students engaged with teacher and AWE feedback on their writing differently\". The central assertion is supported, no assertion is contradicted, and no peripheral assertion is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study documented contrasting engagement profiles of the two L2 students.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+            "central": true,
+            "entity": "the two L2 students in the study",
+            "measure": "documented engagement profiles (contrasting)",
+            "quotes": [
+              "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+              "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+          "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2018) documented contrasting engagement profiles: one learner resubmitted an essay 13 times and raised her score from 79 to 90, while another resubmitted once and spent under 14 minutes on the task.",
+        "citation": "Zhang and Hyland (2018)",
+        "paper_doi": "10.1016/j.asw.2018.02.004",
+        "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The different styles of engagement adopted by these students led us to identify one as a highly engaged learner and the other as a moderately engaged learner, and this helped us to see how each responded to teacher and AWE feedback differently.",
+              "It is clear that the two students engaged with teacher and AWE feedback on their writing differently and we believe there were two main factors in this: the type of feedback the students received and individual learner traits."
+            ],
+            "tokens": {
+              "input_tokens": 17546,
+              "output_tokens": 664
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "Teacher feedback addressed more error types (16) than AWE feedback (8), though assignment differences may have confounded this comparison",
+        "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+        "status": "verified",
+        "evidence_quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+        "explanation": "The source states verbatim in Section 5 that \"Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.\" Table 1 confirms the totals of 16 and 8. The central direction assertion (more error types for teacher feedback) and the two quantity assertions (16 and 8) are supported, and the peripheral attribution that assignment differences may have confounded the comparison is also supported by the source's own hedge about assignment differences. No assertion is contradicted or absent, and the claim preserves the source's hedge.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Teacher feedback addressed more error types than AWE feedback.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "more",
+            "source_value": "more",
+            "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "central": true,
+            "entity": "Teacher feedback and AWE feedback in the study",
+            "measure": "number of error types addressed",
+            "quotes": [
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8)"
+            ]
+          },
+          {
+            "text": "Teacher feedback addressed 16 error types.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "16",
+            "source_value": "16",
+            "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "central": false,
+            "entity": "Teacher feedback",
+            "measure": "number of error types addressed",
+            "quotes": [
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+              "Total \n16 \n8"
+            ]
+          },
+          {
+            "text": "AWE feedback addressed 8 error types.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "8",
+            "source_value": "8",
+            "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "central": false,
+            "entity": "AWE feedback",
+            "measure": "number of error types addressed",
+            "quotes": [
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+              "Total \n16 \n8"
+            ]
+          },
+          {
+            "text": "Assignment differences may have confounded the comparison of error types addressed.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": "may have confounded",
+            "source_value": "may have influenced",
+            "quote": "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+            "central": false,
+            "entity": "The comparison between teacher and AWE feedback error types",
+            "measure": "possible confounding by assignment differences",
+            "quotes": [
+              "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+          "Total \n16 \n8"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Teacher feedback addressed more error types (16) than AWE feedback (8), though assignment differences may have confounded this comparison (Zhang & Hyland, 2018).",
+        "citation": "(Zhang & Hyland, 2018)",
+        "paper_doi": "10.1016/j.asw.2018.02.004",
+        "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+              "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+              "Total \n16 \n8"
+            ],
+            "tokens": {
+              "input_tokens": 17567,
+              "output_tokens": 933
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8) or teacher feedback (4.7), and 88% submitted more than five times",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — that students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8 hours) or teacher feedback (4.7 hours) — is supported verbatim by the behavioural engagement section: \"they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).\" The peripheral assertion about submission frequency is likewise supported: \"88% of the 33 students submitted to the AWE system more than five times\". No assertion is contradicted, no peripheral assertion is absent, and no hedge is removed (the source itself frames the time figures as self-reported: \"the students reported that they spent an average of...\").",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer feedback (5.8 hours) or teacher feedback (4.7 hours).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "AWE 6.2 hours > peer 5.8 hours > teacher 4.7 hours",
+            "source_value": "AWE 6.2 hours > peer 5.8 hours > teacher 4.7 hours",
+            "quote": "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+            "central": true,
+            "entity": "33 third-year Chinese university students in Hong's Advanced Academic English course",
+            "measure": "self-reported average hours spent revising drafts after each feedback type",
+            "quotes": [
+              "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14)."
+            ]
+          },
+          {
+            "text": "88% of the students submitted to the AWE system more than five times.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "88%",
+            "source_value": "88%",
+            "quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+            "central": false,
+            "entity": "33 third-year Chinese university students in Hong's Advanced Academic English course",
+            "measure": "percentage of students submitting to the AWE system more than five times",
+            "quotes": [
+              "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+          "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Students reported spending more time revising after AWE feedback (6.2 hours) than after peer (5.8) or teacher feedback (4.7), and 88% submitted more than five times (Zhang & Hyland, 2021).",
+        "citation": "(Zhang & Hyland, 2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In the interviews, the students reported that they spent an average of 6.2 (SD = 1.89) hours revising their drafts after receiving AWE feedback. This is more than they reported spending on peer feedback (average of 5.8 hours, SD = 2.4) and teacher feedback (4.7 hours, SD = 2.14).",
+              "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise."
+            ],
+            "tokens": {
+              "input_tokens": 12735,
+              "output_tokens": 1148
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "This case study's single-classroom scope limits generalisability",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+        "explanation": "The claim has two propositions: (a) the study is a case study confined to a single classroom (one teacher and 33 students in one class at a Chinese university), and (b) this scope limits generalisability. Both are stated in the source. The central assertion — that the single-classroom scope limits generalisability — is supported by \"While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth\" and by \"We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.\" The peripheral assertion about the single-classroom scope is supported by \"The participants in this study were one teacher and 33 students at a Chinese university\" and \"The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class\". No assertion is contradicted and no hedge is removed (the source itself asserts the limitation), so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study is a case study confined to a single classroom (one teacher and 33 students in one class at a Chinese university).",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "one classroom, one teacher, 33 students",
+            "source_value": "one teacher and 33 students at a Chinese university; 33 third-year Chinese students majoring in English in the same class",
+            "quote": "The participants in this study were one teacher and 33 students at a Chinese university.",
+            "central": false,
+            "entity": "the study's participants and setting",
+            "measure": "number of teachers, students and classrooms",
+            "quotes": [
+              "The participants in this study were one teacher and 33 students at a Chinese university.",
+              "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+            ]
+          },
+          {
+            "text": "This single-classroom scope limits generalisability.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "limited",
+            "source_value": "limited generalisability; raises issues of generalisability",
+            "quote": "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+            "central": true,
+            "entity": "this case study",
+            "measure": "generalisability of findings",
+            "quotes": [
+              "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+              "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+          "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth.",
+          "The participants in this study were one teacher and 33 students at a Chinese university.",
+          "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "This case study's single-classroom scope limits generalisability (Zhang & Hyland, 2021).",
+        "citation": "(Zhang & Hyland, 2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "We recognise, of course, that a case study has limited generalisability and reflects the thoughts and practices of individuals in one context.",
+              "While focusing on one teacher and 33 students raises issues of generalisability, it is a valuable means of investigating issues of student engagement in considerable depth.",
+              "The participants in this study were one teacher and 33 students at a Chinese university.",
+              "The students in the study were 33 third-year Chinese students, six males and 27 females, majoring in English in the same class1."
+            ],
+            "tokens": {
+              "input_tokens": 12706,
+              "output_tokens": 917
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "EFL teachers largely marked all errors comprehensively, whereas ESL teachers tended toward selective feedback on frequent error types",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+        "explanation": "The central assertion — that EFL teachers largely marked all errors comprehensively — is stated verbatim in the source: \"In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing.\" The peripheral contrast is also supported: \"teachers working in ESL contexts were inclined to a more selective approach ... through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.\" Both propositions are supported with matching entities, measures, direction and quantifiers, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "EFL teachers largely employed a comprehensive approach to WCF provision by marking all errors in student writing",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "largely comprehensive, all errors",
+            "source_value": "largely comprehensive, all errors",
+            "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+            "central": true,
+            "entity": "EFL teachers",
+            "measure": "scope of WCF provision (comprehensive marking of all errors)",
+            "quotes": [
+              "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing"
+            ]
+          },
+          {
+            "text": "ESL teachers were inclined toward a more selective approach, paying special attention to the most frequent error types in student texts",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "selective, frequent error types",
+            "source_value": "selective, most frequent error types",
+            "quote": "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts",
+            "central": false,
+            "entity": "ESL teachers",
+            "measure": "scope of WCF provision (selective approach targeting frequent error types)",
+            "quotes": [
+              "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+          "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "EFL teachers largely marked all errors comprehensively, whereas ESL teachers tended toward selective feedback on frequent error types (Mao et al., 2024).",
+        "citation": "(Mao et al., 2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 6 (findings)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing",
+              "teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+            ],
+            "tokens": {
+              "input_tokens": 24895,
+              "output_tokens": 797
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "That review is limited by its exclusion of peer and computational feedback and by possible publication bias",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+        "explanation": "The claim attributes two acknowledged limitations to the review. Both are stated verbatim in the Conclusion: \"One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools\" supports the exclusion-of-peer-and-computational-feedback assertion, and \"Another limitation is that the publication bias of the review cannot be eliminated\" supports the publication-bias assertion. The central assertion (the review is limited by excluding peer and computational feedback) is supported, and the peripheral assertion (possible publication bias) is also supported, so no assertion is absent or contradicted and no hedge is removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The review is limited by its exclusion of peer and computational feedback.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+            "central": true,
+            "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+            "measure": "acknowledged limitation: exclusive focus on teacher WCF, excluding peer and computational feedback",
+            "quotes": [
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools."
+            ]
+          },
+          {
+            "text": "The review is limited by possible publication bias.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases.",
+            "central": false,
+            "entity": "the review (Mao, Lee & Li, naturalistic WCF synthesis)",
+            "measure": "acknowledged limitation: publication bias cannot be eliminated",
+            "quotes": [
+              "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+          "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "That review is limited by its exclusion of peer and computational feedback and by possible publication bias (Mao et al., 2024).",
+        "citation": "(Mao et al., 2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 8 (methods)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "One is its exclusive focus on teacher WCF, without including research into WCF provided from other sources such as peers and computational tools.",
+              "Another limitation is that the publication bias of the review cannot be eliminated, which might arise from the exclusion of unpublished work and studies outside of our databases."
+            ],
+            "tokens": {
+              "input_tokens": 24893,
+              "output_tokens": 697
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      }
+    ],
+    "verified_count": 10
+  }
+}

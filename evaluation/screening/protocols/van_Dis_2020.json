@@ -1,0 +1,162 @@
+{
+  "dataset_id": "van_Dis_2020",
+  "source_review_doi": "10.1001/jamapsychiatry.2019.3986",
+  "source_review": {
+    "title": "Long-term Outcomes of Cognitive Behavioral Therapy for Anxiety-Related Disorders: A Systematic Review and Meta-analysis",
+    "authors": "van Dis EAM, van Veen SC, Hagenaars MA, Batelaan NM, Bockting CLH, van den Heuvel RM, Cuijpers P, Engelhard IM",
+    "journal": "JAMA Psychiatry",
+    "year": 2020,
+    "volume_issue": "77(3):265-273",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2019.3986"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY (asreview/systematic-review-datasets, metadata-v1-final)",
+    "route": "v1",
+    "url": "https://raw.githubusercontent.com/asreview/systematic-review-datasets/metadata-v1-final/datasets/van_Dis_2020/output/van_Dis_2020.csv",
+    "license": "CC-BY Attribution 4.0 International",
+    "n_records": 10953,
+    "n_label_abstract_screening": 806,
+    "n_label_included": 73,
+    "n_missing_abstract": 438,
+    "n_missing_title": 0,
+    "n_with_doi": 7100,
+    "n_with_issn": 0,
+    "fetched_at": "2026-09-06T22:05:41+00:00",
+    "hydration_status": "not run for this dataset as of this writing (fetch_synergy.py --hydrate was not invoked; data/van_Dis_2020.fetch.json records hydrate: none); n_with_issn above is the export's own count, not a hydration result. Unlike Nagtegaal_2019/van_de_Schoot_2017, the v1 export for this dataset carries a per-record year and 7,100/10,953 records already carry a DOI, so a future hydration run could use by_doi and title+/-1-year matching directly; running it is out of scope for this phase, which creates the protocol JSON only.",
+    "held_out_selection": "Chosen as the sole qualifying held-out set under the WP-B9 gate amendment's abstract-coverage rule (.superpowers/sdd/wpB9-gate-amendment.md; audited in .superpowers/sdd/wpB9-coverage-audit.md): 0.960 abstract coverage (10,515/10,953 records with a non-empty abstract) and 66 abstract-bearing positives, both clearing the amendment's 0.80/40 floors; its 10,953 records exceed the amendment's 6,500-record cap but it is explicitly exempted as the amendment's named fallback because zero of the ten primary route-plus candidates cleared both floors. Its abstracts come bundled directly in the SYNERGY v1 export, not reconstructed from OpenAlex's abstract_inverted_index, which the coverage audit identifies as the reason its coverage is far higher than any route-plus candidate's."
+  },
+  "research_question": "Whether cognitive behavioral therapy (CBT) produces long-term improvement in adults with an anxiety-related disorder (generalized anxiety disorder, panic disorder with or without agoraphobia, social anxiety disorder, specific phobia, posttraumatic stress disorder [PTSD], or obsessive-compulsive disorder [OCD]), compared with a control condition (e.g. care as usual, relaxation, psychoeducation, pill placebo, supportive therapy, or a waiting list), synthesised by a systematic review and meta-analysis of randomized clinical trials reporting posttreatment and at least 1-month follow-up outcomes.",
+  "inclusion_criteria": [
+    "The study is a randomized clinical trial (RCT).",
+    "The intervention studied is cognitive behavioral therapy (CBT), defined as any therapy with cognitive restructuring and/or a behavioral therapy, such as exposure, as a core component, including third-generation CBTs (i.e., acceptance and commitment therapy and metacognitive therapy).",
+    "CBT is delivered in an individual, group, or internet treatment format.",
+    {
+      "text": "The study reports outcomes at least 1 month after treatment completion.",
+      "stage": "full_text",
+      "stage_rationale": "Follow-up length is reported in the Methods/Results, not stated in most abstracts."
+    },
+    "Comparison groups included care as usual (i.e., anything patients would normally receive as long as it was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.",
+    {
+      "text": "Participants are adult patients, or samples consisting mostly of adults but also including some adolescents aged 16 years or older, who received a diagnosis of generalized anxiety disorder (GAD), panic disorder with or without agoraphobia (PD), social anxiety disorder (SAD), specific phobia, posttraumatic stress disorder (PTSD), or obsessive-compulsive disorder (OCD) based on the results of a structured diagnostic interview.",
+      "stage": "full_text",
+      "stage_rationale": "Whether diagnosis was established by a structured diagnostic interview, specifically, is a Methods-section fact; an abstract typically names the disorder but not the diagnostic procedure."
+    },
+    {
+      "text": "The publication is in English and was identified from PubMed, PsycINFO, Embase, Cochrane, or OpenGrey (1980 to January 2019), or from a bibliography screening of relevant meta-analyses and a systematic review.",
+      "stage": "full_text",
+      "stage_rationale": "The source database or search route of the record is metadata about the review's own search, not a fact the paper's title and abstract report."
+    }
+  ],
+  "exclusion_criteria": [
+    "The therapy the study evaluates is not CBT (e.g., the evaluated therapy is applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy). A trial that evaluates CBT alongside one of these therapies has used CBT and does not fail this criterion.",
+    {
+      "text": "The study did not report symptoms separately for each disorder.",
+      "stage": "full_text",
+      "stage_rationale": "Per-disorder symptom reporting is a Results-section fact, not a title/abstract-level fact."
+    },
+    "The study used self-guided therapy without any guidance.",
+    {
+      "text": "The study used CBT combined with medication or pill placebo.",
+      "stage": "abstract",
+      "absence": false
+    },
+    {
+      "text": "The study tested inpatients.",
+      "stage": "abstract",
+      "absence": false
+    }
+  ],
+  "primary_label": "label_included",
+  "label_field": "label_abstract_screening",
+  "criteria_provenance": {
+    "inclusion": [
+      {
+        "id": "I1",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria': 'Randomized clinical trials were included that examined effects of CBT ...'",
+        "derived": false
+      },
+      {
+        "id": "I2",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', same sentence as I1: '... (ie, any therapy with cognitive restructuring and/or a behavioral therapy, such as exposure, as core component), including third generation CBTs (ie, acceptance and commitment therapy and metacognitive therapy) ...'",
+        "derived": false
+      },
+      {
+        "id": "I3",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', same sentence as I1: '... in an individual, group, or internet treatment format.'",
+        "derived": false
+      },
+      {
+        "id": "I4",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', same sentence as I1: '... at least 1 month after treatment completion ...'",
+        "derived": false
+      },
+      {
+        "id": "I5",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', next sentence: 'Comparison groups included care as usual (ie, anything patients would normally receive as long as it was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.'",
+        "derived": false
+      },
+      {
+        "id": "I6",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', next sentence: 'Studies were included if they tested adult patients (or samples consisting mostly of adults but also some adolescents aged >=16 years) who received a diagnosis of GAD, PD, SAD, specific phobia, PTSD, or OCD based on results of a structured diagnostic interview.'",
+        "derived": false
+      },
+      {
+        "id": "I7",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Search Strategy': 'Relevant English-language publications were identified by systematically searching PubMed, PsycINFO, Embase, Cochrane, and OpenGrey (from 1980 until January 2019) ... The electronic database search was supplemented with a bibliography screening of 4 relevant meta-analyses and 1 systematic review.'",
+        "derived": false
+      }
+    ],
+    "exclusion": [
+      {
+        "id": "E1",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', paragraph 2: 'Studies were excluded if they did not use CBT (eg, applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy) ...'; the criterion's second sentence ('A trial that evaluates CBT alongside one of these therapies has used CBT and does not fail this criterion.') is not a further quotation, it is an inference forced by internal consistency with I5 (same page), which names relaxation as an eligible comparison group in the immediately preceding source sentence",
+        "derived": true
+      },
+      {
+        "id": "E2",
+        "source": "paper",
+        "page": "266",
+        "location": "Methods, 'Inclusion Criteria', paragraph 2, same sentence as E1: '... or did not report symptoms separately for each disorder.'",
+        "derived": false
+      },
+      {
+        "id": "E3",
+        "source": "paper",
+        "page": "266-267",
+        "location": "Methods, 'Inclusion Criteria', paragraph 2: 'To reduce clinical heterogeneity, studies were also excluded if they had done any of the following: (1) used self-guided therapy without any guidance ...' (sentence begins p.266, continues p.267)",
+        "derived": false
+      },
+      {
+        "id": "E4",
+        "source": "paper",
+        "page": "267",
+        "location": "Methods, 'Inclusion Criteria', paragraph 2, continued on p.267: '(2) used CBT combined with medication or pill placebo ...'",
+        "derived": false
+      },
+      {
+        "id": "E5",
+        "source": "paper",
+        "page": "267",
+        "location": "Methods, 'Inclusion Criteria', paragraph 2, continued on p.267: '... or (3) tested inpatients.'",
+        "derived": false
+      }
+    ]
+  },
+  "notes": "van_Dis_2020 is the sole held-out set chosen under the WP-B9 gate amendment's abstract-coverage rule on 2026-09-06 (.superpowers/sdd/wpB9-gate-amendment.md, .superpowers/sdd/wpB9-coverage-audit.md section 4-5): it is the amendment's named fallback, invoked because zero of the ten audited primary route-plus candidates cleared the 0.80-coverage/40-abstract-positives floor. research_question is compiled from the source paper's own structured abstract, 'Importance' and 'Objective' sections (JAMA Psychiatry 2020;77(3):265-273, DOI 10.1001/jamapsychiatry.2019.3986). Round-1 fix (2026-09-06): the source paper's full text is reachable from this environment. The OpenAlex work object for this DOI (id W2990088051, checked 2026-09-06) reports open_access.any_repository_has_fulltext=true and lists seven locations: the JAMA Psychiatry primary location (bronze OA, jamanetwork.com PDF; a plain fetch of this URL returned HTTP 403 earlier this session), a PubMed landing page (is_oa=false, no PDF), the Amsterdam UMC (VU Amsterdam) institutional repository landing page (is_oa=false, no PDF), the Pure Amsterdam UMC repository (is_oa=true, PDF at pure.amsterdamumc.nl/ws/files/173163139/Long-term-outcomes-of-cognitive-behavioral-therapy-for-anxiety-related-disorders-a-systematic-review-and-meta-analysis.pdf), PubMed Central (is_oa=true, landing page only in the OpenAlex record, no direct pdf_url field), a DANS/pure.amc.nl landing page (is_oa=true, no PDF), and the Utrecht University Repository (is_oa=false, no PDF). The Pure Amsterdam UMC PDF resolved on 2026-09-06: HTTP 200, 443,459 bytes, application/pdf; it is the full published article (10 pages) and was read with PyMuPDF. inclusion_criteria I1-I7 and exclusion_criteria E1-E5 above are transcribed from its Methods section, 'Inclusion Criteria' subsection (article pp. 266-267, PDF pages 3-4), and, for I7, the adjoining 'Search Strategy' subsection (article p. 266, PDF page 3); all twelve are marked source=paper, derived=false, quoted near-verbatim, with an article page number in criteria_provenance. The structured abstract remains the source of research_question only. The review states five exclusion reasons in the 'Inclusion Criteria' subsection: studies were excluded if they did not use CBT (eg, applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy) or did not report symptoms separately for each disorder, and, 'to reduce clinical heterogeneity', studies were also excluded if they used self-guided therapy without any guidance, used CBT combined with medication or pill placebo, or tested inpatients; E1-E5 are those five reasons, not transcriber-written negations. This corrects the protocol as committed at creation, which stated the full text 'could not be reached from this environment' and that the OpenAlex abstract_inverted_index was 'the only paper text reachable from this environment'; both claims were wrong, made without attempting the repository locations OpenAlex's own work object already listed for this DOI, and are removed along with the six criteria_provenance.exclusion[*].location strings that read 'the full Methods section was unreachable'; WP-B9 protocols review round 1 raised this as a blocker. label_field = label_abstract_screening because the evaluated task is title-and-abstract screening: 806/10,953 records were marked label_abstract_screening=1 in the v1 export (data/van_Dis_2020.fetch.json, fetched 2026-09-06T22:05:41+00:00); primary_label = label_included (73/10,953 final inclusions) per protocols/README.md's 'Choosing the primary label and label_field' section, added at creation per this phase's instruction (label_field and primary_label label_included). Record order: run_screening.py shuffles the record list deterministically before batching (random.Random('van_Dis_2020:20260902'), recorded as record_order_seed in the run meta), unaffected by this protocol (see protocols/README.md 'Record order and batching'). Hydration (identifiers for a WoS gate analysis) has not been run for this dataset as of this writing; dataset_source.hydration_status records why and what a future hydration run could use (7,100/10,953 records already carry a DOI, and the export carries a per-record year unlike Nagtegaal_2019/van_de_Schoot_2017, so title+/-1-year matching would be possible); running that hydration and the WoS gate/screening runs themselves are out of scope for this phase, which creates the protocol JSON only. The authors should re-read the committed criteria against the source paper before the manuscript relies on them. WP-B9 S8 (2026-09-06, .superpowers/sdd/wpB9-S8-brief.md) marks I4 (follow-up length), I6 (diagnosis by structured interview), I7 (the source database or search route of the record) and E2 (per-disorder symptom reporting) full_text: each is a property of the criterion text itself -- a Method- or Results-section fact, or metadata about the review's own search, not something a title and abstract routinely state -- independent of any record, result or run. Design, therapy format, comparator and setting (I1 to I3, I5, E1, E3 to E5) are named in an RCT abstract and stay abstract-stage. E4 ('used CBT combined with medication or pill placebo') and E5 ('tested inpatients') carry an explicit absence: false, because each tests a positively established fact about the study rather than the absence of one. WP-B9 S11 fidelity correction 2026-09-07 (.superpowers/sdd/wpB9-vandis-diagnosis.md section 3): I5 and E1 are corrected against the source paper's own wording, not tuned to any run's results. Before this correction the file hashed to sha256:125deb0a7008442df1ae42e8fdcdaec42ab27659b5d4c7c93c3ada0a85256cb4 (protocol_sha sha256:125deb0a7008); FREEZE_v2.md section 4's van_Dis_2020 row and both results/v2/van_Dis_2020_run{A,B}.meta.json files record that same protocol_sha as the bytes that actually produced runs A and B. The correction was made by reading this dataset's own run rows (wpB9-vandis-diagnosis.md section 5), which under that same section ends van_Dis_2020's held-out status: any number re-measured on van_Dis_2020 after 2026-09-07 is a development-set number, not a held-out one. I5 before: 'CBT is compared with one of the following control conditions: care as usual (i.e., anything patients would normally receive that was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.' I5 after: 'The comparison group is a control condition rather than a second active psychotherapy under test. Comparison groups included care as usual (i.e., anything patients would normally receive as long as it was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.' Source sentence, Methods, 'Inclusion Criteria', p. 266: 'Comparison groups included care as usual (ie, anything patients would normally receive as long as it was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.' The committed wording's phrase 'one of the following' had turned the source's open enumeration ('Comparison groups included ...') into a closed six-item list; the correction restores the open form and the source's own qualifying clause. The added first sentence ('The comparison group is a control condition rather than a second active psychotherapy under test.') is not itself a transcription; its source is the review's own Study Selection line, quoted below in this paragraph: 'Randomized clinical trials on posttreatment and at least 1-month follow-up effects of cognitive behavioral therapy compared with control conditions' (also echoed in this file's research_question, 'compared with a control condition'). It states, on the I5 side, the same role distinction argued on the E1 side below: the comparator on I5's side of the trial is a control condition, not a second active psychotherapy under test, which is why E1's parenthetical can only be read as naming the therapy under evaluation. The six comparison groups I5's second sentence names (care as usual, relaxation, psychoeducation, pill placebo, supportive therapy, waiting list) are the source's own examples of such a control condition and always satisfy the first sentence, so the first sentence does not narrow eligibility below what the second sentence already grants. E1 before: 'The study did not use CBT (e.g., applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy).' E1 after: 'The therapy the study evaluates is not CBT (e.g., the evaluated therapy is applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy). A trial that evaluates CBT alongside one of these therapies has used CBT and does not fail this criterion.' Source sentence, same page and paragraph: 'Studies were excluded if they did not use CBT (eg, applied relaxation, eye movement desensitization and reprocessing, or interpersonal therapy) ...' The added second sentence states nothing the source does not already require: it is forced by internal consistency with I5, which names relaxation as an eligible comparison group in the immediately preceding source sentence, so the parenthetical in E1 can only describe the therapy under evaluation and I5 the comparator. criteria_provenance for I5 and E1 is unchanged (source: paper, page: 266, derived: false). Every run of the v2 prompt before this date used the old wording of both criteria: the frozen van_Dis_2020 held-out runs A and B committed at 3d20f19 (results/v2/van_Dis_2020_run{A,B}.jsonl). Fong_2021 dev iterations 1 to 10 (results/dev/v2-iter1/ through v2-iter10/) ran the v2 prompt against Fong_2021.json, a different protocol, and never loaded I5 or E1 in either wording; they are unaffected by this correction. Records 4, 5, 32 and 70 are documented as review looseness, not corrected by a criterion change: each fails E3 ('used self-guided therapy without any guidance') or E4 ('used CBT combined with medication or pill placebo') exactly as the review itself worded them, and the review nonetheless included all four. The article's own Study Selection line states the review's practical unit of eligibility: 'Randomized clinical trials on posttreatment and at least 1-month follow-up effects of cognitive behavioral therapy compared with control conditions', and its Results report 'Of 69 randomized clinical trials' against 73 records in this dataset, indicating that several records are companion or secondary reports of a single extracted CBT-versus-control comparison rather than independent trial-level records. E3 and E4 are not reworded on this basis: the evidence for a contrast-level reading is inference from the review's practice, not a quotable criterion sentence, and rewriting on that basis would be the tuning protocols/README.md's 'Provenance rules' forbids. WP-B9 S11 review round 2 fix (2026-09-07, closing .superpowers/sdd/wpB9-S11-protocols-review.md commit af58b8a645b52c3da2ea795bf5a9af5106f3f4db, major 1 and minor 1): I5's first sentence, 'The comparison group is a control condition rather than a second active psychotherapy under test.', is removed from the criterion. It was not a transcription (its stated source above is the abstract's Study Selection line, not the p. 266 Methods sentence I5 otherwise quotes) and it narrowed the source's own open enumeration in the direction of excluding trials the review itself included: Record 35 ('Applied tension, exposure in vivo, and tension-only in the treatment of blood phobia', label_included=1) has three arms, applied tension, exposure in vivo, and tension-only, and no care-as-usual, waiting-list, placebo or other control arm at all; Record 24 ('Outcome Predictors for Three PTSD Treatments: Exposure Therapy, EMDR, and Relaxation Training', label_included=1) evaluates CBT alongside EMDR and relaxation training, so its comparison group is itself an active psychotherapy under test. Under the removed sentence a screener had a plain textual reason to exclude both. I5 now reads exactly the source's own sentence, quoted above as the second sentence of 'I5 after' and unchanged since the 2026-09-07 fidelity correction: 'Comparison groups included care as usual (i.e., anything patients would normally receive as long as it was not a structured type of psychotherapy, such as primary care at medical centers or case management with educational groups), relaxation, psychoeducation, pill placebo, supportive therapy, or waiting list.' The 'I5 after' quotation earlier in this notes paragraph, which includes the now-removed first sentence, is a historical record of the wording that held between the 2026-09-07 fidelity correction and this fix round; it no longer describes the current criterion text. criteria_provenance.inclusion[I5] is unchanged (source: paper, page: 266, derived: false) because the remaining text is exactly what that entry already cited. criteria_provenance.exclusion[E1] is changed from derived: false to derived: true: E1's second sentence ('A trial that evaluates CBT alongside one of these therapies has used CBT and does not fail this criterion.') was always an inference from internal consistency with I5's naming of relaxation as an eligible comparator, not a further quotation from p. 266, and review round 2 (minor 1) found the file's derived: false claim contradicted that; location for E1 now states the inference explicitly, and source and page are unchanged because the inference is anchored to the same page and the same source paragraph as E1's first sentence."
+}

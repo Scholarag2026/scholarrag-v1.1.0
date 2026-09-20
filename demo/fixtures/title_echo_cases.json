@@ -1,0 +1,62 @@
+[
+  {
+    "description": "the section's only line is its own restated title, verbatim",
+    "paragraph": "Metalinguistic Coded Feedback in L2 Writing",
+    "references": ["Metalinguistic codes as written corrective feedback"],
+    "expected": true
+  },
+  {
+    "description": "a demoted sub-heading reworded with an article dropped and a suffix added",
+    "paragraph": "Engagement with Written Corrective Feedback in Second-Language Writing",
+    "references": ["Learner engagement with written corrective feedback"],
+    "expected": true
+  },
+  {
+    "description": "a demoted sub-heading, 'versus' restated as 'and'",
+    "paragraph": "Direct and Indirect Written Corrective Feedback in L2 Writing",
+    "references": ["Direct versus indirect written corrective feedback"],
+    "expected": true
+  },
+  {
+    "description": "a demoted sub-heading with a 'Literature Review:' prefix added",
+    "paragraph": "Literature Review: Automated Written Corrective Feedback in L2 Writing",
+    "references": ["Automated written corrective feedback"],
+    "expected": true
+  },
+  {
+    "description": "a demoted sub-heading with a numeral prefix and 'and' for 'in'",
+    "paragraph": "2.1 Automated Written Corrective Feedback and L2 Writing",
+    "references": ["Automated written corrective feedback"],
+    "expected": true
+  },
+  {
+    "description": "a genuine, substantive body paragraph sharing the heading's own topic vocabulary, not an echo",
+    "paragraph": "Research on written corrective feedback in second-language writing has moved from questions of whether feedback works to questions of how learners engage with it, and Mao et al. (2024) synthesised 50 naturalistic classroom studies across four themes.",
+    "references": ["Learner engagement with written corrective feedback"],
+    "expected": false
+  },
+  {
+    "description": "a short but unrelated framing sentence under the same heading",
+    "paragraph": "Accuracy effects have been examined experimentally.",
+    "references": ["Learner engagement with written corrective feedback"],
+    "expected": false
+  },
+  {
+    "description": "a short but unrelated finding sentence under the same heading",
+    "paragraph": "Cognitive processing differences accompany this accuracy gap.",
+    "references": ["Metalinguistic codes as written corrective feedback"],
+    "expected": false
+  },
+  {
+    "description": "empty paragraph never matches",
+    "paragraph": "",
+    "references": ["Learner engagement with written corrective feedback"],
+    "expected": false
+  },
+  {
+    "description": "no reference texts at all never matches",
+    "paragraph": "Metalinguistic Coded Feedback in L2 Writing",
+    "references": [],
+    "expected": false
+  }
+]

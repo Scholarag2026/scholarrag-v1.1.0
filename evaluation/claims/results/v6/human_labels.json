@@ -1,0 +1,899 @@
+{
+  "generated": "2026-09-15T04:31:27+00:00",
+  "source": "three human-review workbooks (Review sheet) joined through the workbook key; no reviewer identity read or recorded",
+  "n_items": 86,
+  "n_constructed": 60,
+  "n_real": 26,
+  "no_majority_item_ids": [],
+  "inter_rater_agreement": {
+    "mean_pairwise_percent_agreement": 0.9658119658119658,
+    "pairwise_percent_agreement": [
+      0.9615,
+      0.9615,
+      0.9744
+    ],
+    "mean_pairwise_cohens_kappa": 0.9482296409186937,
+    "fleiss_kappa": 0.9482300884955751,
+    "n_items": 78,
+    "n_unanimous": 74,
+    "population": "judged_only (86 minus the 8 protocol-fixed no_full_text rows)",
+    "n_no_majority": 0,
+    "with_withheld": {
+      "mean_pairwise_percent_agreement": 0.9689922480620154,
+      "pairwise_percent_agreement": [
+        0.9651,
+        0.9651,
+        0.9767
+      ],
+      "mean_pairwise_cohens_kappa": 0.9564480720689766,
+      "fleiss_kappa": 0.9564483457123565,
+      "n_items": 86,
+      "n_unanimous": 82,
+      "population": "all 86 Review items, including the 8 protocol-fixed rows",
+      "n_no_majority": 0
+    },
+    "n_protocol_fixed_excluded": 8
+  },
+  "items": [
+    {
+      "item_id": "real-test-25",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-08",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-03",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-08",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-08",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-10",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-04",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-06",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-02",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-01",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-08",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-05",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-09",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-13",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-01",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-26",
+      "set": "real",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-05",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-14",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-04",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-altered-03",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-05",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-04",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-22",
+      "set": "real",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-01",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-11",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-23",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": false,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-07",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-03",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-paraphrase-02",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-07",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-10",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-11",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-12",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-19",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-02",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-01",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-08",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-01",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-03",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-06",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-06",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-02",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-03",
+      "set": "real",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-09",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-24",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-04",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-12",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-02",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-altered-18",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-04",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-07",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-03",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-01",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-16",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-08",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "real-test-06",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-02",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-07",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-06",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "real-test-21",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-03",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "needs_nuance",
+      "unanimous": false,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-09",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-05",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-no_full_text-01",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-altered-15",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "unsupported",
+      "unanimous": false,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-13",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-14",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-07",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-08",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-04",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-over_specified-05",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-18",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-10",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-07",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-02",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-20",
+      "set": "real",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-17",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-altered-17",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-05",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-16",
+      "set": "real",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-verbatim-06",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": false,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-paraphrase-05",
+      "set": "constructed",
+      "majority_label": "verified",
+      "reviewer_1": "verified",
+      "reviewer_2": "verified",
+      "reviewer_3": "verified",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "real-test-15",
+      "set": "real",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-no_full_text-07",
+      "set": "constructed",
+      "majority_label": "no_full_text",
+      "reviewer_1": "no_full_text",
+      "reviewer_2": "no_full_text",
+      "reviewer_3": "no_full_text",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": true
+    },
+    {
+      "item_id": "hss-over_specified-06",
+      "set": "constructed",
+      "majority_label": "needs_nuance",
+      "reviewer_1": "needs_nuance",
+      "reviewer_2": "needs_nuance",
+      "reviewer_3": "needs_nuance",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    },
+    {
+      "item_id": "hss-wrong_paper-04",
+      "set": "constructed",
+      "majority_label": "unsupported",
+      "reviewer_1": "unsupported",
+      "reviewer_2": "unsupported",
+      "reviewer_3": "unsupported",
+      "unanimous": true,
+      "is_protocol_fixed_no_full_text": false
+    }
+  ]
+}

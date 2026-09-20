@@ -1,0 +1,333 @@
+{
+  "built_at": "2026-09-06T02:51:03+00:00",
+  "seed": 20260906,
+  "n_items": 30,
+  "counts": {
+    "verbatim": 5,
+    "paraphrase": 5,
+    "altered": 10,
+    "wrong_paper": 5,
+    "no_full_text": 5
+  },
+  "expected": {
+    "verbatim": [
+      "verified"
+    ],
+    "paraphrase": [
+      "verified"
+    ],
+    "altered": [
+      "unsupported"
+    ],
+    "wrong_paper": [
+      "unsupported"
+    ],
+    "no_full_text": [
+      "no_full_text"
+    ]
+  },
+  "altered_expected_mode": "strict",
+  "sources": [
+    "10.1186/s40468-019-0085-8",
+    "10.14746/ssllt.2020.10.1.6",
+    "10.14746/ssllt.2020.10.3.10",
+    "10.17323/jle.2021.10737",
+    "10.17323/jle.2021.11522",
+    "10.32601/ejal.599230",
+    "10.32601/ejal.775793",
+    "10.55593/ej.26103a13",
+    "10.55593/ej.26103a9",
+    "10.55593/ej.28109a8"
+  ],
+  "n_sources": 10,
+  "candidates_per_source": {
+    "10.1186/s40468-019-0085-8": 159,
+    "10.14746/ssllt.2020.10.1.6": 123,
+    "10.14746/ssllt.2020.10.3.10": 61,
+    "10.17323/jle.2021.10737": 152,
+    "10.17323/jle.2021.11522": 153,
+    "10.32601/ejal.599230": 131,
+    "10.32601/ejal.775793": 83,
+    "10.55593/ej.26103a13": 244,
+    "10.55593/ej.26103a9": 110,
+    "10.55593/ej.28109a8": 265
+  },
+  "substitutions": [
+    [
+      "showed",
+      "demonstrated"
+    ],
+    [
+      "shows",
+      "demonstrates"
+    ],
+    [
+      "revealed",
+      "demonstrated"
+    ],
+    [
+      "found",
+      "observed"
+    ],
+    [
+      "students",
+      "learners"
+    ],
+    [
+      "results",
+      "findings"
+    ],
+    [
+      "suggest",
+      "indicate"
+    ],
+    [
+      "suggests",
+      "indicates"
+    ],
+    [
+      "teachers",
+      "instructors"
+    ],
+    [
+      "study",
+      "investigation"
+    ],
+    [
+      "in addition",
+      "moreover"
+    ],
+    [
+      "however",
+      "nevertheless"
+    ],
+    [
+      "furthermore",
+      "moreover"
+    ],
+    [
+      "therefore",
+      "consequently"
+    ]
+  ],
+  "alterations": {
+    "order": [
+      "direction_flip",
+      "numeric_x2_percent_capped_99",
+      "quantifier_flip"
+    ],
+    "direction_flips": [
+      [
+        "increased",
+        "decreased"
+      ],
+      [
+        "decreased",
+        "increased"
+      ],
+      [
+        "increases",
+        "decreases"
+      ],
+      [
+        "decreases",
+        "increases"
+      ],
+      [
+        "increase",
+        "decrease"
+      ],
+      [
+        "decrease",
+        "increase"
+      ],
+      [
+        "increasing",
+        "decreasing"
+      ],
+      [
+        "decreasing",
+        "increasing"
+      ],
+      [
+        "higher",
+        "lower"
+      ],
+      [
+        "lower",
+        "higher"
+      ],
+      [
+        "positively",
+        "negatively"
+      ],
+      [
+        "negatively",
+        "positively"
+      ],
+      [
+        "positive",
+        "negative"
+      ],
+      [
+        "negative",
+        "positive"
+      ],
+      [
+        "improved",
+        "worsened"
+      ],
+      [
+        "worsened",
+        "improved"
+      ],
+      [
+        "improve",
+        "worsen"
+      ],
+      [
+        "worsen",
+        "improve"
+      ],
+      [
+        "improvement",
+        "decline"
+      ],
+      [
+        "outperformed",
+        "underperformed"
+      ],
+      [
+        "better",
+        "worse"
+      ],
+      [
+        "worse",
+        "better"
+      ],
+      [
+        "greater",
+        "smaller"
+      ],
+      [
+        "stronger",
+        "weaker"
+      ],
+      [
+        "weaker",
+        "stronger"
+      ],
+      [
+        "faster",
+        "slower"
+      ],
+      [
+        "slower",
+        "faster"
+      ],
+      [
+        "more",
+        "less"
+      ],
+      [
+        "fewer",
+        "more"
+      ],
+      [
+        "less",
+        "more"
+      ],
+      [
+        "statistically significant",
+        "not statistically significant"
+      ],
+      [
+        "significantly",
+        "not significantly"
+      ],
+      [
+        "is significant",
+        "is not significant"
+      ],
+      [
+        "are significant",
+        "are not significant"
+      ],
+      [
+        "was significant",
+        "was not significant"
+      ],
+      [
+        "were significant",
+        "were not significant"
+      ],
+      [
+        "significant",
+        "no significant"
+      ]
+    ],
+    "quantifier_flips": [
+      [
+        "all of",
+        "none of"
+      ],
+      [
+        "all",
+        "no"
+      ],
+      [
+        "most",
+        "few"
+      ],
+      [
+        "majority",
+        "minority"
+      ],
+      [
+        "always",
+        "never"
+      ],
+      [
+        "every",
+        "no"
+      ],
+      [
+        "often",
+        "rarely"
+      ],
+      [
+        "frequently",
+        "rarely"
+      ]
+    ]
+  },
+  "candidate_ranking": "common.select_candidate_sentences; results/findings/discussion/conclusion chunks first; is_clean_sentence(title) rejects extraction artefacts, reference lines, running headers, author-stance openers, anaphoric fragments and attributed findings or procedures of other studies (ATTRIBUTION_RE: citation subjects followed by a reporting or procedural verb, 'the authors/researchers ...' in any clause, 'his/her/their study ...', 'Some/several ... studies/examples (...) show ...'); headings glued to the front of a sentence (HEADING_PREFIX_RE); an 'L2'-style token is not a numeral antecedent for an anaphoric opener; paraphrase never splits 'case/pilot/cohort study' (SUBSTITUTION_GUARDS); quoted passages are skipped (is_quoted_in_chunk: a page-referenced parenthetical citation right after the sentence, or an unclosed quotation mark before it in the chunk); quantifier flips never touch 'the most' or 'at all' (QUANTIFIER_GUARDS); 'significantly' is only negated when it premodifies an adjective/participle, never when it postmodifies a verb (DIRECTION_GUARDS: 'differed significantly' has no grammatical negation here); hss_veto.json sentences are skipped",
+  "veto": [
+    "Furthermore, Elahi Shirvan and Talebzadeh (2018a) indicated that learners’ feeling of enjoyment fluctuates over time under the influence of topics presented to them.",
+    "However, according to the results of the ANCOVAs, it was only in the area of intrinsic motivation that the improvements of the two groups differed significantly.",
+    "In addition, those studying more FLs also scored significantly higher on FLE, where FLCA was not associated with studying more FLs.",
+    "In other words, the application of the verb “to engage” offers a natural way of mapping the most important facets of the learning experience, which in turn allows us to capture the key aspects in measurable terms.",
+    "Last, the researchers showed the video to participants from various external sites through focus group interviews.",
+    "Moreover, a post-test was not administered in the study and as a result, it is not known if L2 students can become more effective English writers through the use of intelligent writing assistants.",
+    "The authors found that witnessing other students cheat increases cheating behavior in the observers.",
+    "The results of his contribution proved that there is a significant correlation between the ideal L2-self and WTC.",
+    "These outcomes offered justification for developing a new theoretical construct that was centered around the Ideal L2 Self, with an obvious second component to be included in this construct being the Ought-to L2 Self.",
+    "We believe this number would have been significantly lower just a month or two later."
+  ],
+  "veto_file": "hss_veto.json",
+  "sources_file": "hss_dev_sources.json",
+  "journals": {},
+  "excluded_dois": [
+    "10.14746/ssllt.2019.9.1.2",
+    "10.14746/ssllt.2020.10.1.3",
+    "10.17323/jle.2019.9809",
+    "10.17323/jle.2023.17379",
+    "10.29140/jaltcall.v17n2.336",
+    "10.32601/ejal.651346",
+    "10.32601/ejal.710194",
+    "10.55593/ej.26103a4",
+    "10.55593/ej.27105a9",
+    "10.55593/ej.27107int"
+  ],
+  "n_excluded": 10
+}

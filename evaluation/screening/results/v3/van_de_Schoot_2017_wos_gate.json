@@ -1,0 +1,64 @@
+{
+  "dataset": "van_de_Schoot_2017",
+  "generated": "2026-09-15T22:40:30+00:00",
+  "collections_loaded": {
+    "SCIE": 17305,
+    "SSCI": 6735,
+    "AHCI": 3252,
+    "ESCI": 15107
+  },
+  "missing_collections": [],
+  "label_field": "label_included",
+  "all_records": {
+    "n": 6189,
+    "n_with_issn": 331,
+    "n_unresolved": 5858,
+    "n_in_wos_any": 317,
+    "share_in_wos_any": 0.051219906285344965,
+    "share_in_wos_any_of_resolved": 0.9577039274924471,
+    "per_collection": {
+      "SCIE": {
+        "n": 164,
+        "share": 0.02649862659557279
+      },
+      "SSCI": {
+        "n": 262,
+        "share": 0.042333171756341895
+      },
+      "AHCI": {
+        "n": 0,
+        "share": 0.0
+      },
+      "ESCI": {
+        "n": 8,
+        "share": 0.0012926159314913556
+      }
+    }
+  },
+  "included_records": {
+    "n": 43,
+    "n_with_issn": 42,
+    "n_unresolved": 1,
+    "n_in_wos_any": 41,
+    "share_in_wos_any": 0.9534883720930233,
+    "share_in_wos_any_of_resolved": 0.9761904761904762,
+    "per_collection": {
+      "SCIE": {
+        "n": 23,
+        "share": 0.5348837209302325
+      },
+      "SSCI": {
+        "n": 35,
+        "share": 0.813953488372093
+      },
+      "AHCI": {
+        "n": 0,
+        "share": 0.0
+      },
+      "ESCI": {
+        "n": 1,
+        "share": 0.023255813953488372
+      }
+    }
+  }
+}

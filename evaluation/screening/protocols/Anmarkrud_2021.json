@@ -1,0 +1,135 @@
+{
+  "dataset_id": "Anmarkrud_2021",
+  "source_review_doi": "10.1007/s10648-021-09640-7",
+  "source_review": {
+    "title": "The Role of Individual Differences in Sourcing: A Systematic Review",
+    "authors": "Anmarkrud O, Braten I, Florit E, Mason L",
+    "journal": "Educational Psychology Review",
+    "year": 2021,
+    "volume_issue": "34(2):749-792",
+    "url": "https://doi.org/10.1007/s10648-021-09640-7",
+    "note": "Published online 2021-10-29 (the year in the dataset id); the print issue carries the cover year 2022 ('Educational Psychology Review (2022) 34:749-792' on every page footer of the OA PDF, checked 2026-09-06)."
+  },
+  "dataset_source": {
+    "collection": "SYNERGY+ (Campos DG, Futterer T, Gfrorer T, Lavelle-Hill R, Murayama K, Konig L, Hecht M, Zitzmann S, Scherer R. Screening Smarter, Not Harder: A Comparative Analysis of Machine Learning Screening Algorithms and Heuristic Stopping Criteria for Systematic Reviews in Educational Research. Educational Psychology Review 2024;36(1). DOI 10.1007/s10648-024-09862-5)",
+    "cache_path": "~/.synergy_dataset_source/synergy-dataset-plus/Anmarkrud_2021/ (read-only upstream release cache, not part of this repository; neither labels.csv nor a works archive is cached for this dataset, see wpB9-lean-brief.md section 1.1)",
+    "deposit_doi": "10.17605/OSF.IO/UYB7X",
+    "license": "CC BY 4.0 (DataCite record for the OSF deposit https://doi.org/10.17605/OSF.IO/UYB7X, checked 2026-09-06)",
+    "route": "plus (planned; evaluation/screening/fetch_synergy.py has no --route plus yet, added at WP-B9 phase S3; this protocol records eligibility criteria only and was not produced by running the fetch harness)",
+    "n_records": 2284,
+    "n_label_included": 64,
+    "provisional": true,
+    "provisional_note": "No labels.csv is cached for this dataset; n_records=2284 and n_label_included=64 are metadata.json's data.n_records / data.n_records_included catalogue figures only, per wpB9-lean-brief.md section 1 ('Anmarkrud_2021 has no cached labels.csv, so its starred row is a provisional catalogue figure'). S3's --route plus download re-derives both from the real labels.csv before any Anmarkrud_2021 run.",
+    "read_at": "2026-09-06"
+  },
+  "primary_label": "label_included",
+  "research_question": "How have individual difference variables been represented in empirical research on sourcing (readers' use of information about a text's origin, authorship, or context when comprehending or evaluating written resources), how are these individual differences related to sourcing outcomes, and do the relationships between individual differences and sourcing vary with how sourcing is measured or with the domain or topic of the reading materials? (Compiled from the review's four stated research questions.)",
+  "inclusion_criteria": [
+    "The studies should examine the comprehension or evaluation of written resources, either text alone or text in combination with other representations.",
+    "The studies should report empirical research (e.g., no reviews or theoretical papers were included).",
+    "The studies should include actual reading; survey studies in which participants were asked to rank the trustworthiness of different types of media outlets in general without reading texts from these outlets were not included.",
+    "The studies should include at least one individual difference variable and one measure of sourcing.",
+    "The studies should examine typically developed populations (e.g., no participants with learning disabilities).",
+    "The studies should have a quantitative design and report results through numerical data.",
+    "The studies should be published in English."
+  ],
+  "exclusion_criteria": [
+    "No relevant variables measured: no individual-difference variable or sourcing measure relevant to the review.",
+    "Incorrect study design.",
+    "Incorrect population, e.g. not a typically developed population.",
+    "Incorrect publication type, e.g. a review or theoretical paper rather than an empirical primary study.",
+    "Incorrect language, i.e. not published in English."
+  ],
+  "label_field": "label_abstract_screening",
+  "criteria_provenance": {
+    "inclusion": [
+      {
+        "id": "I1",
+        "source": "paper",
+        "page": "757",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 1",
+        "derived": false
+      },
+      {
+        "id": "I2",
+        "source": "paper",
+        "page": "757",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 2",
+        "derived": false
+      },
+      {
+        "id": "I3",
+        "source": "paper",
+        "page": "757",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 3",
+        "derived": false
+      },
+      {
+        "id": "I4",
+        "source": "paper",
+        "page": "758",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 4",
+        "derived": false
+      },
+      {
+        "id": "I5",
+        "source": "paper",
+        "page": "758",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 5",
+        "derived": false
+      },
+      {
+        "id": "I6",
+        "source": "paper",
+        "page": "758",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 6",
+        "derived": false
+      },
+      {
+        "id": "I7",
+        "source": "paper",
+        "page": "758",
+        "location": "'Study Selection and Data Extraction', inclusion criterion 7",
+        "derived": false
+      }
+    ],
+    "exclusion": [
+      {
+        "id": "E1",
+        "source": "paper",
+        "page": "758",
+        "location": "'Results', abstract-screening exclusion reasons and counts (1,672 of 2,618 records excluded at abstract screening, the largest reason; audit evidence only, not part of the criterion shown to the screener, see WP-B9 review round 1 major finding)",
+        "derived": false
+      },
+      {
+        "id": "E2",
+        "source": "paper",
+        "page": "758",
+        "location": "'Results', abstract-screening exclusion reasons and counts (430 of 2,618 abstract-screening exclusions; audit evidence only, not part of the criterion shown to the screener)",
+        "derived": false
+      },
+      {
+        "id": "E3",
+        "source": "paper",
+        "page": "758",
+        "location": "'Results', abstract-screening exclusion reasons and counts (193 of 2,618 abstract-screening exclusions; audit evidence only, not part of the criterion shown to the screener)",
+        "derived": false
+      },
+      {
+        "id": "E4",
+        "source": "paper",
+        "page": "758",
+        "location": "'Results', abstract-screening exclusion reasons and counts (316 of 2,618 abstract-screening exclusions; audit evidence only, not part of the criterion shown to the screener)",
+        "derived": false
+      },
+      {
+        "id": "E5",
+        "source": "paper",
+        "page": "758",
+        "location": "'Results', abstract-screening exclusion reasons and counts (7 of 2,618 abstract-screening exclusions; audit evidence only, not part of the criterion shown to the screener)",
+        "derived": false
+      }
+    ]
+  },
+  "notes": "Transcribed 2026-09-06. metadata.json's publication.eligibility_criteria (~/.synergy_dataset_source/synergy-dataset-plus/Anmarkrud_2021/metadata.json, read-only, not part of this repository) gives the same seven inclusion criteria word for word; because this dataset also lacks a cached labels.csv (unlike Fong_2021 and Taschner_2024), the open-access article PDF (Springer, CC BY, OpenAlex primary_location.pdf_url https://link.springer.com/content/pdf/10.1007/s10648-021-09640-7.pdf, downloaded 2026-09-06) was read directly with PyMuPDF to attach page references and to find exclusion reasons the metadata omits. Research question compiled from the four research questions stated in the Introduction, PDF pages 8-9 (article pp. 756-757): RQ1 'To what extent have the individual difference factors highlighted within conceptualizations of multiple document representation and use been included in the empirical research on sourcing?'; RQ2 'To what extent have proposed relationships between individual differences and sourcing been supported by the empirical research?'; RQ3 'Are there any indications that relationships between individual differences and sourcing may vary with the way sourcing is measured?'; RQ4 '... may vary with the domain or topic addressed in the reading materials?'. Inclusion criteria 1-7 are transcribed from 'Study Selection and Data Extraction' (article pp. 757-758, PDF pages 9-10), 'To be eligible for the review, the studies had to fulfill the following inclusion criteria', which matches metadata.json's eligibility_criteria string exactly; all seven are marked source=paper (the fuller text was read to attach the page split, not because the metadata string was wrong) and derived=false, quoted near-verbatim. exclusion_criteria are the abstract-screening exclusion reasons stated in 'Results' (article p. 758, PDF page 10): 'Of the 2891 records that were screened, 2618 were removed from the review for the following reasons: no relevant variables measured (1672 records), incorrect study design (430 records), incorrect population (193 records), incorrect publication type (316 records), or incorrect language (7 records).' These five reasons are coarser than the seven inclusion criteria (several inclusion criteria share one abstract-screening bucket; the review's own full-text exclusion reasons, on the same page, are a separate six-category breakdown of the 252 full-text exclusions and are not used here because this protocol's exclusion_criteria describe the abstract/title screening decision, matching label_field); all five are marked source=paper, page 758, derived=false because they are the review's own stated categories, not transcriber negations. The article's own header shows the print-issue year as 2022 ('Educational Psychology Review (2022) 34:749-792') although OpenAlex and Crossref record 2021-10-29 as the online publication date and the SYNERGY dataset id uses 2021; both years are recorded in source_review. label_field = label_abstract_screening because the evaluated task is title-and-abstract screening; this dataset's labels.csv (not yet cached, see dataset_source.provisional_note) is expected to carry the same label_abstract_included column as Fong_2021 and Taschner_2024, renamed to label_abstract_screening by fetch_synergy.py's route-plus export per wpB9-lean-brief.md section 1.1 rule 4. primary_label = label_included per protocols/README.md's 'Choosing the primary label and label_field' section; its count (64) is the provisional catalogue figure in dataset_source and must be re-derived from the real labels.csv by S3 (wpB9-lean-brief.md section 1 and risk 2) before this dataset's runs are pre-registered. No data/Anmarkrud_2021.fetch.json exists yet and no hydration has been run. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta); this is unchanged by this protocol (see protocols/README.md). Round-1 fix (2026-09-06): exclusion_criteria E1-E5 no longer carry the review's realized abstract-screening counts or the 'the largest reason' phrase, because _build_screening_prompt (backend/app/agents/relevance_screener_agent.py) renders exclusion_criteria verbatim to the screener before it reads a record, so the counts would have disclosed the review's own outcome distribution to the model pre-screening. The same five counts, quoted above from the paper's Results sentence, now also live in criteria_provenance.exclusion[i].location as audit evidence that never reaches the model."
+}

@@ -1,0 +1,50 @@
+{
+  "dataset": "Nagtegaal_2019",
+  "generated": "2026-09-15T19:16:20+00:00",
+  "run_file": "Nagtegaal_2019_runA.jsonl",
+  "label_field": "label_included",
+  "label_choice": "primary",
+  "query_mode": "rq+criteria",
+  "query_text": "Nudges applied to healthcare professionals to promote evidence-based medicine (including adherence to clinical practice guidelines): which nudges have been tested in experimental studies, which professional behaviours do they target, what is the design and methodological quality of these experiments, and how is a nudge's success related to the task, organizational and occupational context? The study deals with nudges (softly steering interventions, classified with the Munscher, Vetter & Scheuerle 2016 nudge taxonomy) applied to healthcare professionals at the individual level. The taxonomy's three main categories are (a) decision information -- changing how information is presented without changing the options themselves (e.g. presenting guidelines in plain English, providing a social reference point); (b) decision structure -- altering the arrangement of options and the decision-making format (e.g. reducing the number of easily selectable options, changing a default); and (c) decision assistance -- closing the intention-behaviour gap with tools that help people follow through on an intention (e.g. reminders, asking people to specify when and where they will act). The nudge aims to promote evidence-based medicine, i.e. to encourage decisions that are in accordance with evidence; studies focusing on adherence to clinical practice guidelines are eligible (e.g. which diagnostic or screening test to order, how to provide medical or surgical services, hand hygiene, prescribing). The report is an experiment comparing the effects of two or more interventions: randomized controlled trial, before-and-after study, or interrupted time series. Written in English; no constraint on year of publication.",
+  "n_unscreened_excluded": 0,
+  "k_basis": "screened_in",
+  "n": 2019,
+  "k": 698,
+  "include_all": {
+    "n": 2019,
+    "n_skipped": 0,
+    "tp": 101,
+    "fp": 1918,
+    "tn": 0,
+    "fn": 0,
+    "prevalence": 0.05002476473501734,
+    "recall": 1.0,
+    "precision": 0.05002476473501734,
+    "f1": 0.09528301886792453,
+    "specificity": 0.0,
+    "inclusion_rate": 1.0,
+    "wss_at_achieved_recall": 0.0,
+    "wss_at_95": -0.050000000000000044
+  },
+  "tfidf": {
+    "threshold": 0.014761343529410963,
+    "metrics": {
+      "n": 2019,
+      "n_skipped": 0,
+      "tp": 57,
+      "fp": 641,
+      "tn": 1277,
+      "fn": 44,
+      "prevalence": 0.05002476473501734,
+      "recall": 0.5643564356435643,
+      "precision": 0.08166189111747851,
+      "f1": 0.14267834793491865,
+      "specificity": 0.6657977059436914,
+      "inclusion_rate": 0.345715700842001,
+      "wss_at_achieved_recall": 0.21864073480156332,
+      "wss_at_95": null
+    },
+    "wss_at_95_ranking": 0.15356612184249624,
+    "wss_at_achieved_recall_ranking": 0.227556039407804
+  }
+}

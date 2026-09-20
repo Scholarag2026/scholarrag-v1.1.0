@@ -1,0 +1,78 @@
+{
+  "name": "hss",
+  "run": "A",
+  "dry_run": false,
+  "retried_failed": 0,
+  "started": "2026-09-11T13:40:53+00:00",
+  "finished": "2026-09-11T13:41:19+00:00",
+  "sessions": [
+    {
+      "started": "2026-09-11T13:40:53+00:00",
+      "finished": "2026-09-11T13:41:19+00:00",
+      "retried_failed": 0
+    }
+  ],
+  "model_configured": "deepseek-chat",
+  "model_reported": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "aeb56401ca74e127821c4f9126dcb669"
+  ],
+  "temperature": 0.0,
+  "prompt_version": "sha256:49fcfbfaf2f6",
+  "guard_digest": "570a5b663e6140da",
+  "quote_relocation_version": "0269a13351c0da7d",
+  "verification_policy_version": "667bcc9209126ddc",
+  "repair_prompt_version": "sha256:7ec7cffe852d",
+  "concurrency": 8,
+  "limit": null,
+  "n_items": 60,
+  "n_rows": 60,
+  "n_errors": 0,
+  "n_deterministic": 8,
+  "status_counts": {
+    "no_full_text": 8,
+    "verified": 14,
+    "needs_nuance": 9,
+    "unsupported": 29
+  },
+  "price": {
+    "model": "deepseek-chat",
+    "price_model": "deepseek-v4-flash",
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "tiers": {
+      "input_cache_miss": {
+        "peak": 0.44,
+        "offpeak": 0.22
+      },
+      "input_cache_hit": {
+        "peak": 0.014,
+        "offpeak": 0.007
+      },
+      "output": {
+        "peak": 1.32,
+        "offpeak": 0.66
+      }
+    },
+    "peak_hours_utc": "01:00-04:00 and 06:00-10:00, Monday-Friday; all other hours off-peak",
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "accessed": "2026-09-02"
+  },
+  "total_input_tokens": 990859,
+  "total_output_tokens": 46070,
+  "total_cache_read_tokens": 980218,
+  "total_cost": 0.03960874600000001,
+  "cost_basis": "list price, tier by call time, cache-hit tokens at cache-hit rate",
+  "total_cost_flat": null,
+  "latency_s": {
+    "n": 52,
+    "median": 3.422,
+    "p90": 4.725,
+    "mean": 3.6264038461538464,
+    "total": 188.573
+  }
+}

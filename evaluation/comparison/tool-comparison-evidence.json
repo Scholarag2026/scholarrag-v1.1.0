@@ -1,0 +1,1552 @@
+{
+ "file": "evaluation/comparison/tool-comparison-evidence.json",
+ "purpose": "Per-cell evidence behind Table 1 of the ScholarRAG Original Software Publication, and the full fourteen-criterion matrix from which the seven criteria printed in the article were taken.",
+ "assessed_on": "2026-09-02",
+ "inclusion_rule": "A tool is included if it supports literature retrieval, relevance screening or citation-grounded drafting and every cell could be established from its own paper, documentation or source code. Bibliometric mapping packages screen nothing and generate no text, so they are out of scope.",
+ "cell_conventions": {
+  "Partial": "a weaker related capability rather than the capability itself",
+  "Validation": "each tool's own published evaluation, not an evaluation run here",
+  "readings": "a criterion carries every reading that was made of the same public sources, each with its own evidence URL and quotation; where two readings differ, both are kept so the printed cell can be checked against either"
+ },
+ "criteria": [
+  {
+   "id": "scholarly_data_sources",
+   "table_1_column": "Data sources",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "query_refinement",
+   "table_1_column": "Query refinement",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "relevance_screening",
+   "table_1_column": "Screening",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "screening_audit_trail",
+   "table_1_column": "Audit trail",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "citation_network_analysis",
+   "table_1_column": "Citation network",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "full_text_acquisition",
+   "table_1_column": "Full text",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "grounded_drafting",
+   "table_1_column": "Drafting",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "bibliographic_metadata_verification",
+   "table_1_column": "Metadata",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "claim_to_source_verification",
+   "table_1_column": "Claim to source",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "exact_evidence_quotation",
+   "table_1_column": "Quotation",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "external_manuscript_auditing",
+   "table_1_column": "External manuscripts",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "licensing",
+   "table_1_column": "Licence",
+   "printed_in_the_article": false
+  },
+  {
+   "id": "deployment_requirements",
+   "table_1_column": "Deployment",
+   "printed_in_the_article": true
+  },
+  {
+   "id": "empirical_validation",
+   "table_1_column": "Validation",
+   "printed_in_the_article": true
+  }
+ ],
+ "matrix": {
+  "ScholarRAG": {
+   "scholarly_data_sources": "OpenAlex, Crossref, Unpaywall",
+   "query_refinement": "Yes",
+   "relevance_screening": "Yes",
+   "screening_audit_trail": "Per record",
+   "citation_network_analysis": "View only",
+   "full_text_acquisition": "Yes",
+   "grounded_drafting": "Sections",
+   "bibliographic_metadata_verification": "Crossref, four statuses",
+   "claim_to_source_verification": "Yes",
+   "exact_evidence_quotation": "Located",
+   "external_manuscript_auditing": "No",
+   "licensing": "MIT",
+   "deployment_requirements": "Docker, paid key",
+   "empirical_validation": "Section 2.3"
+  },
+  "ASReview LAB": {
+   "scholarly_data_sources": "Import only",
+   "query_refinement": "No",
+   "relevance_screening": "Active learning",
+   "screening_audit_trail": "Per record",
+   "citation_network_analysis": "Partial",
+   "full_text_acquisition": "No",
+   "grounded_drafting": "No",
+   "bibliographic_metadata_verification": "No",
+   "claim_to_source_verification": "No",
+   "exact_evidence_quotation": "No",
+   "external_manuscript_auditing": "No",
+   "licensing": "Apache-2.0",
+   "deployment_requirements": "pip, no key",
+   "empirical_validation": "Simulations"
+  },
+  "litstudy": {
+   "scholarly_data_sources": "Scopus, S2, Crossref, DBLP, arXiv",
+   "query_refinement": "No",
+   "relevance_screening": "Partial",
+   "screening_audit_trail": "No",
+   "citation_network_analysis": "Yes",
+   "full_text_acquisition": "No",
+   "grounded_drafting": "No",
+   "bibliographic_metadata_verification": "DOI re-fetch",
+   "claim_to_source_verification": "No",
+   "exact_evidence_quotation": "No",
+   "external_manuscript_auditing": "Import only",
+   "licensing": "Apache-2.0",
+   "deployment_requirements": "pip, subscription",
+   "empirical_validation": "Case study"
+  },
+  "PaperQA2": {
+   "scholarly_data_sources": "PDFs, Crossref, S2, OpenAlex",
+   "query_refinement": "Partial",
+   "relevance_screening": "Partial",
+   "screening_audit_trail": "No",
+   "citation_network_analysis": "Partial",
+   "full_text_acquisition": "Partial",
+   "grounded_drafting": "Answers",
+   "bibliographic_metadata_verification": "Ingested PDFs",
+   "claim_to_source_verification": "Contradiction",
+   "exact_evidence_quotation": "Summaries",
+   "external_manuscript_auditing": "Partial",
+   "licensing": "Apache-2.0",
+   "deployment_requirements": "pip, model key",
+   "empirical_validation": "LitQA2"
+  },
+  "Ai2 Scholar QA": {
+   "scholarly_data_sources": "Semantic Scholar",
+   "query_refinement": "Partial",
+   "relevance_screening": "Partial",
+   "screening_audit_trail": "Traces",
+   "citation_network_analysis": "No",
+   "full_text_acquisition": "No",
+   "grounded_drafting": "Reports",
+   "bibliographic_metadata_verification": "No",
+   "claim_to_source_verification": "No",
+   "exact_evidence_quotation": "Per paper",
+   "external_manuscript_auditing": "No",
+   "licensing": "Apache-2.0",
+   "deployment_requirements": "Docker, rerank GPU",
+   "empirical_validation": "ScholarQA-CS"
+  },
+  "OpenScholar": {
+   "scholarly_data_sources": "peS2o, S2, web",
+   "query_refinement": "Partial",
+   "relevance_screening": "Partial",
+   "screening_audit_trail": "No",
+   "citation_network_analysis": "Ranking",
+   "full_text_acquisition": "Yes",
+   "grounded_drafting": "Answers",
+   "bibliographic_metadata_verification": "No",
+   "claim_to_source_verification": "Self-check",
+   "exact_evidence_quotation": "Snippet",
+   "external_manuscript_auditing": "No",
+   "licensing": "Apache-2.0",
+   "deployment_requirements": "vLLM, GPU",
+   "empirical_validation": "ScholarQABench"
+  },
+  "STORM": {
+   "scholarly_data_sources": "Web search",
+   "query_refinement": "Partial",
+   "relevance_screening": "No",
+   "screening_audit_trail": "No",
+   "citation_network_analysis": "No",
+   "full_text_acquisition": "Partial",
+   "grounded_drafting": "Sections",
+   "bibliographic_metadata_verification": "No",
+   "claim_to_source_verification": "No",
+   "exact_evidence_quotation": "Snippet",
+   "external_manuscript_auditing": "No",
+   "licensing": "MIT",
+   "deployment_requirements": "pip, two keys",
+   "empirical_validation": "FreshWiki"
+  },
+  "Elicit": {
+   "scholarly_data_sources": "S2, OpenAlex, PubMed",
+   "query_refinement": "Yes",
+   "relevance_screening": "Yes",
+   "screening_audit_trail": "Per criterion",
+   "citation_network_analysis": "Counts",
+   "full_text_acquisition": "Yes",
+   "grounded_drafting": "Reports",
+   "bibliographic_metadata_verification": "No",
+   "claim_to_source_verification": "At generation",
+   "exact_evidence_quotation": "Per claim",
+   "external_manuscript_auditing": "No",
+   "licensing": "Proprietary",
+   "deployment_requirements": "Hosted only",
+   "empirical_validation": "Vendor study"
+  }
+ },
+ "scholarrag_cell_sources": {
+  "scholarly_data_sources": "backend/app/services/smart_search.py, verification.py, fulltext.py",
+  "query_refinement": "backend/app/services/smart_search.py",
+  "relevance_screening": "backend/app/agents/relevance_screener_agent.py",
+  "screening_audit_trail": "backend/app/services/screening_record.py",
+  "citation_network_analysis": "backend/app/services/graph.py",
+  "full_text_acquisition": "backend/app/services/fulltext.py",
+  "grounded_drafting": "backend/app/services/writing.py",
+  "bibliographic_metadata_verification": "backend/app/services/verification.py",
+  "claim_to_source_verification": "backend/app/services/fulltext.py",
+  "exact_evidence_quotation": "backend/app/services/fulltext.py",
+  "external_manuscript_auditing": "backend/app/services/fulltext.py, verify_user_edits",
+  "licensing": "LICENSE.txt",
+  "deployment_requirements": "docker-compose.yml, INSTALL.md",
+  "empirical_validation": "evaluation/README.md"
+ },
+ "evidence": {
+  "ASReview LAB": {
+   "tool_as_named_in_table_1": "ASReview LAB",
+   "reference_key": "vandeschoot2021asreview",
+   "homepage": "https://asreview.ai",
+   "repository": "https://github.com/asreview/asreview",
+   "license": "Apache-2.0",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "van de Schoot R, de Bruin J, Schram R, Zahedi P, de Boer J, Weijdema F, Kramer B, Huijts M, Hoogerwerf M, Ferdinands G, Harkema A, Willemsen J, Ma Y, Fang Q, Hindriks S, Tummers L, Oberski DL",
+    "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+    "venue": "Nature Machine Intelligence 3(2):125-133",
+    "year": 2021,
+    "doi_or_arxiv": "10.1038/s42256-020-00287-7",
+    "crossref_verified": true,
+    "notes": "Crossref record fetched 2026-09-02 via https://api.crossref.org/works/10.1038/s42256-020-00287-7 (container Nature Machine Intelligence, vol 3, issue 2, pages 125-133, published 2021-02-01, 17 authors, is-referenced-by-count 1037). Preprint: arXiv:2006.12166 (fetched 2026-09-02). GitHub README cites the same reference as the canonical citation."
+   },
+   "summary": "ASReview LAB (Utrecht University) is an Apache-2.0 active-learning tool for title/abstract screening; all facts below were fetched 2026-09-02. Current release is v3.0.8 (GitHub release 2026-06-18; PyPI 3.0.8, requires Python >=3.10; repo last pushed 2026-08-31; GitHub API license spdx Apache-2.0). It ingests only exported reference files (RIS/CSV/XLSX/TSV from citation managers and search engines such as Scopus, Web of Science, Embase, OpenAlex; PubMed export marked not supported) and does no query building, full-text retrieval, metadata verification, drafting, claim checking, quotation, or manuscript auditing. Screening decisions are fully persisted: exports add asreview_label, asreview_time, asreview_note, asreview_user_name/email plus tags, and the .asreview project file \"contains the dataset, review history, notes, and model configuration\" (manage.html). Citation-network support is limited to the separate asreview-datatools extension's OpenAlex forward/backward snowballing, and PyPI shows asreview-datatools 1.4 (2025-02-06) requires \"asreview<2,>=1.1\", so it is not compatible with LAB v3 — hence \"partial\". Deployment: pip, Docker image ghcr.io/asreview/asreview, or the self-hosted ASReview LAB Server / Server Stack (Docker Compose, PostgreSQL, NGINX, MIT-licensed; https://asreview.readthedocs.io/en/latest/server/overview.html and https://github.com/asreview/asreview-server-stack); docs mention no API keys or GPU. Empirical validation: Nat Mach Intell 2021 simulation studies report WSS@95 average 83% (67-92%), 95% of eligible studies found after screening 8-33%, RRF@10% 70-100% (verbatim from the Nature article HTML); follow-up Ferdinands et al. 2023 Systematic Reviews 12, DOI 10.1186/s13643-023-02257-7 (Crossref-verified) reports WSS@95 63.9-91.7% and recall@10% 53.6-99.8% across six datasets; the SYNERGY benchmark (DataCite-verified DOI 10.34894/HE6NAQ, 2023; https://github.com/asreview/synergy-dataset) comprises 26 systematic reviews and 169,288 records, CC0. Unverified: asreview.nl homepage content (redirect target of asreview.ai; fetch failed twice), and the absence of GPU/API-key requirements is inferred from docs omission rather than an explicit statement.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "File import only: RIS/CSV/XLSX/TSV exports; no live database search",
+       "supported": "partial",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/data.html",
+       "evidence_quote": "The following table provides an overview of export files from citation managers which are accepted by ASReview."
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "No; user supplies a pre-searched dataset",
+       "supported": "no",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/about.html",
+       "evidence_quote": "The five fundamental principles are: Humans are the oracle; Code is open and results are transparent; Decisions are unbiased; The interface clearly communicates the presence of AI; Users are responsible for importing high-quality data."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "Yes; active-learning title/abstract relevant/irrelevant labeling",
+       "supported": "yes",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/screening.html",
+       "evidence_quote": "ASReview LAB will present you with a title and abstract to evaluate and label. You can also add a note to the record or check self-defined tags."
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "Yes; per-record label, timestamp, note, tags, user; .asreview project file",
+       "supported": "yes",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/progress.html",
+       "evidence_quote": "asreview_time Contains the datatime of the screening decision. asreview_note Contains any notes made by the user during screening. asreview_user_name Contains the name of the user who made the screening decision (if applicable)."
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "Legacy v1 datatools OpenAlex snowballing only; no graph analysis in v3",
+       "supported": "partial",
+       "evidence_url": "https://github.com/asreview/asreview-datatools",
+       "evidence_quote": "ASReview Datatools supports snowballing via the asreview data snowball subcommand. It can perform both backwards (outgoing citations) and forwards (incoming citations) snowballing. The tool works by searching the OpenAlex database for citation data."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "No; shows DOI/URL hyperlinks only",
+       "supported": "no",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/data_format.html",
+       "evidence_quote": "Note by using ASReview you do not automatically have access to full-text and if you do not have access you might want to read this blog post."
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "No; screening tool, no text generation",
+       "supported": "no",
+       "evidence_url": "https://github.com/asreview/asreview",
+       "evidence_quote": "ASReview LAB is an open-source machine learning tool for efficient, transparent, and interactive screening of large textual datasets."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "No; DOI displayed as link, no Crossref lookup",
+       "supported": "no",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/data_format.html",
+       "evidence_quote": "If a Digital Object Identifier (DOI) is available it will be displayed during the screening phase as a clickable hyperlink to the full text document."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "No",
+       "supported": "no",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/about.html",
+       "evidence_quote": "Review Interactively screen textual data with an active learning model, where the user acts as the 'oracle' to make labeling decisions."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "No",
+       "supported": "no",
+       "evidence_url": "https://github.com/asreview/asreview",
+       "evidence_quote": "Start Screening: Label records as Relevant or Not Relevant; the AI model continuously improves. Monitor Progress: Use the dashboard to track your progress and decide when to stop. Export Results: Download your labeled dataset or project file."
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "No",
+       "supported": "no",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/about.html",
+       "evidence_quote": "It is widely used for tasks such as title and abstract screening in systematic reviews or meta-analyses, but its applications extend to any scenario requiring systematic text screening."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Apache-2.0 (LAB core); server stack MIT",
+       "supported": "yes",
+       "evidence_url": "https://github.com/asreview/asreview",
+       "evidence_quote": "The ASReview software has an Apache 2.0 LICENSE."
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "pip (Python >=3.10) or Docker; self-hosted server stack; no API keys/GPU",
+       "supported": "yes",
+       "evidence_url": "https://asreview.readthedocs.io/en/latest/lab/installation.html",
+       "evidence_quote": "ASReview LAB requires Python 3.10 or later. ... ASReview LAB is also available as a Docker container. Ensure Docker is installed on your machine. To install and start ASReview LAB at http://localhost:5000, run: docker run -p 5000:5000 ghcr.io/asreview/asreview:latest lab"
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "Simulations: WSS@95 83% (67-92%); 95% recall at 8-33% screened",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s42256-020-00287-7",
+       "evidence_quote": "The average work saved over sampling at 95% recall for ASReview is 83% and ranges from 67% to 92%. 95% of the eligible studies will be found after screening between only 8% to 33% of the studies."
+      },
+      {
+       "value": "Simulations: WSS@95 83% (67-92%); 95% recall at 8-33% screened",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s42256-020-00287-7",
+       "evidence_quote": "The average work saved over sampling at 95% recall for ASReview is 83% and ranges from 67% to 92%. Hence, 95% of the eligible studies will be found after screening between only 8% to 33% of the studies."
+      }
+     ]
+    }
+   ]
+  },
+  "litstudy": {
+   "tool_as_named_in_table_1": "litstudy",
+   "reference_key": "heldens2022litstudy",
+   "homepage": "https://nlesc.github.io/litstudy/",
+   "repository": "https://github.com/NLeSC/litstudy",
+   "license": "Apache-2.0",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "Heldens, S.; Sclocco, A.; Dreuning, H.; van Werkhoven, B.; Hijma, P.; Maassen, J.; van Nieuwpoort, R.V.",
+    "title": "litstudy: A Python package for literature reviews",
+    "venue": "SoftwareX, vol. 20, article 101207 (Elsevier)",
+    "year": 2022,
+    "doi_or_arxiv": "10.1016/j.softx.2022.101207",
+    "crossref_verified": true,
+    "notes": "Crossref record fetched 2026-09-02 from https://api.crossref.org/works/10.1016/j.softx.2022.101207: type journal-article, container SoftwareX, volume 20, article-number 101207, issued 2022-12, 7 authors as listed, CC-BY 4.0 license. Cross-checked with OpenAlex W4300427454 (https://api.openalex.org/works/W4300427454, fetched 2026-09-02): publication_date 2022-10-03, gold OA, cited_by_count 41. Paper header (OA PDF https://pure.uva.nl/ws/files/134862348/litstudy.pdf, fetched 2026-09-02): 'Received 18 February 2022 ... Accepted 6 September 2022'; code version described is 1.0.2; software archive DOI 10.5281/zenodo.3386071. Authors affiliated with Netherlands eScience Center, University of Amsterdam and Vrije Universiteit Amsterdam."
+   },
+   "summary": "litstudy (Netherlands eScience Center; Heldens et al., SoftwareX 20:101207, 2022, DOI 10.1016/j.softx.2022.101207, Crossref- and OpenAlex-verified 2026-09-02) is an Apache-2.0 Python/Jupyter library for metadata-level bibliometrics, not a retrieval-augmented review or drafting system. Sources (README and litstudy/sources/__init__.py, fetched 2026-09-02): live search of Scopus (via pybliometrics, requires subscription + Elsevier API key), Semantic Scholar, CrossRef, DBLP and arXiv, plus import of IEEE Xplore/Springer Link CSV exports, BibTeX, RIS and generic CSV. Core capabilities are DocumentSet set-algebra/dedup/filter, statistics plots, citation/co-citation/bibliographic-coupling/co-author networks (networkx + pyvis), and NMF/LDA topic modelling over title/abstract bags-of-words. It has no query-refinement aid (users pass raw database query strings), no screening workflow or persisted inclusion/exclusion decisions (filter_docs simply returns a new DocumentSet from a predicate), and the paper explicitly states 'litstudy only works on metadata, it does not fetch or have access to the content of documents', so full-text acquisition, grounded drafting, claim-to-source checking, verbatim evidence quotation and manuscript auditing are all absent; a grep of the package source (fetched 2026-09-02) found no pdf/fulltext/LLM code. The closest analogue to metadata verification is 'refinement' (refine_crossref/refine_scopus/refine_semanticscholar), which re-fetches records by DOI (or fuzzy title for Scopus) and splits found vs. not-found sets, but does not diff or flag discrepancies. Validation in the paper is an illustrative GPU-programming case (1,441 IEEE+Springer records, 1,387 matched on Scopus, 53 discarded, 1,386 after year filter; 15 NMF topics; Big Data share 14% in 2011 to 26% in 2021) plus an impact narrative (prior use in an ACM Computing Surveys exascale survey, 23 stars/11 forks in June 2022); no precision/recall or user-study numbers are published. Current state (GitHub API and PyPI JSON, 2026-09-02): 221 stars, 67 forks, last push 2025-05-27, latest PyPI release 1.0.6 (2023-10-05), requires_python >=3.7; no GPU requirement is documented anywhere. The paper itself notes that supporting a complete systematic review 'is not the primary goal of litstudy'.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "Scopus, Semantic Scholar, CrossRef, DBLP, arXiv APIs; IEEE/Springer CSV, BibTeX, RIS",
+       "supported": "yes",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "Several online citations databases for scientific literature exist and litstudy supports four of them: Scopus [17], Semantic Scholar [18], CrossRef. [19], and dblp [20]."
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "No query expansion; user supplies raw database query strings",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/NLeSC/litstudy/master/litstudy/sources/semanticscholar.py",
+       "evidence_quote": "Submit the given query to SemanticScholar API and return the results as a `DocumentSet`. The query is a string containg keywords"
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "Programmatic predicate filters only; no title/abstract screening aid",
+       "supported": "partial",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "litstudy is useful during several stages, most notably during identification of research and selection of primary studies. However, supporting the user during a complete systematic review [9] is not the primary goal of litstudy"
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "No; filters return new sets, no decisions or exclusion reasons persisted",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/NLeSC/litstudy/master/litstudy/types.py",
+       "evidence_quote": "Returns a new set for which the provided predicate returned `True`."
+      },
+      {
+       "value": "No; only generic in-memory add_property annotations, no decision/reason log",
+       "supported": "no",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "support for annotation by assigning properties to the documents in a DocumentSet. For example, a text property could be the journal name, a integer property could be the citations count"
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "Yes: citation, co-citation, bibliographic coupling, co-author networks (networkx)",
+       "supported": "yes",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "Five types of networks can be extracted from a DocumentSet using litstudy: citation network [23], co-citation network [24], bibliographic coupling network [25], co-author network [26], and author-publication network [27]."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "No; metadata only, never fetches document content",
+       "supported": "no",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "Note that litstudy only works on metadata, it does not fetch or have access to the content of documents."
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "No; no LLM or prose generation, outputs plots/networks/topics",
+       "supported": "no",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "The package enables selecting scientific publications and studying their metadata using visualizations, bibliographic network analysis, and natural language processing."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "Partial: DOI-based 'refinement' re-fetches metadata from CrossRef/Scopus/Semantic Scholar",
+       "supported": "partial",
+       "evidence_url": "https://nlesc.github.io/litstudy/api/sources.html",
+       "evidence_quote": "Attempts to fetch metadata from CrossRef for each document in the given set. Returns a tuple of two sets: the documents retrieved from CrossRef and the remaining documents (i.e., without DOI or not found)."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "No; has no access to source text",
+       "supported": "no",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "Note that litstudy only works on metadata, it does not fetch or have access to the content of documents."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "No; abstracts reduced to bag-of-words for topic models",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/NLeSC/litstudy/master/litstudy/nlp.py",
+       "evidence_quote": "This function takes the words from the title/abstract of the given documents, preprocesses the tokens, and returns a corpus consisting of a word frequency vector for each document."
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "No; imports BibTeX/RIS reference lists, no manuscript claim audit",
+       "supported": "no",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "Citations in RIS and BibTeX, two file formats for managing academic citations, can be imported."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Apache-2.0",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/NLeSC/litstudy/master/LICENSE",
+       "evidence_quote": "Apache License Version 2.0, January 2004"
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "pip, Python >=3.7, CPU-only; Scopus needs subscription + Elsevier API key",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/NLeSC/litstudy/master/README.md",
+       "evidence_quote": "However to access the Scopus API, you (or your institute) requires a Scopus subscription and you need to request an Elsevier Developer API key"
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "No quantitative evaluation; 1,386-paper GPU case study; reused in ACM CSUR",
+       "supported": "partial",
+       "evidence_url": "https://pure.uva.nl/ws/files/134862348/litstudy.pdf",
+       "evidence_quote": "In an ACM Computing Surveys paper, litstudy was used by Heldens et al. [38] to explore the domain of exascale computing."
+      }
+     ]
+    }
+   ]
+  },
+  "PaperQA2": {
+   "tool_as_named_in_table_1": "PaperQA2",
+   "reference_key": "skarlinski2024paperqa2",
+   "homepage": "https://github.com/Future-House/paper-qa",
+   "repository": "https://github.com/Future-House/paper-qa",
+   "license": "Apache-2.0 (LICENSE file \"Apache License Version 2.0, January 2004\", \"Copyright 2024 FutureHouse\"; GitHub API spdx_id Apache-2.0; PyPI classifier \"License :: OSI Approved :: Apache Software License\")",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "Michael D. Skarlinski, Sam Cox, Jon M. Laurent, James D. Braza, Michaela Hinks, Michael J. Hammerling, Manvitha Ponnapati, Samuel G. Rodriques, Andrew D. White",
+    "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+    "venue": "arXiv preprint (cs.CL)",
+    "year": 2024,
+    "doi_or_arxiv": "arXiv:2409.13740 (v1 2024-09-10, v2 2024-09-26); DOI 10.48550/arXiv.2409.13740",
+    "crossref_verified": false,
+    "notes": "Verified 2026-09-02 via arXiv API (https://export.arxiv.org/api/query?id_list=2409.13740: published 2024-09-10T16:37:58Z, updated 2024-09-26T15:27:08Z, primary category cs.CL, no journal_ref) and DataCite (https://api.datacite.org/dois/10.48550/arXiv.2409.13740: publisher arXiv, resourceTypeGeneral Preprint, publicationYear 2024). Crossref returns HTTP 404 for 10.48550/arXiv.2409.13740 (arXiv DOIs are DataCite-registered) and a Crossref bibliographic search (https://api.crossref.org/works?query.bibliographic=Language+agents+achieve+superhuman+synthesis+of+scientific+knowledge+Skarlinski) returned no matching journal version; OpenAlex (https://api.openalex.org/works?search=...) lists only the preprint W4403795293 (type preprint, arXiv). No peer-reviewed journal version found as of 2026-09-02, so crossref_verified=false; citation is arXiv/DataCite-verified."
+   },
+   "summary": "PaperQA2 (Future-House/paper-qa, Apache-2.0, PyPI version 2026.8.12, ~9.1k GitHub stars, last push 2026-08-26) is an open-source agentic RAG library/CLI for question answering over a user-supplied corpus of scientific PDFs. All facts below were fetched on 2026-09-02 from the GitHub README (raw + rendered), LICENSE, src/paperqa/prompts.py, src/paperqa/types.py, src/paperqa/clients/__init__.py, docs/tutorials/where_do_I_get_papers.md, the GitHub/PyPI/arXiv/DataCite/Crossref/OpenAlex APIs, and the arXiv HTML of 2409.13740v2. Interpretation of the 'supported' flag: whether PaperQA2 supports the criterion (yes/partial/no), with 'unverified' reserved for items I could not check. Key findings for the comparison with ScholarRAG: (1) Data sources: local PDFs are the corpus; metadata is enriched via Crossref, Semantic Scholar, OpenAlex, Unpaywall, plus journal-quality and retraction post-processors (clients/__init__.py ALL_CLIENTS); optional Zotero and OpenReview helpers exist in paperqa.contrib. (2) Query refinement is agent-internal ('LLM-generated keyword query', 'iteratively refine queries and answers'), not a user-facing research-question refinement aid. (3) No title/abstract screening workflow and no screening audit trail: relevance is decided per text chunk by an LLM 0-10 score (irrelevant = empty summary, score 0); the only paper-level selection is the OpenReview helper. (4) Citation-network analysis: the paper describes a 'Citation Traversal' tool using Semantic Scholar and Crossref for references and citers, but the README FAQ states it is internal to FutureHouse and not yet in the repo. (5) Full-text acquisition: the README says 'you will need to provide PDFs yourself'; the paper says the open-source paper-search tool is a stub; Unpaywall only supplies OA links. (6) Grounded drafting: the QA prompt restricts citations to retrieved context keys and types.py strips 'hallucinated citations'; WikiCrow generates Wikipedia-style cited articles (answer/article level, not manuscript sections). (7) Metadata verification applies to ingested documents (title/DOI inferred then resolved via Crossref etc., with retraction check), not to an externally drafted reference list. (8) Claim verification is contradiction detection (contracrow setting: query is a claim to check against the literature), not checking a drafted claim against its cited source. (9) Evidence is returned as LLM 'contextual summaries' (~100 words) that are instructed to include direct quotes in quotation marks; the raw chunk text is retained in Context.text but the primary output is a summary, not verbatim excerpts. (10) External manuscript auditing: the paper's ContraCrow pipeline extracts claims from a provided paper and checks each for contradictions (2.34 +/- 1.99 per paper, 70% human-validated, F1 0.82), but claim extraction is not exposed in the OSS repo and there is no reference-list audit. (11) Deployment: pip install paper-qa (Python >=3.11), any LiteLLM-compatible model via API key or local llama.cpp/Ollama, optional CROSSREF_API_KEY / SEMANTIC_SCHOLAR_API_KEY; GPU requirements are not mentioned (unverified). (12) Empirical validation (arXiv 2409.13740v2): LitQA2 248 questions, precision 85.2% +/- 1.1% and accuracy 66.0% +/- 1.2% vs human experts 73.8% +/- 9.6% precision and 67.7% +/- 11.9% accuracy (n=9); WikiCrow 240 gene articles with 13.5% vs 24.9% 'cited and unsupported' statements vs Wikipedia (p=0.0075) and 3.9x fewer uncited statements; ContraCrow 2.34 +/- 1.99 contradictions/paper (N=93), 70% validated. Canonical citation: Skarlinski et al., 'Language agents achieve superhuman synthesis of scientific knowledge', arXiv:2409.13740 (2024), DOI 10.48550/arXiv.2409.13740 registered with DataCite; Crossref returns 404 for this DOI and neither Crossref bibliographic search nor OpenAlex shows a peer-reviewed journal version as of 2026-09-02, so crossref_verified=false (arXiv/DataCite-verified instead). The GitHub API reports a 'homepage' field of https://futurehouse.gitbook.io/futurehouse-cookbook, which I did not fetch (unverified); the GitHub repository is used as the homepage.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "Local PDFs; metadata via Crossref, Semantic Scholar, OpenAlex, Unpaywall; Zotero/OpenReview helpers",
+       "supported": "yes",
+       "evidence_url": "https://github.com/Future-House/paper-qa",
+       "evidence_quote": "You will see PaperQA2 index your local PDF files, gathering the necessary metadata for each of them (using Crossref and Semantic Scholar), search over that index, then break the files into chunked evidence contexts"
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "Agent auto-generates and iteratively refines keyword searches; no user-facing question refinement",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "Support for agentic RAG, where a language agent can iteratively refine queries and answers."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "No title/abstract screening; LLM scores chunk relevance 0-10; OpenReview helper picks relevant papers",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/docs/tutorials/where_do_I_get_papers.md",
+       "evidence_quote": "queries this list to find relevant papers using LLM, and downloads those relevant papers to a local directory which can be used with paper-qa on the next step."
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "None; irrelevant chunks get empty summary and score 0, no exportable exclusion log",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/src/paperqa/prompts.py",
+       "evidence_quote": "The excerpt may or may not contain relevant information. If not, leave `summary` empty, and make `relevance_score` be 0."
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "Paper describes Citation Traversal tool (S2/Crossref refs and citers); not in open-source repo",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "Internally at FutureHouse, we have a slightly different set of tools. We're trying to get some of them, like citation traversal, into this repo."
+      },
+      {
+       "value": "Paper-only Citation Traversal (S2/Crossref refs+citers); absent from OSS repo, only citation counts",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "Internally at FutureHouse, we have a slightly different set of tools. We're trying to get some of them, like citation traversal, into this repo."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "No automatic OA download; user supplies PDFs; Unpaywall client only returns OA links",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "but until there is an open-source way to freely access papers (even just open source papers) you will need to provide PDFs yourself."
+      },
+      {
+       "value": "User supplies PDFs; Unpaywall links only; OpenReview/Zotero helpers download PDFs",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/docs/tutorials/where_do_I_get_papers.md",
+       "evidence_quote": "# Now we can query LLM to select relevant papers and download PDFs"
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "Cited answers/articles restricted to retrieved context; hallucinated citation keys stripped",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/src/paperqa/prompts.py",
+       "evidence_quote": "For each part of your answer, indicate which sources most support it via citation keys at the end of sentences, like {example_citation}. Only cite from the context above and only use the citation keys from the context."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "Ingested-PDF metadata (title/DOI) resolved via Crossref/S2/OpenAlex with retraction check; not for external reference lists",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "The indexing process attempts to infer paper metadata like title and DOI using LLM-powered text processing. You can avoid this point of uncertainty using a \"manifest\" file"
+      },
+      {
+       "value": "Ingested-PDF metadata (title/DOI) resolved via Crossref/S2/OpenAlex with retraction check; not for external reference lists",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "magically get their metadata - including citation counts with a retraction check"
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "ContraCrow checks a claim against literature for contradictions; no drafted-claim-vs-cited-source check",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "contracrow | Setting to find contradictions in papers, your query should be a claim that needs to be flagged as a contradiction (or not)."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "Returns LLM contextual summaries (~100 words) per chunk, may embed direct quotes; raw chunk text retained",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/src/paperqa/prompts.py",
+       "evidence_quote": "Stay detailed; report specific numbers, equations, or direct quotes (marked with quotation marks). Reply \"Not applicable\" if the excerpt is irrelevant."
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "Paper's ContraCrow extracts a paper's claims and checks contradictions; no reference audit; claim extraction not in OSS",
+       "supported": "partial",
+       "evidence_url": "https://arxiv.org/html/2409.13740v2",
+       "evidence_quote": "ContraCrow first extracts claims from a provided paper using a series of LLM completion calls (similar to Schlichtkrull et al. (2024)), and then feeds those claims into PaperQA2 with a contradiction detection prompt."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Apache-2.0 (Copyright 2024 FutureHouse)",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/LICENSE",
+       "evidence_quote": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ ... Copyright 2024 FutureHouse"
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "pip install paper-qa (Python >=3.11); LLM API key or local llama.cpp/Ollama; optional Crossref/S2 keys; GPU not mentioned",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/Future-House/paper-qa/main/README.md",
+       "evidence_quote": "PaperQA2 uses an LLM to operate, so you'll need to either set an appropriate API key environment variable (i.e. `export OPENAI_API_KEY=sk-...`) or set up an open source LLM server"
+      },
+      {
+       "value": "pip install paper-qa (Python >=3.11); LLM API key or local llama.cpp/Ollama; optional Crossref/S2 keys; GPU not mentioned",
+       "supported": "yes",
+       "evidence_url": "https://github.com/Future-House/paper-qa",
+       "evidence_quote": "PaperQA2 uses an LLM to operate, so you'll need to either set an appropriate API key environment variable (i.e. `export OPENAI_API_KEY=sk-...`) or set up an open source LLM server"
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "LitQA2 (248 Qs): precision 85.2%, accuracy 66.0% vs humans 73.8%/67.7%; WikiCrow 240 articles 13.5% vs 24.9% unsupported; ContraCrow 2.34/paper, 70% validated",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/html/2409.13740v2",
+       "evidence_quote": "Running PaperQA2 on LitQA2 yielded a precision of 85.2% ± 1.1% (mean ± SD, n=3), and an accuracy of 66.0% ± 1.2% (mean ± SD, n=3)"
+      }
+     ]
+    }
+   ]
+  },
+  "Ai2 Scholar QA": {
+   "tool_as_named_in_table_1": "Ai2 Scholar QA",
+   "reference_key": "singh2025scholarqa",
+   "homepage": "https://qa.allen.ai/ (fetched 2026-09-02; now redirects to https://asta.allen.ai/synthesize?redirect_from=corpus-qa); code: https://github.com/allenai/ai2-scholarqa-lib",
+   "repository": "https://github.com/allenai/ai2-scholarqa-lib (280 stars, last push 2026-06-25, PyPI ai2-scholar-qa v0.8.13; fetched via api.github.com 2026-09-02)",
+   "license": "Apache-2.0 (code, per GitHub API license field and api/pyproject.toml, fetched 2026-09-02); paper text CC BY 4.0 (arXiv v2)",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "Amanpreet Singh, Joseph Chee Chang, Dany Haddad, Aakanksha Naik, Jena D. Hwang, Rodney Kinney, Daniel S. Weld, Doug Downey, Sergey Feldman",
+    "title": "Ai2 Scholar QA: Organized Literature Synthesis with Attribution",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations), Vienna, Austria, pp. 513-523, Association for Computational Linguistics",
+    "year": 2025,
+    "doi_or_arxiv": "10.18653/v1/2025.acl-demo.49 (preprint arXiv:2504.10861v2, 28 Jul 2025)",
+    "crossref_verified": true,
+    "notes": "Crossref record https://api.crossref.org/works/10.18653/v1/2025.acl-demo.49 fetched 2026-09-02 (type proceedings-article, publisher ACL, page 513-523, event Vienna Austria July 2025); ACL Anthology https://aclanthology.org/2025.acl-demo.49/ and Crossref list 9 authors, whereas arXiv API (http://export.arxiv.org/api/query?id_list=2504.10861, fetched 2026-09-02) and the GitHub README BibTeX list 18 authors (adds Anastasiades, Tanaka, Zamarron, Nguyen, Dunkleberger, Latzke, Rao, Lochner, Evans). arXiv journal_ref field: 'ACL 2025 System Demonstrations pages 513-523 Vienna Austria'. OpenAlex ID W4412886885, cited_by_count 7 (https://api.openalex.org, fetched 2026-09-02). Note: the DOI 10.48550/arXiv.2504.10861 is NOT in Crossref ('Resource not found')."
+   },
+   "summary": "Ai2 Scholar QA (Allen Institute for AI) is an Apache-2.0 open-source RAG pipeline and web app for long-form scientific question answering: it decomposes the query with an LLM, retrieves up to 256 passages + 20 abstracts from Semantic Scholar's 11.7M-paper full-text snippet index and 100M+ abstract index, reranks with mxbai-rerank-large-v1 (top 50), extracts verbatim quotes per paper, clusters them into a thematic outline, and generates a multi-section report with inline citations linked to excerpt popups plus paper-comparison tables. Verified strengths as a comparator: exact evidence quotation (yes), cited drafting (partial, since 'LLM Memory' uncited content is explicitly allowed), automatic query decomposition (partial), and published benchmark results (ScholarQA-CS total 61.9 vs STORM 59.5, OpenScholar 53.5, PaperQA2 51.4; ALCE-style citation score 48.1; 30.2k queries from 8,219 visitors over 9 weeks, 85% positive of 2,433 thumbs; ~$0.50 and 2.5 min per report). Verified gaps vs ScholarRAG: no human title/abstract screening workflow or exportable per-record exclusion log (only JSON pipeline traces), no citation-network analytics (one-hop citation following only), no OA PDF acquisition (relies on S2ORC pre-indexed passages), no Crossref/DOI metadata verification, no in-pipeline claim-to-source entailment check (users verify by clicking excerpts; entailment used only in offline evaluation), and no import/audit of an external manuscript (input is a query string). Deployment: self-hostable via Docker Compose or pip, requires S2_API_KEY plus Anthropic and/or OpenAI keys (any litellm provider), reranker served on Modal GPU (production: one NVIDIA L40S) or locally via sentence-transformers. Canonical citation is Crossref-verified: Singh et al., ACL 2025 System Demonstrations, pp. 513-523, DOI 10.18653/v1/2025.acl-demo.49 (arXiv 2504.10861v2); note Crossref/ACL list 9 authors while arXiv and the README BibTeX list 18. Both legacy demo URLs (qa.allen.ai, scholarqa.allen.ai) now redirect to asta.allen.ai/synthesize. All URLs accessed 2026-09-02; the Ai2 blog post (https://allenai.org/blog/ai2-scholarqa, Jan 21 2025) was also fetched and contains no benchmark numbers.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "Semantic Scholar API: 100M+ abstracts + 11.7M full-text S2ORC snippet index",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "starts by querying paper indexes: one from Semantic Scholar with over 100M abstracts, and a new index that we introduce in this work containing 11.7M full-text scientific papers."
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "Automatic LLM query decomposition/rewrite + year/venue/field filters; no interactive refinement",
+       "supported": "partial",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "A query decomposer re-formulates the user query for each endpoint and retrieves up to 256 snippets and 20 abstracts."
+      },
+      {
+       "value": "LLM query decomposition + metadata filters; NL report-edit workflow; no Boolean builder",
+       "supported": "partial",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "A query decomposer re-formulates the user query for each endpoint and retrieves up to 256 snippets and 20 abstracts."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "Cross-encoder rerank to top-50, then LLM discards irrelevant papers; no human title/abstract screening",
+       "supported": "partial",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "If the entire paper context is deemed irrelevant, it is discarded from further processing."
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "JSON event traces of retrieval/rerank/generation steps; no per-record exclusion reasons or export",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "Event Traces are json documents containing a trace of the entire pipeline i.e. the results of retrieval, reranking, each step of the qa pipeline and associated costs, if any."
+      },
+      {
+       "value": "JSON event traces (local/GCS) per pipeline step; no per-record exclusion reasons",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "Event Traces are json documents containing a trace of the entire pipeline i.e. the results of retrieval, reranking, each step of the qa pipeline and associated costs, if any."
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "None; only one-hop inline-citation following to cite foundational sources",
+       "supported": "no",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "This citation following method allows the LLM to condition on and cite foundational sources which are not uncovered in retrieval."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "No PDF fetching; reads pre-indexed open-access full-text passages via S2 snippet API",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "relevant evidence passages are fetched using the Semantic Scholar public api's snippet/search end point which looks up an index of open source papers."
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "Multi-section cited report from extracted quotes; but may add uncited 'LLM Memory' content",
+       "supported": "partial",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "The LLM is instructed to cite the sources for each claim in the generated section text and cite generations from its parameters as LLM Memory."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "None; metadata taken from Semantic Scholar IDs, no Crossref/DOI check",
+       "supported": "no",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "improved retrieval may help address incomplete or incorrect references and off-topic responses."
+      },
+      {
+       "value": "None; metadata taken from Semantic Scholar IDs, no Crossref/DOI check",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "and [associated metadata](https://api.semanticscholar.org/api-docs/#tag/Paper-Data/operation/post_graph_get_papers) via the Semantic Scholar public api."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "No in-pipeline entailment check; users verify manually via excerpt popups (ALCE entailment used only offline in eval)",
+       "supported": "no",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "To verify the claims in the report, users can click on the inline citations (Figure 2 [C]) or the pink excerpt icon in the inline table cells (Figure 3 [C]) to bring up a popup paper card."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "Yes: LLM extracts verbatim quotes, matched to passage offsets, shown in paper cards",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "We instruct an LLM to extract verbatim quotes that directly contribute to answering the query (Slobodkin et al., 2024)."
+      },
+      {
+       "value": "Yes: LLM extracts verbatim quotes per paper; excerpts shown in paper cards",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "We instruct an LLM to extract verbatim quotes that directly contribute to answering the query (Slobodkin et al., 2024)."
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "No; input is a question string only, no manuscript import/audit",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "The `query_corpusqa` end point is first called with the `query`, and a uuid as the `user_id`, adn it returns a `task_id`."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Apache-2.0 (code); paper CC BY 4.0; backbone LLMs proprietary",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/api/pyproject.toml",
+       "evidence_quote": "license = {text = 'Apache-2.0'}"
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "Self-host (Docker Compose/pip); needs S2_API_KEY + Anthropic/OpenAI keys; reranker on Modal GPU (L40S) or local sentence-transformers",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/ai2-scholarqa-lib/main/README.md",
+       "evidence_quote": "Ai2 Scholar QA requires Semantic Scholar api and LLMs for its core functionality of retrieval and generation."
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "ScholarQA-CS (100 CS questions, GPT-4o judge): SQA-Claude3.7 total 61.9/rubrics 58.0/cite 48.1 vs STORM 59.5, OpenScholar-GPT-4o 53.5, PaperQA2 51.4, Perplexity Sonar DR 52.8; 85% of 2,433 thumbs positive",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/html/2504.10861v2",
+       "evidence_quote": "Scholar QA obtains the best scores both on rubrics and overall, with the variant using Claude 3.7 Sonnet as the backbone scoring 2.4 points higher than STORM."
+      }
+     ]
+    }
+   ]
+  },
+  "OpenScholar": {
+   "tool_as_named_in_table_1": "OpenScholar",
+   "reference_key": "asai2026openscholar",
+   "homepage": "https://github.com/AkariAsai/OpenScholar",
+   "repository": "https://github.com/AkariAsai/OpenScholar",
+   "license": "Apache-2.0 (code, GitHub SPDX); Llama-3.1_OpenScholar-8B model card text says Apache 2.0 but HF metadata tag is llama3.1; OpenScholar-DataStore-V3 MIT; ScholarQABench data ODC-BY; demo queries CC BY 4.0; Nature article CC BY-NC-ND 4.0",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "Asai A, He J, Shao R, Shi W, Singh A, Chang JC, Lo K, Soldaini L, Feldman S, D'Arcy M, Wadden D, Latzke M, Sparks J, Hwang JD, Kishore V, Tian M, Ji P, Liu S, Tong H, Wu B, Xiong Y, Zettlemoyer L, Neubig G, Weld DS, Downey D, Yih W-t, Koh PW, Hajishirzi H",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "venue": "Nature 650(8103):857-863",
+    "year": 2026,
+    "doi_or_arxiv": "10.1038/s41586-025-10072-4",
+    "crossref_verified": true,
+    "notes": "Crossref record fetched 2026-09-02 (https://api.crossref.org/works/10.1038/s41586-025-10072-4): type journal-article, Nature vol. 650 issue 8103 pp. 857-863, published online 2026-02-04, print 2026-02-26, license CC BY-NC-ND 4.0, is-referenced-by-count 31; PMID 41639446 (E-utilities fetched 2026-09-02). Preprint: arXiv:2411.14199 v1 (2024-11-21), titled 'OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs', 25 authors (arXiv API fetched 2026-09-02); the Nature version adds Sparks, Hwang, Kishore (28 authors) and reports 6.1%/5.5% margins vs 5%/7% in arXiv v1. GitHub, HF and ScholarQABench BibTeX blocks still cite the arXiv version (journal={Arxiv}, year 2024); OpenAlex lists both W4404652849 (preprint) and W7127589252 (Nature)."
+   },
+   "summary": "OpenScholar (Ai2 + UW) is an open retrieval-augmented LM that answers scientific queries with citation-backed long-form syntheses. All facts below were verified on 2026-09-02. Canonical citation: the arXiv preprint 2411.14199 (v1 2024-11-21, arXiv API) was published in Nature 650(8103):857-863, online 2026-02-04, DOI 10.1038/s41586-025-10072-4 (Crossref journal-article record fetched; PMID 41639446 via E-utilities; OpenAlex W7127589252). Note the title changed (no 'OpenScholar:' prefix) and the author list grew from 25 to 28; the GitHub/HF BibTeX still cite arXiv. Architecture (Nature full text, fetched via curl since WebFetch hit an idp.nature.com redirect): datastore OSDS = peS2o v3 (open-access S2ORC papers, 45M papers to Oct 2024, 236M passages), plus Semantic Scholar keyword API (LM-generated keywords, ranked by citation count) and You.com web search restricted to arXiv/PubMed; OA full texts are added, otherwise abstracts only. Bi-encoder retrieval (top 100) then cross-encoder reranking to top N with meta-filtering (max 3 passages/paper, normalized citation counts). Inference: initial cited draft, LM-generated natural-language feedback (max 3), feedback-driven extra retrieval queries, then a 'citation verification' step where the generator checks that citation-worthy statements are supported by retrieved passages and post-hoc inserts citations. This is LM self-verification of its own output, not an independent claim-to-source checker, and there is no DOI/Crossref metadata check (S2 title-existence checking is used only to score baselines). No systematic-review-style title/abstract screening, no audit trail of exclusions, no citation-network analysis, no manuscript import/audit (input is a query string, per Nature task formulation and the demo API model). Verbatim evidence: the retired demo UI (github.com/allenai/openscilm, EvidenceCardContent.tsx) rendered each citation's retrieved snippet in quotation marks; the Citation model carries 'A relevant snippet from the cited paper', so passage-level snippets exist but not claim-aligned quote extraction. Licensing: GitHub API reports Apache-2.0 for AkariAsai/OpenScholar and allenai/openscilm; HF model card text says 'The code and model are released under Apache 2.0' but the card's metadata tag is license: llama3.1 (inconsistency worth flagging); OpenScholar-DataStore-V3 card says license: mit; ScholarQABench data ODC-BY; openscilm_queries CC BY 4.0; Nature paper CC BY-NC-ND 4.0. Deployment: self-hosted Python pipeline; run.py imports vllm and sets tensor_parallel_size=torch.cuda.device_count() (CUDA GPU required for local 8B inference); requires S2_API_KEY, optional You.com key, OpenAI key for GPT-4o backend; README says the peS2o index (200+M embeddings) 'requires a lot of CPU memory'; 8B was trained on 8xA100. The public demo URLs openscholar.allen.ai, open-scholar.allen.ai and openscilm.allen.ai all return HTTP 301 to https://asta.allen.ai/ (curl -I, 2026-09-02), i.e. the OpenScholar demo has been folded into Ai2's Asta; the demo repo's AstaBanner reads 'Try Asta, a scholarly research assistant from Ai2'. GitHub repo last pushed 2025-08-13, 1,589 stars. Empirical validation (Nature): ScholarQABench, 2,967 expert-written queries and 208 long-form answers across CS, physics, neuroscience, biomedicine; OS-8B +6.1% correctness vs GPT-4o and +5.5% vs PaperQA2; GPT-4o fabricates citations 78-90% of the time while OpenScholar is on par with experts; OS-GPT-4o +12% over GPT-4o; 16 PhD experts on 108 Scholar-Multi questions preferred OS-8B 51% and OS-GPT-4o 70% vs 32% for GPT-4o; retrieval ablation on Scholar-CS: web-only 45.9 correctness/12.6 citation F1, S2-only 47.9/39.1, combined 49.6/47.6; demo used by >30,000 users with ~90,000 queries. ScholarQABench metrics: rubric-based correctness (GPT-4o-Turbo judge), sentence-level citation precision/recall/F1, Prometheus organization/relevance/coverage. Sources fetched: arxiv.org/abs/2411.14199, arxiv.org/html/2411.14199v1, export.arxiv.org API, api.crossref.org, api.openalex.org, nature.com article, eutils PubMed, github.com/AkariAsai/OpenScholar (+raw README, run.py, retriever/README.md, requirements.txt), api.github.com repo records, github.com/AkariAsai/ScholarQABench (+raw README), huggingface.co/OpenSciLM/Llama-3.1_OpenScholar-8B (+raw card, API), HF datastore V3 and openscilm_queries cards, allenai.org/blog/openscholar, allenai/openscilm raw sources (models.py, open_scholar.py, EvidenceCardContent.tsx, Report.ts, AstaBanner.tsx, DisclaimerModal.tsx), and the three demo hostnames.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "peS2o/S2ORC OA store (45M papers) + Semantic Scholar API + You.com",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "we use peS2o (ref. 24) as our retrieval source, which consists of open-access academic papers from S2ORC (ref. 25). We built our data store using peS2o v3, which includes 45 million papers up to October 2024."
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "Automatic only: LM keyword and feedback-loop queries; no user-facing refinement",
+       "supported": "partial",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "If the feedback sequence identifies missing content (for example, \"The answer only includes empirical results on QA tasks. Add results from other task types.\"), the LM also generates a retrieval query for further retrieval using the pipeline."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "Partial: cross-encoder passage reranking to top N; no include/exclude screening",
+       "supported": "partial",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "We first select initial candidate paragraphs using D and θbi, as well as external APIs, and then refine and identify the top N relevant paragraphs using θcross."
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "No: outputs answer text + cited passages; no per-record decisions/exclusion reasons",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/AkariAsai/ScholarQABench/main/README.md",
+       "evidence_quote": "{\"input\": query (str), \"output\": final_model_output (str), \"ctxs: citations (list of dict, where each dict has text )}"
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "No graph analysis; citation counts used only as ranking/filter signal",
+       "supported": "no",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "(1) limiting the number of passages per paper to three passages and (2) incorporating normalized citation counts into relevance scores predicted by the cross-encoder."
+      },
+      {
+       "value": "No graph analysis; citation counts used only as ranking/filter signal",
+       "supported": "no",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "Enhancing retrieval methodologies by incorporating further information, such as citation networks or metadata such as publication recency, could substantially improve its performance."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "Yes: peS2o OA full text; OA full text pulled for S2/web hits",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "if the papers are open access, we extract and add their full texts to the candidate pool; otherwise, we include only their abstracts."
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "Yes: long-form cited answers grounded in retrieved passages; not manuscript sections",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "the generator LM first produces an initial response y0 with citation markers tied to the corresponding passages in P."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "No Crossref/DOI check; S2 corpus IDs; title check only in baseline eval",
+       "supported": "no",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "We report the number of fully fabricated citations ('No. of hallucinated') by verifying whether the cited paper titles exist using the Semantic Scholar API."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "Partial: LM self-verifies own claims vs retrieved passages; adds missing citations",
+       "supported": "partial",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "the generator ensures that all citation-worthy statements—scientific claims requiring justification—are adequately supported by references from the retrieved passages. If any claims lack proper citations, the LM performs a post-hoc insertion"
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "Partial: demo shows retrieved passage snippet per citation; not claim-aligned quotes",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/allenai/openscilm/main/api/tool/models.py",
+       "evidence_quote": "snippet: str = Field(description=(\"A relevant snippet from the cited paper\"))"
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "No: query-in/answer-out; no manuscript upload or reference audit",
+       "supported": "no",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "Given a scientific query x, the task is to identify relevant papers, synthesize their findings and generate a response y"
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Apache-2.0 code; model Apache-2.0 (HF tag llama3.1); data ODC-BY/MIT",
+       "supported": "yes",
+       "evidence_url": "https://api.github.com/repos/AkariAsai/OpenScholar",
+       "evidence_quote": "\"license\": {\"key\": \"apache-2.0\", \"name\": \"Apache License 2.0\", \"spdx_id\": \"Apache-2.0\""
+      },
+      {
+       "value": "Apache-2.0 code; model license conflict (Apache text vs llama3.1 tag); data ODC-BY/MIT",
+       "supported": "yes",
+       "evidence_url": "https://api.github.com/repos/AkariAsai/OpenScholar",
+       "evidence_quote": "\"license\": {\"key\": \"apache-2.0\", \"name\": \"Apache License 2.0\", \"spdx_id\": \"Apache-2.0\""
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "Self-host Python+vLLM on CUDA GPUs; S2 API key; large-RAM index; demo→Asta",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/AkariAsai/OpenScholar/main/README.md",
+       "evidence_quote": "Note that due to the massive-scale of index (200+M embeddings based on 45 million papers), the peS2o retriever requires a lot of CPU memory."
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "ScholarQABench (2,967 queries): +6.1% vs GPT-4o; experts prefer 51%/70%",
+       "supported": "yes",
+       "evidence_url": "https://www.nature.com/articles/s41586-025-10072-4",
+       "evidence_quote": "OpenScholar-8B outperforms GPT-4o by 6.1% and PaperQA2 by 5.5% in correctness on a challenging multi-paper synthesis task from the new ScholarQABench. Although GPT-4o hallucinates citations 78–90% of the time, OpenScholar achieves citation accuracy on par with human experts."
+      }
+     ]
+    }
+   ]
+  },
+  "STORM": {
+   "tool_as_named_in_table_1": "STORM",
+   "reference_key": "shao2024storm",
+   "homepage": "https://storm.genie.stanford.edu/",
+   "repository": "https://github.com/stanford-oval/storm",
+   "license": "MIT",
+   "open_source": true,
+   "canonical_citation": {
+    "authors": "Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, Monica S. Lam",
+    "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+    "venue": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), NAACL 2024, Mexico City; Association for Computational Linguistics, pp. 6252-6278",
+    "year": 2024,
+    "doi_or_arxiv": "10.18653/v1/2024.naacl-long.347 (preprint arXiv:2402.14207)",
+    "crossref_verified": true,
+    "notes": "Crossref record https://api.crossref.org/works/10.18653/v1/2024.naacl-long.347 fetched 2026-09-02: title, six authors, container NAACL 2024 Long Papers, pages 6252-6278, publisher ACL, event Mexico City June 2024. arXiv API record (http://export.arxiv.org/api/query?id_list=2402.14207, fetched 2026-09-02) matches: submitted 2024-02-22, v2 2024-04-08, comment '27 pages, NAACL 2024 Main Conference'. The repo README BibTeX (shao-etal-2024-assisting) gives the same DOI and pages. Companion Co-STORM paper (Jiang et al., EMNLP 2024, DOI 10.18653/v1/2024.emnlp-main.554, pp. 9917-9955) also Crossref-verified 2026-09-02; the README asks users to cite both."
+   },
+   "summary": "STORM (Stanford OVAL; Shao et al., NAACL 2024, DOI 10.18653/v1/2024.naacl-long.347, Crossref-verified 2026-09-02) is an MIT-licensed, self-hostable Python package (knowledge-storm 1.1.1 on PyPI, released 2025-09-29; repo last pushed 2025-09-30, 31,205 stars per GitHub API on 2026-09-02) that writes Wikipedia-style long-form articles with inline [n] citations from a topic string. Grounding comes exclusively from general web-search APIs (You.com, Bing, Brave, Serper, DuckDuckGo, Tavily, SearXNG, Google, Azure AI Search) or a user-supplied CSV corpus indexed in Qdrant (VectorRM); there is no OpenAlex/Crossref/PubMed/Semantic Scholar connector, the only arXiv retriever in rm.py is documented as '[Alpha] ... for internal use only, not intended for the public', and the optional Wikipedia-derived URL trust filter in retriever.py actually lists arXiv, bioRxiv, medRxiv, SSRN and ResearchGate as GENERALLY_UNRELIABLE (the filter defaults to accept-all in the example runners). STORM automates question/query generation (perspective-guided personas, simulated writer-expert conversations, question-to-query decomposition) rather than helping a user refine a research question; Co-STORM adds user utterances to steer the discourse. It performs no title/abstract relevance screening, keeps no per-record inclusion/exclusion audit trail (it persists conversation_log.json, raw_search_results.json, url_to_info.json and llm_call_history.jsonl), does no citation-network analysis, no DOI/metadata verification, and no in-pipeline claim-to-source verification; the paper only evaluates citation quality offline (Mistral 7B-Instruct judge: citation recall 84.83, precision 85.18). Full text is obtained by downloading search-result web pages with httpx and extracting with trafilatura into ~1000-char snippets, not by OA/DOI PDF retrieval; the Streamlit demo shows these retrieved snippets per reference as 'Highlights' but not claim-level verbatim quotes. It cannot import an externally written manuscript. Deployment: pip install, Python >=3.10, any litellm-supported LLM (OpenAI/Azure or local vLLM/TGI/Ollama), a search-engine API key in secrets.toml, embeddings device cpu/mps/cuda for VectorRM (GPU optional), plus a hosted research preview at storm.genie.stanford.edu. Empirical validation (arXiv PDF fetched 2026-09-02): FreshWiki benchmark of 100 recent Wikipedia articles; automatic article metrics STORM vs oRAG ROUGE-1 45.82 vs 44.26, ROUGE-L 16.70 vs 16.51, entity recall 14.10 vs 12.57; outline heading soft recall 86.26 (GPT-3.5) / 92.73 (GPT-4); human study with 10 experienced Wikipedia editors on 20 article pairs: STORM preferred 26 vs 14, Organization 4.00 vs 3.25 (p=0.005), Verifiability 3.80 vs 3.85 (n.s.); abstract reports +25% absolute organized and +10% broad-coverage articles. All evidence URLs were fetched on 2026-09-02.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "Web search APIs or user CSV corpus (VectorRM); no scholarly index",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/README.md",
+       "evidence_quote": "retrieval module components: `YouRM`, `BingSearch`, `VectorRM`, `SerperRM`, `BraveRM`, `SearXNG`, `DuckDuckGoSearchRM`, `TavilySearchRM`, `GoogleSearch`, and `AzureAISearch`"
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "Auto perspective-guided questions and search-query decomposition; no user-facing query refinement",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/README.md",
+       "evidence_quote": "Perspective-Guided Question Asking: Given the input topic, STORM discovers different perspectives by surveying existing articles from similar topics and uses them to control the question-asking process."
+      },
+      {
+       "value": "Auto perspective-guided questions/query decomposition; Co-STORM user utterances steer discourse",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/README.md",
+       "evidence_quote": "Perspective-Guided Question Asking: Given the input topic, STORM discovers different perspectives by surveying existing articles from similar topics and uses them to control the question-asking process."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "No title/abstract screening; opt-in URL-domain filter flags arXiv/bioRxiv/SSRN unreliable",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/storm_wiki/modules/retriever.py",
+       "evidence_quote": "\"arXiv\", \"bioRxiv\", \"medRxiv\", \"PeerJ Preprints\", \"Preprints.org\", \"SSRN\", \"PR_Newswire\", \"Quadrant\", \"Quillette\", \"Quora\", \"Raw_Story\", \"Reddit\", \"RedState\", \"ResearchGate\","
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "Dumps conversation log, raw search results, LLM calls; no per-record exclusion reasons",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/storm_wiki/engine.py",
+       "evidence_quote": "information_table.dump_url_to_info( os.path.join(self.article_output_dir, \"raw_search_results.json\")"
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "None; sources are URL/title/description/snippets only, no reference links",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/interface.py",
+       "evidence_quote": "description (str): Brief description. snippets (list): List of brief excerpts or snippets. title (str): The title or headline of the information. url (str): The unique URL (serving as UUID) of the information."
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "Downloads web pages (httpx + trafilatura) into snippets; no OA/DOI PDF retrieval",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/utils.py",
+       "evidence_quote": "article_text = extract( h, include_tables=False, include_comments=False, output_format=\"txt\", ) if article_text is not None and len(article_text) > self.min_char_count: articles[u] = {\"text\": article_text}"
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "Yes: sections written from collected snippets with inline [n] citations (prompt-enforced)",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/storm_wiki/modules/article_generation.py",
+       "evidence_quote": "Write a Wikipedia section based on the collected information. Here is the format of your writing: 1. Use \"#\" Title\" to indicate section title, \"##\" Title\" to indicate subsection title"
+      },
+      {
+       "value": "Yes: sections written from collected snippets with inline [n] citations (prompt-enforced)",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/storm_wiki/modules/article_generation.py",
+       "evidence_quote": "Use [1], [2], ..., [n] in line (for example, \"The capital of the United States is Washington, D.C.[1][3].\"). You DO NOT need to include a References or Sources section"
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "None; sources keyed by URL only, no DOI/Crossref lookup",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/knowledge_storm/interface.py",
+       "evidence_quote": "url (str): The unique URL (serving as UUID) of the information."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "No in-pipeline check; paper-only offline NLI eval (Mistral-7B judge)",
+       "supported": "no",
+       "evidence_url": "https://arxiv.org/pdf/2402.14207",
+       "evidence_quote": "Although this work primarily focuses on the pre-writing stage and does not optimize generating text with citations, we still examine the citation quality of articles produced by our approach."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "Per-reference retrieved snippets shown as 'Highlights'; not claim-level verbatim quotes",
+       "supported": "partial",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/frontend/demo_light/demo_util.py",
+       "evidence_quote": "snippets = \"\\n\\n\".join(citation_val[\"snippets\"]).replace(\"$\", \"\\\\$\") st.markdown(f\"**Highlights:**\\n\\n {snippets}\")"
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "None; topic-in, article-out; cannot import or audit existing manuscripts",
+       "supported": "no",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/README.md",
+       "evidence_quote": "STORM is a LLM system that writes Wikipedia-like articles from scratch based on Internet search."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "MIT (repo LICENSE; PyPI classifier OSI Approved MIT)",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/LICENSE",
+       "evidence_quote": "MIT License Copyright (c) 2024 Stanford Open Virtual Assistant Lab Permission is hereby granted, free of charge, to any person obtaining a copy"
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "Self-host pip package (Py>=3.10); LLM (litellm) + search-API keys; GPU optional",
+       "supported": "yes",
+       "evidence_url": "https://raw.githubusercontent.com/stanford-oval/storm/main/README.md",
+       "evidence_quote": "We suggest using `secrets.toml` to set up the API keys. Create a file `secrets.toml` under the root directory and add the following content:"
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "FreshWiki (100 topics); ROUGE-1 45.82; citation recall 84.83%; 10 Wikipedia editors",
+       "supported": "yes",
+       "evidence_url": "http://export.arxiv.org/api/query?id_list=2402.14207",
+       "evidence_quote": "Compared to articles generated by an outline-driven retrieval-augmented baseline, more of STORM's articles are deemed to be organized (by a 25% absolute increase) and broad in coverage (by 10%)."
+      },
+      {
+       "value": "FreshWiki (100 topics); ROUGE-1 45.82; citation recall 84.83%; 10 Wikipedia editors",
+       "supported": "yes",
+       "evidence_url": "https://arxiv.org/pdf/2402.14207",
+       "evidence_quote": "we conduct human evaluation by collaborating with 10 experienced Wikipedia editors ... STORM 45.82 16.70 14.10 ... Citation Recall Citation Precision STORM 84.83 85.18 Table 4: Citation quality judged by Mistral 7B-Instruct."
+      }
+     ]
+    }
+   ]
+  },
+  "Elicit": {
+   "tool_as_named_in_table_1": "Elicit",
+   "reference_key": "elicit2026software",
+   "homepage": "https://elicit.com/",
+   "repository": "none (closed source)",
+   "license": "Proprietary, closed-source hosted SaaS (Elicit Research, PBC Terms of Service, last updated 2023-09-12; API Terms at elicit.com/operations/api-terms)",
+   "open_source": false,
+   "canonical_citation": {
+    "authors": "Elicit (Elicit Research, PBC)",
+    "title": "Elicit: The AI Research Assistant",
+    "venue": "Software / website, https://elicit.com (official @software citation per Elicit Help Center)",
+    "year": 2026,
+    "doi_or_arxiv": "none — no DOI or preprint; official format is 'Elicit; Elicit: The AI Research Assistant; https://elicit.com; accessed YYYY/MM/DD'",
+    "crossref_verified": false,
+    "notes": "Verified 2026-09-02 at https://support.elicit.com/en/articles/14757952-citing-elicit-search-methodology-and-using-elicit-s-content-in-your-own-work: recommended citation is a @software entry with URL + access date and no DOI, so Crossref verification is not applicable. Closest primary technical paper by the original developer (Ought): Reppert et al., 'Iterated Decomposition: Improving Science Q&A by Supervising Reasoning Processes', arXiv:2301.01751, published 2023-01-04 (verified via export.arxiv.org API, 2026-09-02). Independent evaluations verified via Crossref API 2026-09-02: Hilkenmeier et al. 2025, Social Science Computer Review, 10.1177/08944393251404052; Lagisz et al. 2026, Research Synthesis Methods, 10.1017/rsm.2026.10080."
+   },
+   "summary": "Elicit (Elicit Research, PBC) is a commercial, closed-source hosted platform for AI-assisted literature search, screening, data extraction, systematic reviews and auto-generated research Reports; included only as a commercial reference point. All evidence fetched 2026-09-02. Data sources: ~138M papers from Semantic Scholar, OpenAlex and PubMed plus ClinicalTrials.gov (support.elicit.com/en/articles/553025). Query refinement: suggests clarifications/angles to the research question and auto-builds keyword queries (elicit.com/blog/introducing-elicit-reports/, elicit.com/blog/introducing-keyword-search, 2025-10-23). Screening: AI title/abstract and full-text screening with auto-suggested criteria and dual review; each decision records exclusion reasons, per-criterion scores and supporting quotes, PRISMA flow diagram and search strategies exportable; Pro/Scale/Enterprise can export screening-recommendation and extraction tables (elicit.com/solutions/systematic-review; elicit.com/blog/systematic-review-for-prisma-2020, 2026-05-06; support.elicit.com/en/articles/1153857). No citation-network/graph feature: API paper object exposes only citedByCount and doi/pmid, with no reference or citing-paper endpoints (docs.elicit.com). Full text: OA papers fetched automatically; paywalled papers via browser extension using institutional logins/EZProxy, otherwise title+abstract only (support.elicit.com/en/articles/553025, /6123329). Drafting: Reports are auto-generated research briefs with sentence-level exact quotes and editable paper sets, exportable to PDF/Word; no manuscript editor, and Elicit advises against pasting its output verbatim (support.elicit.com/en/articles/14757952). No documented Crossref/DOI verification, post-hoc claim verifier, or external-manuscript audit; uploads serve chat/extraction only. Licensing: proprietary ToS (last updated 2023-09-12); deployment hosted-only, API key with Pro+ plan, 100 req/min/IP, MCP endpoint, Enterprise single-tenancy; pricing Basic free, Pro $49/user/mo, Scale $169/user/mo (elicit.com/pricing). Empirical validation (vendor, elicit.com/blog/evaluating-elicit-slr): 994 Cochrane reviews / 38,493 records; 95.0% search recall, 96.9% sensitivity / 92.5% specificity abstract screening, 99.5% full-text recall with 94.8% per-criterion accuracy, 95.6% extraction on Methods/Participants/Interventions; Reports eval (elicit.com/blog/elicit-reports-eval/): 17 PhD evaluators, 29 Elicit vs 120 competitor reports, several tools statistically equivalent. Independent (Crossref-verified): Hilkenmeier et al. 2025 SSCR, 10.1177/08944393251404052, 81.4% extraction accuracy vs 86.7% human (n.s.), 43 studies/602 data points; Lagisz et al. 2026 RSM, 10.1017/rsm.2026.10080, 70/90 prompts >87% accuracy, 90% value agreement across accounts but supporting quotes matched only 46%. Canonical citation is Elicit's official @software URL citation with no DOI, so crossref_verified=false.",
+   "criteria_without_evidence": [],
+   "cells": [
+    {
+     "criterion": "scholarly_data_sources",
+     "readings": [
+      {
+       "value": "Semantic Scholar + OpenAlex + PubMed (~138M papers); ClinicalTrials.gov",
+       "supported": "yes",
+       "evidence_url": "https://support.elicit.com/en/articles/553025",
+       "evidence_quote": "Elicit searches across over 138 million academic papers from Semantic Scholar, PubMed, and OpenAlex."
+      }
+     ]
+    },
+    {
+     "criterion": "query_refinement",
+     "readings": [
+      {
+       "value": "Yes: suggests question clarifications/angles; auto-builds keyword queries",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/blog/introducing-elicit-reports/",
+       "evidence_quote": "Elicit will suggest ways to clarify the question or explore additional angles."
+      }
+     ]
+    },
+    {
+     "criterion": "relevance_screening",
+     "readings": [
+      {
+       "value": "Yes: AI title/abstract + full-text screening, auto-suggested criteria, dual review",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/solutions/systematic-review",
+       "evidence_quote": "Elicit autosuggests screening criteria and recommendations."
+      }
+     ]
+    },
+    {
+     "criterion": "screening_audit_trail",
+     "readings": [
+      {
+       "value": "Yes: exclusion reasons, per-criterion scores, quotes; SR tables exportable (paid)",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/solutions/systematic-review",
+       "evidence_quote": "Every decision is PRISMA-auditable with exclusion reasons, per-criterion scores, and supporting quotes."
+      }
+     ]
+    },
+    {
+     "criterion": "citation_network_analysis",
+     "readings": [
+      {
+       "value": "No; only citedByCount metadata, no reference/citing-paper graph",
+       "supported": "no",
+       "evidence_url": "https://docs.elicit.com/",
+       "evidence_quote": "Number of citations this paper has received"
+      }
+     ]
+    },
+    {
+     "criterion": "full_text_acquisition",
+     "readings": [
+      {
+       "value": "Yes: OA full text auto-fetched; paywalled via browser extension + institutional login",
+       "supported": "yes",
+       "evidence_url": "https://support.elicit.com/en/articles/553025",
+       "evidence_quote": "For full-text analysis, Elicit can access the complete paper if the paper is open access, or if you have the Elicit Browser Extension and a journal subscription."
+      }
+     ]
+    },
+    {
+     "criterion": "grounded_drafting",
+     "readings": [
+      {
+       "value": "Partial: auto-generated Reports with sentence-level quotes; no manuscript editor",
+       "supported": "partial",
+       "evidence_url": "https://elicit.com/blog/introducing-elicit-reports/",
+       "evidence_quote": "Elicit cites every claim with exact quotes from the original source."
+      }
+     ]
+    },
+    {
+     "criterion": "bibliographic_metadata_verification",
+     "readings": [
+      {
+       "value": "No Crossref/DOI check documented; uploaded refs only matched to corpus",
+       "supported": "no",
+       "evidence_url": "https://elicit.com/solutions/library",
+       "evidence_quote": "Upload metadata — we'll automatically find as many abstracts and full-texts for you as possible."
+      }
+     ]
+    },
+    {
+     "criterion": "claim_to_source_verification",
+     "readings": [
+      {
+       "value": "Partial: claims grounded with quotes at generation; no post-hoc verifier",
+       "supported": "partial",
+       "evidence_url": "https://elicit.com/blog/introducing-research-agent-workflows",
+       "evidence_quote": "It breaks down your prompt into a systematic program, then executes that program to produce reliable output where all claims are grounded in evidence."
+      }
+     ]
+    },
+    {
+     "criterion": "exact_evidence_quotation",
+     "readings": [
+      {
+       "value": "Yes: exact sentence/figure quoted for every AI-generated claim",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/solutions/systematic-review",
+       "evidence_quote": "Elicit cites every AI-generated claim with the exact sentence or figure from the underlying paper."
+      }
+     ]
+    },
+    {
+     "criterion": "external_manuscript_auditing",
+     "readings": [
+      {
+       "value": "No; PDF uploads only for chat/extraction, no manuscript audit",
+       "supported": "no",
+       "evidence_url": "https://support.elicit.com/en/articles/1418881",
+       "evidence_quote": "the Chat with Papers option allows you to upload PDFs or select papers you've already uploaded to your Elicit library so that you can chat with them."
+      }
+     ]
+    },
+    {
+     "criterion": "licensing",
+     "readings": [
+      {
+       "value": "Proprietary closed-source SaaS; Elicit Research, PBC ToS",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/operations/terms",
+       "evidence_quote": "modify, adapt, translate, reverse engineer, decompile, disassemble, or create derivative works"
+      }
+     ]
+    },
+    {
+     "criterion": "deployment_requirements",
+     "readings": [
+      {
+       "value": "Hosted only; no self-host; API key on Pro+; Enterprise single-tenancy",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/pricing",
+       "evidence_quote": "Enterprise-level security and controls, including SSO & SAML, 2FA, user analytics, domain verification, and custom deployments (e.g. single-tenancy)"
+      }
+     ]
+    },
+    {
+     "criterion": "empirical_validation",
+     "readings": [
+      {
+       "value": "Vendor 994-Cochrane eval: 96.9% screening sens, 95.6% extraction; independent 81.4%",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/blog/evaluating-elicit-slr",
+       "evidence_quote": "99.5% paper-level recall with 94.8% per-criterion accuracy"
+      },
+      {
+       "value": "Vendor 994-Cochrane eval: 96.9% screening sens, 95.6% extraction; independent 81.4%",
+       "supported": "yes",
+       "evidence_url": "https://elicit.com/blog/evaluating-elicit-slr",
+       "evidence_quote": "Elicit achieved 96.9% sensitivity on abstract screening with 92.5% specificity"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

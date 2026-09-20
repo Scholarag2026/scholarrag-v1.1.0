@@ -1,0 +1,52 @@
+[
+  {
+    "description": "a markdown sub-heading, its intro paragraph removed as an uncited finding and its framing companion, demoted to plain text with no marker left to promote it -- the defect this predicate exists to catch",
+    "text": "Comparative Scope and Accuracy",
+    "expected": true
+  },
+  {
+    "description": "an ordinary short uncited sentence, terminally punctuated",
+    "text": "Uptake was uneven.",
+    "expected": false
+  },
+  {
+    "description": "an ordinary short uncited sentence, terminally punctuated",
+    "text": "Findings diverge.",
+    "expected": false
+  },
+  {
+    "description": "an ordinary short cited sentence",
+    "text": "In contrast, results differed (Mao et al., 2024).",
+    "expected": false
+  },
+  {
+    "description": "the supported-1 protocol fixture claim text",
+    "text": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+    "expected": false
+  },
+  {
+    "description": "the unsupported-1 protocol fixture claim text",
+    "text": "Screening yielded the same 50 eligible studies for the review, sorted into two major themes: writing accuracy outcomes and learner motivation only (Mao et al., 2024).",
+    "expected": false
+  },
+  {
+    "description": "a title-case phrase containing a reporting verb the shared lexicon would otherwise recognise as finite-verb evidence, overridden by capitalisation",
+    "text": "Studies Show Promise",
+    "expected": true
+  },
+  {
+    "description": "a short, lower-case, verb-bearing fragment -- a truncated sentence, not a heading",
+    "text": "results were mixed across studies",
+    "expected": false
+  },
+  {
+    "description": "a longer title-case run excluded by the ten-word budget, even with no verb and no citation",
+    "text": "Automated Written Corrective Feedback And Second Language Writing Development And Overview",
+    "expected": false
+  },
+  {
+    "description": "empty text",
+    "text": "",
+    "expected": false
+  }
+]

@@ -1,0 +1,2001 @@
+{
+  "draft_id": "58ab2eeb-d4d7-4dac-9b0d-e39dbcced863",
+  "verifications": [
+    {
+      "claim_text": "found a significant attitudinal difference between direct groups and their metalinguistic counterparts",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+      "explanation": "The claim reproduces the paper's own abstract statement verbatim: \"questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts.\" The results section confirms this: the mixed-effect model yielded a significant effect of condition on comprehensibility, F(3,107) = 5.17, p = 0.002, with both direct groups (DCF+G and DCF+GN) reporting significantly more favorable comprehensibility attitudes than both metalinguistic groups (ME+G and ME+GN). The central assertion (a significant attitudinal difference between direct and metalinguistic groups) is supported, and the peripheral scope assertion (that the difference concerned comprehensibility, not utility or burden) is also supported by the source. No assertion is contradicted and no hedge is removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The study found a significant attitudinal difference between the direct feedback groups and their metalinguistic counterparts.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups",
+          "central": true,
+          "entity": "direct CF groups (DCF+G, DCF+GN) and metalinguistic CF groups (ME+G, ME+GN)",
+          "measure": "attitudinal engagement (comprehensibility) difference",
+          "quotes": [
+            "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+            "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+          ]
+        },
+        {
+          "text": "The significant attitudinal difference concerned the comprehensibility component of attitudinal engagement.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+          "central": false,
+          "entity": "attitudinal engagement components (utility, comprehensibility, burden)",
+          "measure": "which component showed a significant condition effect",
+          "quotes": [
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+        "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+        "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Bonilla López et al. (2018) found a significant attitudinal difference between direct groups and their metalinguistic counterparts, although differences in perceived utility or burden did not reach significance.",
+      "citation": "Bonilla López et al. (2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+            "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+          ],
+          "tokens": {
+            "input_tokens": 22173,
+            "output_tokens": 1190
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "although differences in perceived utility or burden did not reach significance",
+      "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+      "status": "verified",
+      "evidence_quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+      "explanation": "The source states in section 5.5 that \"The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility,\" and in section 6.3 that \"learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance.\" Both the central assertion (utility) and the peripheral assertion (burden) are supported by these spans, with no contradiction and no hedge removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Differences in perceived utility did not reach statistical significance.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+          "central": true,
+          "entity": "learners' attitudinal engagement (perceived utility) across comprehensive CF conditions",
+          "measure": "statistical significance of condition effect on utility",
+          "quotes": [
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+            "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+          ]
+        },
+        {
+          "text": "Differences in perceived burden did not reach statistical significance.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+          "central": false,
+          "entity": "learners' attitudinal engagement (perceived burden) across comprehensive CF conditions",
+          "measure": "statistical significance of condition effect on burden",
+          "quotes": [
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+            "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+        "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Bonilla López et al. (2018) found a significant attitudinal difference between direct groups and their metalinguistic counterparts, although differences in perceived utility or burden did not reach significance.",
+      "citation": "Bonilla López et al. (2018)",
+      "paper_doi": "10.1111/lang.12295",
+      "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+            "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+          ],
+          "tokens": {
+            "input_tokens": 22168,
+            "output_tokens": 602
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+      "explanation": "The source directly states the central proposition: the experimental group (which received direct unfocused WCF, per the abstract and procedure) outperformed the control group on writing performance posttest, M = 79.34 vs. M = 62.53, t (50) = 4.722, p < 0.05, d = 1.32. The reported effect size d = 1.32 is conventionally large, and the paper itself describes the experimental group as outperforming the control group in all three measures with larger effect size. All peripheral assertions (feedback type, effect-size value) are supported, and nothing is contradicted.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The experimental group received direct unfocused WCF.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+          "central": false,
+          "entity": "experimental group of Iranian EFL learners",
+          "measure": "type of written corrective feedback provided",
+          "quotes": [
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+            "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections."
+          ]
+        },
+        {
+          "text": "The experimental group outperformed the control group on writing performance.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+          "central": true,
+          "entity": "experimental group vs. control group of Iranian EFL learners",
+          "measure": "posttest writing performance mean scores",
+          "quotes": [
+            "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32."
+          ]
+        },
+        {
+          "text": "The effect size for the writing performance difference was large (d = 1.32).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "d = 1.32 (large)",
+          "source_value": "d = 1.32",
+          "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+          "central": false,
+          "entity": "experimental vs. control group writing performance posttest",
+          "measure": "Cohen's d effect size",
+          "quotes": [
+            "t (50) = 4.722, p < 0.05, d = 1.32",
+            "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+        "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections.",
+        "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+        "t (50) = 4.722, p < 0.05, d = 1.32",
+        "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Razmi and Ghane (2024) similarly reported that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size, and attributed the magnitude of this effect partly to the absence of revision opportunities in their design.",
+      "citation": "Razmi and Ghane (2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+            "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections.",
+            "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+            "t (50) = 4.722, p < 0.05, d = 1.32",
+            "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+          ],
+          "tokens": {
+            "input_tokens": 14328,
+            "output_tokens": 1245
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "attributed the magnitude of this effect partly to the absence of revision opportunities in their design",
+      "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+      "status": "verified",
+      "evidence_quote": "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+      "explanation": "The claim is a self-attribution by the present study's authors: they explain the smaller effect size relative to prior studies by noting that their design gave learners no revision opportunities. The source states this directly: \"there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned\" and \"The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.\" The central assertion (the authors attribute the smaller magnitude of the effect partly to the absence of revision opportunities) is supported, and the peripheral assertions (the effect magnitude was smaller than in the comparison studies; the design lacked revision opportunities) are also supported. No assertion is contradicted and no hedge is removed (the source's \"might be\" is preserved by the claim's \"partly\").",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "The authors of this study attributed the magnitude of the effect they found partly to the absence of revision opportunities in their design.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+          "central": true,
+          "entity": "the present study's authors",
+          "measure": "attribution of the effect magnitude to the lack of revision opportunities in the design",
+          "quotes": [
+            "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers."
+          ]
+        },
+        {
+          "text": "The effect size found in this study was smaller than that reported in the comparison studies.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+          "central": false,
+          "entity": "the present study's effect size versus van Beuningen, de Jong, and Kuiken (2012)",
+          "measure": "magnitude of effect size (d)",
+          "quotes": [
+            "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned"
+          ]
+        },
+        {
+          "text": "The study's design did not provide learners with opportunities to revise their papers.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers",
+          "central": false,
+          "entity": "the present study's design",
+          "measure": "provision of revision opportunities",
+          "quotes": [
+            "the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers",
+            "Third, the present study did not require learners to revise."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+        "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+        "Third, the present study did not require learners to revise."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Razmi and Ghane (2024) similarly reported that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size, and attributed the magnitude of this effect partly to the absence of revision opportunities in their design.",
+      "citation": "Razmi and Ghane (2024)",
+      "paper_doi": "10.17239/jowr-2024.16.02.04",
+      "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned; for instance, van Beuningen, de Jong, and Kuiken (2012) reported d = 1.85 and 2.35 for the effect of unfocused WCF on grammatical and non-grammatical accuracy respectively, which are higher than the effect size found in this study.",
+            "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "Third, the present study did not require learners to revise."
+          ],
+          "tokens": {
+            "input_tokens": 14322,
+            "output_tokens": 1033
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [
+            "quote_not_verbatim"
+          ],
+          "repair_prompt_version": null
+        },
+        {
+          "quotes": [
+            "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+            "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "Third, the present study did not require learners to revise."
+          ],
+          "tokens": {
+            "input_tokens": 15708,
+            "output_tokens": 867
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": "sha256:7ec7cffe852d"
+        }
+      ]
+    },
+    {
+      "claim_text": "teachers in EFL contexts largely employed comprehensive WCF by marking all errors",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+      "explanation": "The claim reproduces the source's own statement almost verbatim. The source states: \"In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).\" The central assertion (EFL teachers largely used comprehensive WCF marking all errors) is directly supported, and the peripheral definitional assertion (comprehensive = marking all errors) is also supported by the same span. The source's hedge \"largely\" is preserved in the claim, so no hedge is removed. No assertion is contradicted or absent.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "In EFL learning contexts, participating teachers largely employed a comprehensive approach to WCF provision by marking all errors in student writing.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+          "central": true,
+          "entity": "teachers in EFL learning contexts",
+          "measure": "WCF scope (comprehensive approach, marking all errors)",
+          "quotes": [
+            "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+            "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+          ]
+        },
+        {
+          "text": "The comprehensive approach involves marking all errors in student writing.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+          "central": false,
+          "entity": "comprehensive WCF approach",
+          "measure": "definition of comprehensive approach",
+          "quotes": [
+            "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+        "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Mao et al. (2024) observed that teachers in EFL contexts largely employed comprehensive WCF by marking all errors, whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types.",
+      "citation": "Mao et al. (2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 6 (findings)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+            "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+          ],
+          "tokens": {
+            "input_tokens": 24889,
+            "output_tokens": 841
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types",
+      "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+      "status": "verified",
+      "evidence_quote": "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.",
+      "explanation": "The claim's central assertion — that teachers in ESL contexts were inclined toward a more selective approach — is stated in the source: \"In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)\". The peripheral assertion that this selective approach targeted frequent error types is also supported: \"through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Teachers in ESL contexts were inclined toward a more selective approach to WCF provision.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)",
+          "central": true,
+          "entity": "teachers in ESL contexts",
+          "measure": "inclination toward a selective approach to WCF provision",
+          "quotes": [
+            "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)"
+          ]
+        },
+        {
+          "text": "The selective approach targeted frequent error types.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts",
+          "central": false,
+          "entity": "teachers in ESL contexts",
+          "measure": "linguistic targets of the selective approach",
+          "quotes": [
+            "through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Mao et al. (2024) observed that teachers in EFL contexts largely employed comprehensive WCF by marking all errors, whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types.",
+      "citation": "Mao et al. (2024)",
+      "paper_doi": "10.1017/s0261444823000393",
+      "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 6 (findings)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts."
+          ],
+          "tokens": {
+            "input_tokens": 24891,
+            "output_tokens": 681
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "all twelve participants incorporated support-related peer feedback and made substantial revisions",
+      "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+      "status": "verified",
+      "evidence_quote": "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+      "explanation": "The source states that twelve students were recruited and that, by comparing first and second drafts, \"all students incorporated support-related peer feedback and made substantial revisions in their second drafts.\" The universal quantifier \"all\" over the twelve recruited participants matches the claim's \"all twelve participants,\" and both the incorporation of support-related feedback and the substantiality of the revisions are stated in the source. No assertion is contradicted or absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "All twelve participants incorporated support-related peer feedback into their second drafts.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "all twelve",
+          "source_value": "all students (12 participants)",
+          "quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+          "central": true,
+          "entity": "the twelve recruited participants (L2 English writers)",
+          "measure": "incorporation of support-related peer feedback in the second draft",
+          "quotes": [
+            "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+            "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+          ]
+        },
+        {
+          "text": "The participants made substantial revisions in their second drafts.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+          "central": false,
+          "entity": "the twelve recruited participants",
+          "measure": "substantiality of revisions between first and second drafts",
+          "quotes": [
+            "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+        "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+      "citation": "Li and Hébert (2023)",
+      "paper_doi": "10.1007/s11145-023-10466-8",
+      "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (introduction)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+            "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+          ],
+          "tokens": {
+            "input_tokens": 18217,
+            "output_tokens": 711
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "with paper ratings improving significantly between drafts",
+      "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+      "status": "verified",
+      "evidence_quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+      "explanation": "The source states directly that a paired t-test of paper ratings from the first to the second draft showed ratings improved by a mean of 1.1 points (out of 7), with p < 0.000, i.e., a statistically significant improvement. Both the central direction assertion (improvement between drafts) and the peripheral significance assertion are supported, with no contradiction and no hedge removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Paper ratings improved between the first and second drafts.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "improving",
+          "source_value": "improved by a mean of 1.1 points (out of 7)",
+          "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+          "central": true,
+          "entity": "paper ratings of the twelve recruited students' first and second drafts",
+          "measure": "change in paper ratings from first to second draft",
+          "quotes": [
+            "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+            "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+          ]
+        },
+        {
+          "text": "The improvement in paper ratings between drafts was statistically significant.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "significant",
+          "source_value": "p < 0.000",
+          "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62)",
+          "central": false,
+          "entity": "paper ratings of the twelve recruited students' first and second drafts",
+          "measure": "statistical significance of the paired t-test",
+          "quotes": [
+            "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+        "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+      "citation": "Li and Hébert (2023)",
+      "paper_doi": "10.1007/s11145-023-10466-8",
+      "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (introduction)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+            "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+          ],
+          "tokens": {
+            "input_tokens": 18212,
+            "output_tokens": 848
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "yet four students ignored unity-related peer feedback and two ignored word-use-related feedback",
+      "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+      "status": "verified",
+      "evidence_quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+      "explanation": "The source states verbatim: \"Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.\" Both propositions of the claim (the count of four students for unity-related feedback and the count of two students for word-use-related feedback) are stated in the same words with the same values, entities and measures. Table 7 corroborates with four unity cases (Zara, Mercer, Milton, Helen) and two word-use cases (Mike, Rose). No assertion is contradicted or absent, and no hedge is removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Four students ignored unity-related peer feedback.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "4",
+          "source_value": "4",
+          "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+          "central": true,
+          "entity": "the 12 recruited L2 students in the study",
+          "measure": "number of students who ignored unity-related peer feedback",
+          "quotes": [
+            "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+          ]
+        },
+        {
+          "text": "Two students ignored word-use-related peer feedback.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "2",
+          "source_value": "2",
+          "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+          "central": false,
+          "entity": "the 12 recruited L2 students in the study",
+          "measure": "number of students who ignored word-use-related peer feedback",
+          "quotes": [
+            "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+      "citation": "Li and Hébert (2023)",
+      "paper_doi": "10.1007/s11145-023-10466-8",
+      "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (introduction)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+          ],
+          "tokens": {
+            "input_tokens": 18220,
+            "output_tokens": 583
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+      "explanation": "The claim's central assertion — that the integrated approach combining AWE (automated), peer, and teacher feedback promoted behavioural, affective, and cognitive engagement — is stated in the source in nearly identical terms. The abstract reports: \"We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.\" The three feedback types are explicitly named as \"automated, peer, and teacher feedback\" in the abstract, and the paper defines the approach as \"integrated\" because \"it combined AWE, peer, and teacher feedback.\" The peripheral assertions (the three named feedback types; the three engagement dimensions) are all supported by the same spans. No assertion is contradicted, and no hedge is removed — the source itself uses the categorical \"effectively promoted.\"",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "An integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement.",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": "promoted all three engagement dimensions",
+          "source_value": "effectively promoted students’ behavioural, affective, and cognitive engagement",
+          "quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+          "central": true,
+          "entity": "the integrated AWE-peer-teacher feedback approach in Hong's course",
+          "measure": "promotion of behavioural, affective, and cognitive engagement",
+          "quotes": [
+            "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions."
+          ]
+        },
+        {
+          "text": "The approach combined three types of feedback: automated, peer, and teacher feedback.",
+          "kind": "intervention",
+          "verdict": "supported",
+          "claim_value": "automated, peer, and teacher feedback",
+          "source_value": "AWE, peer, and teacher feedback",
+          "quote": "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+          "central": false,
+          "entity": "the pedagogical approach in the study",
+          "measure": "types of feedback integrated",
+          "quotes": [
+            "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+            "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+          ]
+        },
+        {
+          "text": "The engagement promoted comprised behavioural, affective, and cognitive dimensions.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "behavioural, affective, and cognitive",
+          "source_value": "behavioural, affective, and cognitive engagement",
+          "quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+          "central": false,
+          "entity": "student engagement with feedback",
+          "measure": "dimensions of engagement",
+          "quotes": [
+            "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+        "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+        "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2021) demonstrated that an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement, while also noting that some students responded with indifference, viewing the revision cycle as overkill.",
+      "citation": "Zhang and Hyland (2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+            "Together the three types of feedback worked in tandem to effectively promote students’ behavioural, affective, and cognitive engagement in the writing process.",
+            "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+            "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+          ],
+          "tokens": {
+            "input_tokens": 12713,
+            "output_tokens": 1149
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [
+            "quote_not_verbatim"
+          ],
+          "repair_prompt_version": null
+        },
+        {
+          "quotes": [
+            "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+            "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+            "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+          ],
+          "tokens": {
+            "input_tokens": 14156,
+            "output_tokens": 1084
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": "sha256:7ec7cffe852d"
+        }
+      ]
+    },
+    {
+      "claim_text": "while also noting that some students responded with indifference, viewing the revision cycle as overkill",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+      "explanation": "The claim's central proposition — that some students responded with indifference, seeing the revision cycle as overkill — is stated almost verbatim in the Discussion: \"there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.\" The peripheral quantifier \"some\" is licensed by the source's \"there were students in this study\" (a subset, not all), and the source's additional qualifier \"and inefficacious\" does not alter the claim's propositions. No assertion is contradicted and none is absent, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Some students in the study responded with indifference to the multiple feedback types.",
+          "kind": "population",
+          "verdict": "supported",
+          "claim_value": "some students responded with indifference",
+          "source_value": "there were students in this study that failed to engage and responded with indifference to the multiple feedback types",
+          "quote": "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+          "central": true,
+          "entity": "students in this study (33 Chinese university students in an integrated AWE-peer-teacher feedback writing course)",
+          "measure": "reported affective response of indifference to the multiple feedback types",
+          "quotes": [
+            "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+          ]
+        },
+        {
+          "text": "Those students viewed the revision cycle as overkill.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": "viewing the revision cycle as overkill",
+          "source_value": "seeing the revision cycle as overkill and inefficacious",
+          "quote": "seeing the revision cycle as overkill and inefficacious.",
+          "central": false,
+          "entity": "students in this study who failed to engage",
+          "measure": "perception of the revision cycle as overkill",
+          "quotes": [
+            "seeing the revision cycle as overkill and inefficacious."
+          ]
+        },
+        {
+          "text": "The indifference affected only some students, not all.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "some",
+          "source_value": "there were students in this study; not a panacea to poor engagement of some students",
+          "quote": "We believe that the integrated approach is not a panacea to poor engagement of some students",
+          "central": false,
+          "entity": "students in this study",
+          "measure": "quantifier over the student group",
+          "quotes": [
+            "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+            "We believe that the integrated approach is not a panacea to poor engagement of some students"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+        "We believe that the integrated approach is not a panacea to poor engagement of some students"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2021) demonstrated that an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement, while also noting that some students responded with indifference, viewing the revision cycle as overkill.",
+      "citation": "Zhang and Hyland (2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+            "We believe that the integrated approach is not a panacea to poor engagement of some students"
+          ],
+          "tokens": {
+            "input_tokens": 12711,
+            "output_tokens": 899
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "students favoured direct correction in conjunction with metalinguistic explanations, followed by direct correction without such explanations",
+      "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+      "status": "verified",
+      "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+      "explanation": "The central assertion — that students favoured direct correction with metalinguistic explanations, followed by direct correction without them — is stated verbatim in the Results section: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" The Discussion repeats it: \"Overall, students preferred direct correction accompanied by metalinguistic explanations.\" The peripheral assertions (the two rank-order values) are also supported by the same spans, with the second-ranked option being direct correction without metalinguistic explanations at 24.83%, ahead of error coding (23.27%) and error locating (3.80%). No assertion is contradicted and no hedge is removed.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "Students favoured direct correction in conjunction with metalinguistic explanations as their most preferred type of corrective feedback.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "most favoured: direct correction + metalinguistic explanations",
+          "source_value": "215/447, 48.10%",
+          "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+          "central": true,
+          "entity": "students (70 ESL students surveyed)",
+          "measure": "preference ranking of explicitness-of-CF options (447 choices)",
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+          ]
+        },
+        {
+          "text": "Direct correction without metalinguistic explanations was the next most favoured option after direct correction with metalinguistic explanations.",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "second: direct correction without metalinguistic explanations",
+          "source_value": "111/447, 24.83%",
+          "quote": "followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+          "central": false,
+          "entity": "students (70 ESL students surveyed)",
+          "measure": "second-ranked preference among explicitness-of-CF options",
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+        "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "In parallel, Liu and Wu (2019) reported that students favoured direct correction in conjunction with metalinguistic explanations, followed by direct correction without such explanations.",
+      "citation": "Liu and Wu (2019)",
+      "paper_doi": "10.17239/jowr-2019.11.02.03",
+      "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (preamble)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+          ],
+          "tokens": {
+            "input_tokens": 17490,
+            "output_tokens": 877
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    }
+  ],
+  "verified_count": 12,
+  "unsupported_count": 0,
+  "nuance_count": 0,
+  "abstract_only_count": 0,
+  "error_count": 0,
+  "needs_rewrite": 0,
+  "needs_removal": 0,
+  "provenance": {
+    "agent": "claim_verification",
+    "calls": 14,
+    "temperature": 0.0,
+    "guard_digest": "8a6c833ffc329f89",
+    "input_tokens": 250198,
+    "output_tokens": 12610,
+    "model_reported": [
+      "deepseek-flash"
+    ],
+    "prompt_version": "sha256:49fcfbfaf2f6",
+    "model_configured": "deepseek-chat",
+    "system_fingerprints": [
+      "aeb56401ca74e127821c4f9126dcb669"
+    ],
+    "repair_prompt_version": "sha256:7ec7cffe852d",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc"
+  },
+  "full_text_coverage": 1.0,
+  "task_id": "f2f00a23-2b1a-4298-b018-14ad08e20131",
+  "contradicted_count": 0,
+  "guarded_count": 0,
+  "citation_coverage": {
+    "found": 6,
+    "linked": 6,
+    "sent_to_verifier": 12,
+    "unresolved": 0,
+    "unresolved_citations": [],
+    "by_source": {
+      "mapping": 6,
+      "numbered": 0,
+      "author-year": 0
+    }
+  },
+  "healed": true,
+  "finalize_stats": {
+    "frame_spans_accepted": 7,
+    "sentences_residue_excised": 0,
+    "sentences_removed_dangling": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_unverified": 0,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 0,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 0,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "final_report": {
+    "verifications": [
+      {
+        "claim_text": "found a significant attitudinal difference between direct groups and their metalinguistic counterparts",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+        "explanation": "The claim reproduces the paper's own abstract statement verbatim: \"questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts.\" The results section confirms this: the mixed-effect model yielded a significant effect of condition on comprehensibility, F(3,107) = 5.17, p = 0.002, with both direct groups (DCF+G and DCF+GN) reporting significantly more favorable comprehensibility attitudes than both metalinguistic groups (ME+G and ME+GN). The central assertion (a significant attitudinal difference between direct and metalinguistic groups) is supported, and the peripheral scope assertion (that the difference concerned comprehensibility, not utility or burden) is also supported by the source. No assertion is contradicted and no hedge is removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The study found a significant attitudinal difference between the direct feedback groups and their metalinguistic counterparts.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups",
+            "central": true,
+            "entity": "direct CF groups (DCF+G, DCF+GN) and metalinguistic CF groups (ME+G, ME+GN)",
+            "measure": "attitudinal engagement (comprehensibility) difference",
+            "quotes": [
+              "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+              "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+            ]
+          },
+          {
+            "text": "The significant attitudinal difference concerned the comprehensibility component of attitudinal engagement.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+            "central": false,
+            "entity": "attitudinal engagement components (utility, comprehensibility, burden)",
+            "measure": "which component showed a significant condition effect",
+            "quotes": [
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+          "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+          "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Bonilla López et al. (2018) found a significant attitudinal difference between direct groups and their metalinguistic counterparts, although differences in perceived utility or burden did not reach significance.",
+        "citation": "Bonilla López et al. (2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "questionnaire answers yielded a significant attitudinal difference between the direct groups and their metalinguistic counterparts",
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility, F(3,107) = 5.17, p = 0.002, R2 = .15, R2\nadjusted = .12",
+              "Learners correcting errors with DCF+G reported a significantly more favorable attitude pertaining to comprehensibility than those correcting errors with ME+G (p =  0.026, SE = 0.698) and ME+GN (p =  0.046, SE = 0.692). Similarly, learners in the DCF+GN reported understanding the feedback significantly more than those in the ME+G (p =  0.022, SE = 0.703) and ME+GN (p =  0.044, SE = 0.708) groups"
+            ],
+            "tokens": {
+              "input_tokens": 22173,
+              "output_tokens": 1190
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "although differences in perceived utility or burden did not reach significance",
+        "paper_id": "216c0822-8364-4eff-bc4f-e81ed1a7b0e6",
+        "status": "verified",
+        "evidence_quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+        "explanation": "The source states in section 5.5 that \"The mixed-effect model did not yield a statistically significant effect of condition on utility or burden, yet it did for comprehensibility,\" and in section 6.3 that \"learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance.\" Both the central assertion (utility) and the peripheral assertion (burden) are supported by these spans, with no contradiction and no hedge removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Differences in perceived utility did not reach statistical significance.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+            "central": true,
+            "entity": "learners' attitudinal engagement (perceived utility) across comprehensive CF conditions",
+            "measure": "statistical significance of condition effect on utility",
+            "quotes": [
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+              "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+            ]
+          },
+          {
+            "text": "Differences in perceived burden did not reach statistical significance.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+            "central": false,
+            "entity": "learners' attitudinal engagement (perceived burden) across comprehensive CF conditions",
+            "measure": "statistical significance of condition effect on burden",
+            "quotes": [
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+              "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+          "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Bonilla López et al. (2018) found a significant attitudinal difference between direct groups and their metalinguistic counterparts, although differences in perceived utility or burden did not reach significance.",
+        "citation": "Bonilla López et al. (2018)",
+        "paper_doi": "10.1111/lang.12295",
+        "paper_title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The mixed-effect model did not yield a statistically significant effect of condition on utility or burden",
+              "learners' attitudinal engagement pertaining to utility or burden did not reach statistical significance"
+            ],
+            "tokens": {
+              "input_tokens": 22168,
+              "output_tokens": 602
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+        "explanation": "The source directly states the central proposition: the experimental group (which received direct unfocused WCF, per the abstract and procedure) outperformed the control group on writing performance posttest, M = 79.34 vs. M = 62.53, t (50) = 4.722, p < 0.05, d = 1.32. The reported effect size d = 1.32 is conventionally large, and the paper itself describes the experimental group as outperforming the control group in all three measures with larger effect size. All peripheral assertions (feedback type, effect-size value) are supported, and nothing is contradicted.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The experimental group received direct unfocused WCF.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+            "central": false,
+            "entity": "experimental group of Iranian EFL learners",
+            "measure": "type of written corrective feedback provided",
+            "quotes": [
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+              "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections."
+            ]
+          },
+          {
+            "text": "The experimental group outperformed the control group on writing performance.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+            "central": true,
+            "entity": "experimental group vs. control group of Iranian EFL learners",
+            "measure": "posttest writing performance mean scores",
+            "quotes": [
+              "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32."
+            ]
+          },
+          {
+            "text": "The effect size for the writing performance difference was large (d = 1.32).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "d = 1.32 (large)",
+            "source_value": "d = 1.32",
+            "quote": "t (50) = 4.722, p < 0.05, d = 1.32",
+            "central": false,
+            "entity": "experimental vs. control group writing performance posttest",
+            "measure": "Cohen's d effect size",
+            "quotes": [
+              "t (50) = 4.722, p < 0.05, d = 1.32",
+              "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+          "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections.",
+          "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+          "t (50) = 4.722, p < 0.05, d = 1.32",
+          "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Razmi and Ghane (2024) similarly reported that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size, and attributed the magnitude of this effect partly to the absence of revision opportunities in their design.",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "This paper investigated the impact of direct unfocused written corrective feedback (WCF) on EFL students’ writing improvement, self-efficacy, and anxiety.",
+              "The experimental group students were provided with WCF on their writing tasks; they were asked to review their corrected papers for about ten minutes and ask questions if they had any about the provided corrections.",
+              "Table 3 demonstrates that the experimental group outperformed the control group in terms of writing performance, as indicated by the statistically significant difference between their mean scores, M = 79.34, SD = 11.14 vs. M = 62.53, SD = 14.32, t (50) = 4.722, p < 0.05, d = 1.32.",
+              "t (50) = 4.722, p < 0.05, d = 1.32",
+              "The most noteworthy finding, however, is that the experimental group outperformed the control group in all three measures with larger effect size, as evidenced by the results of independent sample t-tests (Table 3)."
+            ],
+            "tokens": {
+              "input_tokens": 14328,
+              "output_tokens": 1245
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "attributed the magnitude of this effect partly to the absence of revision opportunities in their design",
+        "paper_id": "305cd466-3741-4361-a740-90ab5b4d4a95",
+        "status": "verified",
+        "evidence_quote": "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+        "explanation": "The claim is a self-attribution by the present study's authors: they explain the smaller effect size relative to prior studies by noting that their design gave learners no revision opportunities. The source states this directly: \"there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned\" and \"The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.\" The central assertion (the authors attribute the smaller magnitude of the effect partly to the absence of revision opportunities) is supported, and the peripheral assertions (the effect magnitude was smaller than in the comparison studies; the design lacked revision opportunities) are also supported. No assertion is contradicted and no hedge is removed (the source's \"might be\" is preserved by the claim's \"partly\").",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "The authors of this study attributed the magnitude of the effect they found partly to the absence of revision opportunities in their design.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+            "central": true,
+            "entity": "the present study's authors",
+            "measure": "attribution of the effect magnitude to the lack of revision opportunities in the design",
+            "quotes": [
+              "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers."
+            ]
+          },
+          {
+            "text": "The effect size found in this study was smaller than that reported in the comparison studies.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+            "central": false,
+            "entity": "the present study's effect size versus van Beuningen, de Jong, and Kuiken (2012)",
+            "measure": "magnitude of effect size (d)",
+            "quotes": [
+              "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned"
+            ]
+          },
+          {
+            "text": "The study's design did not provide learners with opportunities to revise their papers.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers",
+            "central": false,
+            "entity": "the present study's design",
+            "measure": "provision of revision opportunities",
+            "quotes": [
+              "the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers",
+              "Third, the present study did not require learners to revise."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+          "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+          "Third, the present study did not require learners to revise."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Razmi and Ghane (2024) similarly reported that an experimental group receiving direct unfocused WCF outperformed a control group on writing performance with a large effect size, and attributed the magnitude of this effect partly to the absence of revision opportunities in their design.",
+        "citation": "Razmi and Ghane (2024)",
+        "paper_doi": "10.17239/jowr-2024.16.02.04",
+        "paper_title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned; for instance, van Beuningen, de Jong, and Kuiken (2012) reported d = 1.85 and 2.35 for the effect of unfocused WCF on grammatical and non-grammatical accuracy respectively, which are higher than the effect size found in this study.",
+              "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+              "Third, the present study did not require learners to revise."
+            ],
+            "tokens": {
+              "input_tokens": 14322,
+              "output_tokens": 1033
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [
+              "quote_not_verbatim"
+            ],
+            "repair_prompt_version": null
+          },
+          {
+            "quotes": [
+              "there is a disagreement between the results of this study and the studies mentioned as far as the magnitude of effect size is concerned",
+              "The reason might be that the present study, as opposed to the mentioned studies, did not provide learners with opportunities to revise their papers.",
+              "Third, the present study did not require learners to revise."
+            ],
+            "tokens": {
+              "input_tokens": 15708,
+              "output_tokens": 867
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": "sha256:7ec7cffe852d"
+          }
+        ]
+      },
+      {
+        "claim_text": "teachers in EFL contexts largely employed comprehensive WCF by marking all errors",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+        "explanation": "The claim reproduces the source's own statement almost verbatim. The source states: \"In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).\" The central assertion (EFL teachers largely used comprehensive WCF marking all errors) is directly supported, and the peripheral definitional assertion (comprehensive = marking all errors) is also supported by the same span. The source's hedge \"largely\" is preserved in the claim, so no hedge is removed. No assertion is contradicted or absent.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "In EFL learning contexts, participating teachers largely employed a comprehensive approach to WCF provision by marking all errors in student writing.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+            "central": true,
+            "entity": "teachers in EFL learning contexts",
+            "measure": "WCF scope (comprehensive approach, marking all errors)",
+            "quotes": [
+              "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+              "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+            ]
+          },
+          {
+            "text": "The comprehensive approach involves marking all errors in student writing.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+            "central": false,
+            "entity": "comprehensive WCF approach",
+            "measure": "definition of comprehensive approach",
+            "quotes": [
+              "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+          "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Mao et al. (2024) observed that teachers in EFL contexts largely employed comprehensive WCF by marking all errors, whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types.",
+        "citation": "Mao et al. (2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 6 (findings)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In EFL learning contexts, participating teachers were found to largely employ a comprehensive approach to WCF provision by marking all errors in student writing (Cheng & Zhang, 2021; Lee, 2003, 2008b, 2011).",
+              "Teachers working in ESL and EFL contexts differed in the scope of WCF, with a comprehensive approach prevailing in EFL classrooms."
+            ],
+            "tokens": {
+              "input_tokens": 24889,
+              "output_tokens": 841
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types",
+        "paper_id": "bc412e96-7d44-4000-8a5c-bcc20a1b54fe",
+        "status": "verified",
+        "evidence_quote": "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.",
+        "explanation": "The claim's central assertion — that teachers in ESL contexts were inclined toward a more selective approach — is stated in the source: \"In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)\". The peripheral assertion that this selective approach targeted frequent error types is also supported: \"through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts.\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Teachers in ESL contexts were inclined toward a more selective approach to WCF provision.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)",
+            "central": true,
+            "entity": "teachers in ESL contexts",
+            "measure": "inclination toward a selective approach to WCF provision",
+            "quotes": [
+              "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014)"
+            ]
+          },
+          {
+            "text": "The selective approach targeted frequent error types.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts",
+            "central": false,
+            "entity": "teachers in ESL contexts",
+            "measure": "linguistic targets of the selective approach",
+            "quotes": [
+              "through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Mao et al. (2024) observed that teachers in EFL contexts largely employed comprehensive WCF by marking all errors, whereas teachers in ESL contexts inclined toward a more selective approach targeting frequent error types.",
+        "citation": "Mao et al. (2024)",
+        "paper_doi": "10.1017/s0261444823000393",
+        "paper_title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 6 (findings)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In contrast, teachers working in ESL contexts were inclined to a more selective approach (Guénette & Lyster, 2013; McMartin-Miller, 2014), through which they paid special attention to several linguistic targets, such as the most frequent error types in student texts."
+            ],
+            "tokens": {
+              "input_tokens": 24891,
+              "output_tokens": 681
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "all twelve participants incorporated support-related peer feedback and made substantial revisions",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "status": "verified",
+        "evidence_quote": "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+        "explanation": "The source states that twelve students were recruited and that, by comparing first and second drafts, \"all students incorporated support-related peer feedback and made substantial revisions in their second drafts.\" The universal quantifier \"all\" over the twelve recruited participants matches the claim's \"all twelve participants,\" and both the incorporation of support-related feedback and the substantiality of the revisions are stated in the source. No assertion is contradicted or absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "All twelve participants incorporated support-related peer feedback into their second drafts.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "all twelve",
+            "source_value": "all students (12 participants)",
+            "quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+            "central": true,
+            "entity": "the twelve recruited participants (L2 English writers)",
+            "measure": "incorporation of support-related peer feedback in the second draft",
+            "quotes": [
+              "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+              "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+            ]
+          },
+          {
+            "text": "The participants made substantial revisions in their second drafts.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts",
+            "central": false,
+            "entity": "the twelve recruited participants",
+            "measure": "substantiality of revisions between first and second drafts",
+            "quotes": [
+              "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+          "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+        "citation": "Li and Hébert (2023)",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (introduction)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Twelve students (9 female and 3 male) who sought online peer feedback on the QQ platform after writing the first draft were recruited to complete the revision worksheet and allow the first author to collect their first and second writing drafts.",
+              "By comparing their first and second drafts, it was found that all students incorporated support-related peer feedback and made substantial revisions in their second drafts"
+            ],
+            "tokens": {
+              "input_tokens": 18217,
+              "output_tokens": 711
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "with paper ratings improving significantly between drafts",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "status": "verified",
+        "evidence_quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+        "explanation": "The source states directly that a paired t-test of paper ratings from the first to the second draft showed ratings improved by a mean of 1.1 points (out of 7), with p < 0.000, i.e., a statistically significant improvement. Both the central direction assertion (improvement between drafts) and the peripheral significance assertion are supported, with no contradiction and no hedge removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Paper ratings improved between the first and second drafts.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "improving",
+            "source_value": "improved by a mean of 1.1 points (out of 7)",
+            "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+            "central": true,
+            "entity": "paper ratings of the twelve recruited students' first and second drafts",
+            "measure": "change in paper ratings from first to second draft",
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+              "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+            ]
+          },
+          {
+            "text": "The improvement in paper ratings between drafts was statistically significant.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "significant",
+            "source_value": "p < 0.000",
+            "quote": "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62)",
+            "central": false,
+            "entity": "paper ratings of the twelve recruited students' first and second drafts",
+            "measure": "statistical significance of the paired t-test",
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+          "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+        "citation": "Li and Hébert (2023)",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (introduction)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "A paired t-test (t(11) = 6.51, p < 0.000, Cohen’s d = 1.62) of paper ratings from the first to the sec-\nond draft shows paper ratings improved by a mean of 1.1 points (out of 7)",
+              "suggesting that the feedback led to students’ revisions produced meaningful improvements in the scores between drafts"
+            ],
+            "tokens": {
+              "input_tokens": 18212,
+              "output_tokens": 848
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "yet four students ignored unity-related peer feedback and two ignored word-use-related feedback",
+        "paper_id": "b7152241-97c3-4661-bb35-726c538ce73c",
+        "status": "verified",
+        "evidence_quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+        "explanation": "The source states verbatim: \"Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.\" Both propositions of the claim (the count of four students for unity-related feedback and the count of two students for word-use-related feedback) are stated in the same words with the same values, entities and measures. Table 7 corroborates with four unity cases (Zara, Mercer, Milton, Helen) and two word-use cases (Mike, Rose). No assertion is contradicted or absent, and no hedge is removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Four students ignored unity-related peer feedback.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "4",
+            "source_value": "4",
+            "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+            "central": true,
+            "entity": "the 12 recruited L2 students in the study",
+            "measure": "number of students who ignored unity-related peer feedback",
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ]
+          },
+          {
+            "text": "Two students ignored word-use-related peer feedback.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "2",
+            "source_value": "2",
+            "quote": "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback.",
+            "central": false,
+            "entity": "the 12 recruited L2 students in the study",
+            "measure": "number of students who ignored word-use-related peer feedback",
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Li and Hébert (2023) found that all twelve participants incorporated support-related peer feedback and made substantial revisions, with paper ratings improving significantly between drafts, yet four students ignored unity-related peer feedback and two ignored word-use-related feedback.",
+        "citation": "Li and Hébert (2023)",
+        "paper_doi": "10.1007/s11145-023-10466-8",
+        "paper_title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (introduction)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Four students ignored unity-related peer feedback, while two ignored word-use-related peer feedback."
+            ],
+            "tokens": {
+              "input_tokens": 18220,
+              "output_tokens": 583
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+        "explanation": "The claim's central assertion — that the integrated approach combining AWE (automated), peer, and teacher feedback promoted behavioural, affective, and cognitive engagement — is stated in the source in nearly identical terms. The abstract reports: \"We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.\" The three feedback types are explicitly named as \"automated, peer, and teacher feedback\" in the abstract, and the paper defines the approach as \"integrated\" because \"it combined AWE, peer, and teacher feedback.\" The peripheral assertions (the three named feedback types; the three engagement dimensions) are all supported by the same spans. No assertion is contradicted, and no hedge is removed — the source itself uses the categorical \"effectively promoted.\"",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "An integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement.",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": "promoted all three engagement dimensions",
+            "source_value": "effectively promoted students’ behavioural, affective, and cognitive engagement",
+            "quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+            "central": true,
+            "entity": "the integrated AWE-peer-teacher feedback approach in Hong's course",
+            "measure": "promotion of behavioural, affective, and cognitive engagement",
+            "quotes": [
+              "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions."
+            ]
+          },
+          {
+            "text": "The approach combined three types of feedback: automated, peer, and teacher feedback.",
+            "kind": "intervention",
+            "verdict": "supported",
+            "claim_value": "automated, peer, and teacher feedback",
+            "source_value": "AWE, peer, and teacher feedback",
+            "quote": "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+            "central": false,
+            "entity": "the pedagogical approach in the study",
+            "measure": "types of feedback integrated",
+            "quotes": [
+              "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+              "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+            ]
+          },
+          {
+            "text": "The engagement promoted comprised behavioural, affective, and cognitive dimensions.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "behavioural, affective, and cognitive",
+            "source_value": "behavioural, affective, and cognitive engagement",
+            "quote": "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+            "central": false,
+            "entity": "student engagement with feedback",
+            "measure": "dimensions of engagement",
+            "quotes": [
+              "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+          "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+          "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2021) demonstrated that an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement, while also noting that some students responded with indifference, viewing the revision cycle as overkill.",
+        "citation": "Zhang and Hyland (2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+              "Together the three types of feedback worked in tandem to effectively promote students’ behavioural, affective, and cognitive engagement in the writing process.",
+              "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+              "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+            ],
+            "tokens": {
+              "input_tokens": 12713,
+              "output_tokens": 1149
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [
+              "quote_not_verbatim"
+            ],
+            "repair_prompt_version": null
+          },
+          {
+            "quotes": [
+              "We found that the majority of students actively engaged with this integrated approach and that it effectively promoted students’ behavioural, affective, and cognitive engagement with feedback on their writing and encouraged thoughtful revisions.",
+              "We refer to Hong’s pedagogical approach as ‘integrated’ because it combined AWE, peer, and teacher feedback as illustrated in Figure 1.",
+              "This case study explores an authentic classroom and how a group of 33 students engaged with a pedagogical approach that systematically integrated three types of feedback on academic writing: automated, peer, and teacher feedback."
+            ],
+            "tokens": {
+              "input_tokens": 14156,
+              "output_tokens": 1084
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": "sha256:7ec7cffe852d"
+          }
+        ]
+      },
+      {
+        "claim_text": "while also noting that some students responded with indifference, viewing the revision cycle as overkill",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+        "explanation": "The claim's central proposition — that some students responded with indifference, seeing the revision cycle as overkill — is stated almost verbatim in the Discussion: \"there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.\" The peripheral quantifier \"some\" is licensed by the source's \"there were students in this study\" (a subset, not all), and the source's additional qualifier \"and inefficacious\" does not alter the claim's propositions. No assertion is contradicted and none is absent, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Some students in the study responded with indifference to the multiple feedback types.",
+            "kind": "population",
+            "verdict": "supported",
+            "claim_value": "some students responded with indifference",
+            "source_value": "there were students in this study that failed to engage and responded with indifference to the multiple feedback types",
+            "quote": "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+            "central": true,
+            "entity": "students in this study (33 Chinese university students in an integrated AWE-peer-teacher feedback writing course)",
+            "measure": "reported affective response of indifference to the multiple feedback types",
+            "quotes": [
+              "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+            ]
+          },
+          {
+            "text": "Those students viewed the revision cycle as overkill.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": "viewing the revision cycle as overkill",
+            "source_value": "seeing the revision cycle as overkill and inefficacious",
+            "quote": "seeing the revision cycle as overkill and inefficacious.",
+            "central": false,
+            "entity": "students in this study who failed to engage",
+            "measure": "perception of the revision cycle as overkill",
+            "quotes": [
+              "seeing the revision cycle as overkill and inefficacious."
+            ]
+          },
+          {
+            "text": "The indifference affected only some students, not all.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "some",
+            "source_value": "there were students in this study; not a panacea to poor engagement of some students",
+            "quote": "We believe that the integrated approach is not a panacea to poor engagement of some students",
+            "central": false,
+            "entity": "students in this study",
+            "measure": "quantifier over the student group",
+            "quotes": [
+              "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+              "We believe that the integrated approach is not a panacea to poor engagement of some students"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+          "We believe that the integrated approach is not a panacea to poor engagement of some students"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2021) demonstrated that an integrated approach combining automated, peer, and teacher feedback promoted behavioural, affective, and cognitive engagement, while also noting that some students responded with indifference, viewing the revision cycle as overkill.",
+        "citation": "Zhang and Hyland (2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.",
+              "We believe that the integrated approach is not a panacea to poor engagement of some students"
+            ],
+            "tokens": {
+              "input_tokens": 12711,
+              "output_tokens": 899
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "students favoured direct correction in conjunction with metalinguistic explanations, followed by direct correction without such explanations",
+        "paper_id": "4d6c7f5a-e0e1-4060-8037-ea847788655f",
+        "status": "verified",
+        "evidence_quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+        "explanation": "The central assertion — that students favoured direct correction with metalinguistic explanations, followed by direct correction without them — is stated verbatim in the Results section: \"In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).\" The Discussion repeats it: \"Overall, students preferred direct correction accompanied by metalinguistic explanations.\" The peripheral assertions (the two rank-order values) are also supported by the same spans, with the second-ranked option being direct correction without metalinguistic explanations at 24.83%, ahead of error coding (23.27%) and error locating (3.80%). No assertion is contradicted and no hedge is removed.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "Students favoured direct correction in conjunction with metalinguistic explanations as their most preferred type of corrective feedback.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "most favoured: direct correction + metalinguistic explanations",
+            "source_value": "215/447, 48.10%",
+            "quote": "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+            "central": true,
+            "entity": "students (70 ESL students surveyed)",
+            "measure": "preference ranking of explicitness-of-CF options (447 choices)",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+              "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+            ]
+          },
+          {
+            "text": "Direct correction without metalinguistic explanations was the next most favoured option after direct correction with metalinguistic explanations.",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "second: direct correction without metalinguistic explanations",
+            "source_value": "111/447, 24.83%",
+            "quote": "followed by direct correction without metalinguistic explanations (111/447, 24.83%)",
+            "central": false,
+            "entity": "students (70 ESL students surveyed)",
+            "measure": "second-ranked preference among explicitness-of-CF options",
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+          "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "In parallel, Liu and Wu (2019) reported that students favoured direct correction in conjunction with metalinguistic explanations, followed by direct correction without such explanations.",
+        "citation": "Liu and Wu (2019)",
+        "paper_doi": "10.17239/jowr-2019.11.02.03",
+        "paper_title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (preamble)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "In general, students favored direct correction in conjunction with metalinguistic explanations (215/447, 48.10%) followed by direct correction without metalinguistic explanations (111/447, 24.83%).",
+              "Overall, students preferred direct correction accompanied by metalinguistic explanations."
+            ],
+            "tokens": {
+              "input_tokens": 17490,
+              "output_tokens": 877
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      }
+    ],
+    "verified_count": 12
+  }
+}

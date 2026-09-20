@@ -1,0 +1,9 @@
+{
+  "_fixture_note": "Redacted slice of the retired v1-run WoS-gate computation (title/abstract basis, n=392), kept only so test_io.py can check the protocol notes' embedded lower-upper interval against a real gate_table_row() computation; not a current evaluation result.",
+  "included_records": {
+    "n": 392,
+    "n_with_issn": 297,
+    "n_unresolved": 95,
+    "n_in_wos_any": 251
+  }
+}

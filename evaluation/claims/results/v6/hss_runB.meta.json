@@ -1,0 +1,96 @@
+{
+  "name": "hss",
+  "run": "B",
+  "dry_run": false,
+  "retried_failed": 0,
+  "started": "2026-09-11T13:41:30+00:00",
+  "finished": "2026-09-11T13:41:57+00:00",
+  "sessions": [
+    {
+      "started": "2026-09-11T13:41:30+00:00",
+      "finished": "2026-09-11T13:41:57+00:00",
+      "retried_failed": 0
+    }
+  ],
+  "model_configured": "deepseek-chat",
+  "model_reported": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "aeb56401ca74e127821c4f9126dcb669"
+  ],
+  "temperature": 0.0,
+  "prompt_version": "sha256:49fcfbfaf2f6",
+  "guard_digest": "8a6c833ffc329f89",
+  "quote_relocation_version": "0269a13351c0da7d",
+  "verification_policy_version": "667bcc9209126ddc",
+  "repair_prompt_version": "sha256:7ec7cffe852d",
+  "concurrency": 8,
+  "limit": null,
+  "n_items": 60,
+  "n_rows": 60,
+  "n_errors": 0,
+  "n_deterministic": 8,
+  "status_counts": {
+    "no_full_text": 8,
+    "verified": 13,
+    "needs_nuance": 10,
+    "unsupported": 29
+  },
+  "price": {
+    "model": "deepseek-chat",
+    "price_model": "deepseek-v4-flash",
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "tiers": {
+      "input_cache_miss": {
+        "peak": 0.44,
+        "offpeak": 0.22
+      },
+      "input_cache_hit": {
+        "peak": 0.014,
+        "offpeak": 0.007
+      },
+      "output": {
+        "peak": 1.32,
+        "offpeak": 0.66
+      }
+    },
+    "peak_hours_utc": "01:00-04:00 and 06:00-10:00, Monday-Friday; all other hours off-peak",
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "accessed": "2026-09-02"
+  },
+  "total_input_tokens": 997953,
+  "total_output_tokens": 47265,
+  "total_cache_read_tokens": 986362,
+  "total_cost": 0.040649454,
+  "cost_basis": "list price, tier by call time, cache-hit tokens at cache-hit rate",
+  "total_cost_flat": null,
+  "latency_s": {
+    "n": 52,
+    "median": 3.376,
+    "p90": 4.693,
+    "mean": 3.6177307692307696,
+    "total": 188.122
+  },
+  "is_replay": true,
+  "replayed_from": "results/v6/inputs",
+  "replay": {
+    "source": "results/v6/inputs/hss_runB.jsonl",
+    "source_guard_digest": "570a5b663e6140da",
+    "replayed_guard_digest": "8a6c833ffc329f89",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc",
+    "claim_verification_prompt_version": "sha256:49fcfbfaf2f6",
+    "quote_repair_prompt_version": "sha256:7ec7cffe852d",
+    "method": "deterministic offline replay of the stored model answers through apply_verification_guards/verify_claim_with_policy at HEAD; no model call, no network",
+    "generated_at": "2026-09-16T03:25:02+00:00",
+    "n_rows": 60,
+    "n_candidates": 52,
+    "n_examined_by_guard7": 13,
+    "n_status_changed": 0,
+    "n_repair_turn_anomalies": 0
+  }
+}

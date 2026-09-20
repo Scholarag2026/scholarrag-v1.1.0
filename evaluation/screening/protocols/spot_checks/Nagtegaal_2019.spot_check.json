@@ -1,0 +1,526 @@
+{
+  "dataset": "Nagtegaal_2019",
+  "generated": "2026-09-03T05:48:44+00:00",
+  "seed": 20260903,
+  "n_pool": 297,
+  "n": 20,
+  "judged_by": "harness fix agent, 2026-09-03",
+  "judged_on": "2026-09-03",
+  "n_correct": 20,
+  "n_incorrect": 0,
+  "n_unsure": 0,
+  "n_unjudged": 0,
+  "judgement_values": [
+    "correct",
+    "incorrect",
+    "unsure"
+  ],
+  "records": [
+    {
+      "record_id": 594,
+      "synergy_title": "Educational Intervention in Primary Care Residents' Knowledge and Performance of Hepatitis B Vaccination in Patients with Diabetes Mellitus",
+      "synergy_year": null,
+      "synergy_abstract_head": "OBJECTIVES: Although guidelines recommend hepatitis B virus (HBV) immunization for adults with diabetes mellitus (DM), vaccination rates remain low. Our aim was to evaluate knowledge and practice rega",
+      "match_method": "title_exact",
+      "doi": "10.14423/smj.0000000000000334",
+      "issn": [
+        "0038-4348"
+      ],
+      "crossref": {
+        "title": "Educational Intervention in Primary Care Residents’ Knowledge and Performance of Hepatitis B Vaccination in Patients with Diabetes Mellitus",
+        "container_title": "Southern Medical Journal",
+        "year": 2015,
+        "type": "journal-article",
+        "issn": [
+          "0038-4348"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 977,
+      "synergy_title": "Implementation of clinical guidelines through an electronic medical record: physician usage, satisfaction and assessment",
+      "synergy_year": null,
+      "synergy_abstract_head": "CONTEXT: We developed and evaluated the Emergency Department Expert Charting System (EDECS) to provide real-time guidance regarding the care of low back pain in adults, fever in children, and occupati",
+      "match_method": "title_exact",
+      "doi": "10.1016/s1386-5056(01)00177-0",
+      "issn": [
+        "1386-5056"
+      ],
+      "crossref": {
+        "title": "Implementation of clinical guidelines through an electronic medical record: physician usage, satisfaction and assessment",
+        "container_title": "International Journal of Medical Informatics",
+        "year": 2001,
+        "type": "journal-article",
+        "issn": [
+          "1386-5056"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 109,
+      "synergy_title": "A tailored intervention to implement guideline recommendations for elderly patients with depression in primary care: a pragmatic cluster randomised trial",
+      "synergy_year": null,
+      "synergy_abstract_head": "Background Elderly patients with depression are underdiagnosed, undertreated and run a high risk of a chronic course. General practitioners adhere to clinical practice guidelines to a limited degree. ",
+      "match_method": "title_exact",
+      "doi": "10.1186/s13012-016-0397-3",
+      "issn": [
+        "1748-5908"
+      ],
+      "crossref": {
+        "title": "A tailored intervention to implement guideline recommendations for elderly patients with depression in primary care: a pragmatic cluster randomised trial",
+        "container_title": "Implementation Science",
+        "year": 2015,
+        "type": "journal-article",
+        "issn": [
+          "1748-5908"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "DOI volume 2016, Crossref issued 2015 (online first); Implementation Science",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1731,
+      "synergy_title": "The assessment of attention-deficit/hyperactivity disorder in rural primary care: the portability of the American Academy of Pediatrics guidelines to the “real world”.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Objective. To examine the implementation of a protocol for the assessment of attention-deficit/ hyperactivity disorder (ADHD) in rural pediatric practices. The protocol was designed to provide an effi",
+      "match_method": "title_exact",
+      "doi": "10.1542/peds.2004-1521",
+      "issn": [
+        "0031-4005",
+        "1098-4275"
+      ],
+      "crossref": {
+        "title": "The Assessment of Attention-Deficit/Hyperactivity Disorder in Rural Primary Care: The Portability of the American Academy of Pediatrics Guidelines to the “Real World”",
+        "container_title": "Pediatrics",
+        "year": 2005,
+        "type": "journal-article",
+        "issn": [
+          "0031-4005",
+          "1098-4275"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 194,
+      "synergy_title": "Approaches based on behavioral economics could help nudge patients and providers toward lower health spending growth",
+      "synergy_year": null,
+      "synergy_abstract_head": "Policies that change the environment or context in which decisions are made and “nudge” people toward particular choices have been relatively ignored in health care. This article examines the role tha",
+      "match_method": "title_exact",
+      "doi": "10.1377/hlthaff.2012.1348",
+      "issn": [
+        "0278-2715",
+        "1544-5208"
+      ],
+      "crossref": {
+        "title": "Approaches Based On Behavioral Economics Could Help Nudge Patients And Providers Toward Lower Health Spending Growth",
+        "container_title": "Health Affairs",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "0278-2715",
+          "1544-5208"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1412,
+      "synergy_title": "Practice-level effects of interventions to improve asthma care in primary care settings: the Pediatric Asthma Care Patient Outcomes Research Team.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Objective. To assess the practice-level effects of (1) a physician peer leader intervention and (2) peer leaders in combination with the introduction of asthma education nurses to facilitate care impr",
+      "match_method": "title_exact",
+      "doi": "10.1111/j.1475-6773.2005.00451.x",
+      "issn": [
+        "0017-9124",
+        "1475-6773"
+      ],
+      "crossref": {
+        "title": "Practice‐Level Effects of Interventions to Improve Asthma Care in Primary Care Settings: The Pediatric Asthma Care Patient Outcomes Research Team",
+        "container_title": "Health Services Research",
+        "year": 2005,
+        "type": "journal-article",
+        "issn": [
+          "0017-9124",
+          "1475-6773"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1010,
+      "synergy_title": "Improvement of intraoperative antibiotic prophylaxis in prolonged cardiac surgery by automated alerts in the operating room",
+      "synergy_year": null,
+      "synergy_abstract_head": "Objective: To assess the impact of an automated intraoperative alert to redose prophylactic antibiotics in prolonged cardiac operations.  Design: Randomized, controlled, evaluator-blinded trial.  Sett",
+      "match_method": "title_exact",
+      "doi": "10.1086/502109",
+      "issn": [
+        "0899-823X",
+        "1559-6834"
+      ],
+      "crossref": {
+        "title": "Improvement of Intraoperative Antibiotic Prophylaxis in Prolonged Cardiac Surgery by Automated Alerts in the Operating Room",
+        "container_title": "Infection Control &amp; Hospital Epidemiology",
+        "year": 2003,
+        "type": "journal-article",
+        "issn": [
+          "0899-823X",
+          "1559-6834"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1540,
+      "synergy_title": "Rational prescribing in primary care (RaPP): economic evaluation of an intervention to improve professional practice.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Background Interventions designed to narrow the gap between research findings and clinical practice may be effective, but also costly. Economic evaluations are necessary to judge whether such interven",
+      "match_method": "title_exact",
+      "doi": "10.1371/journal.pmed.0030216",
+      "issn": [
+        "1549-1676"
+      ],
+      "crossref": {
+        "title": "Rational Prescribing in Primary Care (RaPP): Economic Evaluation of an Intervention to Improve Professional Practice",
+        "container_title": "PLoS Medicine",
+        "year": 2006,
+        "type": "journal-article",
+        "issn": [
+          "1549-1676"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1537,
+      "synergy_title": "Randomized trial to improve prescribing safety in ambulatory elderly patients.",
+      "synergy_year": null,
+      "synergy_abstract_head": "OBJECTIVES: To determine whether a computerized tool that alerted pharmacists when patients aged 65 and older were newly prescribed potentially inappropriate medications was effective in decreasing th",
+      "match_method": "title_exact",
+      "doi": "10.1111/j.1532-5415.2007.01202.x",
+      "issn": [
+        "0002-8614",
+        "1532-5415"
+      ],
+      "crossref": {
+        "title": "Randomized Trial to Improve Prescribing Safety in Ambulatory Elderly Patients",
+        "container_title": "Journal of the American Geriatrics Society",
+        "year": 2007,
+        "type": "journal-article",
+        "issn": [
+          "0002-8614",
+          "1532-5415"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 555,
+      "synergy_title": "Do decision support systems influence variation in prescription?",
+      "synergy_year": null,
+      "synergy_abstract_head": "BACKGROUND: Translating scientific evidence into daily practice is problematic. All kinds of intervention strategies, using educational and/or directive strategies, aimed at modifying behavior, have e",
+      "match_method": "title_exact",
+      "doi": "10.1186/1472-6963-9-20",
+      "issn": [
+        "1472-6963"
+      ],
+      "crossref": {
+        "title": "Do decision support systems influence variation in prescription?",
+        "container_title": "BMC Health Services Research",
+        "year": 2009,
+        "type": "journal-article",
+        "issn": [
+          "1472-6963"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1384,
+      "synergy_title": "Physician response to computer reminders.",
+      "synergy_year": null,
+      "synergy_abstract_head": "A computerized medical record system was designed to detect and remind the responsible clinician about clinical events that might need corrective action. These reminders significantly increased the cl",
+      "match_method": "title_exact",
+      "doi": "10.1001/jama.1980.03310140037026",
+      "issn": [
+        "0098-7484"
+      ],
+      "crossref": {
+        "title": "Physician Response to Computer Reminders",
+        "container_title": "JAMA: The Journal of the American Medical Association",
+        "year": 1980,
+        "type": "journal-article",
+        "issn": [
+          "0098-7484"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1003,
+      "synergy_title": "Improved asthma outcomes using a coordinated care approach in a large medical group.",
+      "synergy_year": null,
+      "synergy_abstract_head": "The objective of this study was to review the development of a multidisciplinary asthma disease management program in a large medical group practice in an urban area, and evaluate the impact of the pr",
+      "match_method": "title_exact",
+      "doi": "10.1089/1093507041253235",
+      "issn": [
+        "1093-507X",
+        "1557-8860"
+      ],
+      "crossref": {
+        "title": "Improved Asthma Outcomes Using a Coordinated Care Approach in a Large Medical Group",
+        "container_title": "Disease Management",
+        "year": 2004,
+        "type": "journal-article",
+        "issn": [
+          "1093-507X",
+          "1557-8860"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 701,
+      "synergy_title": "Electronic prescribing increases uptake of clinical pharmacologists' recommendations in the hospital setting.",
+      "synergy_year": null,
+      "synergy_abstract_head": "AIMS To determine whether electronic prescribing facilitates the uptake of clinical pharmacologists’ recommendations for improving drug safety in medical inpatients. METHODS Electronic case records an",
+      "match_method": "title_exact",
+      "doi": "10.1111/j.1365-2125.2011.04032.x",
+      "issn": [
+        "0306-5251",
+        "1365-2125"
+      ],
+      "crossref": {
+        "title": "Electronic prescribing increases uptake of clinical pharmacologists' recommendations in the hospital setting",
+        "container_title": "British Journal of Clinical Pharmacology",
+        "year": 2011,
+        "type": "journal-article",
+        "issn": [
+          "0306-5251",
+          "1365-2125"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1406,
+      "synergy_title": "Practice development: bridging the research-practice divide through the appointment of a research lead",
+      "synergy_year": null,
+      "synergy_abstract_head": "Research suggests that while most clinicians endorse the importance of evidence-based practice, without the right culture of support and encouragement it can be difficult to achieve such practice. Thi",
+      "match_method": "title_exact",
+      "doi": "10.1177/030802260807100307",
+      "issn": [
+        "0308-0226",
+        "1477-6006"
+      ],
+      "crossref": {
+        "title": "Practice Development: Bridging the Research-Practice Divide through the Appointment of a Research Lead",
+        "container_title": "British Journal of Occupational Therapy",
+        "year": 2008,
+        "type": "journal-article",
+        "issn": [
+          "0308-0226",
+          "1477-6006"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 644,
+      "synergy_title": "Effectiveness of an Intervention to Enhance Occupational Physicians' Guideline Adherence on Sickness Absence Duration in Workers with Common Mental Disorders: A Cluster-Randomized Controlled Trial",
+      "synergy_year": null,
+      "synergy_abstract_head": "Purpose Evidence-based guidelines in occupational health care improve the quality of care and may reduce sickness absence duration. Notwithstanding that, guideline adherence of occupational physicians",
+      "match_method": "title_exact",
+      "doi": "10.1007/s10926-016-9682-x",
+      "issn": [
+        "1053-0487",
+        "1573-3688"
+      ],
+      "crossref": {
+        "title": "Effectiveness of an Intervention to Enhance Occupational Physicians’ Guideline Adherence on Sickness Absence Duration in Workers with Common Mental Disorders: A Cluster-Randomized Controlled Trial",
+        "container_title": "Journal of Occupational Rehabilitation",
+        "year": 2016,
+        "type": "journal-article",
+        "issn": [
+          "1053-0487",
+          "1573-3688"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1029,
+      "synergy_title": "Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Background: Appropriate antibiotic treatment decreases mortality, while superfluous treatment is associated with antibiotic resistance. We built a computerized decision support system for antibiotic t",
+      "match_method": "title_exact",
+      "doi": "10.1093/jac/dkl372",
+      "issn": [
+        "1460-2091",
+        "0305-7453"
+      ],
+      "crossref": {
+        "title": "Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial",
+        "container_title": "Journal of Antimicrobial Chemotherapy",
+        "year": 2006,
+        "type": "journal-article",
+        "issn": [
+          "1460-2091",
+          "0305-7453"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 895,
+      "synergy_title": "Helping doctors and patients make sense of health statistics",
+      "synergy_year": null,
+      "synergy_abstract_head": "Many doctors, patients, journalists, and politicians alike do not understand what health statistics mean or draw wrong conclusions without noticing. Collective statistical illiteracy refers to the wid",
+      "match_method": "title_exact",
+      "doi": "10.1111/j.1539-6053.2008.00033.x",
+      "issn": [
+        "1529-1006",
+        "1539-6053"
+      ],
+      "crossref": {
+        "title": "Helping Doctors and Patients Make Sense of Health Statistics",
+        "container_title": "Psychological Science in the Public Interest",
+        "year": 2007,
+        "type": "journal-article",
+        "issn": [
+          "1529-1006",
+          "1539-6053"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "DOI year 2008, Crossref issued 2007 (online first); Psychological Science in the Public Interest",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2019,
+      "synergy_title": "A Systematic Scoping Review of the Choice Architecture Movement: Toward Understanding When and Why Nudges Work",
+      "synergy_year": null,
+      "synergy_abstract_head": "In this paper, we provide a domain‐general scoping review of the nudge movement by reviewing 422 choice architecture interventions in 156 empirical studies. We report the distribution of the studies a",
+      "match_method": "title_exact",
+      "doi": "10.1002/bdm.2035",
+      "issn": [
+        "0894-3257",
+        "1099-0771"
+      ],
+      "crossref": {
+        "title": "A Systematic Scoping Review of the Choice Architecture Movement: Toward Understanding When and Why Nudges Work",
+        "container_title": "Journal of Behavioral Decision Making",
+        "year": 2017,
+        "type": "journal-article",
+        "issn": [
+          "0894-3257",
+          "1099-0771"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1148,
+      "synergy_title": "Learning with computerized guidelines in general practice? A randomized controlled trial.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Background. Evidence-based guidelines are seen as an important instrument to transfer scientifically generated knowledge into daily clinical practice and to ensure high standards of clinical care. Des",
+      "match_method": "title_exact",
+      "doi": "10.1093/fampra/cmh214",
+      "issn": [
+        "1460-2229"
+      ],
+      "crossref": {
+        "title": "Learning with computerized guidelines in general practice?: A randomized controlled trial",
+        "container_title": "Family Practice",
+        "year": 2004,
+        "type": "journal-article",
+        "issn": [
+          "1460-2229"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 978,
+      "synergy_title": "Implementation of clinical practice guidelines for prevention of thromboembolism in spinal cord injury.",
+      "synergy_year": null,
+      "synergy_abstract_head": "Background/Objectives: The purpose of this study was to determine whether publication of the “Prevention of Thromboembolism in Spinal Cord Injury” clinical practice guideline (CPG) changed patient man",
+      "match_method": "title_exact",
+      "doi": "10.1080/10790268.2005.11753796",
+      "issn": [
+        "1079-0268",
+        "2045-7723"
+      ],
+      "crossref": {
+        "title": "Implementation of Clinical Practice Guidelines for Prevention of Thromboembolism in Spinal Cord Injury",
+        "container_title": "The Journal of Spinal Cord Medicine",
+        "year": 2005,
+        "type": "journal-article",
+        "issn": [
+          "1079-0268",
+          "2045-7723"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    }
+  ]
+}

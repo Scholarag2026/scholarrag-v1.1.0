@@ -1,0 +1,35 @@
+{
+  "run_id": "20260911-062145",
+  "draft_id": "ef8cd27d-0e97-4265-ac17-6e8de30f4b84",
+  "section_title": "Literature Review",
+  "rows": [
+    {
+      "row": 1,
+      "sentence": "Internet-delivered cognitive behavioural therapy produced significant symptom reduction in nine of the twelve reviewed trials.",
+      "citation_text": "(Fixture & Sample, 2026)",
+      "paper_title": "Fixture Paper on Internet-Delivered Interventions",
+      "paper_doi": "10.1234/fixture.2026",
+      "claim_text": "Internet-based CBT produced significant symptom reduction in most of the reviewed trials.",
+      "status": "verified",
+      "evidence_quotes": [
+        "nine of the twelve trials reported statistically significant reductions in symptom severity at post-treatment"
+      ],
+      "source_passage": "Across the twelve randomised controlled trials included in this review, nine of the twelve trials reported statistically significant reductions in symptom severity at post-treatment, most commonly measured with a standardised self-report inventory. The remaining three trials reported reductions that did not reach conventional significance thresholds, generally in samples with fewer than forty participants per arm. Attrition varied widely across studies, from six percent to thirty-one percent, and was not consistently associated with outcome.",
+      "source_locator": {"chunk_index": 4, "section": "Results"}
+    },
+    {
+      "row": 2,
+      "sentence": "The reviewed platforms varied in the amount of therapist guidance offered, from fully automated programs to weekly therapist check-ins.",
+      "citation_text": "(Fixture & Sample, 2026)",
+      "paper_title": "Fixture Paper on Internet-Delivered Interventions",
+      "paper_doi": "10.1234/fixture.2026",
+      "claim_text": "The platforms reviewed differ in the level of therapist guidance, ranging from unguided to therapist-supported delivery.",
+      "status": "verified",
+      "evidence_quotes": [
+        "guidance ranged from fully self-guided programs with no therapist contact to weekly brief check-ins by telephone or secure message"
+      ],
+      "source_passage": "Guidance ranged from fully self-guided programs with no therapist contact to weekly brief check-ins by telephone or secure message. Programs with any therapist contact, however brief, were associated with lower dropout than fully self-guided programs in eight of the nine studies that reported a direct comparison.",
+      "source_locator": {"chunk_index": 2, "section": null}
+    }
+  ]
+}

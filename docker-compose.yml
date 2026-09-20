@@ -1,0 +1,81 @@
+# Development stack: Postgres + backend (auto-migrating, hot reload) + frontend (next dev).
+#
+#   cp .env.example .env            # optional; the stack boots without it
+#   docker compose up --build
+#
+# Host ports are parameterized so the stack can coexist with a local Postgres or another
+# instance: POSTGRES_PORT=55432 BACKEND_PORT=58000 FRONTEND_PORT=53000 docker compose up
+#
+# The browser-facing origins default to http://localhost:<host port> and follow the port
+# variables above. Behind a reverse proxy override them with compose-only variables (they are
+# deliberately NOT the FRONTEND_URL / BACKEND_URL / NEXT_PUBLIC_API_URL names from .env, which
+# would otherwise pin the origins to ports 3000/8000 regardless of FRONTEND_PORT/BACKEND_PORT):
+#   PUBLIC_FRONTEND_ORIGIN  -> FRONTEND_URL in the backend (CORS allow-list)
+#   PUBLIC_BACKEND_ORIGIN   -> BACKEND_URL in the backend (CORS allow-list)
+#   PUBLIC_API_URL          -> NEXT_PUBLIC_API_URL in the frontend (what the browser calls)
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-deepresearch}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-secret}
+      POSTGRES_DB: ${POSTGRES_DB:-deepresearch}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-deepresearch} -d ${POSTGRES_DB:-deepresearch}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-deepresearch}:${POSTGRES_PASSWORD:-secret}@postgres:5432/${POSTGRES_DB:-deepresearch}
+      # CORS allow-list: the browser-facing origins, so they follow FRONTEND_PORT / BACKEND_PORT.
+      # (Set via PUBLIC_*; see the header. `environment` wins over `env_file`, so a .env that
+      # carries FRONTEND_URL / BACKEND_URL cannot pin these to 3000/8000.)
+      FRONTEND_URL: ${PUBLIC_FRONTEND_ORIGIN:-http://localhost:${FRONTEND_PORT:-3000}}
+      BACKEND_URL: ${PUBLIC_BACKEND_ORIGIN:-http://localhost:${BACKEND_PORT:-8000}}
+      # Writer-only DeepSeek model override (see .env.example); empty by default, which
+      # means the writer keeps using DEEPSEEK_MODEL like every other agent.
+      WRITING_MODEL: ${WRITING_MODEL:-}
+      # Writer-only thinking-mode toggle and max_tokens override (see .env.example);
+      # empty by default, which sends no "thinking" field and the fixed 4096 max_tokens.
+      WRITING_THINKING: ${WRITING_THINKING:-}
+      WRITING_MAX_TOKENS: ${WRITING_MAX_TOKENS:-}
+    volumes:
+      - ./backend:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+  frontend:
+    build:
+      context: ./frontend
+      target: dev
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    environment:
+      # Read by the browser, so it must use the HOST port of the backend, not the service name.
+      NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:${BACKEND_PORT:-8000}/api/v1}
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

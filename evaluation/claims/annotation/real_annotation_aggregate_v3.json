@@ -1,0 +1,345 @@
+{
+  "key_arm": "off",
+  "has_key": true,
+  "has_expected_labels": false,
+  "n_items": 26,
+  "n_items_evidence_subset": 26,
+  "annotators": [
+    "A",
+    "B",
+    "C"
+  ],
+  "categories": [
+    "needs_nuance",
+    "unsupported",
+    "verified"
+  ],
+  "unanimity_count": 24,
+  "non_unanimous_items": [
+    "real-test-23",
+    "real-test-15"
+  ],
+  "fleiss_kappa_all26": 0.9003194888178916,
+  "fleiss_kappa_evidence26": 0.9003194888178916,
+  "pairwise_agreement_all26": {
+    "AB": {
+      "percent_agreement": 0.9615384615384616,
+      "cohen_kappa": 0.9246376811594204
+    },
+    "AC": {
+      "percent_agreement": 0.9230769230769231,
+      "cohen_kappa": 0.8531073446327684
+    },
+    "BC": {
+      "percent_agreement": 0.9615384615384616,
+      "cohen_kappa": 0.9248554913294798
+    }
+  },
+  "pairwise_agreement_evidence26": {
+    "AB": {
+      "percent_agreement": 0.9615384615384616,
+      "cohen_kappa": 0.9246376811594204
+    },
+    "AC": {
+      "percent_agreement": 0.9230769230769231,
+      "cohen_kappa": 0.8531073446327684
+    },
+    "BC": {
+      "percent_agreement": 0.9615384615384616,
+      "cohen_kappa": 0.9248554913294798
+    }
+  },
+  "items_needing_adjudication": [
+    "real-test-23",
+    "real-test-15"
+  ],
+  "n_adjudicated": 2,
+  "items": [
+    {
+      "ann_id": "annr-01",
+      "item_id": "real-test-12",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-02",
+      "item_id": "real-test-18",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-03",
+      "item_id": "real-test-05",
+      "evidence_mode": "no_match",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-04",
+      "item_id": "real-test-06",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-05",
+      "item_id": "real-test-26",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-06",
+      "item_id": "real-test-01",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-07",
+      "item_id": "real-test-03",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-08",
+      "item_id": "real-test-11",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-09",
+      "item_id": "real-test-23",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "unsupported",
+      "majority_label": "needs_nuance",
+      "unanimous": false,
+      "needs_adjudication": true
+    },
+    {
+      "ann_id": "annr-10",
+      "item_id": "real-test-25",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-11",
+      "item_id": "real-test-16",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-12",
+      "item_id": "real-test-13",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-13",
+      "item_id": "real-test-14",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-14",
+      "item_id": "real-test-15",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": false,
+      "needs_adjudication": true
+    },
+    {
+      "ann_id": "annr-15",
+      "item_id": "real-test-20",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-16",
+      "item_id": "real-test-24",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-17",
+      "item_id": "real-test-21",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-18",
+      "item_id": "real-test-19",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-19",
+      "item_id": "real-test-04",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-20",
+      "item_id": "real-test-17",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-21",
+      "item_id": "real-test-07",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-22",
+      "item_id": "real-test-08",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-23",
+      "item_id": "real-test-22",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-24",
+      "item_id": "real-test-10",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-25",
+      "item_id": "real-test-09",
+      "evidence_mode": "passage",
+      "label_A": "needs_nuance",
+      "label_B": "needs_nuance",
+      "label_C": "needs_nuance",
+      "majority_label": "needs_nuance",
+      "unanimous": true,
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "annr-26",
+      "item_id": "real-test-02",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "needs_adjudication": false
+    }
+  ]
+}

@@ -1,0 +1,2028 @@
+[
+ {
+  "id": "W4384666253",
+  "doi": "10.1093/applin/amad038",
+  "title": "Problematising Written Corrective Feedback: A Global Englishes Perspective",
+  "year": 2023,
+  "journal": "Applied Linguistics",
+  "pdf": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+   "url": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+   "bytes": 5714
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://academic.oup.com/applij/advance-article-pdf/doi/10.1093/applin/amad038/50908043/amad038.pdf",
+   "bytes": 5948
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2793493211",
+  "doi": "10.1016/j.asw.2018.02.004",
+  "title": "Student engagement with teacher and automated feedback on L2 writing",
+  "year": 2018,
+  "journal": "Assessing Writing",
+  "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "bytes": 1860549
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "bytes": 1860549
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3177030774",
+  "doi": "10.1016/j.asw.2021.100549",
+  "title": "Complementation of multiple sources of feedback in EFL learners’ writing",
+  "year": 2021,
+  "journal": "Assessing Writing",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+   "bytes": 832803
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293521000386",
+   "bytes": 832803
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4292308183",
+  "doi": "10.1016/j.asw.2022.100664",
+  "title": "Examining evaluative language used in assessment feedback on business students’ academic writing",
+  "year": 2022,
+  "journal": "Assessing Writing",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+   "bytes": 832803
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293522000605/pdf",
+   "bytes": 832803
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4391494778",
+  "doi": "10.1016/j.asw.2024.100811",
+  "title": "Assessing metacognition-based student feedback literacy for academic writing",
+  "year": 2024,
+  "journal": "Assessing Writing",
+  "pdf": "https://hal.science/hal-04963137v1/document",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://hal.science/hal-04963137v1/document",
+   "url": "https://hal.science/hal-04963137v1/document",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://hal.science/hal-04963137v1/document",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://hal.science/hal-04963137v1/document",
+   "bytes": 3942407
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://hal.science/hal-04963137v1/document",
+   "bytes": 12601
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3100019532",
+  "doi": "10.1080/09588221.2020.1839503",
+  "title": "How to provide automated feedback on the writing process? A participatory approach to design writing analytics tools",
+  "year": 2020,
+  "journal": "Computer Assisted Language Learning",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2020.1839503?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4319843838",
+  "doi": "10.1080/09588221.2023.2171066",
+  "title": "The effects of feedback timing on L2 development in written SCMC",
+  "year": 2023,
+  "journal": "Computer Assisted Language Learning",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+   "bytes": 5685
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2023.2171066?download=true",
+   "bytes": 5897
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4391815818",
+  "doi": "10.1080/09588221.2024.2315070",
+  "title": "Investigating synchronous and asynchronous written corrective feedback in a computer-assisted environment: EFL learners’ linguistic performance and perspectives",
+  "year": 2024,
+  "journal": "Computer Assisted Language Learning",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2024.2315070?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4404107489",
+  "doi": "10.1080/09588221.2024.2422478",
+  "title": "L2 students’ barriers in engaging with form and content-focused AI-generated feedback in revising their compositions",
+  "year": 2024,
+  "journal": "Computer Assisted Language Learning",
+  "pdf": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+   "url": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 0,
+   "ctype": "error:ReadTimeout",
+   "is_pdf": false,
+   "final": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+   "bytes": 0
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 0,
+   "ctype": "error:ReadTimeout",
+   "is_pdf": false,
+   "final": "http://ira.lib.polyu.edu.hk/bitstream/10397/114336/1/Chen_L2_Students_Barriers.pdf",
+   "bytes": 0
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W7128192019",
+  "doi": "10.1080/09588221.2025.2539154",
+  "title": "Lower secondary school teachers facilitation of students’ writing process: a study of automated feedback and peer feedback approaches",
+  "year": 2025,
+  "journal": "Computer Assisted Language Learning",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+  "lic": "other-oa",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+   "version": "publishedVersion",
+   "license": "other-oa",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09588221.2025.2539154?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4293102854",
+  "doi": "10.1111/flan.12611",
+  "title": "Effects of collaborative writing and peer feedback on Spanish as a foreign language writing performance",
+  "year": 2022,
+  "journal": "Foreign Language Annals",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+   "bytes": 5595
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/flan.12611",
+   "bytes": 5830
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2806912992",
+  "doi": "10.1016/j.jslw.2018.05.005",
+  "title": "Synchronous and asynchronous teacher electronic feedback and learner uptake in ESL composition",
+  "year": 2018,
+  "journal": "Journal of Second Language Writing",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+   "bytes": 832803
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1060374317304393/pdf",
+   "bytes": 832803
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2979353953",
+  "doi": "10.17239/jowr-2019.11.02.03",
+  "title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+  "year": 2019,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "bytes": 744150
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "bytes": 744150
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3129333018",
+  "doi": "10.17239/jowr-2021.12.03.02",
+  "title": "The affect and effect of asynchronous written feedback comments on the peer feedback process: An ethnographic case-study approach within one L2 English doctorate writing group",
+  "year": 2021,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "bytes": 1959478
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "bytes": 1959478
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4403772765",
+  "doi": "10.17239/jowr-2024.16.02.04",
+  "title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+  "year": 2024,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/jowr/article/download/1031/958",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/jowr/article/download/1031/958",
+   "url": "https://www.jowr.org/jowr/article/download/1031/958",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/jowr/article/download/1031/958",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/jowr/article/download/1031/958",
+   "bytes": 393398
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/jowr/article/download/1031/958",
+   "bytes": 393398
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4412178145",
+  "doi": "10.1080/09658416.2025.2522107",
+  "title": "Students’ beliefs about written corrective feedback in two foreign language contexts",
+  "year": 2025,
+  "journal": "Language Awareness",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+  "lic": "other-oa",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+   "version": "publishedVersion",
+   "license": "other-oa",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2522107?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4415483089",
+  "doi": "10.1080/09658416.2025.2577191",
+  "title": "Embrace or resist? EFL teachers on adopting ChatGPT as a teaching and feedback tool",
+  "year": 2025,
+  "journal": "Language Awareness",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2577191?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2808587213",
+  "doi": "10.1111/lang.12295",
+  "title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+  "year": 2018,
+  "journal": "Language Learning",
+  "pdf": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+  "lic": "other-oa",
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "version": "submittedVersion",
+   "license": "other-oa",
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "bytes": 716474
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "bytes": 716474
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4389137413",
+  "doi": "10.1111/lang.12623",
+  "title": "Effects of Form‐Focused Practice and Feedback: A Multisite Replication Study of Yang and Lyster (2010)",
+  "year": 2023,
+  "journal": "Language Learning",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+   "bytes": 5595
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12623",
+   "bytes": 5830
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4391322029",
+  "doi": "10.1017/s0261444823000393",
+  "title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+  "year": 2024,
+  "journal": "Language Teaching",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "bytes": 473566
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "bytes": 473566
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4416094391",
+  "doi": "10.1017/s0261444825101018",
+  "title": "EFL teachers and feedback fatigue: AI to the rescue?",
+  "year": 2025,
+  "journal": "Language Teaching",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+  "lic": "cc-by-nc",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "bytes": 317108
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "bytes": 317108
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4405795716",
+  "doi": "10.1177/13621688241304168",
+  "title": "Understanding student engagement with teacher feedback in Chinese-to-English consecutive interpreting courses",
+  "year": 2024,
+  "journal": "Language Teaching Research",
+  "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+   "url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+   "bytes": 0
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241304168",
+   "bytes": 0
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4401036602",
+  "doi": "10.1177/13621688241263904",
+  "title": "‘All my effort in writing the first draft was wasted!’: Engagement with supervisory feedback on undergraduate theses",
+  "year": 2024,
+  "journal": "Language Teaching Research",
+  "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+   "url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+   "bytes": 0
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688241263904?download=true",
+   "bytes": 0
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W7117468721",
+  "doi": "10.1177/13621688251397578",
+  "title": "Exploring the use of GenAI in model texts as a feedback instrument: L2 students’ practice and perceptions",
+  "year": 2025,
+  "journal": "Language Teaching Research",
+  "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+   "url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+   "bytes": 0
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 0,
+   "ctype": "error:ConnectError",
+   "is_pdf": false,
+   "final": "https://journals.sagepub.com/doi/pdf/10.1177/13621688251397578?download=true",
+   "bytes": 0
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2107862273",
+  "doi": "10.64152/10125/44417",
+  "title": "The accuracy of computer-assisted feedback and students’ responses to it",
+  "year": 2015,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/53b08da7-fa29-4ad8-8594-9ea68bf9ef3d/content",
+   "bytes": 272013
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2952737176",
+  "doi": "10.64152/10125/44683",
+  "title": "The effect of two forms of computer-automated metalinguistic corrective feedback",
+  "year": 2019,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/f25d8484-b4f7-46ef-b8c9-56653f4206e6/content",
+   "bytes": 565289
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2952715668",
+  "doi": "10.64152/10125/44687",
+  "title": "The impact of video and written feedback on student preferences of English speaking practice",
+  "year": 2019,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4e29382e-71ef-46a1-af01-df8b2766b058/content",
+   "bytes": 444487
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3003369754",
+  "doi": "10.64152/10125/44712",
+  "title": "A mixed-methods study of feedback modes in EFL writing",
+  "year": 2020,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4e1d7576-2117-4c2a-9fbc-28776e4c0538/content",
+   "bytes": 1823814
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3169577560",
+  "doi": "10.64152/10125/44732",
+  "title": "High school writing teacher feedback on word choice errors",
+  "year": 2020,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/7127ee61-14bf-4fdb-97cf-ce639b8d93c7/content",
+   "bytes": 541549
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3185656170",
+  "doi": "10.64152/10125/73434",
+  "title": "Corrective feedback in computer-mediated collaborative writing and revision contributions",
+  "year": 2021,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/37a3c407-9a6a-452b-ac7a-69014f8583df/content",
+   "bytes": 571353
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183458",
+  "doi": "10.64152/10125/73465",
+  "title": "Automated written corrective feedback: Error-correction performance and timing of delivery",
+  "year": 2022,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/14e06dd5-5eab-49ac-9186-8a91e380fe4f/content",
+   "bytes": 603297
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183473",
+  "doi": "10.64152/10125/73480",
+  "title": "L2 learners’ engagement with automated feedback: An eye-tracking study",
+  "year": 2022,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/8b6fb642-4279-4b9d-8cee-0def8f6b06a2/content",
+   "bytes": 888885
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183469",
+  "doi": "10.64152/10125/73481",
+  "title": "Enhancing the use of evidence in argumentative writing through collaborative processing of content- based automated writing evaluation feedback",
+  "year": 2022,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/27dae380-b00c-472f-b2c3-73a54af04058/content",
+   "bytes": 1846038
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413184040",
+  "doi": "10.64152/10125/73597",
+  "title": "Comparing individual vs. collaborative processing of ChatGPT-generated feedback: Effects on L2 writing task improvement and learning",
+  "year": 2024,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/e169568c-6dfe-4145-8a3a-1313edd2a32d/content",
+   "bytes": 2081885
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183844",
+  "doi": "10.64152/10125/73583",
+  "title": "Investigating the types and use of feedback in middle-school English language learners’ academic writing",
+  "year": 2024,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/0db9b3fa-def8-4073-be88-eb295c199a49/content",
+   "bytes": 1759396
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183868",
+  "doi": "10.64152/10125/73547",
+  "title": "Students' responses to computer-mediated coded feedback and the factors influencing those students' responses: A multiple-case study in the CFL setting",
+  "year": 2024,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/953ee8e3-7532-41c6-b733-c7a045f9eff3/content",
+   "bytes": 731255
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4413183877",
+  "doi": "10.64152/10125/73549",
+  "title": "Pragmatic feedback on refusals in a computer-simulated advising session",
+  "year": 2024,
+  "journal": "Language learning & technology",
+  "pdf": "https://scholarspace.manoa.hawaii.edu/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/download",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/download",
+   "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/download",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://scholarspace.manoa.hawaii.edu/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://scholarspace.manoa.hawaii.edu/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/download",
+   "bytes": 295
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/cb9a6f1c-223e-407c-9a35-7d9e27c3b676/content",
+   "bytes": 2163699
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4300960755",
+  "doi": "10.1017/s0958344022000179",
+  "title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+  "year": 2022,
+  "journal": "ReCALL",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "bytes": 540197
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "bytes": 540197
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W7117467041",
+  "doi": "10.1017/s095834402510044x",
+  "title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+  "year": 2025,
+  "journal": "ReCALL",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+  "lic": "cc-by-nc",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "bytes": 382495
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "bytes": 382495
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2044589779",
+  "doi": "10.1016/j.system.2015.01.006",
+  "title": "Does language analytical ability mediate the effect of written feedback on grammatical accuracy in second language writing?",
+  "year": 2015,
+  "journal": "System",
+  "pdf": "https://espace.curtin.edu.au/bitstream/20.500.11937/55000/2/253841.pdf",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://espace.curtin.edu.au/bitstream/20.500.11937/55000/2/253841.pdf",
+   "url": "https://espace.curtin.edu.au/bitstream/20.500.11937/55000/2/253841.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://espace.curtin.edu.au/bitstream/20.500.11937/55000/2/253841.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 202,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://curate.curtin.edu.au/",
+   "bytes": 0
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 202,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://curate.curtin.edu.au/",
+   "bytes": 0
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3128602172",
+  "doi": "10.1016/j.system.2021.102465",
+  "title": "Exploring the use of models as a written corrective feedback technique among EFL children",
+  "year": 2021,
+  "journal": "System",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+   "bytes": 832803
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S0346251X21000191/pdf",
+   "bytes": 832803
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W2953987693",
+  "doi": "10.1002/tesq.522",
+  "title": "How Deeply Do Second Language Learners Process Written Corrective Feedback? Insights Gained From Think‐Alouds",
+  "year": 2019,
+  "journal": "TESOL Quarterly",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+  "lic": null,
+  "ver": "publishedVersion",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+   "bytes": 5589
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.522",
+   "bytes": 5802
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4404601986",
+  "doi": "10.1002/tesq.3365",
+  "title": "Written Feedback Dialogue: A Cyclical Model for Student Engagement with Feedback",
+  "year": 2024,
+  "journal": "TESOL Quarterly",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+   "bytes": 5592
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.3365",
+   "bytes": 5827
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W4414298304",
+  "doi": "10.1002/tesq.70032",
+  "title": "Automated Diagnostic Feedback vs. Self‐Assessment: Rethinking Feedback Mechanisms on Academic Writing Development",
+  "year": 2025,
+  "journal": "TESOL Quarterly",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+  "lic": "cc-by-nc",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+   "version": "publishedVersion",
+   "license": "cc-by-nc",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+   "bytes": 5595
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/tesq.70032",
+   "bytes": 5808
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1
+ },
+ {
+  "id": "W3213434080",
+  "doi": "10.1016/j.asw.2021.100586",
+  "title": "Fostering student engagement with feedback: An integrated approach",
+  "year": 2021,
+  "journal": "Assessing Writing",
+  "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "bytes": 917578
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "bytes": 917578
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2
+ },
+ {
+  "id": "W2902715402",
+  "doi": "10.1016/j.asw.2018.11.001",
+  "title": "Quantity and quality of uptake: Examining surface and meaning-level feedback provided by peers and an instructor in a graduate research course",
+  "year": 2018,
+  "journal": "Assessing Writing",
+  "pdf": "https://ucalgary.scholaris.ca/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/download",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://ucalgary.scholaris.ca/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/download",
+   "url": "https://ucalgary.scholaris.ca/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/download",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://ucalgary.scholaris.ca/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/download",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ucalgary.scholaris.ca/server/api/core/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/content",
+   "bytes": 590787
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ucalgary.scholaris.ca/server/api/core/bitstreams/eecd1a28-ab5c-4e3d-aba0-055d777708a6/content",
+   "bytes": 590787
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2
+ },
+ {
+  "id": "W4384206431",
+  "doi": "10.1007/s11145-023-10466-8",
+  "title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+  "year": 2023,
+  "journal": "Reading and Writing",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "bytes": 1053690
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "bytes": 1053690
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2
+ },
+ {
+  "id": "W4406878351",
+  "doi": "10.1017/s0261444824000478",
+  "title": "The timing of corrective feedback in second language learning",
+  "year": 2025,
+  "journal": "Language Teaching",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+   "bytes": 237737
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E8856852D0183E9DD91EDB4C249E245/S0261444824000478a.pdf/div-class-title-the-timing-of-corrective-feedback-in-second-language-learning-div.pdf",
+   "bytes": 237737
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2
+ },
+ {
+  "id": "W2948684010",
+  "doi": "10.1016/j.asw.2019.05.001",
+  "title": "Lower English proficiency means poorer feedback performance? A mixed-methods study",
+  "year": 2019,
+  "journal": "Assessing Writing",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+   "bytes": 832803
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.sciencedirect.com/science/article/pii/S1075293519300030",
+   "bytes": 832803
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 2
+ },
+ {
+  "id": "W4410398999",
+  "doi": "10.1111/lang.12719",
+  "title": "Artificial Intelligence‐Generated Feedback for Second Language Intelligibility: An Exploratory Intervention Study on Effects and Perceptions",
+  "year": 2025,
+  "journal": "Language Learning",
+  "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+   "bytes": 5595
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lang.12719",
+   "bytes": 5830
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 2
+ },
+ {
+  "id": "W4416276805",
+  "doi": "10.1080/09658416.2025.2585004",
+  "title": "Beyond error correction: lower-proficiency EFL learners’ engagement with Grammarly",
+  "year": 2025,
+  "journal": "Language Awareness",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+  "status": "bronze",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+   "url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+   "version": "publishedVersion",
+   "license": null,
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+   "bytes": 5691
+  },
+  "ok": false,
+  "http_browser_ua": {
+   "status": 403,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://www.tandfonline.com/doi/pdf/10.1080/09658416.2025.2585004?needAccess=true",
+   "bytes": 5903
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 2
+ }
+]

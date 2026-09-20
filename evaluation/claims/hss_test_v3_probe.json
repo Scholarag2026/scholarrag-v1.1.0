@@ -1,0 +1,146 @@
+[
+  {
+    "journal": "Studies in Second Language Learning and Teaching",
+    "issn": "2083-5205",
+    "openalex": "S2764526439",
+    "doi": "10.14746/ssllt.2019.9.1.2",
+    "outcome": "probe_ok",
+    "reason": null
+  },
+  {
+    "journal": "Language Learning & Technology",
+    "issn": "1094-3501",
+    "openalex": "S86672399",
+    "doi": "10.64152/10125/44719",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Language Testing in Asia",
+    "issn": "2229-0443",
+    "openalex": "S2736419388",
+    "doi": "10.1186/s40468-022-00191-4",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Asian-Pacific Journal of Second and Foreign Language Education",
+    "issn": "2363-5169",
+    "openalex": "S3034690390",
+    "doi": "10.1186/s40862-020-00090-2",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "TESL-EJ",
+    "issn": "1072-4303",
+    "openalex": "",
+    "doi": "10.55593/ej.27107int",
+    "outcome": "probe_ok",
+    "reason": null
+  },
+  {
+    "journal": "Journal of Language and Education",
+    "issn": "2411-7390",
+    "openalex": "",
+    "doi": "10.17323/jle.2019.9809",
+    "outcome": "probe_ok",
+    "reason": null
+  },
+  {
+    "journal": "Eurasian Journal of Applied Linguistics",
+    "issn": "2149-1135",
+    "openalex": "",
+    "doi": "10.32601/ejal.710194",
+    "outcome": "probe_ok",
+    "reason": null
+  },
+  {
+    "journal": "JALT CALL Journal",
+    "issn": "1832-4215",
+    "openalex": "",
+    "doi": "10.29140/jaltcall.v16n3.388",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Reading in a Foreign Language",
+    "issn": "1539-0578",
+    "openalex": "S5407051349",
+    "doi": "10.64152/10125/66748",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Australian Journal of Applied Linguistics",
+    "issn": "2209-0959",
+    "openalex": "S4210220284",
+    "doi": "10.29140/ajal.v3n1.271",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Language Education and Assessment",
+    "issn": "2209-3591",
+    "openalex": "S4210222903",
+    "doi": "10.29140/lea.v2n1.33",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Technology in Language Teaching and Learning",
+    "issn": "2652-1687",
+    "openalex": "S4210196789",
+    "doi": "10.29140/tltl.v6n3.1482",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Apples: Journal of Applied Language Studies",
+    "issn": "1457-9863",
+    "openalex": "S2764441637",
+    "doi": "10.17011/apples/urn.201902191584",
+    "outcome": "probe_failed",
+    "reason": "min_chunks"
+  },
+  {
+    "journal": "Colombian Applied Linguistics Journal",
+    "issn": "0123-4641",
+    "openalex": "S2764502050",
+    "doi": "10.14483/22487085.17087",
+    "outcome": "probe_ok",
+    "reason": null
+  },
+  {
+    "journal": "PROFILE Issues in Teachers' Professional Development",
+    "issn": "1657-0790",
+    "openalex": "S2739108755",
+    "doi": "10.15446/profile.v23n2.90195",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "GEMA Online Journal of Language Studies",
+    "issn": "1675-8021",
+    "openalex": "S2738451673",
+    "doi": "10.17576/gema-2019-1901-06",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "Indonesian Journal of Applied Linguistics",
+    "issn": "2301-9468",
+    "openalex": "S2764809198",
+    "doi": "10.17509/ijal.v8i3.15270",
+    "outcome": "probe_failed",
+    "reason": "html_not_pdf"
+  },
+  {
+    "journal": "TESL Canada Journal",
+    "issn": "0826-435X",
+    "openalex": "S2764904417",
+    "doi": "10.18806/tesl.v36i1.1301",
+    "outcome": "probe_ok",
+    "reason": null
+  }
+]

@@ -1,0 +1,106 @@
+{
+ "label": "2026-09-10",
+ "papers": 12,
+ "proposed": 120,
+ "accepted_at_capture": 112,
+ "verbatim_rate_at_capture": 0.9333,
+ "analysis_prompt_version": "sha256:44c5d62ec72b",
+ "per_paper": [
+  {
+   "paper_id": "03bc3c6a-d96c-4926-8bff-a30671b28c54",
+   "title": "Student engagement with teacher and automated feedback on L2 writing",
+   "proposed": 10,
+   "accepted_at_capture": 10,
+   "rejected_at_capture": 0,
+   "chunks": 2
+  },
+  {
+   "paper_id": "043a6268-bc4c-45c1-a9ee-31b800148580",
+   "title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+   "proposed": 11,
+   "accepted_at_capture": 9,
+   "rejected_at_capture": 2,
+   "chunks": 2
+  },
+  {
+   "paper_id": "2f9c5b81-66f2-4176-9d78-b795fb609860",
+   "title": "EFL teachers and feedback fatigue: AI to the rescue?",
+   "proposed": 10,
+   "accepted_at_capture": 9,
+   "rejected_at_capture": 1,
+   "chunks": 1
+  },
+  {
+   "paper_id": "3b2ee641-f978-47df-9357-cf10254d0b49",
+   "title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+   "proposed": 10,
+   "accepted_at_capture": 10,
+   "rejected_at_capture": 0,
+   "chunks": 8
+  },
+  {
+   "paper_id": "53ae2131-383c-4642-ae68-6e14983b73f9",
+   "title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+   "proposed": 10,
+   "accepted_at_capture": 10,
+   "rejected_at_capture": 0,
+   "chunks": 1
+  },
+  {
+   "paper_id": "5656c6a0-5c0e-494e-86ef-e0fe2818d777",
+   "title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+   "proposed": 10,
+   "accepted_at_capture": 9,
+   "rejected_at_capture": 1,
+   "chunks": 2
+  },
+  {
+   "paper_id": "607db000-0790-4d4b-ad6f-775f23f0828e",
+   "title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+   "proposed": 10,
+   "accepted_at_capture": 10,
+   "rejected_at_capture": 0,
+   "chunks": 2
+  },
+  {
+   "paper_id": "64269bf5-e20f-400a-8c39-d56ac9b6d5c7",
+   "title": "Fostering student engagement with feedback: An integrated approach",
+   "proposed": 12,
+   "accepted_at_capture": 12,
+   "rejected_at_capture": 0,
+   "chunks": 2
+  },
+  {
+   "paper_id": "847aae1c-71e5-4622-b093-243a2d44aa72",
+   "title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+   "proposed": 7,
+   "accepted_at_capture": 6,
+   "rejected_at_capture": 1,
+   "chunks": 1
+  },
+  {
+   "paper_id": "c0e72023-ab78-4ec4-8699-a2322f9ea8dd",
+   "title": "The affect and effect of asynchronous written feedback comments on the peer feedback process: An ethnographic case-study approach within one L2 English doctorate writing group",
+   "proposed": 10,
+   "accepted_at_capture": 8,
+   "rejected_at_capture": 2,
+   "chunks": 5
+  },
+  {
+   "paper_id": "c3304dcc-8814-4f72-9e92-5890c5df04ec",
+   "title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+   "proposed": 10,
+   "accepted_at_capture": 10,
+   "rejected_at_capture": 0,
+   "chunks": 2
+  },
+  {
+   "paper_id": "d2a06c09-8aae-43f8-8436-6bbdb4c082bc",
+   "title": "Assessing metacognition-based student feedback literacy for academic writing",
+   "proposed": 10,
+   "accepted_at_capture": 9,
+   "rejected_at_capture": 1,
+   "chunks": 1
+  }
+ ]
+}

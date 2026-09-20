@@ -1,0 +1,255 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "sectionType": "literature_review"
+      },
+      "content": [
+        {
+          "text": "Learner engagement with written corrective feedback",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "uncitedSentences": [
+          {
+            "tag": "framing",
+            "sentence": "Research on written corrective feedback (WCF) in second-language (L2) writing has moved from asking whether feedback works to asking how learners engage with it."
+          },
+          {
+            "tag": "framing",
+            "sentence": "This review synthesises what the project library establishes about uptake, attention, and affective response across teacher-provided, peer-provided, and automated feedback, treating engagement as the mechanism that conditions whether feedback translates into revision."
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Research on written corrective feedback (WCF) in second-language (L2) writing has moved from asking whether feedback works to asking how learners engage with it. This review synthesises what the project library establishes about uptake, attention, and affective response across teacher-provided, peer-provided, and automated feedback, treating engagement as the mechanism that conditions whether feedback translates into revision.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "liu_2019"
+            ],
+            "sentence": "Liu and Wu (2019) found that students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency.",
+            "proposition": "students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency",
+            "evidence_ids": [
+              "e30"
+            ],
+            "citation_text": "Liu and Wu (2019)"
+          },
+          {
+            "keys": [
+              "mao_2024"
+            ],
+            "sentence": "Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF.",
+            "proposition": "over half of the surveyed teachers experienced negative emotions when providing WCF",
+            "evidence_ids": [
+              "e110"
+            ],
+            "citation_text": "Mao et al. (2024)"
+          },
+          {
+            "keys": [
+              "koltovskaia_2022"
+            ],
+            "sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+            "proposition": "teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour",
+            "evidence_ids": [
+              "e55"
+            ],
+            "citation_text": "Koltovskaia (2022)"
+          },
+          {
+            "keys": [
+              "koltovskaia_2022"
+            ],
+            "sentence": "Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+            "proposition": "although the hypothetical, one-time design limits claims about sustained practice",
+            "evidence_ids": [
+              "e56"
+            ],
+            "citation_text": "Koltovskaia (2022)"
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Liu and Wu (2019) found that students preferred teacher feedback and direct correction with metalinguistic explanations, with preferences varying by proficiency. Mao et al. (2024) reported that over half of the surveyed teachers experienced negative emotions when providing WCF. Koltovskaia (2022) reported that teachers provided feedback on both higher- and lower-order concerns despite Grammarly's presence, with no division of labour, although the hypothetical, one-time design limits claims about sustained practice.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "zhang_2018"
+            ],
+            "sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+            "proposition": "engagement with AWE varied sharply between learners",
+            "evidence_ids": [
+              "e72"
+            ],
+            "citation_text": "Zhang and Hyland (2018)"
+          },
+          {
+            "keys": [
+              "hyland_2025"
+            ],
+            "sentence": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability.",
+            "proposition": "much research occurs outside naturalistic contexts, raising questions about classroom applicability",
+            "evidence_ids": [
+              "e60"
+            ],
+            "citation_text": "Hyland (2025)"
+          },
+          {
+            "keys": [
+              "luo_2025"
+            ],
+            "sentence": "Luo et al. (2025) found that ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise.",
+            "proposition": "ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise",
+            "evidence_ids": [
+              "e46",
+              "e48"
+            ],
+            "citation_text": "Luo et al. (2025)"
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Zhang and Hyland (2018) showed that engagement with AWE varied sharply between learners, and Hyland (2025) cautions that much research occurs outside naturalistic contexts, raising questions about classroom applicability. Luo et al. (2025) found that ChatGPT's error detection improved substantially with prompt sophistication, overtaking Grammarly in recall while remaining highly precise.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "li_2023"
+            ],
+            "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+            "proposition": "all students incorporated support-related peer feedback",
+            "evidence_ids": [
+              "e1"
+            ],
+            "citation_text": "Li and Hébert (2023)"
+          },
+          {
+            "keys": [
+              "li_2023"
+            ],
+            "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+            "proposition": "paper ratings improved significantly between drafts (d = 1.62)",
+            "evidence_ids": [
+              "e4"
+            ],
+            "citation_text": "Li and Hébert (2023)"
+          },
+          {
+            "keys": [
+              "li_2023"
+            ],
+            "sentence": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+            "proposition": "yet some students ignored unity- and word-use-related comments",
+            "evidence_ids": [
+              "e5"
+            ],
+            "citation_text": "Li and Hébert (2023)"
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Peer feedback shows a parallel pattern: Li and Hébert (2023) reported that all students incorporated support-related peer feedback and that paper ratings improved significantly between drafts (d = 1.62), yet some students ignored unity- and word-use-related comments.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "citationLinks": [
+          {
+            "keys": [
+              "razmi_2024"
+            ],
+            "sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+            "proposition": "direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group",
+            "evidence_ids": [
+              "e78",
+              "e80"
+            ],
+            "citation_text": "Razmi and Ghane (2024)"
+          },
+          {
+            "keys": [
+              "razmi_2024"
+            ],
+            "sentence": "Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation.",
+            "proposition": "the exclusively male, intermediate-level sample limits generalisation",
+            "evidence_ids": [
+              "e74"
+            ],
+            "citation_text": "Razmi and Ghane (2024)"
+          },
+          {
+            "keys": [
+              "teng_2024"
+            ],
+            "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+            "proposition": "feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners",
+            "evidence_ids": [
+              "e10",
+              "e15",
+              "e17"
+            ],
+            "citation_text": "Teng and Ma (2024)"
+          },
+          {
+            "keys": [
+              "teng_2024"
+            ],
+            "sentence": "Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+            "proposition": "the self-report design constrains inference",
+            "evidence_ids": [
+              "e14"
+            ],
+            "citation_text": "Teng and Ma (2024)"
+          }
+        ],
+        "uncitedSentences": [
+          {
+            "tag": "framing",
+            "sentence": "Affective and motivational responses are increasingly treated as outcomes in their own right."
+          }
+        ]
+      },
+      "content": [
+        {
+          "text": "Affective and motivational responses are increasingly treated as outcomes in their own right. Razmi and Ghane (2024) found that direct unfocused WCF raised writing self-efficacy and reduced anxiety relative to a control group, but the exclusively male, intermediate-level sample limits generalisation. Teng and Ma (2024) found that feedback-related strategies in participation were the strongest predictor of academic writing performance among 708 Chinese EFL learners, though the self-report design constrains inference.",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2361 @@
+# False negatives - Nagtegaal_2019
+
+Records the human screeners included (protocol label) that the LLM screener excluded, with the screener's stated reason. `final=1` marks records that were also in the review's final inclusion set; `abstract: no` marks records screened on the title alone; the other run's decision on the same record is given for context.
+
+## Run A (392 false negatives)
+
+- **1017** Improving Blood Pressure Control through Provider Education, Provider Alerts, and Patient Education
+  - reason: Cluster RCT of provider alerts/education targeting guideline-concordant hypertension care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1111** Interventions to improve follow-up of abnormal findings in cancer screening
+  - reason: Literature review, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **63** A peer review feedback method of promoting compliance with preventive care guidelines in a resident ambulatory care clinic
+  - reason: Peer review feedback to residents improved guideline compliance; nudge taxonomy classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **97** A simple way to improve DVT protocol compliance
+  - reason: Label on drug chart reduced DVT protocol violations; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1384** Physician response to computer reminders.
+  - reason: Computer reminders to clinicians; experiment comparing reminders with/without citations; behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **456** (final=1) Cost consequences of implementing an electronic decision support system for ordering laboratory tests in primary care: evidence from a controlled prospective study in the Netherlands
+  - reason: Controlled before-after study of guideline-driven CDSS on GPs' test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **690** (final=1) Electronic alerts to prevent venous thromboembolism among hospitalized patients
+  - reason: Randomized trial of computer alerts to physicians; increased prophylaxis use, behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1485** (final=1) Prospective trial of real-time electronic surveillance to expedite early care of severe sepsis.
+  - reason: Before-and-after study of real-time electronic alerts to caregivers improving sepsis care behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **486** Default options in the ICU: widely used but insufficiently understood
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **370** (final=1) Clinical reminders attached to echocardiography reports of patients with reduced left ventricular ejection fraction increase use of beta-blockers: a randomized trial.
+  - reason: Randomized trial of reminder nudge increasing beta-blocker prescribing per evidence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1947** (final=1) Use of a computerized guideline for glucose regulation in the intensive care unit improved both guideline adherence and glucose regulation.
+  - reason: RCT of computerized guideline vs paper guideline; guideline adherence outcomes in ICU. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **872** Guidelines in professions allied to medicine
+  - reason: Systematic review of guideline implementation studies, not a single experiment.
+  - abstract: yes; run B: 0
+- **697** Electronic health records for intervention research: a cluster randomized trial to reduce antibiotic prescribing in primary care (eCRT Study)
+  - reason: Cluster randomized trial of computer-delivered decision support to reduce antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **3** Using peer feedback to improve handwashing and glove usage among Thai health care workers.
+  - reason: Randomized trial of peer feedback on handwashing and glove use among healthcare workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **763** Evaluation of an Internet-based decision-support system for applying the ATS/CDC guidelines for tuberculosis preventive therapy.
+  - reason: Randomized test of web-based decision support for applying TB guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1522** Randomised controlled trial of tailored strategies to implement guidelines for the management of patients with depression in general practice
+  - reason: RCT of tailored implementation strategies targeting GPs' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1705** Tailored information increases patient/physician discussion of colon cancer risk and testing: The Cancer Risk Intake System trial
+  - reason: Intervention targets patients, not healthcare professionals; patient-reported discussions.
+  - abstract: yes; run B: 0
+- **1155** Leveraging insights from behavioral economics to increase the value of health-care service provision
+  - reason: Review/recommendation article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **700** Electronic medical records to increase the clinical treatment of tobacco dependence: a systematic review
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run B: 0
+- **810** Feedback as a strategy to change behaviour: the devil is in the details
+  - reason: Review of published feedback studies, not an experiment.
+  - abstract: yes; run B: 0
+- **698** Electronic human immunodeficiency virus (HIV) clinical reminder system improves adherence to practice guidelines among the University of Washington HIV study cohort.
+  - reason: Before-after study of electronic reminders improving guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **800** Fall prevention in acute care hospitals: a randomized trial.
+  - reason: Intervention targets patient falls, not healthcare professionals' behaviour.
+  - abstract: yes; run B: 0
+- **374** Cluster randomised controlled trial of tailored interventions to improve the management of urinary tract infections in women and sore throat.
+  - reason: Cluster RCT of reminders/decision support to implement guidelines; nudge taxonomy needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1373** Pharmacy Asthma Care Program (PACP) improves outcomes for patients in the community.
+  - reason: Intervention targets patients' asthma outcomes, not healthcare professionals' behaviour.
+  - abstract: yes; run B: 0
+- **642** Effectiveness of an electronic medical record clinical quality alert prepared by off-line data analysis
+  - reason: No abstract; title suggests clinical quality alert, unclear design and target.
+  - abstract: no; run B: 0
+- **1474** Promoting screening mammography in inner-city settings: a randomized controlled trial of computerized reminders as a component of a program to facilitate mammography
+  - reason: Randomized unit and target are patients (women), not healthcare professionals.
+  - abstract: yes; run B: 0
+- **251** Behavioural insights in health care
+  - reason: No abstract; title alone does not establish population or design.
+  - abstract: no; run B: 0
+- **408** Comparative effectiveness of audit-feedback versus additional physician communication training to improve cancer screening for patients with limited health literacy
+  - reason: Cluster RCT comparing audit-feedback and communication training on physicians' screening behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1767** The effect of the Vermont Diabetes Information System on inpatient and emergency room use: results from a randomized trial.
+  - reason: RCT of decision support for diabetes patients and their primary care providers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **928** How to enhance physician and public acceptance and utilisation of colon cancer screening recommendations
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **436** (final=1) Computerized decision support to reduce potentially inappropriate prescribing to older emergency department patients: a randomized, controlled trial.
+  - reason: RCT of decision support nudging physicians' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **658** Effectiveness of physical therapy for patients with neck pain: an individualized approach using a clinical decision-making algorithm
+  - reason: Intervention targets patients with neck pain, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1684** Successful implementation of a guideline by peer comparisons, education, and positive physician feedback
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **599** Effect of a minimal pharmacy intervention on improvement of adherence to asthma guidelines.
+  - reason: Pharmacist-delivered minimal intervention to improve guideline adherence, compared with reference group. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **96** A simple intervention to improve hospital antibiotic prescribing
+  - reason: Before-after comparison of guideline card distribution on antibiotic prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1050** Improving smoking cessation counseling using a point-of-care health intervention tool (IT): from the Virginia Practice Support and Research Network (VaPSRN)
+  - reason: Before-after study of point-of-care tool on physicians' cessation counseling behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **952** Impact of a quality improvement program on care and outcomes for children with asthma.
+  - reason: Learning collaborative quality improvement program is not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **433** Computerized community cholesterol control (4C): meeting the challenge of secondary prevention.
+  - reason: Cluster RCT of computerized reminders to clinicians to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1945** Use of a Clinical Decision Support Tool to improve guideline adherence for the treatment of methicillin-resistant Staphylococcus aureus: Skin and Soft Tissue Infections.
+  - reason: CDS tool to improve provider guideline adherence; experimental evaluation of guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **2012** Words matter: increasing the implementation of clinical guidelines.
+  - reason: Intervention targets mental health service users (patients), not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1766** (final=1) The effect of registry-based performance feedback via short text messages and traditional postal letters on prescribing parenteral steroids by general practitioners—A randomized controlled trial
+  - reason: RCT of feedback nudges on GPs' prescribing behaviour, an evidence-based prescribing outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **194** Approaches based on behavioral economics could help nudge patients and providers toward lower health spending growth
+  - reason: Review/commentary article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **37** A comparison of the effects of computer and manual reminders on compliance with a mental health clinical practice guideline.
+  - reason: RCT comparing reminder nudges on clinician adherence to a clinical practice guideline. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1029** Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial.
+  - reason: Cluster randomized trial of computerized decision support targeting appropriate antibiotic prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **925** How payment systems affect physicians’ provision behaviour—an experimental investigation.
+  - reason: Payment incentives, not evidence-based medicine or guideline adherence.
+  - abstract: yes; run B: 0
+- **607** (final=1) Effect of Behavioral Interventions on Inappropriate Antibiotic Prescribing Among Primary Care Practices: A Randomized Clinical Trial
+  - reason: Cluster RCT of behavioral nudges on guideline-concordant antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **889** (final=1) Healthcare workers' hand decontamination practices: compliance with recommended guidelines
+  - reason: Quasi-experimental hand hygiene guideline compliance study in healthcare workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **101** A successful experiment to reduce unnecessary laboratory use in a community hospital
+  - reason: Feedback intervention on physicians' test ordering with comparison hospitals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1019** Improving cardiovascular risk management: a randomized, controlled trial on the effect of a decision support tool for patients and physicians
+  - reason: Cluster randomized trial of decision support tool for GPs on guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **949** Impact of a computerized template on antibiotic prescribing for acute respiratory infections in children and adolescents
+  - reason: Randomized practice-level trial of EHR template on antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1406** Practice development: bridging the research-practice divide through the appointment of a research lead
+  - reason: Descriptive evaluation of a post, no comparison of two or more interventions.
+  - abstract: yes; run B: 0
+- **693** Electronic e-isotretinoin prescription chart: improving physicians' adherence to isotretinoin prescription guidelines
+  - reason: Before-after study of electronic chart improving guideline adherence in prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1023** Improving compliance with immunization in the older adult: Results of a randomized cohort study.
+  - reason: Randomized trial of organizational/reminder interventions targeting physician vaccination behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1354** Patient safety research: an overview of the global evidence
+  - reason: Overview of literature, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1963** (final=1) Using paper chart based clinical reminders to improve guideline adherence to lipid management
+  - reason: Randomized clinical reminder to doctors improved guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **975** Implementation of a new policy results in a decrease of pressure ulcer frequency
+  - reason: Guideline implementation plus mattresses is not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1722** Testing the implementation of clinical guidelines
+  - reason: No abstract; title alone does not establish eligibility or off-topic mismatch.
+  - abstract: no; run B: 0
+- **1534** (final=1) Randomized trial of a clinical decision support system: impact on the management of children with fever without apparent source.
+  - reason: Randomized trial of CDSS advice on clinicians' diagnostic test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **429** (final=1) Computer screen saver hand hygiene information curbs a negative trend in hand hygiene behavior.
+  - reason: Interrupted time series of gain-framed screen saver messages on hand hygiene in health care workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1731** The assessment of attention-deficit/hyperactivity disorder in rural primary care: the portability of the American Academy of Pediatrics guidelines to the “real world”.
+  - reason: Before-and-after study of protocol/training to improve clinician adherence to AAP ADHD guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **753** Evaluation of a decision support system for pressure ulcer prevention and management: preliminary findings
+  - reason: Decision support system based on guidelines tested on nurses with control unit. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **83** A randomized trial of computer-based reminders and audit and feedback to improve HIV screening in a primary care setting.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1950** (final=1) Use of action planning to increase provision of smoking cessation care by general practitioners: role of plan specificity and enactment
+  - reason: Cluster RCT of action planning nudge for GPs' guideline-recommended smoking cessation care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1572** Requiring physicians to respond to computerized reminders improves their compliance with preventive care protocols.
+  - reason: RCT of mandatory-response computerized reminders improving physicians' compliance with preventive care protocols. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **487** (final=1) Default settings of computerized physician order entry system order sets drive ordering habits.
+  - reason: Natural experiment on default settings in CPOE order sets affecting physician ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **44** A controlled trial of including symptom data in computer-based care suggestions for managing patients with chronic heart failure
+  - reason: Randomized controlled trial of computer-generated care suggestions on physician guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **974** Implementation fidelity trajectories of a health promotion program in multidisciplinary settings: managing tensions in rehabilitation care
+  - reason: Longitudinal implementation fidelity study, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **323** Changing physician behavior: what works?
+  - reason: Systematic review of reviews, not an experiment.
+  - abstract: yes; run B: 0
+- **1038** Improving medication management in multimorbidity: development of the MultimorbiditY COllaborative Medication Review And DEcision Making (MY COMRADE) intervention using the Behaviour Change Wheel
+  - reason: Intervention development paper, no comparison of interventions.
+  - abstract: yes; run B: 0
+- **261** (final=1) Better medicine by default
+  - reason: Randomized experiment of defaults on physicians' ordering decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1690** Supporting clinical practice at the bedside using wireless technology.
+  - reason: Randomized crossover trial of bedside technology on guideline tool use. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1033** (final=1) Improving hand hygiene behaviour of nurses using action planning: a pilot study in the intensive care unit and surgical ward
+  - reason: Action planning nudge for nurses' hand hygiene; pre-post experiment with behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1144** Lack of chart reminder effectiveness on family medicine resident JNC-VI and NCEP III guideline knowledge and attitudes
+  - reason: Chart reminder nudge targeting residents' guideline adherence; pre-post comparison. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **432** (final=1) Computerized clinical decision support during medication ordering for long-term care residents with renal insufficiency.
+  - reason: Randomized trial of decision support alerts improving prescribing appropriateness. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **288** (final=1) Can computer-generated evidence-based care suggestions enhance evidence-based management of asthma and chronic obstructive pulmonary disease? A randomized, controlled trial.
+  - reason: RCT of computer-generated guideline care suggestions to physicians; nudge taxonomy classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1024** Improving delivery of preventive health care with the comprehensive annotated reminder tool (CART)
+  - reason: Randomized pretest/posttest trial of annotated reminder tool on physician guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1991** What implementation interventions increase cancer screening rates? a systematic review
+  - reason: Systematic review, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1143** (final=1) Laboratory test form design influences test ordering by general practitioners in The Netherlands
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1686** Successful reduction in catheter-associated urinary tract infections: focus on nurse-directed catheter removal.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **695** Electronic health record feedback to improve antibiotic prescribing for acute respiratory infections
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1049** Improving residents' compliance with standards of ambulatory care: results from the VA Cooperative Study on Computerized Reminders.
+  - reason: RCT of computerized reminders to residents improving compliance with standards of care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1106** Interventions for implementation of thromboprophylaxis in hospitalized medical and surgical patients at risk for venous thromboembolism
+  - reason: Systematic review/meta-analysis, not an experiment.
+  - abstract: yes; run B: 0
+- **1615** Screening for colorectal cancer by once only sigmoidoscopy: a feasibility study in Turin
+  - reason: Nudge targets general population subjects, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1124** (final=1) It’s not all about me motivating hand hygiene among health care professionals by focusing on patients.
+  - reason: Two field experiments nudging hand hygiene among healthcare professionals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1053** Improving the appropriateness of antimicrobial use in primary care after implementation of a local antimicrobial guide in both levels of care
+  - reason: Before/after study of guideline implementation on antimicrobial prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1542** Reasons and consequences of low adherence to standard precautions by the nursing team
+  - reason: Integrative literature review, not an experiment.
+  - abstract: yes; run B: 0
+- **174** An intervention to change clinician behavior: Conceptual framework for the multicolored simplified asthma guideline reminder (MSAGR)
+  - reason: Conceptual framework article, no experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **85** (final=1) A randomized trial of electronic clinical reminders to improve quality of care for diabetes and coronary artery disease.
+  - reason: Randomized trial of electronic reminders to physicians improving guideline care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1192** Management of severe sepsis in patients admitted to Asian intensive care units: prospective cohort study
+  - reason: Cohort study, no comparison of two or more interventions.
+  - abstract: yes; run B: 0
+- **1443** Primary care physicians' response to dissemination of practice guidelines
+  - reason: Guideline dissemination experiment targeting physicians' prescribing/monitoring behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **981** Implementation of evidence-based treatment protocols to manage fever, hyperglycaemia, and swallowing dysfunction in acute stroke (QASC): a cluster randomised controlled trial
+  - reason: Cluster randomised trial of intervention to implement evidence-based stroke protocols. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1412** Practice-level effects of interventions to improve asthma care in primary care settings: the Pediatric Asthma Care Patient Outcomes Research Team.
+  - reason: Cluster randomized trial of peer leader/education nurse interventions on guideline-concordant asthma prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **856** Guideline implementation in allied health professions: a systematic review of the literature
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run B: 0
+- **103** (final=1) A sustainable strategy to prevent misuse of antibiotics for acute respiratory infections
+  - reason: Pre-post comparison of a CDSS nudging guideline-congruent antibiotic prescribing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1824** The medical office of the 21st century (MOXXI): effectiveness of computerized decision-making support in reducing inappropriate prescribing in primary care.
+  - reason: RCT of computerized decision support alerts to reduce inappropriate prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **643** Effectiveness of an information technology intervention to improve prophylactic antibacterial use in the postoperative period.
+  - reason: Interrupted time series of electronic order set improving guideline-concordant antibacterial prophylaxis. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1043** Improving patient discharge and reducing hospital readmissions by using Intervention Mapping
+  - reason: Intervention Mapping framework development, not an experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **222** Audit and feedback: effects on professional practice and health care outcomes
+  - reason: Systematic review/meta-analysis, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **414** (final=1) Comparison of the instructional efficacy of Internet-based CME with live interactive CME workshops: a randomized controlled trial
+  - reason: RCT comparing CME formats on guideline-concordant physician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1711** Teaching hospital medical staff to handwash
+  - reason: Before-after study of feedback nudging handwashing by medical staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1405** Practice changes associated with the Department of Veterans Affairs' Family Care Collaborative
+  - reason: Mixed-method evaluation of a collaborative, not an experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **1051** Improving test ordering in primary care: the added value of a small-group quality improvement strategy compared with classic feedback only
+  - reason: Cluster randomized trial of feedback plus peer social influence on physicians' test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1044** Improving physician compliance with preventive medicine guidelines
+  - reason: Randomized clinic trial of checklist nudge to improve guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1540** Rational prescribing in primary care (RaPP): economic evaluation of an intervention to improve professional practice.
+  - reason: Randomized trial of reminders/feedback to improve guideline-concordant prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **292** Can psychological models bridge the gap between clinical guidelines and clinicians' behaviour? A randomised controlled trial of an intervention to influence dentists' intention to implement evidence-based practice
+  - reason: RCT of listing alternatives nudge on dentists' evidence-based practice intention. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1010** (final=1) Improvement of intraoperative antibiotic prophylaxis in prolonged cardiac surgery by automated alerts in the operating room
+  - reason: RCT of automated reminder to improve guideline-concordant antibiotic redosing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1750** The design and evaluation of a graphical display for laboratory data
+  - reason: No comparison of two or more interventions; not an experiment.
+  - abstract: yes; run B: 0
+- **1525** (final=1) Randomized clinical trial of a customized electronic alert requiring an affirmative response compared to a control group receiving a commercial passive CPOE alert: NSAID—warfarin co-prescribing as a test case.
+  - reason: RCT of customized electronic alert versus passive alert on prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1458** Proactive asthma care in childhood: general practice based randomised controlled trial.
+  - reason: Nudge (recall/reminders) targets children and families, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **427** Computer reminders for Chlamydia screening in general practice: a randomized controlled trial.
+  - reason: Cluster randomized trial of computer alert to GPs increasing chlamydia testing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1948** Use of a decision aid including information on overdetection to support informed choice about breast cancer screening: a randomised controlled trial.
+  - reason: Intervention targets women/patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **652** Effectiveness of medical nutrition therapy provided by dietitians in the management of non-insulin-dependent diabetes mellitus: a randomized, controlled clinical trial.
+  - reason: Nutrition therapy intervention, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **594** Educational Intervention in Primary Care Residents' Knowledge and Performance of Hepatitis B Vaccination in Patients with Diabetes Mellitus
+  - reason: Randomized educational intervention with reminders targeting residents' guideline-based vaccination practice. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1851** The role of theory in research to develop and evaluate the implementation of patient safety practices
+  - reason: Conceptual/methodological paper, not an experiment.
+  - abstract: yes; run B: 0
+- **38** (final=1) A computer-based intervention for improving the appropriateness of antiepileptic drug level monitoring
+  - reason: Computerized reminders to physicians; before-after comparison of test-ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **41** (final=1) A computerized reminder for prophylaxis of deep vein thrombosis in surgical patients
+  - reason: Computerized reminder to surgical staff; before-after comparison of prophylaxis behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **51** A handheld computer smoking intervention tool and its effects on physician smoking cessation counseling
+  - reason: Pre/post trial of handheld tool for physicians' guideline-based smoking cessation counseling. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1054** Improving the care for people with acute low-back pain by allied health professionals (the ALIGN trial): A cluster randomised trial protocol
+  - reason: Cluster randomised trial protocol testing intervention to increase guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1006** (final=1) Improved perioperative antibiotic use and reduced surgical wound infections through use of computer decision analysis.
+  - reason: Before-after study of computer reminders improving perioperative antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1042** Improving Patient Care Through Medical Image Perception Research
+  - reason: Commentary on image perception research; no experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1862** The use of computerized birthday greeting reminders in the management of diabetes.
+  - reason: Randomized trial of mailed reminders improving diabetes monitoring and screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **320** Changing human behavior to prevent disease: the importance of targeting automatic processes.
+  - reason: Targets general public health behaviours, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **648** Effectiveness of computer assisted instruction in increasing the rate of universal precautions related behaviours.
+  - reason: Experimental comparison of computer-assisted instruction on nurses' precaution behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1930** Understanding non-compliance to colorectal cancer screening: a case control study, nested in a randomised trial
+  - reason: Study targets patients' screening compliance, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1468** Professional interventions for general practitioners on the management of musculoskeletal conditions
+  - reason: Systematic review of professional interventions, not a primary experiment.
+  - abstract: yes; run B: 0
+- **1496** (final=1) Provision of social norm feedback to high prescribers of antibiotics in general practice: a pragmatic national randomised controlled trial.
+  - reason: National RCT of social norm feedback letter to high prescribers reducing antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **675** (final=1) Effects of computer reminders on complications of peripheral venous catheters and nurses' adherence to a guideline in paediatric care--a cluster randomised study
+  - reason: Cluster randomised trial of EPR reminders on nurses' guideline adherence and complications. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1311** Ongoing provision of individual clinician performance data improves practice behavior
+  - reason: Experiment comparing CME, snapshot feedback and ongoing feedback on guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1241** Modifying prescribing behaviour of angiotensin receptor blockers by selectively rescinding managerial prior authorization requirements for losartan.
+  - reason: Before-after experiment on removing prior authorization, a default/decision-structure change. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1773** The effectiveness of computerized clinical guidelines in the process of care: a systematic review
+  - reason: Systematic review, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **93** A review of the evidence for suboptimal compliance of healthcare practitioners to standard/universal infection control precautions
+  - reason: Literature review, not an experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **31** (final=1) A cluster randomized clinical trial to improve prescribing patterns in ambulatory pediatrics.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **692** Electronic antibiotic stewardship–reduced consumption of broad-spectrum antibiotics using a computerized antimicrobial approval system in a hospital setting.
+  - reason: Before-after time-series of computerized approval system targeting antibiotic prescribing by hospital clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **410** Comparative efficacy of interventions to promote hand hygiene in hospital: systematic review and network meta-analysis
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **428** Computer reminders to implement preventive care guidelines for hospitalized patients.
+  - reason: RCT of computer reminders to physicians targeting guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1084** (final=1) Inpatient computer-based standing orders vs physician reminders to increase influenza and pneumococcal vaccination rates: a randomized trial.
+  - reason: Randomized trial of standing orders vs reminders on vaccination behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1758** The effect of a mobile clinical decision support system on the diagnosis of obesity and overweight in acute and primary care encounters.
+  - reason: RCT of decision support nudging nurses' obesity diagnosis behaviour, guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1627** Self-formulated conditional plans for changing health behaviour among healthcare consumers and health professionals.
+  - reason: Protocol for a systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **1757** (final=1) The effect of a computerized reminder system on the prevention of postoperative venous thromboembolism
+  - reason: Before-after study of computerized reminders targeting guideline-based VTE prophylaxis behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **686** Efficacy of an evidence-based clinical decision support in primary care practices
+  - reason: Randomized trial of evidence-based decision support nudging prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1764** (final=1) The effect of mobile phone text-message reminders on Kenyan health workers' adherence to malaria treatment guidelines: a cluster randomised trial.
+  - reason: Cluster randomized trial of text-message reminders targeting guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **978** Implementation of clinical practice guidelines for prevention of thromboembolism in spinal cord injury.
+  - reason: Before-after implementation study of guideline adherence strategies in SCI prophylaxis. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **425** Computed critiquing integrated into daily clinical practice affects physicians' behavior--a randomized clinical trial with AsthmaCritic
+  - reason: RCT of guideline-based critiquing system on GP monitoring/treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1133** Just-in-time evidence-based e-mail “reminders” in home health care: impact on patient outcomes.
+  - reason: RCT of evidence-based e-mail reminders to nurses; behaviour and outcomes reported. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **995** Implementing guidelines on the prevention of opportunistic infections in inflammatory bowel disease
+  - reason: Pre-post survey of self-reported behaviour, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **498** (final=1) Design factors for success or failure of guideline-based decision support systems: an hypothesis involving case complexity
+  - reason: Pre/post experiment of reminder-based CDSS nudging GPs' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **999** Implementing research findings into practice using clinical opinion leaders: barriers and lessons learned
+  - reason: Opinion-leader nudge targeting guideline-based prescribing tested across VA sites. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1289** (final=1) Nudging guideline-concordant antibiotic prescribing: a randomized clinical trial
+  - reason: Randomized trial of commitment-letter nudge on clinicians' antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1672** Strategies for rehabilitation professionals to move evidence-based knowledge into practice: a systematic review
+  - reason: Systematic review, not an experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **1783** (final=1) The efficacy of an automated feedback system for general practitioners
+  - reason: Randomized trial of automated feedback on GPs' guideline-nonadherent test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **158** An automated minimum retest interval rejection rule reduces repeat CRP workload and expenditure, and influences clinician-requesting behaviour
+  - reason: Hard test-rejection rule, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1867** The value of 'gentle reminder' on safe medical behaviour
+  - reason: Gentle reminder nudge on safe behaviour; unclear whether experimental comparison of two interventions.
+  - abstract: yes; run B: 0
+- **966** (final=1) Impact of non-interruptive medication laboratory monitoring alerts in ambulatory care.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **525** Development of a complex intervention to promote appropriate prescribing and medication intensification in poorly controlled type 2 diabetes mellitus in Irish general practice
+  - reason: Intervention development paper, no experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **1076** Information technology for patient safety
+  - reason: Discussion paper on eHealth, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **604** Effect of audit and feedback with peer review on general practitioners' prescribing and test ordering performance: a cluster-randomized controlled trial
+  - reason: Cluster-RCT of audit and feedback with peer review on GPs' prescribing and test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **605** (final=1) Effect of audit and feedback, and reminder messages on primary-care radiology referrals: a randomised trial.
+  - reason: Cluster RCT of reminder messages to GPs targeting guideline-concordant radiology referrals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **942** Identifying and reducing errors with surgical simulation
+  - reason: Surgical simulation training, not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1666** Standard operating procedure changed pre-hospital critical care anaesthesiologists' behaviour: a quality control study
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **2** Effect of a clinical pharmacy service on lipid control in patients with peripheral arterial disease.
+  - reason: Pharmacist-managed algorithmic service is not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1752** The development of an intervention to promote adherence to national guidelines for suspected viral encephalitis.
+  - reason: Intervention development study, no comparison of two or more interventions.
+  - abstract: yes; run B: 0
+- **1785** (final=1) The efficacy of visual cues to improve hand hygiene compliance
+  - reason: Randomized experiment of visual cues on hand hygiene compliance in healthcare workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **437** Computerized reminders to encourage cervical screening in family practice.
+  - reason: Interventions target women/patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1114** Interventions to modify health care provider adherence to asthma guidelines: a systematic review
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run B: 0
+- **555** Do decision support systems influence variation in prescription?
+  - reason: Observational survey comparison, not clearly an experiment with randomized or time-series design.
+  - abstract: yes; run B: 0
+- **26** (final=1) A clinical decision support system for prevention of venous thromboembolism: effect on physician behavior
+  - reason: Time-series experiment of CDSS guideline presentation on physician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1761** (final=1) The effect of computer reminders on GPs' prescribing behaviour: a cluster-randomised trial
+  - reason: Cluster-randomised trial of computer reminders on GPs' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1772** (final=1) The effectiveness of computer reminders for improving quality assessment for point-of-care testing in general practice—A randomized controlled trial
+  - reason: Randomized crossover trial of computer reminders on guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **116** (final=1) A cluster randomized trial of decision support strategies for reducing antibiotic use in acute bronchitis
+  - reason: Cluster randomized trial of decision support nudges targeting clinicians' antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **2019** A Systematic Scoping Review of the Choice Architecture Movement: Toward Understanding When and Why Nudges Work
+  - reason: Scoping review, not an experiment.
+  - abstract: yes; run B: 0
+- **420** Complex pharmaceutical care intervention in pulmonary care: part A. The process and pharmacists' professional satisfaction.
+  - reason: Intervention targets patients' drug use, not a nudge to healthcare professionals. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **676** (final=1) Effects of computerized guidelines for managing heart disease in primary care
+  - reason: RCT of computer-based evidence-based care suggestions targeting clinicians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1047** (final=1) Improving quality improvement using achievable benchmarks for physician feedback: a randomized controlled trial.
+  - reason: Group-randomized trial of benchmark feedback nudging physician guideline-concordant care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1454** Printed educational materials: effects on professional practice and health care outcomes
+  - reason: Systematic review of printed educational materials, not an experiment.
+  - abstract: yes; run B: 0
+- **559** Do pediatricians apply the 2009 NASPGHAN-ESPGHAN guidelines for the diagnosis and management of gastroesophageal reflux after being trained?
+  - reason: Randomized comparison of two training formats targeting guideline adherence by pediatricians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **816** (final=1) Format change of a laboratory test order form affects physician behavior
+  - reason: Before-and-after study of order-form restructuring changing physician test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **213** Assessment of the potential impact of a reminder system on the reduction of diagnostic errors: a quasi-experimental study
+  - reason: Quasi-experimental study of reminder-based decision support on clinicians' diagnostic decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1973** Variations in GPs' decisions to investigate suspected lung cancer: a factorial experiment using multimedia vignettes
+  - reason: Factorial experiment on GPs' investigation decisions; nudge classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1857** The systematic influence of gain-and loss-framed messages on interest in and use of different types of health behavior
+  - reason: Framing experiments target general public/patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **951** Impact of a multifaceted intervention on nurses' and physicians' attitudes and behaviors toward family presence during resuscitation
+  - reason: Multifaceted intervention on family presence; unclear whether nudge and experimental comparison.
+  - abstract: yes; run B: 0
+- **413** Comparison of strategies to reduce meticillin-resistant Staphylococcus aureus rates in surgical patients: a controlled multicentre intervention trial.
+  - reason: Infection control trial; hand hygiene promotion may be nudge but design and behaviour outcome unclear.
+  - abstract: yes; run B: 0
+- **499** Design of high reliability organizations in health care
+  - reason: Conceptual design paper, no experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1210** (final=1) Medical admission order sets to improve deep vein thrombosis prophylaxis rates and other outcomes
+  - reason: No abstract; cannot judge design, population or nudge content.
+  - abstract: yes; run B: 0
+- **193** Applying Choice Architecture Principles to Understand HIV Testing: Findings From Malawi and Zimbabwe
+  - reason: Targets general public/patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1678** Structured smoking cessation training for health professionals on cardiology wards: a prospective study
+  - reason: Standard operating procedures are not a nudge per taxonomy. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **411** Comparing cost effects of two quality strategies to improve test ordering in primary care: a randomized trial
+  - reason: RCT of feedback/guideline education strategy on physicians' test ordering (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1527** Randomized controlled trial of a computer strategy to increase general practitioner preventive care
+  - reason: RCT of computerized feedback on GP preventive care behaviours (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **996** Implementing international osteoarthritis treatment guidelines in primary health care: study protocol for the SAMBA stepped wedge cluster randomized controlled trial
+  - reason: Study protocol for stepped wedge trial; nudge classification and behaviour outcomes unclear.
+  - abstract: yes; run B: 0
+- **644** Effectiveness of an Intervention to Enhance Occupational Physicians' Guideline Adherence on Sickness Absence Duration in Workers with Common Mental Disorders: A Cluster-Randomized Controlled Trial
+  - reason: Cluster RCT of intervention to enhance occupational physicians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **424** Comprehensive asthma management for underserved children
+  - reason: Programme description/evaluation, not an experiment comparing two or more interventions.
+  - abstract: yes; run B: 0
+- **227** (final=1) Automated hand hygiene auditing with and without an intervention
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **822** Framing options as choice or opportunity: does the frame influence decisions?
+  - reason: Nudge targets healthy women, not healthcare professionals
+  - abstract: yes; run B: 0
+- **277** Bridging the gap between pragmatic intervention design and theory: using behavioural science tools to modify an existing quality improvement programme to implement â€œSepsis Sixâ€
+  - reason: Intervention development study; unclear whether it experimentally compares two or more interventions.
+  - abstract: yes; run B: 0
+- **947** Impact of a computerized clinical decision support system on reducing inappropriate antimicrobial use: a randomized controlled trial.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **211** (final=1) Assessment of radiological referral practice and effect of computer-based guidelines on radiological requests in two emergency departments.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1414** (final=1) Precommittingto choose wisely about low-value services: a stepped wedge cluster randomised trial.
+  - reason: Stepped wedge cluster randomised trial of clinician precommitment nudges targeting low-value orders. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1013** (final=1) Improving antibiotic prescribing for adults with community acquired pneumonia: Does a computerised decision support system achieve more than academic detailing alone?--A time series analysis
+  - reason: Interrupted time series of CDSS and academic detailing on guideline-concordant prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1057** Improving the success of mailed letter intervention programs to influence prescribing behaviors: a review
+  - reason: Review of mailed intervention programs, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **376** Cluster randomized trial of a multilevel evidence-based quality improvement approach to tailoring VA Patient Aligned Care Teams to the needs of women Veterans
+  - reason: Cluster randomized trial of EBQI to tailor care teams to women Veterans. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1181** Management for Physicians: An Annotated Bibliography of Recent Literature
+  - reason: Annotated bibliography, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1030** Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial.
+  - reason: Cluster RCT of computerized decision support on appropriate antibiotic treatment. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1455** Printed educational messages fail to increase use of thiazides as first-line medication for hypertension in primary care: a cluster randomized controlled trial [ISRCTN72772651
+  - reason: Cluster RCT of printed educational messages on thiazide prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1805** The impact of infectious diseases specialist-directed computerized physician order entry antimicrobial stewardship program targeting linezolid use
+  - reason: No abstract; title suggests stewardship program but design and target unclear.
+  - abstract: no; run B: 0
+- **1330** Overdiagnosis and overtreatment as a quality problem: insights from healthcare improvement research
+  - reason: No abstract; title does not plainly name an off-topic population.
+  - abstract: no; run B: 0
+- **709** (final=1) Enhanced physician adherence to antibiotic use guidelines through increased availability of guidelines at the time of drug ordering in hospital setting.
+  - reason: Before-after experiment embedding antibiotic guidelines in order entry improved adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **84** A randomized trial of computerized reminders for blood pressure screening in primary care.
+  - reason: RCT of computerized physician reminders for blood pressure screening in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1362** Performance of the TREAT decision support system in an environment with a low prevalence of resistant pathogens.
+  - reason: Retrospective comparison of decision support output vs practice, not an experiment.
+  - abstract: yes; run B: 0
+- **561** Documentation-based clinical decision support to improve antibiotic prescribing for acute respiratory infections in primary care: a cluster randomised controlled trial
+  - reason: Cluster RCT of EHR decision support on antibiotic prescribing; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1802** (final=1) The impact of cost displays on primary care physician laboratory test ordering.
+  - reason: Interrupted time series of cost display nudging physicians' lab test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1** A prospective, controlled trial of a pharmacy-driven alert system to increase thromboprophylaxis rates in medical inpatients.
+  - reason: Controlled trial of pharmacist alert nudging physicians' thromboprophylaxis ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1113** Interventions to increase the use of electronic health information by healthcare practitioners to improve clinical practice and patient outcomes
+  - reason: Cochrane systematic review, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **45** A controlled trial of web-based diabetes disease management.
+  - reason: Cluster RCT of web-based decision support to improve evidence-based diabetes management. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1786** (final=1) The employment of ward opinion leaders for continuing education in the hospital.
+  - reason: Before-and-after comparison of education strategies on urinary catheter care guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **109** A tailored intervention to implement guideline recommendations for elderly patients with depression in primary care: a pragmatic cluster randomised trial
+  - reason: Cluster randomised trial of tailored interventions to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1483** Prospective comparative study of computer programs used for management of warfarin.
+  - reason: Computerised dosing systems are not soft-steering nudges per taxonomy. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **805** (final=1) Feasibility and acceptability of two incentive-based implementation strategies for mental health therapists implementing cognitive-behavioral therapy: a pilot study to inform a randomized controlled trial
+  - reason: Randomized pilot of incentive strategies targeting therapists' adherence to CBT evidence-based practice. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1760** The effect of adding Pap smear information to a mammography reminder system in an HMO: results of randomized controlled trial.
+  - reason: Reminders target patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **99** A statewide controlled trial intervention to reduce use of unproven or ineffective breast cancer care
+  - reason: Controlled trial of public reporting plus app targeting provider behaviour on guideline-discordant care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **702** Electronically distributed, computer-generated, individualized feedback enhances the use of a computerized practice guideline
+  - reason: RCT of individualized feedback nudging clinicians' guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **245** Behavioral economics and physician compensation—promise and challenges.
+  - reason: No abstract; title on physician compensation, unclear topic and design.
+  - abstract: no; run B: 0
+- **1900** Translating Clinical Research into Clinical Practice: Impact of Using Prediction Rules To Make Decisions
+  - reason: Methodological review paper, not an experiment.
+  - abstract: yes; run B: 0
+- **958** (final=1) Impact of decision support in electronic medical records on lipid management in primary care.
+  - reason: RCT of EMR decision-support prompts targeting physicians' guideline-based lipid management. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **994** Implementing guidelines for depression on antidepressant prescribing in general practice: a quasi-experimental evaluation
+  - reason: Quasi-experimental guideline implementation targeting GP prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1028** Improving empiric antibiotic selection using computer decision support.
+  - reason: Randomized crossover of computer decision support for empiric antibiotic selection. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **532** Development, implementation, and evaluation of a community pharmacy-based asthma care model
+  - reason: Intervention targets patients; outcomes are patient clinical outcomes.
+  - abstract: yes; run B: 0
+- **1152** Lessons from a randomized controlled trial designed to evaluate computer decision support software to improve the management of asthma
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **905** Heterogeneous effect of an Emergency Department Expert Charting System
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **503** Designing a valid randomized pragmatic primary care implementation trial: the my own health report (MOHR) project
+  - reason: Intervention targets patients' health behaviors, not healthcare professionals' behavior.
+  - abstract: yes; run B: 0
+- **671** (final=1) Effects of an automated electronic reminder in changing the antiplatelet drug-prescribing behavior among Italian general practitioners in diabetic patients: an intervention trial
+  - reason: RCT of electronic reminder nudging GPs' antiplatelet prescribing behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1088** Integrating "Back to Sleep" recommendations into neonatal ICU practice
+  - reason: Intervention targets parents' behaviour, not healthcare professionals' behaviour.
+  - abstract: yes; run B: 0
+- **1203** McMaster PLUS: a cluster randomized clinical trial of an intervention to accelerate clinical use of evidence-based information from digital libaries
+  - reason: Cluster-randomized trial of information-delivery nudge to physicians; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1859** The tools of an evidence-based culture: implementing clinical-practice guidelines in an Israeli HMO
+  - reason: Randomized trial of feedback/lecture nudges on physicians' guideline-adherent prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1206** Measuring persistence of implementation: QUERI Series
+  - reason: Conceptual article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **42** (final=1) A computerized reminder system to increase the use of preventive care for hospitalized patients
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **984** Implementation of the Tobacco Tactics intervention versus usual care in Trinity Health community hospitals
+  - reason: Intervention targets inpatient smokers; nurses deliver but patients are recipients.
+  - abstract: yes; run B: 0
+- **384** Cognitive debiasing 2: impediments to and strategies for change
+  - reason: Narrative review of debiasing strategies, not an experiment.
+  - abstract: yes; run B: 0
+- **81** (final=1) A randomized trial of "corollary orders" to prevent errors of omission.
+  - reason: Randomized trial of guideline-based computerized reminders to physicians; adherence outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1960** Using computerized clinical decision support for latent tuberculosis infection screening.
+  - reason: Nonrandomized prospective intervention study of CDSS alerts on LTBI screening adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **946** Impact of a clinical decision support system on antibiotic prescribing for acute respiratory infections in primary care: quasi-experimental trial
+  - reason: Quasi-experimental trial of CDSS on antibiotic prescribing in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1007** (final=1) Improved therapeutic monitoring with several interventions: a randomized trial.
+  - reason: Cluster-randomized trial of reminders to clinicians improving guideline-based laboratory monitoring. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1533** (final=1) Randomized study of online vaccine reminders in adult primary care
+  - reason: Randomized cross-over trial of online reminders to physicians on guideline-concordant vaccine prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **857** Guideline implementation: what the literature doesn't tell us
+  - reason: Review of reviews, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1472** Promoting Hand Hygiene Compliance
+  - reason: Cluster-randomized trial of tailored behaviour-change techniques to improve hand hygiene compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **806** Feasibility and impact of a computerised clinical decision support system on investigation and initial management of new onset chest pain: a mixed methods study
+  - reason: Before-after mixed methods study of guideline-based decision support on clinician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1356** Patient-carried card prompts vs computer-generated prompts to remind private practice physicians to perform health maintenance measures.
+  - reason: Randomized trial of prompts reminding physicians to perform health maintenance measures. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **86** (final=1) A randomized trial of the effectiveness of on-demand versus computer-triggered drug decision support in primary care.
+  - reason: Cluster randomized trial of alert customization on prescribing problems. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1442** (final=1) Primary care guidelines on consultation practices: the effectiveness of computerized versus paperbased versions. A cluster randomized controlled trial among newly qualified primary care physicians.
+  - reason: Cluster randomized trial comparing guideline presentation formats on consultation practices. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **621** (final=1) Effect of patient-specific ratings vs conventional guidelines on investigation decisions in angina: Appropriateness of Referral and Investigation in Angina (ARIA) Trial
+  - reason: Randomized controlled trial of patient-specific ratings versus guidelines on investigation decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **674** Effects of computer reminders for influenza vaccination on morbidity during influenza epidemics.
+  - reason: RCT of computer reminders to physicians targeting vaccination behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1016** Improving asthma-related health outcomes among low-income, multiethnic, school-aged children: results of a demonstration project that combined continuous quality improvement and community health worker strategies
+  - reason: Quality improvement and community health worker programme, not a nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1115** Interventions to promote the evidence-based care of children with ADHD in primary-care settings
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **628** (final=1) Effect of varying the number and location of alcohol-based hand rub dispensers on usage in a general inpatient medical unit.
+  - reason: Sequential experiment altering dispenser number/location to change hand hygiene behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1622** Screening Surgeons for HIV Infection: A Cost-effectiveness Analysis
+  - reason: Cost-effectiveness analysis, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1018** Improving blood pressure control through provider education, provider alerts, and patient education: a cluster randomized trial.
+  - reason: Cluster randomized trial of provider alerts/education targeting prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1782** (final=1) The effects of price information on physicians’ test-ordering behavior: ordering of diagnostic tests.
+  - reason: Randomized experiment giving price information to physicians, changing test-ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1290** (final=1) Nudging physician prescription decisions by partitioning the order set: results of a vignette-based study.
+  - reason: Vignette experiment nudging physicians via order-set partitioning; outcome is prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1980** (final=1) Weekly E-mail reminders influence emergency physician behavior: a case study using the Joint Commission and Centers for Medicare and Medicaid Services Pneumonia Guidelines
+  - reason: Before-after study of email reminders to ED staff on pneumonia guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **610** Effect of computerised evidence based guidelines on management of asthma and angina in adults in primary care: cluster randomised controlled trial.
+  - reason: Cluster RCT of computerised evidence-based guidelines on GP adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1022** Improving clinical handover between intensive care unit and general ward professionals at intensive care unit discharge.
+  - reason: Systematic review, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1333** Paediatric nurses' postoperative pain management practices in hospital based non-critical care settings: a narrative review
+  - reason: Narrative/systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **608** Effect of Clinical Decision-Support Systems: a systematic review
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **221** Audit and feedback as a clinical practice guideline implementation strategy: a model for acute care nurse practitioners
+  - reason: Literature review proposing a model, not an experiment.
+  - abstract: yes; run B: 0
+- **318** Changing clinical behaviour by making guidelines specific
+  - reason: Commentary/overview, no experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **164** (final=1) An electronic medical record-based intervention to improve quality of care for gastro-esophageal reflux disease (GERD) and atypical presentations of GERD.
+  - reason: RCT of EMR prompts/education targeting clinicians' GERD diagnosis and treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1139** (final=1) Knowledge translation of the American College of Emergency Physicians' clinical policy on syncope using computerized clinical decision support
+  - reason: Pre-post study of CDSS prompts based on ACEP syncope policy, measuring physician practice behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **434** Computerized decision support based on a clinical practice guideline improves compliance with care standards
+  - reason: RCT of guideline-based computerized decision support on clinician compliance behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **375** Cluster randomized trial of a multifaceted primary care decision-support intervention for inherited breast cancer risk.
+  - reason: Cluster RCT of decision-support intervention for GPs; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **80** A randomized outpatient trial of a decision-support information technology tool.
+  - reason: Randomized trial of decision-support tool targeting evidence-based care processes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1207** Measuring the effectiveness of a collaborative for quality improvement in pediatric asthma care: does implementing the chronic care model improve processes and outcomes of care?
+  - reason: Intervention targets pediatric patients and clinics, not healthcare professionals' behaviour.
+  - abstract: yes; run B: 0
+- **962** Impact of feedback and didactic sessions on the reporting behavior of upper endoscopic findings by physicians and nurses
+  - reason: Feedback and education targeting physicians/nurses reporting behaviour per guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **495** Design and evaluation of a computer reminder system to improve prescribing behaviour of GPs
+  - reason: Clustered RCT of computer reminders to GPs to improve guideline-concordant prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **657** Effectiveness of pharmacist care for patients with reactive airways disease: a randomized controlled trial.
+  - reason: Intervention targets patients' outcomes via pharmacist care, not nudging healthcare professionals.
+  - abstract: yes; run B: 0
+- **1938** Unintended effects of a computerized physician order entry nearly hard-stop alert to prevent a drug interaction: a randomized controlled trial.
+  - reason: Randomized trial of a CPOE alert nudge on clinician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1763** The effect of external feedback on the management of medicare inpatients with congestive heart failure
+  - reason: Randomized comparison of feedback strategies on guideline adherence by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1955** User satisfaction and frustration with a handheld, pen-based guideline implementation system for asthma
+  - reason: Handheld guideline system with reminders tested in randomized before-after trial on clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1445** Primary care provider attitudes are associated with smoking cessation counseling and referral
+  - reason: Postintervention analysis of group randomized trial on PCP smoking cessation guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1751** The development of an intervention to promote adherence to national guidelines for suspected viral encephalitis
+  - reason: Intervention development interview study, no comparison of interventions.
+  - abstract: yes; run B: 0
+- **785** Explaining the effects of two different strategies for promoting hand hygiene in hospital nurses: a process evaluation alongside a cluster randomised controlled trial
+  - reason: Process evaluation of cluster RCT of hand hygiene strategies for nurses; nudge components present. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **701** Electronic prescribing increases uptake of clinical pharmacologists' recommendations in the hospital setting.
+  - reason: Electronic prescribing chart is a system change, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **598** Effect of a computerized body mass index prompt on diagnosis and treatment of adult obesity.
+  - reason: Randomized comparison of BMI chart prompt vs no prompt on physician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **960** (final=1) Impact of environmental olfactory cues on hand hygiene behaviour in a simulated hospital environment: a randomized study
+  - reason: Randomized study of environmental olfactory cue on hand hygiene compliance of providers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **964** Impact of introduction of rapid diagnostic tests for malaria on antibiotic prescribing: analysis of observational and randomised studies in public and private healthcare settings
+  - reason: Randomised and observational studies of diagnostic testing on antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1551** (final=1) Redesigning the ‘choice architecture’of hospital prescription charts: a mixed methods study incorporating in situ simulation testing.
+  - reason: Choice-architecture redesign of prescription charts tested against current chart; prescribing behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **294** Can we improve adherence to guidelines for the treatment of lower urinary tract infection? A simple, multifaceted intervention in out-of-hours services
+  - reason: Quasi-experimental multifaceted intervention on GPs' guideline-adherent prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **696** (final=1) Electronic health record-based decision support to improve asthma care: a cluster-randomized trial.
+  - reason: Cluster-randomized trial of EHR decision support improving clinician guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1200** Massachusetts General Physicians Organization’s quality incentive program produces encouraging results
+  - reason: Financial incentive payments, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **641** Effectiveness of an audible reminder on hand hygiene adherence
+  - reason: Pre-post study of an audible reminder nudging hand hygiene adherence among hospital staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1904** Translation of appropriateness criteria into practice guidelines: application of decision table techniques to the RAND criteria for coronary artery bypass graft.
+  - reason: Methodological paper on guideline translation, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **622** Effect of physician recommendation and patient adherence on rates of colorectal cancer testing.
+  - reason: Focus on patient characteristics and adherence, not interventions targeting healthcare professionals.
+  - abstract: yes; run B: 0
+- **877** Harnessing the power of default options to improve health care
+  - reason: Commentary on default options; no abstract evidence of an experiment.
+  - abstract: yes; run B: 0
+- **765** Evaluation of internet-based clinical decision support systems.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **957** (final=1) Impact of computerized decision support on blood pressure management and control: a randomized controlled trial.
+  - reason: Cluster RCT of computerized decision support improving guideline-adherent prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1291** Nudging to prudence? The effect of reminders on antibiotics prescriptions.
+  - reason: RCT of reminders affecting antibiotics prescribing; doctors' behaviour implicated. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **977** Implementation of clinical guidelines through an electronic medical record: physician usage, satisfaction and assessment
+  - reason: Pre-post attitude survey, no comparison of two or more interventions.
+  - abstract: yes; run B: 0
+- **1946** (final=1) Use of a computer to detect and respond to clinical events: its effect on clinician behavior.
+  - reason: Randomized study of computer reminders changing clinician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **435** (final=1) Computerized decision support for medication dosing in renal insufficiency: a randomized, controlled trial.
+  - reason: RCT of computerized decision support on emergency physicians' excessive dosing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **563** Does a joint development and dissemination of multidisciplinary guidelines improve prescribing behaviour: a pre/post study with concurrent control group and a randomised trial.
+  - reason: Pre/post plus randomized trial of guideline dissemination on GP prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1922** Two cheers or three for treatment guidelines? Nudging prescribers in right directions
+  - reason: No abstract; title suggests nudging prescribers but design unknown.
+  - abstract: no; run B: 0
+- **639** Effectiveness of a prospective physician self-audit transfusion-monitoring system.
+  - reason: Pre/post controlled study of self-audit and guideline memo on transfusion behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **385** Cognitive debiasing through sparklines in clinical data displays
+  - reason: Conceptual illustration piece; no experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **520** Development and implementation of a program to assess medical patients’ need for venous thromboembolism prophylaxis
+  - reason: CPOE reminder nudge to providers; before-after comparison of VTE prophylaxis compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **526** Development of a minimization instrument for allocation of a hospital-level performance improvement intervention to reduce waiting times in Ontario emergency departments
+  - reason: Instrument development study, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **289** Can hand-held computers improve adherence to guidelines? A (Palm) Pilot study of family doctors in British Columbia
+  - reason: PDA guideline tool tested in intervention vs control physicians; adherence outcomes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1233** Minimizing errors of omission: behavioural reenforcement of heparin to avert venous emboli: the BEHAVE study
+  - reason: Reminders and feedback nudges to clinicians; longitudinal before-after guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1962** (final=1) Using implementation intentions to teach practitioners: changing practice behaviours via continuing education.
+  - reason: RCT of implementation intentions nudge on practitioners' guideline-based practice behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **156** An administrative intervention to improve the utilization of laboratory tests within a university hospital
+  - reason: Before-after study of administrative/educational intervention on clinicians' test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1492** Protocol processing system (ProtoVIEW) to support residents at the emergency ward.
+  - reason: Prototype evaluation; unclear whether two or more interventions were compared.
+  - abstract: yes; run B: 0
+- **1846** The role of GPs in increasing compliance to colorectal cancer screening: a randomised controlled trial (Italy)
+  - reason: Compares screening location/provider, not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **1209** Measuring the effects of reminders for outpatient influenza immunizations at the point of clinical opportunity
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **40** (final=1) A computerized intervention to decrease the use of calcium channel blockers in hypertension.
+  - reason: Randomized trial of chart guideline reminder to providers, prescribing behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **415** Comparison of three methods of recalling patients for influenza vaccination.
+  - reason: Nudge targets patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **62** A patient-initiated system for preventive health care.
+  - reason: Patient-initiated computer system targeting patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **39** A computerized handheld decision-support system to improve pulmonary embolism diagnosis: a randomized trial.
+  - reason: Cluster randomized trial of decision-support nudge for guideline-adherent diagnosis. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **82** (final=1) A randomized trial of a computer-based intervention to reduce utilization of redundant laboratory tests
+  - reason: RCT of computerized reminders to physicians reducing redundant lab test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1942** Usage and effect of health information exchange: a systematic review
+  - reason: Systematic review, excluded by design.
+  - abstract: yes; run B: 0
+- **948** Impact of a computerized decision support system on compliance with guidelines on antibiotics prescribed for urinary tract infections in emergency departments: a multicentre prospective before-and-after controlled interventional study
+  - reason: Before-and-after controlled study of CDSS nudging guideline-compliant antibiotic prescribing by ED clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1535** Randomized trial of model predictive control for improved anemia management
+  - reason: Intervention targets patients, not healthcare professionals' behaviour.
+  - abstract: yes; run B: 0
+- **27** A clinical trial of a knowledge-based medical record
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1966** Using shared goal setting to improve access and equity: a mixed methods study of the Good Goals intervention in children's occupational therapy
+  - reason: Goal setting for access/equity in occupational therapy, not evidence-based medicine adherence.
+  - abstract: yes; run B: 0
+- **553** Dissemination of effectiveness and outcomes research
+  - reason: Review of dissemination literature, not an experiment.
+  - abstract: yes; run B: 0
+- **694** Electronic health record decision support and quality of care for children with ADHD.
+  - reason: Cluster randomized trial of EHR reminders/template nudging pediatricians' guideline-concordant ADHD care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1453** (final=1) Priming Hand Hygiene Compliance in Clinical Environments
+  - reason: RCT of priming cues on hand hygiene compliance in clinical staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **25** A centralized cardiovascular risk service to improve guideline adherence in private primary care offices
+  - reason: Cluster randomized trial of centralized service to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1349** (final=1) Patient and physician reminders to promote colorectal cancer screening: a randomized controlled trial.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **479** (final=1) Curtailing laboratory test ordering in a managed care setting through redesign of a computerized order form
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1003** Improved asthma outcomes using a coordinated care approach in a large medical group.
+  - reason: Program review with before-after data, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1034** (final=1) Improving handover from intensive care to ward medical teams with simple changes to paperwork
+  - reason: Quality improvement paperwork change, not framed as nudge experiment. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run B: 0
+- **181** Angina on the Palm: randomized controlled pilot trial of Palm PDA software for referrals for cardiac testing.
+  - reason: Randomized trial of PDA software nudge on physicians' test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **342** Chronic care model and shared care in diabetes: randomized trial of an electronic decision support system.
+  - reason: Randomized trial of telemedicine decision support on diabetes care processes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1032** Improving guideline adherence: a randomized trial evaluating strategies to increase beta-blocker use in heart failure
+  - reason: Randomized trial of reminders and education to improve beta-blocker guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **136** Adoption, reach, implementation, and maintenance of a behavioral and mental health assessment in primary care
+  - reason: Cluster-randomized trial of assessment/feedback implementation in primary care practices; guideline-recommended screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1956** (final=1) Using ‘nudge’principles for order set design: a before and after evaluation of an electronic prescribing template in critical care
+  - reason: Before-after evaluation of nudge-based order set design on prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **950** Impact of a multifaceted intervention on cholesterol management in primary care practices: guideline adherence for heart health randomized trial
+  - reason: Randomized trial of decision support nudging guideline adherence in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1127** (final=1) JOURNAL CLUB: Predictors of Provider Response to Clinical Decision Support: Lessons Learned From the Medicare Imaging Demonstration
+  - reason: Pre-post study of CDS alerts steering imaging orders by providers; nudge taxonomy needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **609** Effect of computer-assisted European Best Practice Guideline implementation on adherence and target attainment: ORAMA results.
+  - reason: Cluster-randomized trial of computerized guideline prompting for dialysis providers; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1027** Improving doctors' prescribing behaviour through reflection on guidelines and prescription feedback: a randomised controlled study
+  - reason: Randomised controlled study of guideline-based feedback on GPs' prescribing; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1735** The Bold Promise Project: a system change in primary care to support cardiovascular risk screening
+  - reason: Before-and-after system change in primary care targeting guideline-based cardiovascular screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **29** A clinic-based mammography intervention targeting inner-city women.
+  - reason: Intervention targets patients (women) for mammography, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **1134** (final=1) Just-in-time evidence-based e-mail “reminders” in home health care: impact on"nurse practices.
+  - reason: Randomized trial of e-mail reminders to home health nurses to improve evidence-based practice. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1011** Improving adherence to guidelines for hypertension drug prescribing: cluster-randomized controlled trial of general versus patient-specific recommendations
+  - reason: Cluster-randomized trial of clinician advisory nudging guideline-concordant hypertension prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **64** A pilot study of an electronic interprofessional evidence-based care planning tool for clients with mental health problems and addictions
+  - reason: Pre-post usability study without comparison group; authors note RCT needed.
+  - abstract: yes; run B: 0
+- **576** (final=1) Durable improvements in prostate cancer screening from online spaced education a randomized controlled trial
+  - reason: RCT of spaced education emails to clinicians reducing guideline-discordant PSA screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **953** Impact of a web-based antimicrobial approval system on broad-spectrum cephalosporin use at a teaching hospital.
+  - reason: Pre-post study of web-based approval system nudging prescribers toward antibiotic guideline concordance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1259** Multi-screen electronic alerts to augment venous thromboembolism prophylaxis
+  - reason: Electronic alert nudges to physicians increased VTE prophylaxis ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1064** (final=1) Increasing compliance with low tidal volume ventilation in the ICU with two nudge-based interventions: evaluation through intervention time-series analyses
+  - reason: Interrupted time series of default settings and dashboard nudges on ventilation behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1537** (final=1) Randomized trial to improve prescribing safety in ambulatory elderly patients.
+  - reason: Randomized trial of pharmacist alerts reducing inappropriate prescribing in elderly. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **241** Behavior change without behavior change communication: nudging handwashing among primary school students in Bangladesh.
+  - reason: Targets primary school students, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **998** Implementing of clinical guidelines using a computer charting system. Effect on the initial care of health care workers exposed to body fluids.
+  - reason: Interrupted time series of computer-based guideline presentation to physicians; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1109** Interventions that change clinician behaviour: mapping the literature
+  - reason: No abstract; title alone cannot establish design, population or nudge.
+  - abstract: no; run B: 0
+- **1322** (final=1) Oral quinolones in hospitalized patients: an evaluation of a computerized decision support intervention.
+  - reason: Interrupted time series of computerized decision support prompting oral quinolones; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **554** Dissemination of Evidence-Based Antipsychotic Prescribing Guidelines to Nursing Homes: A Cluster Randomized Trial
+  - reason: Cluster randomized trial of guideline dissemination nudges to nursing homes; nudge taxonomy unconfirmed. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **895** Helping doctors and patients make sense of health statistics
+  - reason: Review/commentary on statistical literacy, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **790** Exploring the feasibility of Conjoint Analysis as a tool for prioritizing innovations for implementation
+  - reason: Conjoint analysis feasibility study, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **990** Implementing clinical guidelines in the treatment of diabetes mellitus in general practice. Evaluation of effort, process, and patient outcome related to implementation of a computer-based decision support system
+  - reason: Randomized study of CDSS implementing diabetes guidelines on doctors' behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1961** (final=1) Using implementation intentions to teach practitioners: changing practice behaviors via continuing education
+  - reason: RCT of implementation intentions on practitioners' practice behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1749** The demonstration of a theory-based approach to the design of localized patient safety interventions.
+  - reason: Co-designed implementation strategies; unclear whether any component is a nudge and whether comparison exists.
+  - abstract: yes; run B: 0
+- **764** (final=1) Evaluation of computer based clinical decision support system and risk chart for management of hypertension in primary care: randomised controlled trial.
+  - reason: Cluster RCT of decision support/risk chart targeting prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1394** Point-of service reminders for prescribing cardiovascular medications.
+  - reason: RCT of point-of-service reminders targeting physician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **712** (final=1) Enhancing mammography referral in primary care
+  - reason: Randomized trial of chart-sticker cues increasing physicians' mammography referrals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **70** A Qualitative Evaluation of the Barriers and Facilitators Toward Implementation of the WHO Surgical Safety Checklist Across Hospitals in England: Lessons From the Surgical Checklist Implementation Project
+  - reason: Qualitative interview study, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1231** Microcomputer-generated reminders. Improving the compliance of primary care physicians with mammography screening guidelines.
+  - reason: Experimental reminder system increased physicians' compliance with mammography screening guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **602** Effect of an outpatient antimicrobial stewardship intervention on broad-spectrum antibiotic prescribing by primary care pediatricians: a randomized trial.
+  - reason: Cluster randomized trial of audit and feedback nudging guideline-adherent antibiotic prescribing by pediatricians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1230** Microcomputer-generated reminders. Improving the compliance of primary care physicians with mammography screening guidelines
+  - reason: Randomized trial of computer-generated reminders to physicians to improve mammography guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **19** A before-after study using OncoDoc, a guideline-based decision support-system on breast cancer management: impact upon physician prescribing behaviour
+  - reason: Before-after study of guideline-based decision support on physician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1031** Improving feedback on junior doctors’ prescribing errors: mixed-methods evaluation of a quality improvement project
+  - reason: Interrupted time series with control site of feedback interventions on junior doctors' prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1732** The Behavioral Economics of Health and Health Care
+  - reason: Overview article, not an experiment comparing interventions.
+  - abstract: yes; run B: 0
+- **1395** (final=1) Point-of-care electronic prompts: an effective means of increasing compliance, demonstrating quality, and improving outcome
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **663** Effectiveness of strategies to disseminate and implement clinical guidelines for the management of impacted and unerupted third molars in primary dental care, a cluster randomised controlled trial
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **163** An electronic health record–based intervention to improve tobacco treatment in primary care: a cluster-randomized controlled trial
+  - reason: Cluster-RCT of EHR reminders/icons targeting clinician tobacco treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **461** Cost-effectiveness of a nurse-based intervention (AIMS) to improve adherence among HIV-infected patients: design of a multi-centre randomised controlled trial.
+  - reason: Intervention targets HIV-infected patients, not healthcare professionals.
+  - abstract: yes; run B: 0
+- **916** (final=1) Hospital clinicians’ responsiveness to assay cost feedback: a prospective blinded controlled intervention study.
+  - reason: No abstract; title suggests cost feedback to clinicians but design unclear.
+  - abstract: no; run B: 0
+- **378** (final=1) Cluster-randomized, controlled trial of computer-based decision support for selecting long-term anti-thrombotic therapy after acute ischaemic stroke.
+  - reason: Cluster-randomized trial of CDSS nudging clinicians' prescribing; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **210** (final=1) Assessment of decision support for blood test ordering in primary care. a randomized trial
+  - reason: RCT of decision support nudging GPs' guideline-based test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1553** Reducing the amount of blood transfused: a systematic review of behavioral interventions to change physicians' transfusion practices
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **1046** Improving Prescribing Patterns for the Elderly Through an Online Drug Utilization Review Intervention
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **278** Bridging the science-to-service gap in schizophrenia care in the Netherlands: the Schizophrenia Quality Improvement Collaborative
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run B: 0
+- **1036** Improving laboratory monitoring at initiation of drug therapy in ambulatory care: a randomized trial.
+  - reason: Randomized trial of computerized alerts to health professionals improving guideline-based laboratory monitoring. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1706** Tailored skills training for practitioners to enhance assessment of prognostic factors for persistent and disabling back pain: four quasi-experimental single-subject studies
+  - reason: Quasi-experimental study of tailored skills training on physiotherapists' guideline-based assessment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **412** (final=1) Comparing the efficacy of staff versus housestaff instruction in an intervention to improve hypertension management
+  - reason: Randomized comparison of guideline implementation interventions on providers' hypertension management behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **105** A systematic review of clinical decision support systems for antimicrobial management: are we failing to investigate these interventions appropriately?
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **711** Enhancing evidence-based diabetes and chronic disease control among local health departments: a multi-phase dissemination study with a stepped-wedge cluster randomized trial component
+  - reason: Targets local health department practitioners, not healthcare professionals delivering care.
+  - abstract: yes; run B: 0
+- **457** Cost effectiveness of a clinical decision support system based on the recommendations of the European Society of Cardiology and other societies for the management of hypercholesterolemia: report of a cluster-randomized trial.
+  - reason: Cluster-randomized trial of CDSS nudging guideline adherence in physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **799** Failure of computerized treatment suggestions to improve health outcomes of outpatients with uncomplicated hypertension: results of a randomized controlled trial.
+  - reason: RCT of computerized evidence-based treatment suggestions to physicians; nudge taxonomy to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **450** Controlled trial of an audit facilitatorin diagnosis and treatment of childhood asthma in general practice.
+  - reason: Audit facilitator feedback may or may not be a nudge; unclear from abstract.
+  - abstract: yes; run B: 0
+- **991** Implementing clinical guidelines in the treatment of hypertension in general practice.
+  - reason: Cluster RCT of CDSS implementing hypertension guidelines targeting doctors' behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **691** (final=1) Electronic alerts versus on-demand decision support to improve dyslipidemia treatment: a cluster randomized controlled trial
+  - reason: Cluster RCT of electronic alerts vs on-demand decision support for dyslipidemia guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1774** The effectiveness of interventions to improve laboratory requesting patterns among primary care physicians: a systematic review
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run B: 0
+- **1633** Self-study from web-based and printed guideline materials. A randomized, controlled trial among resident physicians
+  - reason: RCT among residents comparing web-based vs printed guideline self-study; nudge taxonomy unclear. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **629** Effect of written and computerized decision support aids for the U.S. Agency for Health Care Policy and Research depression guidelines on the evaluation of hypothetical clinical scenarious.
+  - reason: Randomized comparison of guideline decision support aids on residents' clinical decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1148** Learning with computerized guidelines in general practice? A randomized controlled trial.
+  - reason: Randomized trial of computerized guideline access for GPs; outcome is knowledge, not behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1476** Promoting use of colorectal cancer screening tests
+  - reason: Randomized trial of physician-directed intervention on colorectal cancer screening behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1315** (final=1) Opportunistic electronic reminders. Improving performance of preventive care in general practice
+  - reason: Randomised electronic reminders to GPs, preventive care behaviour outcomes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+
+## Run B (392 false negatives)
+
+- **1384** Physician response to computer reminders.
+  - reason: Computer reminders to clinicians increased response rate; experiment comparing reminders with/without citations. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **456** (final=1) Cost consequences of implementing an electronic decision support system for ordering laboratory tests in primary care: evidence from a controlled prospective study in the Netherlands
+  - reason: Controlled before-after study of guideline-driven CDSS on GPs' test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **690** (final=1) Electronic alerts to prevent venous thromboembolism among hospitalized patients
+  - reason: Randomized trial of computer alerts to physicians increasing prophylaxis use. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1947** (final=1) Use of a computerized guideline for glucose regulation in the intensive care unit improved both guideline adherence and glucose regulation.
+  - reason: RCT of computerized guideline vs paper guideline; guideline adherence outcomes in ICU. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1522** Randomised controlled trial of tailored strategies to implement guidelines for the management of patients with depression in general practice
+  - reason: RCT of tailored implementation strategies targeting GPs' guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1017** Improving Blood Pressure Control through Provider Education, Provider Alerts, and Patient Education
+  - reason: Cluster RCT of provider alerts/education targeting guideline-concordant hypertension care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1111** Interventions to improve follow-up of abnormal findings in cancer screening
+  - reason: Literature review, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **63** A peer review feedback method of promoting compliance with preventive care guidelines in a resident ambulatory care clinic
+  - reason: Peer review feedback nudge targeting physicians' guideline compliance, compared across three periods. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **97** A simple way to improve DVT protocol compliance
+  - reason: Label nudge on drug chart compared across four audits, targeting DVT protocol compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1485** (final=1) Prospective trial of real-time electronic surveillance to expedite early care of severe sepsis.
+  - reason: Before-and-after study of real-time electronic alerts to clinicians improving sepsis care behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **486** Default options in the ICU: widely used but insufficiently understood
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **370** (final=1) Clinical reminders attached to echocardiography reports of patients with reduced left ventricular ejection fraction increase use of beta-blockers: a randomized trial.
+  - reason: Randomized trial of report-attached reminder increasing beta-blocker prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **872** Guidelines in professions allied to medicine
+  - reason: Systematic review of guideline implementation studies, not a single experiment.
+  - abstract: yes; run A: 0
+- **697** Electronic health records for intervention research: a cluster randomized trial to reduce antibiotic prescribing in primary care (eCRT Study)
+  - reason: Cluster randomized trial of computer-delivered decision support to reduce antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **3** Using peer feedback to improve handwashing and glove usage among Thai health care workers.
+  - reason: Randomized trial of peer feedback on hand hygiene compliance among healthcare workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **763** Evaluation of an Internet-based decision-support system for applying the ATS/CDC guidelines for tuberculosis preventive therapy.
+  - reason: Randomized comparison of web-based decision support versus usual resources for guideline application. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1705** Tailored information increases patient/physician discussion of colon cancer risk and testing: The Cancer Risk Intake System trial
+  - reason: Intervention targets patients, not healthcare professionals; patient-reported discussions.
+  - abstract: yes; run A: 0
+- **1155** Leveraging insights from behavioral economics to increase the value of health-care service provision
+  - reason: Review/recommendation article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1373** Pharmacy Asthma Care Program (PACP) improves outcomes for patients in the community.
+  - reason: Intervention targets patients' asthma outcomes, not healthcare professionals' behaviour.
+  - abstract: yes; run A: 0
+- **642** Effectiveness of an electronic medical record clinical quality alert prepared by off-line data analysis
+  - reason: No abstract; title suggests clinical quality alert experiment, unclear details.
+  - abstract: no; run A: 0
+- **700** Electronic medical records to increase the clinical treatment of tobacco dependence: a systematic review
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run A: 0
+- **374** Cluster randomised controlled trial of tailored interventions to improve the management of urinary tract infections in women and sore throat.
+  - reason: Cluster RCT of reminders/decision support targeting guideline adherence behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1474** Promoting screening mammography in inner-city settings: a randomized controlled trial of computerized reminders as a component of a program to facilitate mammography
+  - reason: Nudge targets patients (women), not healthcare professionals.
+  - abstract: yes; run A: 0
+- **251** Behavioural insights in health care
+  - reason: No abstract; title alone does not establish population or design.
+  - abstract: no; run A: 0
+- **408** Comparative effectiveness of audit-feedback versus additional physician communication training to improve cancer screening for patients with limited health literacy
+  - reason: Cluster RCT comparing audit-feedback with added communication training for physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **975** Implementation of a new policy results in a decrease of pressure ulcer frequency
+  - reason: Guideline implementation plus mattresses is not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **1722** Testing the implementation of clinical guidelines
+  - reason: No abstract; title alone does not establish eligibility or off-topic mismatch.
+  - abstract: no; run A: 0
+- **1534** (final=1) Randomized trial of a clinical decision support system: impact on the management of children with fever without apparent source.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1767** The effect of the Vermont Diabetes Information System on inpatient and emergency room use: results from a randomized trial.
+  - reason: RCT of decision support for diabetes patients and their primary care providers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **928** How to enhance physician and public acceptance and utilisation of colon cancer screening recommendations
+  - reason: Review article, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **810** Feedback as a strategy to change behaviour: the devil is in the details
+  - reason: Review of published feedback studies, not an experiment.
+  - abstract: yes; run A: 0
+- **698** Electronic human immunodeficiency virus (HIV) clinical reminder system improves adherence to practice guidelines among the University of Washington HIV study cohort.
+  - reason: Before-after study of electronic clinical reminders improving guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **800** Fall prevention in acute care hospitals: a randomized trial.
+  - reason: Nudge targets patient falls; intervention not aimed at professionals' behaviour.
+  - abstract: yes; run A: 0
+- **658** Effectiveness of physical therapy for patients with neck pain: an individualized approach using a clinical decision-making algorithm
+  - reason: Intervention targets patients with neck pain, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1684** Successful implementation of a guideline by peer comparisons, education, and positive physician feedback
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **436** (final=1) Computerized decision support to reduce potentially inappropriate prescribing to older emergency department patients: a randomized, controlled trial.
+  - reason: RCT of computerized decision support on physicians' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **599** Effect of a minimal pharmacy intervention on improvement of adherence to asthma guidelines.
+  - reason: Pharmacist-delivered minimal intervention to improve guideline adherence, compared with reference group. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **96** A simple intervention to improve hospital antibiotic prescribing
+  - reason: Before-after comparison of guideline card distribution on antibiotic prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1050** Improving smoking cessation counseling using a point-of-care health intervention tool (IT): from the Virginia Practice Support and Research Network (VaPSRN)
+  - reason: Before/after evaluation of point-of-care tool on physicians' guideline-based counselling behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **952** Impact of a quality improvement program on care and outcomes for children with asthma.
+  - reason: Learning collaborative quality improvement program is not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **607** (final=1) Effect of Behavioral Interventions on Inappropriate Antibiotic Prescribing Among Primary Care Practices: A Randomized Clinical Trial
+  - reason: Cluster RCT of behavioral nudges on guideline-concordant antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **889** (final=1) Healthcare workers' hand decontamination practices: compliance with recommended guidelines
+  - reason: Quasi-experimental hand hygiene guideline compliance study in healthcare workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **433** Computerized community cholesterol control (4C): meeting the challenge of secondary prevention.
+  - reason: Cluster RCT of computerized reminders to clinicians to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1945** Use of a Clinical Decision Support Tool to improve guideline adherence for the treatment of methicillin-resistant Staphylococcus aureus: Skin and Soft Tissue Infections.
+  - reason: CDS tool to improve guideline adherence in ED providers; experimental design implied. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **2012** Words matter: increasing the implementation of clinical guidelines.
+  - reason: Targets mental health service users (patients), not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1766** (final=1) The effect of registry-based performance feedback via short text messages and traditional postal letters on prescribing parenteral steroids by general practitioners—A randomized controlled trial
+  - reason: RCT of feedback nudges on GP prescribing behaviour, an evidence-based medicine target. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **194** Approaches based on behavioral economics could help nudge patients and providers toward lower health spending growth
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **37** A comparison of the effects of computer and manual reminders on compliance with a mental health clinical practice guideline.
+  - reason: RCT comparing reminder nudges on clinician guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1029** Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial.
+  - reason: Cluster randomized trial of computerized decision support targeting appropriate antibiotic prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **925** How payment systems affect physicians’ provision behaviour—an experimental investigation.
+  - reason: Payment incentives, not evidence-based medicine or guideline adherence.
+  - abstract: yes; run A: 0
+- **949** Impact of a computerized template on antibiotic prescribing for acute respiratory infections in children and adolescents
+  - reason: Randomized practice-level trial of EHR template targeting antibiotic prescribing guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1406** Practice development: bridging the research-practice divide through the appointment of a research lead
+  - reason: Descriptive evaluation of a research lead post, no comparison of interventions.
+  - abstract: yes; run A: 0
+- **693** Electronic e-isotretinoin prescription chart: improving physicians' adherence to isotretinoin prescription guidelines
+  - reason: Before-after study of electronic chart improving physicians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1023** Improving compliance with immunization in the older adult: Results of a randomized cohort study.
+  - reason: Randomized trial of organizational/reminder interventions to improve vaccination guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1354** Patient safety research: an overview of the global evidence
+  - reason: Overview of literature, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1963** (final=1) Using paper chart based clinical reminders to improve guideline adherence to lipid management
+  - reason: Randomized trial of chart-based clinical reminder to improve guideline adherence by doctors. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **101** A successful experiment to reduce unnecessary laboratory use in a community hospital
+  - reason: Feedback/peer comparison intervention reduced laboratory test ordering; comparison hospitals used (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1019** Improving cardiovascular risk management: a randomized, controlled trial on the effect of a decision support tool for patients and physicians
+  - reason: Cluster randomized trial of decision support tool on GP performance (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **429** (final=1) Computer screen saver hand hygiene information curbs a negative trend in hand hygiene behavior.
+  - reason: Interrupted time series of gain-framed screen saver messages on hand hygiene among health care workers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1731** The assessment of attention-deficit/hyperactivity disorder in rural primary care: the portability of the American Academy of Pediatrics guidelines to the “real world”.
+  - reason: Before-and-after study of ADHD guideline assessment protocol used by rural primary care staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **753** Evaluation of a decision support system for pressure ulcer prevention and management: preliminary findings
+  - reason: Decision support system based on guidelines tested on nurses with control unit. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **83** A randomized trial of computer-based reminders and audit and feedback to improve HIV screening in a primary care setting.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **487** (final=1) Default settings of computerized physician order entry system order sets drive ordering habits.
+  - reason: Natural experiment changing CPOE order set defaults; ordering behaviour of clinicians measured. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **44** A controlled trial of including symptom data in computer-based care suggestions for managing patients with chronic heart failure
+  - reason: Randomized trial of computer-generated care suggestions on physician guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **974** Implementation fidelity trajectories of a health promotion program in multidisciplinary settings: managing tensions in rehabilitation care
+  - reason: Longitudinal implementation fidelity study, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1950** (final=1) Use of action planning to increase provision of smoking cessation care by general practitioners: role of plan specificity and enactment
+  - reason: Cluster RCT of action planning nudge to GPs to improve guideline-recommended smoking cessation care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1572** Requiring physicians to respond to computerized reminders improves their compliance with preventive care protocols.
+  - reason: RCT of required-response computerized reminders improving physician compliance with preventive care protocols. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **323** Changing physician behavior: what works?
+  - reason: Systematic review of reviews, not an experiment.
+  - abstract: yes; run A: 0
+- **1038** Improving medication management in multimorbidity: development of the MultimorbiditY COllaborative Medication Review And DEcision Making (MY COMRADE) intervention using the Behaviour Change Wheel
+  - reason: Intervention development study, no comparison of two or more interventions.
+  - abstract: yes; run A: 0
+- **261** (final=1) Better medicine by default
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1690** Supporting clinical practice at the bedside using wireless technology.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **288** (final=1) Can computer-generated evidence-based care suggestions enhance evidence-based management of asthma and chronic obstructive pulmonary disease? A randomized, controlled trial.
+  - reason: RCT of computer-generated guideline care suggestions to physicians; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1024** Improving delivery of preventive health care with the comprehensive annotated reminder tool (CART)
+  - reason: Randomized pretest/posttest trial of annotated reminder tool on physician guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1033** (final=1) Improving hand hygiene behaviour of nurses using action planning: a pilot study in the intensive care unit and surgical ward
+  - reason: Pre-post experiment of action planning nudging nurses' hand hygiene guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1144** Lack of chart reminder effectiveness on family medicine resident JNC-VI and NCEP III guideline knowledge and attitudes
+  - reason: Pre-post experiment of chart reminders targeting residents' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **432** (final=1) Computerized clinical decision support during medication ordering for long-term care residents with renal insufficiency.
+  - reason: Randomized trial of decision support alerts improving prescribing appropriateness. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1049** Improving residents' compliance with standards of ambulatory care: results from the VA Cooperative Study on Computerized Reminders.
+  - reason: RCT of computerized reminders to residents improving compliance with standards of care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1991** What implementation interventions increase cancer screening rates? a systematic review
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run A: 0
+- **1143** (final=1) Laboratory test form design influences test ordering by general practitioners in The Netherlands
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1686** Successful reduction in catheter-associated urinary tract infections: focus on nurse-directed catheter removal.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **695** Electronic health record feedback to improve antibiotic prescribing for acute respiratory infections
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1615** Screening for colorectal cancer by once only sigmoidoscopy: a feasibility study in Turin
+  - reason: Nudge targets general-population screening invitees, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1106** Interventions for implementation of thromboprophylaxis in hospitalized medical and surgical patients at risk for venous thromboembolism
+  - reason: Systematic review/meta-analysis, not an experiment.
+  - abstract: yes; run A: 0
+- **1124** (final=1) It’s not all about me motivating hand hygiene among health care professionals by focusing on patients.
+  - reason: Two field experiments nudging hand hygiene among healthcare professionals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1053** Improving the appropriateness of antimicrobial use in primary care after implementation of a local antimicrobial guide in both levels of care
+  - reason: Before/after study of guideline implementation on antimicrobial prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1542** Reasons and consequences of low adherence to standard precautions by the nursing team
+  - reason: Integrative literature review, not an experiment.
+  - abstract: yes; run A: 0
+- **174** An intervention to change clinician behavior: Conceptual framework for the multicolored simplified asthma guideline reminder (MSAGR)
+  - reason: Conceptual framework article, no experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **85** (final=1) A randomized trial of electronic clinical reminders to improve quality of care for diabetes and coronary artery disease.
+  - reason: Randomized trial of electronic reminders to physicians on guideline care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1192** Management of severe sepsis in patients admitted to Asian intensive care units: prospective cohort study
+  - reason: Cohort study, no comparison of two or more interventions.
+  - abstract: yes; run A: 0
+- **1412** Practice-level effects of interventions to improve asthma care in primary care settings: the Pediatric Asthma Care Patient Outcomes Research Team.
+  - reason: Cluster randomized trial of practice-level interventions targeting clinicians' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1443** Primary care physicians' response to dissemination of practice guidelines
+  - reason: Guideline dissemination experiment targeting physicians' prescribing/monitoring behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **981** Implementation of evidence-based treatment protocols to manage fever, hyperglycaemia, and swallowing dysfunction in acute stroke (QASC): a cluster randomised controlled trial
+  - reason: Cluster randomised trial of intervention targeting evidence-based guideline management by stroke units. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **856** Guideline implementation in allied health professions: a systematic review of the literature
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run A: 0
+- **103** (final=1) A sustainable strategy to prevent misuse of antibiotics for acute respiratory infections
+  - reason: Pre-post comparison of a CDSS nudging guideline-congruent antibiotic prescribing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1043** Improving patient discharge and reducing hospital readmissions by using Intervention Mapping
+  - reason: Intervention Mapping framework development, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **222** Audit and feedback: effects on professional practice and health care outcomes
+  - reason: Systematic review/meta-analysis, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **414** (final=1) Comparison of the instructional efficacy of Internet-based CME with live interactive CME workshops: a randomized controlled trial
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1711** Teaching hospital medical staff to handwash
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1405** Practice changes associated with the Department of Veterans Affairs' Family Care Collaborative
+  - reason: Mixed-method evaluation of a collaborative, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **1051** Improving test ordering in primary care: the added value of a small-group quality improvement strategy compared with classic feedback only
+  - reason: Cluster randomized trial of feedback plus peer social influence on physicians' test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1824** The medical office of the 21st century (MOXXI): effectiveness of computerized decision-making support in reducing inappropriate prescribing in primary care.
+  - reason: RCT of computerized decision support alerts to reduce inappropriate prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **643** Effectiveness of an information technology intervention to improve prophylactic antibacterial use in the postoperative period.
+  - reason: Interrupted time series of electronic order set improving guideline-concordant antibacterial prophylaxis. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1010** (final=1) Improvement of intraoperative antibiotic prophylaxis in prolonged cardiac surgery by automated alerts in the operating room
+  - reason: RCT of automated reminder to improve guideline-concordant antibiotic redosing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1948** Use of a decision aid including information on overdetection to support informed choice about breast cancer screening: a randomised controlled trial.
+  - reason: Intervention targets women/patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **652** Effectiveness of medical nutrition therapy provided by dietitians in the management of non-insulin-dependent diabetes mellitus: a randomized, controlled clinical trial.
+  - reason: Nutrition therapy intervention, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **594** Educational Intervention in Primary Care Residents' Knowledge and Performance of Hepatitis B Vaccination in Patients with Diabetes Mellitus
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1851** The role of theory in research to develop and evaluate the implementation of patient safety practices
+  - reason: Conceptual/methodological paper, not an experiment.
+  - abstract: yes; run A: 0
+- **1458** Proactive asthma care in childhood: general practice based randomised controlled trial.
+  - reason: Intervention targets children/patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1044** Improving physician compliance with preventive medicine guidelines
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1540** Rational prescribing in primary care (RaPP): economic evaluation of an intervention to improve professional practice.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **292** Can psychological models bridge the gap between clinical guidelines and clinicians' behaviour? A randomised controlled trial of an intervention to influence dentists' intention to implement evidence-based practice
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1750** The design and evaluation of a graphical display for laboratory data
+  - reason: No comparison of two or more interventions; not an experiment.
+  - abstract: yes; run A: 0
+- **1525** (final=1) Randomized clinical trial of a customized electronic alert requiring an affirmative response compared to a control group receiving a commercial passive CPOE alert: NSAID—warfarin co-prescribing as a test case.
+  - reason: RCT of customized electronic alert nudging clinicians' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **427** Computer reminders for Chlamydia screening in general practice: a randomized controlled trial.
+  - reason: Cluster RCT of computer alert to GPs increasing chlamydia testing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **38** (final=1) A computer-based intervention for improving the appropriateness of antiepileptic drug level monitoring
+  - reason: Computerized reminders to physicians; before-after comparison of test-ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **41** (final=1) A computerized reminder for prophylaxis of deep vein thrombosis in surgical patients
+  - reason: Computerized reminder nudge; before-after comparison of prophylaxis behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **51** A handheld computer smoking intervention tool and its effects on physician smoking cessation counseling
+  - reason: Pre/post trial of handheld tool for physicians' guideline-based smoking cessation counseling. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1054** Improving the care for people with acute low-back pain by allied health professionals (the ALIGN trial): A cluster randomised trial protocol
+  - reason: Cluster randomised trial protocol testing intervention to increase guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1496** (final=1) Provision of social norm feedback to high prescribers of antibiotics in general practice: a pragmatic national randomised controlled trial.
+  - reason: National RCT of social norm feedback letter to high-prescribing GPs; prescribing behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **675** (final=1) Effects of computer reminders on complications of peripheral venous catheters and nurses' adherence to a guideline in paediatric care--a cluster randomised study
+  - reason: Cluster randomised trial of EPR reminders on nurses' guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **320** Changing human behavior to prevent disease: the importance of targeting automatic processes.
+  - reason: Targets general public health behaviours, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **648** Effectiveness of computer assisted instruction in increasing the rate of universal precautions related behaviours.
+  - reason: Experimental comparison of computer-assisted instruction on nurses' precaution behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1930** Understanding non-compliance to colorectal cancer screening: a case control study, nested in a randomised trial
+  - reason: Studies patients' screening compliance, not healthcare professionals' behaviour.
+  - abstract: yes; run A: 0
+- **1468** Professional interventions for general practitioners on the management of musculoskeletal conditions
+  - reason: Systematic review of professional interventions, not a primary experiment.
+  - abstract: yes; run A: 0
+- **1773** The effectiveness of computerized clinical guidelines in the process of care: a systematic review
+  - reason: Systematic review, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **93** A review of the evidence for suboptimal compliance of healthcare practitioners to standard/universal infection control precautions
+  - reason: Literature review, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **31** (final=1) A cluster randomized clinical trial to improve prescribing patterns in ambulatory pediatrics.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1006** (final=1) Improved perioperative antibiotic use and reduced surgical wound infections through use of computer decision analysis.
+  - reason: Before-after study of computer reminders improving perioperative antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1042** Improving Patient Care Through Medical Image Perception Research
+  - reason: Commentary on image perception research; no experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1862** The use of computerized birthday greeting reminders in the management of diabetes.
+  - reason: Randomized trial of mailed reminders improving diabetes monitoring/screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **692** Electronic antibiotic stewardship–reduced consumption of broad-spectrum antibiotics using a computerized antimicrobial approval system in a hospital setting.
+  - reason: Before-after time-series of computerized approval system targeting antibiotic prescribing by hospital clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1311** Ongoing provision of individual clinician performance data improves practice behavior
+  - reason: Experiment comparing CME, feedback and ongoing performance data on guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1241** Modifying prescribing behaviour of angiotensin receptor blockers by selectively rescinding managerial prior authorization requirements for losartan.
+  - reason: Before-after experiment on removing prior authorization, targeting prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1084** (final=1) Inpatient computer-based standing orders vs physician reminders to increase influenza and pneumococcal vaccination rates: a randomized trial.
+  - reason: Randomized trial of standing orders vs reminders on vaccination behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **428** Computer reminders to implement preventive care guidelines for hospitalized patients.
+  - reason: RCT of computer reminders to physicians targeting guideline compliance behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **410** Comparative efficacy of interventions to promote hand hygiene in hospital: systematic review and network meta-analysis
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run A: 0
+- **1758** The effect of a mobile clinical decision support system on the diagnosis of obesity and overweight in acute and primary care encounters.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1627** Self-formulated conditional plans for changing health behaviour among healthcare consumers and health professionals.
+  - reason: Protocol for a systematic review, not an experiment.
+  - abstract: yes; run A: 0
+- **1757** (final=1) The effect of a computerized reminder system on the prevention of postoperative venous thromboembolism
+  - reason: Before-and-after study of computerized reminders targeting guideline-concordant prophylaxis behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **686** Efficacy of an evidence-based clinical decision support in primary care practices
+  - reason: Randomized trial of evidence-based decision support nudging prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1764** (final=1) The effect of mobile phone text-message reminders on Kenyan health workers' adherence to malaria treatment guidelines: a cluster randomised trial.
+  - reason: Cluster randomised trial of text-message reminders on guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **978** Implementation of clinical practice guidelines for prevention of thromboembolism in spinal cord injury.
+  - reason: Before-and-after implementation study of guideline adherence strategies targeting providers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **425** Computed critiquing integrated into daily clinical practice affects physicians' behavior--a randomized clinical trial with AsthmaCritic
+  - reason: RCT of guideline-based critiquing system on GP monitoring/treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1133** Just-in-time evidence-based e-mail “reminders” in home health care: impact on patient outcomes.
+  - reason: RCT of evidence-based e-mail reminders to nurses; behaviour and outcomes reported. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **995** Implementing guidelines on the prevention of opportunistic infections in inflammatory bowel disease
+  - reason: Before-after study of screening proforma changing gastroenterologist guideline behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **498** (final=1) Design factors for success or failure of guideline-based decision support systems: an hypothesis involving case complexity
+  - reason: Pre/post experiment of reminder-based CDSS nudging GPs' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **999** Implementing research findings into practice using clinical opinion leaders: barriers and lessons learned
+  - reason: Opinion leader nudge tested at four VA facilities for guideline-based prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1289** (final=1) Nudging guideline-concordant antibiotic prescribing: a randomized clinical trial
+  - reason: Randomized trial of commitment-letter nudge on antibiotic prescribing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1672** Strategies for rehabilitation professionals to move evidence-based knowledge into practice: a systematic review
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run A: 0
+- **1783** (final=1) The efficacy of an automated feedback system for general practitioners
+  - reason: Randomized trial of automated feedback on GPs' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **605** (final=1) Effect of audit and feedback, and reminder messages on primary-care radiology referrals: a randomised trial.
+  - reason: Cluster RCT of reminder messages to GPs targeting guideline-concordant radiology referrals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **942** Identifying and reducing errors with surgical simulation
+  - reason: Surgical simulation training, not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **525** Development of a complex intervention to promote appropriate prescribing and medication intensification in poorly controlled type 2 diabetes mellitus in Irish general practice
+  - reason: Intervention development paper, no experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **1076** Information technology for patient safety
+  - reason: Discussion paper on eHealth, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **604** Effect of audit and feedback with peer review on general practitioners' prescribing and test ordering performance: a cluster-randomized controlled trial
+  - reason: Cluster-RCT of audit and feedback with peer review on GPs' prescribing and test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **158** An automated minimum retest interval rejection rule reduces repeat CRP workload and expenditure, and influences clinician-requesting behaviour
+  - reason: Automated retest rejection rule alters clinician test-requesting behaviour; prospective comparison. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1867** The value of 'gentle reminder' on safe medical behaviour
+  - reason: Gentle reminder nudge targeting staff safe behaviour, before-after observation. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **966** (final=1) Impact of non-interruptive medication laboratory monitoring alerts in ambulatory care.
+  - reason: RCT of non-interruptive alerts on provider lab ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1666** Standard operating procedure changed pre-hospital critical care anaesthesiologists' behaviour: a quality control study
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **2** Effect of a clinical pharmacy service on lipid control in patients with peripheral arterial disease.
+  - reason: Pharmacist-managed algorithmic service, not a soft-steering nudge intervention. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **437** Computerized reminders to encourage cervical screening in family practice.
+  - reason: Interventions target women/patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1114** Interventions to modify health care provider adherence to asthma guidelines: a systematic review
+  - reason: Systematic review, excluded by E4.
+  - abstract: yes; run A: 0
+- **555** Do decision support systems influence variation in prescription?
+  - reason: Observational survey comparison, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1752** The development of an intervention to promote adherence to national guidelines for suspected viral encephalitis.
+  - reason: Intervention development using interviews, no comparison of two or more interventions.
+  - abstract: yes; run A: 0
+- **1785** (final=1) The efficacy of visual cues to improve hand hygiene compliance
+  - reason: Randomized experiment of visual cues on healthcare workers' hand hygiene compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **26** (final=1) A clinical decision support system for prevention of venous thromboembolism: effect on physician behavior
+  - reason: Interrupted time series of CDSS guideline presentation changing physician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **116** (final=1) A cluster randomized trial of decision support strategies for reducing antibiotic use in acute bronchitis
+  - reason: Cluster randomized trial of decision support nudges targeting clinicians' antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **2019** A Systematic Scoping Review of the Choice Architecture Movement: Toward Understanding When and Why Nudges Work
+  - reason: Scoping review of nudge studies, not an experiment.
+  - abstract: yes; run A: 0
+- **1761** (final=1) The effect of computer reminders on GPs' prescribing behaviour: a cluster-randomised trial
+  - reason: Cluster-randomised trial of computer reminders to GPs on prescribing guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1772** (final=1) The effectiveness of computer reminders for improving quality assessment for point-of-care testing in general practice—A randomized controlled trial
+  - reason: Randomized crossover trial of computer reminders on guideline adherence in general practice. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **420** Complex pharmaceutical care intervention in pulmonary care: part A. The process and pharmacists' professional satisfaction.
+  - reason: Process description of one trial arm, not a comparison of interventions.
+  - abstract: yes; run A: 0
+- **676** (final=1) Effects of computerized guidelines for managing heart disease in primary care
+  - reason: Randomized trial of computer-displayed evidence-based care suggestions targeting clinicians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **559** Do pediatricians apply the 2009 NASPGHAN-ESPGHAN guidelines for the diagnosis and management of gastroesophageal reflux after being trained?
+  - reason: Randomized comparison of guideline training formats targeting pediatricians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **816** (final=1) Format change of a laboratory test order form affects physician behavior
+  - reason: Before-and-after study of order-form restructuring on physician test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **213** Assessment of the potential impact of a reminder system on the reduction of diagnostic errors: a quasi-experimental study
+  - reason: Quasi-experimental study of reminder-based decision support for clinicians' diagnostic decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1973** Variations in GPs' decisions to investigate suspected lung cancer: a factorial experiment using multimedia vignettes
+  - reason: Vignette experiment manipulating patient characteristics, not comparing nudges.
+  - abstract: yes; run A: 0
+- **1047** (final=1) Improving quality improvement using achievable benchmarks for physician feedback: a randomized controlled trial.
+  - reason: Group-randomized trial of benchmark feedback nudging physician performance; nudge taxonomy to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1454** Printed educational materials: effects on professional practice and health care outcomes
+  - reason: Systematic review of printed educational materials, not an experiment.
+  - abstract: yes; run A: 0
+- **1857** The systematic influence of gain-and loss-framed messages on interest in and use of different types of health behavior
+  - reason: Targets general public/patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **951** Impact of a multifaceted intervention on nurses' and physicians' attitudes and behaviors toward family presence during resuscitation
+  - reason: Multifaceted intervention on family presence; unclear whether nudge and experimental comparison.
+  - abstract: yes; run A: 0
+- **413** Comparison of strategies to reduce meticillin-resistant Staphylococcus aureus rates in surgical patients: a controlled multicentre intervention trial.
+  - reason: Infection control trial; unclear whether hand hygiene promotion is a nudge.
+  - abstract: yes; run A: 0
+- **1678** Structured smoking cessation training for health professionals on cardiology wards: a prospective study
+  - reason: Standard operating procedures are not a nudge per taxonomy. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **996** Implementing international osteoarthritis treatment guidelines in primary health care: study protocol for the SAMBA stepped wedge cluster randomized controlled trial
+  - reason: Study protocol; unclear whether nudges and behaviour outcomes are analysed.
+  - abstract: yes; run A: 0
+- **411** Comparing cost effects of two quality strategies to improve test ordering in primary care: a randomized trial
+  - reason: Randomized trial of feedback/guideline education on physicians' test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1527** Randomized controlled trial of a computer strategy to increase general practitioner preventive care
+  - reason: Randomized controlled trial of computerized feedback on GP preventive care behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **499** Design of high reliability organizations in health care
+  - reason: Conceptual design paper, no experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1210** (final=1) Medical admission order sets to improve deep vein thrombosis prophylaxis rates and other outcomes
+  - reason: No abstract; title suggests order sets but design and outcomes unclear.
+  - abstract: yes; run A: 0
+- **193** Applying Choice Architecture Principles to Understand HIV Testing: Findings From Malawi and Zimbabwe
+  - reason: Targets general public/patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **424** Comprehensive asthma management for underserved children
+  - reason: Programme description/evaluation, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **227** (final=1) Automated hand hygiene auditing with and without an intervention
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **644** Effectiveness of an Intervention to Enhance Occupational Physicians' Guideline Adherence on Sickness Absence Duration in Workers with Common Mental Disorders: A Cluster-Randomized Controlled Trial
+  - reason: Cluster RCT of intervention to enhance occupational physicians' guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **822** Framing options as choice or opportunity: does the frame influence decisions?
+  - reason: Nudge targets healthy women, not healthcare professionals
+  - abstract: yes; run A: 0
+- **1181** Management for Physicians: An Annotated Bibliography of Recent Literature
+  - reason: Annotated bibliography, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1414** (final=1) Precommittingto choose wisely about low-value services: a stepped wedge cluster randomised trial.
+  - reason: Stepped wedge cluster randomised trial of clinician precommitment nudges targeting low-value orders. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1013** (final=1) Improving antibiotic prescribing for adults with community acquired pneumonia: Does a computerised decision support system achieve more than academic detailing alone?--A time series analysis
+  - reason: Interrupted time series of CDSS and academic detailing on clinicians' guideline-concordant prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1057** Improving the success of mailed letter intervention programs to influence prescribing behaviors: a review
+  - reason: Review of mailed intervention programs, not an experiment.
+  - abstract: yes; run A: 0
+- **376** Cluster randomized trial of a multilevel evidence-based quality improvement approach to tailoring VA Patient Aligned Care Teams to the needs of women Veterans
+  - reason: Cluster randomized trial of EBQI to tailor care teams; nudge status to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1030** Improving empirical antibiotic treatment using TREAT, a computerized decision support system: cluster randomized trial.
+  - reason: Cluster RCT of computerized decision support on appropriate antibiotic treatment. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1455** Printed educational messages fail to increase use of thiazides as first-line medication for hypertension in primary care: a cluster randomized controlled trial [ISRCTN72772651
+  - reason: Cluster RCT of printed educational messages on thiazide prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1805** The impact of infectious diseases specialist-directed computerized physician order entry antimicrobial stewardship program targeting linezolid use
+  - reason: No abstract; cannot judge design, population or nudge content.
+  - abstract: no; run A: 0
+- **277** Bridging the gap between pragmatic intervention design and theory: using behavioural science tools to modify an existing quality improvement programme to implement â€œSepsis Sixâ€
+  - reason: Intervention development study; unclear whether an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **947** Impact of a computerized clinical decision support system on reducing inappropriate antimicrobial use: a randomized controlled trial.
+  - reason: RCT of computerized decision support alerting antimicrobial management team; targets prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **211** (final=1) Assessment of radiological referral practice and effect of computer-based guidelines on radiological requests in two emergency departments.
+  - reason: Before-and-after comparison of computer-based guideline reminders on radiological requests. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **709** (final=1) Enhanced physician adherence to antibiotic use guidelines through increased availability of guidelines at the time of drug ordering in hospital setting.
+  - reason: Before-after experiment embedding antibiotic guidelines in order entry improved adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1330** Overdiagnosis and overtreatment as a quality problem: insights from healthcare improvement research
+  - reason: No abstract; title does not plainly name an off-topic population.
+  - abstract: no; run A: 0
+- **994** Implementing guidelines for depression on antidepressant prescribing in general practice: a quasi-experimental evaluation
+  - reason: Quasi-experimental guideline implementation targeting GP prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1028** Improving empiric antibiotic selection using computer decision support.
+  - reason: Randomized crossover of computer decision support for empiric antibiotic selection. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **532** Development, implementation, and evaluation of a community pharmacy-based asthma care model
+  - reason: Intervention targets patients; outcomes are patient clinical outcomes.
+  - abstract: yes; run A: 0
+- **84** A randomized trial of computerized reminders for blood pressure screening in primary care.
+  - reason: RCT of computerized physician reminders for blood pressure screening in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1362** Performance of the TREAT decision support system in an environment with a low prevalence of resistant pathogens.
+  - reason: Retrospective comparison of decision support recommendation vs practice, not an experiment.
+  - abstract: yes; run A: 0
+- **561** Documentation-based clinical decision support to improve antibiotic prescribing for acute respiratory infections in primary care: a cluster randomised controlled trial
+  - reason: Cluster RCT of EHR decision support on antibiotic prescribing; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1802** (final=1) The impact of cost displays on primary care physician laboratory test ordering.
+  - reason: Interrupted time series of cost display nudging physicians' lab test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1** A prospective, controlled trial of a pharmacy-driven alert system to increase thromboprophylaxis rates in medical inpatients.
+  - reason: Controlled trial of pharmacist alert nudging physicians' thromboprophylaxis ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1113** Interventions to increase the use of electronic health information by healthcare practitioners to improve clinical practice and patient outcomes
+  - reason: Cochrane systematic review, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **45** A controlled trial of web-based diabetes disease management.
+  - reason: Cluster RCT of web-based decision support improving evidence-based diabetes care processes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1786** (final=1) The employment of ward opinion leaders for continuing education in the hospital.
+  - reason: Randomized ward comparison of opinion-leader education on guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **109** A tailored intervention to implement guideline recommendations for elderly patients with depression in primary care: a pragmatic cluster randomised trial
+  - reason: Cluster randomised trial of tailored intervention to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1483** Prospective comparative study of computer programs used for management of warfarin.
+  - reason: Computerised dosing systems are not soft-steering nudges per taxonomy. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **1203** McMaster PLUS: a cluster randomized clinical trial of an intervention to accelerate clinical use of evidence-based information from digital libaries
+  - reason: Cluster randomized trial of information-delivery nudge to physicians; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1859** The tools of an evidence-based culture: implementing clinical-practice guidelines in an Israeli HMO
+  - reason: Randomized trial of feedback/lecture nudges on physicians' guideline-adherent prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **805** (final=1) Feasibility and acceptability of two incentive-based implementation strategies for mental health therapists implementing cognitive-behavioral therapy: a pilot study to inform a randomized controlled trial
+  - reason: Incentive strategies targeting therapists' adherence to CBT, randomized pilot experiment. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1760** The effect of adding Pap smear information to a mammography reminder system in an HMO: results of randomized controlled trial.
+  - reason: Reminders target patients (women), not healthcare professionals.
+  - abstract: yes; run A: 0
+- **99** A statewide controlled trial intervention to reduce use of unproven or ineffective breast cancer care
+  - reason: Controlled trial of public reporting plus app targeting provider behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **702** Electronically distributed, computer-generated, individualized feedback enhances the use of a computerized practice guideline
+  - reason: RCT of individualized feedback nudging clinicians' guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **245** Behavioral economics and physician compensation—promise and challenges.
+  - reason: No abstract; title on physician compensation, topic unclear.
+  - abstract: no; run A: 0
+- **1900** Translating Clinical Research into Clinical Practice: Impact of Using Prediction Rules To Make Decisions
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **958** (final=1) Impact of decision support in electronic medical records on lipid management in primary care.
+  - reason: RCT of EMR decision-support prompts targeting physicians' guideline-based lipid care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **503** Designing a valid randomized pragmatic primary care implementation trial: the my own health report (MOHR) project
+  - reason: Intervention targets patients' health behavior, not healthcare professionals' behavior.
+  - abstract: yes; run A: 0
+- **671** (final=1) Effects of an automated electronic reminder in changing the antiplatelet drug-prescribing behavior among Italian general practitioners in diabetic patients: an intervention trial
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1088** Integrating "Back to Sleep" recommendations into neonatal ICU practice
+  - reason: Targets parents' behaviour at home, not healthcare professionals' behaviour.
+  - abstract: yes; run A: 0
+- **1152** Lessons from a randomized controlled trial designed to evaluate computer decision support software to improve the management of asthma
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **905** Heterogeneous effect of an Emergency Department Expert Charting System
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1206** Measuring persistence of implementation: QUERI Series
+  - reason: Conceptual article on sustainability measurement, not an experiment.
+  - abstract: yes; run A: 0
+- **42** (final=1) A computerized reminder system to increase the use of preventive care for hospitalized patients
+  - reason: RCT of computerized reminders to physicians increasing preventive therapy ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **984** Implementation of the Tobacco Tactics intervention versus usual care in Trinity Health community hospitals
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **384** Cognitive debiasing 2: impediments to and strategies for change
+  - reason: Conceptual review of debiasing strategies, not an experiment.
+  - abstract: yes; run A: 0
+- **1533** (final=1) Randomized study of online vaccine reminders in adult primary care
+  - reason: Randomized cross-over trial of online reminders to physicians on guideline-concordant vaccine prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **81** (final=1) A randomized trial of "corollary orders" to prevent errors of omission.
+  - reason: Randomized trial of guideline-based computerized reminders to physicians; adherence outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1960** Using computerized clinical decision support for latent tuberculosis infection screening.
+  - reason: Nonrandomized prospective intervention study of CDSS alerts on LTBI screening adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **946** Impact of a clinical decision support system on antibiotic prescribing for acute respiratory infections in primary care: quasi-experimental trial
+  - reason: Quasi-experimental trial of CDSS on antibiotic prescribing in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1007** (final=1) Improved therapeutic monitoring with several interventions: a randomized trial.
+  - reason: Cluster-randomized trial of reminders to clinicians improving guideline-based laboratory monitoring. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **806** Feasibility and impact of a computerised clinical decision support system on investigation and initial management of new onset chest pain: a mixed methods study
+  - reason: Before-after mixed methods study of guideline-based decision support on clinician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1356** Patient-carried card prompts vs computer-generated prompts to remind private practice physicians to perform health maintenance measures.
+  - reason: Randomized trial of prompts reminding physicians to perform health maintenance measures. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **857** Guideline implementation: what the literature doesn't tell us
+  - reason: Review of systematic reviews, not an experiment.
+  - abstract: yes; run A: 0
+- **1472** Promoting Hand Hygiene Compliance
+  - reason: Cluster-randomized trial of tailored behavioural interventions on hand hygiene compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **674** Effects of computer reminders for influenza vaccination on morbidity during influenza epidemics.
+  - reason: RCT of computer reminders to physicians targeting vaccination behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1016** Improving asthma-related health outcomes among low-income, multiethnic, school-aged children: results of a demonstration project that combined continuous quality improvement and community health worker strategies
+  - reason: Quality improvement and community health worker programme, not a nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **86** (final=1) A randomized trial of the effectiveness of on-demand versus computer-triggered drug decision support in primary care.
+  - reason: Cluster trial comparing alert customization approaches on prescribing problems. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1442** (final=1) Primary care guidelines on consultation practices: the effectiveness of computerized versus paperbased versions. A cluster randomized controlled trial among newly qualified primary care physicians.
+  - reason: Cluster RCT comparing guideline presentation formats on physician compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **621** (final=1) Effect of patient-specific ratings vs conventional guidelines on investigation decisions in angina: Appropriateness of Referral and Investigation in Angina (ARIA) Trial
+  - reason: RCT comparing patient-specific ratings with guidelines on investigation decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1290** (final=1) Nudging physician prescription decisions by partitioning the order set: results of a vignette-based study.
+  - reason: Vignette experiment nudging physicians' prescribing via order-set partitioning. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1115** Interventions to promote the evidence-based care of children with ADHD in primary-care settings
+  - reason: Review article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **628** (final=1) Effect of varying the number and location of alcohol-based hand rub dispensers on usage in a general inpatient medical unit.
+  - reason: Sequential experiment altering dispenser number/location to change hand hygiene behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1622** Screening Surgeons for HIV Infection: A Cost-effectiveness Analysis
+  - reason: Cost-effectiveness analysis, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1018** Improving blood pressure control through provider education, provider alerts, and patient education: a cluster randomized trial.
+  - reason: Cluster randomized trial of provider alerts/education targeting prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1782** (final=1) The effects of price information on physicians’ test-ordering behavior: ordering of diagnostic tests.
+  - reason: Randomized experiment giving price information to physicians, changing test-ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1980** (final=1) Weekly E-mail reminders influence emergency physician behavior: a case study using the Joint Commission and Centers for Medicare and Medicaid Services Pneumonia Guidelines
+  - reason: Before-after study of email reminders to ED staff on pneumonia guideline compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **610** Effect of computerised evidence based guidelines on management of asthma and angina in adults in primary care: cluster randomised controlled trial.
+  - reason: Cluster RCT of computerised evidence-based guidelines on GP adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1022** Improving clinical handover between intensive care unit and general ward professionals at intensive care unit discharge.
+  - reason: Systematic review, not an experiment comparing two or more interventions.
+  - abstract: yes; run A: 0
+- **1333** Paediatric nurses' postoperative pain management practices in hospital based non-critical care settings: a narrative review
+  - reason: Narrative/systematic review of nurses' pain practices, not an experiment.
+  - abstract: yes; run A: 0
+- **608** Effect of Clinical Decision-Support Systems: a systematic review
+  - reason: Systematic review of CDSS trials, not itself an experiment.
+  - abstract: yes; run A: 0
+- **221** Audit and feedback as a clinical practice guideline implementation strategy: a model for acute care nurse practitioners
+  - reason: Review of literature on audit and feedback, not an experiment.
+  - abstract: yes; run A: 0
+- **318** Changing clinical behaviour by making guidelines specific
+  - reason: Commentary/overview of reviews, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1207** Measuring the effectiveness of a collaborative for quality improvement in pediatric asthma care: does implementing the chronic care model improve processes and outcomes of care?
+  - reason: Intervention targets pediatric patients and care processes, not healthcare professionals' behaviour.
+  - abstract: yes; run A: 0
+- **962** Impact of feedback and didactic sessions on the reporting behavior of upper endoscopic findings by physicians and nurses
+  - reason: Feedback and education targeting physicians/nurses reporting per endoscopy guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **495** Design and evaluation of a computer reminder system to improve prescribing behaviour of GPs
+  - reason: Clustered RCT of computer reminders to GPs to improve guideline-concordant prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **164** (final=1) An electronic medical record-based intervention to improve quality of care for gastro-esophageal reflux disease (GERD) and atypical presentations of GERD.
+  - reason: RCT of EMR prompts/education targeting clinicians' GERD diagnosis and treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1139** (final=1) Knowledge translation of the American College of Emergency Physicians' clinical policy on syncope using computerized clinical decision support
+  - reason: Pre-post study of CDSS prompts based on ACEP syncope policy, measuring physician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **434** Computerized decision support based on a clinical practice guideline improves compliance with care standards
+  - reason: Randomized controlled trial of guideline-based decision support on clinician compliance behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1955** User satisfaction and frustration with a handheld, pen-based guideline implementation system for asthma
+  - reason: Guideline implementation tool for clinicians evaluated in randomized before-after trial. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1445** Primary care provider attitudes are associated with smoking cessation counseling and referral
+  - reason: Group randomized trial of QI program targeting PCP guideline adherence behaviours. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1751** The development of an intervention to promote adherence to national guidelines for suspected viral encephalitis
+  - reason: Intervention development from interviews; unclear whether experiment with behaviour outcome.
+  - abstract: yes; run A: 0
+- **657** Effectiveness of pharmacist care for patients with reactive airways disease: a randomized controlled trial.
+  - reason: Intervention targets patients' outcomes via pharmacist care, not nudging healthcare professionals.
+  - abstract: yes; run A: 0
+- **1938** Unintended effects of a computerized physician order entry nearly hard-stop alert to prevent a drug interaction: a randomized controlled trial.
+  - reason: RCT of CPOE alert nudging clinicians' prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1763** The effect of external feedback on the management of medicare inpatients with congestive heart failure
+  - reason: Randomized feedback experiment targeting guideline adherence in clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **785** Explaining the effects of two different strategies for promoting hand hygiene in hospital nurses: a process evaluation alongside a cluster randomised controlled trial
+  - reason: Process evaluation of cluster RCT of hand hygiene strategies for nurses; nudge components present. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **701** Electronic prescribing increases uptake of clinical pharmacologists' recommendations in the hospital setting.
+  - reason: Electronic prescribing chart is a system change, not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **598** Effect of a computerized body mass index prompt on diagnosis and treatment of adult obesity.
+  - reason: Randomized comparison of BMI chart prompt vs no prompt on physician behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **960** (final=1) Impact of environmental olfactory cues on hand hygiene behaviour in a simulated hospital environment: a randomized study
+  - reason: Randomized study of environmental olfactory cue on hand hygiene compliance of providers. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **964** Impact of introduction of rapid diagnostic tests for malaria on antibiotic prescribing: analysis of observational and randomised studies in public and private healthcare settings
+  - reason: Randomised and observational studies of diagnostic testing on antibiotic prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **294** Can we improve adherence to guidelines for the treatment of lower urinary tract infection? A simple, multifaceted intervention in out-of-hours services
+  - reason: Quasi-experimental before-after intervention targeting GPs' guideline-adherent prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **696** (final=1) Electronic health record-based decision support to improve asthma care: a cluster-randomized trial.
+  - reason: Cluster-randomized trial of EHR decision support to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1200** Massachusetts General Physicians Organization’s quality incentive program produces encouraging results
+  - reason: Financial incentive payments are not a soft nudge per the taxonomy. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **641** Effectiveness of an audible reminder on hand hygiene adherence
+  - reason: Pre-post study of audible reminder nudging hand hygiene adherence among hospital staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1904** Translation of appropriateness criteria into practice guidelines: application of decision table techniques to the RAND criteria for coronary artery bypass graft.
+  - reason: Methodological guideline-translation paper, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **622** Effect of physician recommendation and patient adherence on rates of colorectal cancer testing.
+  - reason: Focus on patient adherence and testing, not nudges to healthcare professionals.
+  - abstract: yes; run A: 0
+- **375** Cluster randomized trial of a multifaceted primary care decision-support intervention for inherited breast cancer risk.
+  - reason: Cluster RCT of decision-support intervention for GPs; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **80** A randomized outpatient trial of a decision-support information technology tool.
+  - reason: Randomized trial of decision-support tool targeting evidence-based care processes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1551** (final=1) Redesigning the ‘choice architecture’of hospital prescription charts: a mixed methods study incorporating in situ simulation testing.
+  - reason: Choice-architecture redesign of prescription charts tested against current chart; prescribing behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **520** Development and implementation of a program to assess medical patients’ need for venous thromboembolism prophylaxis
+  - reason: CPOE reminder nudge to providers; before-after comparison of VTE prophylaxis compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **526** Development of a minimization instrument for allocation of a hospital-level performance improvement intervention to reduce waiting times in Ontario emergency departments
+  - reason: Instrument development study, no comparison of two or more interventions.
+  - abstract: yes; run A: 0
+- **289** Can hand-held computers improve adherence to guidelines? A (Palm) Pilot study of family doctors in British Columbia
+  - reason: PDA guideline tool tested with control comparison on preventive care adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1233** Minimizing errors of omission: behavioural reenforcement of heparin to avert venous emboli: the BEHAVE study
+  - reason: Reminders and feedback nudges to clinicians; longitudinal comparison of thromboprophylaxis behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **877** Harnessing the power of default options to improve health care
+  - reason: Commentary on default options; no abstract evidence of an experiment.
+  - abstract: yes; run A: 0
+- **765** Evaluation of internet-based clinical decision support systems.
+  - reason: Randomized scenario comparison of guideline-based DSS versus printed guidelines on physician decisions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **435** (final=1) Computerized decision support for medication dosing in renal insufficiency: a randomized, controlled trial.
+  - reason: RCT of computerized decision support on physician dosing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **563** Does a joint development and dissemination of multidisciplinary guidelines improve prescribing behaviour: a pre/post study with concurrent control group and a randomised trial.
+  - reason: Pre/post study with control and randomised subgroup on guideline dissemination to GPs. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1922** Two cheers or three for treatment guidelines? Nudging prescribers in right directions
+  - reason: No abstract; title suggests nudging prescribers but design unknown.
+  - abstract: no; run A: 0
+- **639** Effectiveness of a prospective physician self-audit transfusion-monitoring system.
+  - reason: Study-control pre/post design testing audit system and guideline memo on transfusion behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **385** Cognitive debiasing through sparklines in clinical data displays
+  - reason: Conceptual illustration of data displays; no experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **957** (final=1) Impact of computerized decision support on blood pressure management and control: a randomized controlled trial.
+  - reason: Cluster RCT of computerized decision support improving guideline-adherent prescribing by physicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1291** Nudging to prudence? The effect of reminders on antibiotics prescriptions.
+  - reason: RCT of reminders affecting antibiotics prescribing; effect at clinic level suggests doctors affected. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **977** Implementation of clinical guidelines through an electronic medical record: physician usage, satisfaction and assessment
+  - reason: Pre-post evaluation of guideline-embedded electronic record on physician behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1946** (final=1) Use of a computer to detect and respond to clinical events: its effect on clinician behavior.
+  - reason: Randomized study of computer reminders changing clinician behavior. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **40** (final=1) A computerized intervention to decrease the use of calcium channel blockers in hypertension.
+  - reason: Randomized trial of chart guideline reminder to providers, prescribing behaviour outcome. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **415** Comparison of three methods of recalling patients for influenza vaccination.
+  - reason: Nudge targets patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **62** A patient-initiated system for preventive health care.
+  - reason: Patient-initiated computer system targeting patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **39** A computerized handheld decision-support system to improve pulmonary embolism diagnosis: a randomized trial.
+  - reason: Cluster randomized trial of computerized decision support for guideline-adherent diagnosis. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1846** The role of GPs in increasing compliance to colorectal cancer screening: a randomised controlled trial (Italy)
+  - reason: Intervention is screening location (GP office vs hospital), not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **1209** Measuring the effects of reminders for outpatient influenza immunizations at the point of clinical opportunity
+  - reason: Reminders nudge clinicians; before-after comparison of CPR vs paper record compliance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1962** (final=1) Using implementation intentions to teach practitioners: changing practice behaviours via continuing education.
+  - reason: RCT of implementation intentions nudge on practitioners' guideline procedure use. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **156** An administrative intervention to improve the utilization of laboratory tests within a university hospital
+  - reason: Before-after study of administrative restriction on clinicians' test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1492** Protocol processing system (ProtoVIEW) to support residents at the emergency ward.
+  - reason: Prototype evaluation; unclear whether two or more interventions were compared.
+  - abstract: yes; run A: 0
+- **1535** Randomized trial of model predictive control for improved anemia management
+  - reason: Intervention targets patients' dosing, not healthcare professionals' behaviour.
+  - abstract: yes; run A: 0
+- **1942** Usage and effect of health information exchange: a systematic review
+  - reason: Systematic review, excluded by design criterion.
+  - abstract: yes; run A: 0
+- **82** (final=1) A randomized trial of a computer-based intervention to reduce utilization of redundant laboratory tests
+  - reason: RCT of computerized reminders to physicians reducing redundant lab test ordering. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **948** Impact of a computerized decision support system on compliance with guidelines on antibiotics prescribed for urinary tract infections in emergency departments: a multicentre prospective before-and-after controlled interventional study
+  - reason: Before-and-after study of CDSS nudging guideline-compliant antibiotic prescribing by ED clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1966** Using shared goal setting to improve access and equity: a mixed methods study of the Good Goals intervention in children's occupational therapy
+  - reason: Goal setting intervention targets access/equity, not evidence-based medicine adherence.
+  - abstract: yes; run A: 0
+- **553** Dissemination of effectiveness and outcomes research
+  - reason: Review of dissemination literature, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **694** Electronic health record decision support and quality of care for children with ADHD.
+  - reason: Cluster randomized trial of EHR reminders nudging pediatricians' guideline-concordant ADHD assessment. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **27** A clinical trial of a knowledge-based medical record
+  - reason: Controlled trial of decision support/reminders targeting clinicians' guideline adherence behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1453** (final=1) Priming Hand Hygiene Compliance in Clinical Environments
+  - reason: RCT of priming cues on hand hygiene compliance in clinical staff. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **25** A centralized cardiovascular risk service to improve guideline adherence in private primary care offices
+  - reason: Cluster randomized trial of centralized service to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1349** (final=1) Patient and physician reminders to promote colorectal cancer screening: a randomized controlled trial.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **479** (final=1) Curtailing laboratory test ordering in a managed care setting through redesign of a computerized order form
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1003** Improved asthma outcomes using a coordinated care approach in a large medical group.
+  - reason: Program review/before-after without clear two-intervention comparison; not an experiment.
+  - abstract: yes; run A: 0
+- **342** Chronic care model and shared care in diabetes: randomized trial of an electronic decision support system.
+  - reason: Specialist telemedicine advice is not a soft-steering nudge. (guard: EXCLUDE routed to NEEDS_REVIEW -- this criterion cannot be decided from a title and abstract)
+  - abstract: yes; run A: 0
+- **1032** Improving guideline adherence: a randomized trial evaluating strategies to increase beta-blocker use in heart failure
+  - reason: RCT of reminders/notification to providers to improve guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1034** (final=1) Improving handover from intensive care to ward medical teams with simple changes to paperwork
+  - reason: Quality improvement paperwork change; unclear whether nudge and experiment.
+  - abstract: yes; run A: 0
+- **181** Angina on the Palm: randomized controlled pilot trial of Palm PDA software for referrals for cardiac testing.
+  - reason: Cluster RCT of PDA software nudging physicians' test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **136** Adoption, reach, implementation, and maintenance of a behavioral and mental health assessment in primary care
+  - reason: Intervention targets patients completing health assessments, not nudging professionals.
+  - abstract: yes; run A: 0
+- **1956** (final=1) Using ‘nudge’principles for order set design: a before and after evaluation of an electronic prescribing template in critical care
+  - reason: Before-after evaluation of nudge-based order set design on prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **950** Impact of a multifaceted intervention on cholesterol management in primary care practices: guideline adherence for heart health randomized trial
+  - reason: Randomized trial of decision support on guideline adherence in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1127** (final=1) JOURNAL CLUB: Predictors of Provider Response to Clinical Decision Support: Lessons Learned From the Medicare Imaging Demonstration
+  - reason: Pre-post study of CDS alerts steering imaging ordering by providers; nudge taxonomy classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **609** Effect of computer-assisted European Best Practice Guideline implementation on adherence and target attainment: ORAMA results.
+  - reason: Cluster-randomized trial of computerized guideline prompting for clinicians; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1027** Improving doctors' prescribing behaviour through reflection on guidelines and prescription feedback: a randomised controlled study
+  - reason: Randomized trial of guideline-based feedback on GPs' prescribing; nudge classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **953** Impact of a web-based antimicrobial approval system on broad-spectrum cephalosporin use at a teaching hospital.
+  - reason: Pre-post experiment; web approval system nudging prescribers toward antibiotic guideline concordance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1259** Multi-screen electronic alerts to augment venous thromboembolism prophylaxis
+  - reason: Electronic alerts nudging physicians to order VTE prophylaxis; two-cohort comparison. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1064** (final=1) Increasing compliance with low tidal volume ventilation in the ICU with two nudge-based interventions: evaluation through intervention time-series analyses
+  - reason: Interrupted time series of default change and dashboard nudges on ventilation behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1537** (final=1) Randomized trial to improve prescribing safety in ambulatory elderly patients.
+  - reason: Randomized trial of pharmacist alerts nudging safer prescribing in elderly patients. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1011** Improving adherence to guidelines for hypertension drug prescribing: cluster-randomized controlled trial of general versus patient-specific recommendations
+  - reason: Cluster-randomized trial of clinician advisory nudging guideline-concordant hypertension prescribing. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **64** A pilot study of an electronic interprofessional evidence-based care planning tool for clients with mental health problems and addictions
+  - reason: Pre-post usability study without control comparison; authors note no RCT.
+  - abstract: yes; run A: 0
+- **576** (final=1) Durable improvements in prostate cancer screening from online spaced education a randomized controlled trial
+  - reason: RCT of spaced education emails to clinicians reducing guideline-discordant PSA screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **241** Behavior change without behavior change communication: nudging handwashing among primary school students in Bangladesh.
+  - reason: Targets primary school students, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **998** Implementing of clinical guidelines using a computer charting system. Effect on the initial care of health care workers exposed to body fluids.
+  - reason: Interrupted time series of guideline presentation to physicians; nudge classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1109** Interventions that change clinician behaviour: mapping the literature
+  - reason: No abstract; cannot judge design, population or intervention.
+  - abstract: no; run A: 0
+- **1322** (final=1) Oral quinolones in hospitalized patients: an evaluation of a computerized decision support intervention.
+  - reason: Interrupted time series of computerized suggestion to prescribers; nudge classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **554** Dissemination of Evidence-Based Antipsychotic Prescribing Guidelines to Nursing Homes: A Cluster Randomized Trial
+  - reason: Cluster randomized trial of guideline dissemination nudges to nursing homes; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **990** Implementing clinical guidelines in the treatment of diabetes mellitus in general practice. Evaluation of effort, process, and patient outcome related to implementation of a computer-based decision support system
+  - reason: Randomized study of CDSS implementing diabetes guidelines on doctors' behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1961** (final=1) Using implementation intentions to teach practitioners: changing practice behaviors via continuing education
+  - reason: RCT of implementation intentions nudge on practitioners' practice behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **895** Helping doctors and patients make sense of health statistics
+  - reason: Review/commentary on statistical literacy, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **790** Exploring the feasibility of Conjoint Analysis as a tool for prioritizing innovations for implementation
+  - reason: Conjoint analysis prioritization study, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1749** The demonstration of a theory-based approach to the design of localized patient safety interventions.
+  - reason: Feasibility/co-design study; no comparison of two or more interventions reported.
+  - abstract: yes; run A: 0
+- **1735** The Bold Promise Project: a system change in primary care to support cardiovascular risk screening
+  - reason: Before-after system change in primary care targeting guideline-based cardiovascular risk screening. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **29** A clinic-based mammography intervention targeting inner-city women.
+  - reason: Intervention targets patients (women) for mammography, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **1134** (final=1) Just-in-time evidence-based e-mail “reminders” in home health care: impact on"nurse practices.
+  - reason: Randomized trial of e-mail reminders to home health nurses on evidence-based practices. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **764** (final=1) Evaluation of computer based clinical decision support system and risk chart for management of hypertension in primary care: randomised controlled trial.
+  - reason: Cluster RCT of decision support/risk chart targeting prescribing behaviour in primary care. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1394** Point-of service reminders for prescribing cardiovascular medications.
+  - reason: RCT of point-of-service reminders to physicians, measuring prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **712** (final=1) Enhancing mammography referral in primary care
+  - reason: Randomized trial of chart-sticker cues increasing physicians' mammography referrals. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **70** A Qualitative Evaluation of the Barriers and Facilitators Toward Implementation of the WHO Surgical Safety Checklist Across Hospitals in England: Lessons From the Surgical Checklist Implementation Project
+  - reason: Qualitative interview study, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1231** Microcomputer-generated reminders. Improving the compliance of primary care physicians with mammography screening guidelines.
+  - reason: Experimental reminder system increased physicians' compliance with mammography screening guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **602** Effect of an outpatient antimicrobial stewardship intervention on broad-spectrum antibiotic prescribing by primary care pediatricians: a randomized trial.
+  - reason: Cluster randomized trial of stewardship nudge improving guideline-concordant prescribing by clinicians. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1230** Microcomputer-generated reminders. Improving the compliance of primary care physicians with mammography screening guidelines
+  - reason: Randomized reminder nudge improving physician adherence to mammography screening guidelines. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **19** A before-after study using OncoDoc, a guideline-based decision support-system on breast cancer management: impact upon physician prescribing behaviour
+  - reason: Before-after study of guideline-based decision support on physician prescribing behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1031** Improving feedback on junior doctors’ prescribing errors: mixed-methods evaluation of a quality improvement project
+  - reason: Quality improvement study with control site comparing feedback interventions on prescribing errors. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1732** The Behavioral Economics of Health and Health Care
+  - reason: Overview article, not an experiment comparing interventions.
+  - abstract: yes; run A: 0
+- **1395** (final=1) Point-of-care electronic prompts: an effective means of increasing compliance, demonstrating quality, and improving outcome
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **663** Effectiveness of strategies to disseminate and implement clinical guidelines for the management of impacted and unerupted third molars in primary dental care, a cluster randomised controlled trial
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **163** An electronic health record–based intervention to improve tobacco treatment in primary care: a cluster-randomized controlled trial
+  - reason: Cluster-RCT of EHR reminders/icons targeting clinicians' tobacco treatment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **461** Cost-effectiveness of a nurse-based intervention (AIMS) to improve adherence among HIV-infected patients: design of a multi-centre randomised controlled trial.
+  - reason: Intervention targets HIV-infected patients, not healthcare professionals.
+  - abstract: yes; run A: 0
+- **916** (final=1) Hospital clinicians’ responsiveness to assay cost feedback: a prospective blinded controlled intervention study.
+  - reason: No abstract; title suggests cost feedback to clinicians but design unclear.
+  - abstract: no; run A: 0
+- **378** (final=1) Cluster-randomized, controlled trial of computer-based decision support for selecting long-term anti-thrombotic therapy after acute ischaemic stroke.
+  - reason: Cluster-randomized trial of CDSS nudging clinicians' prescribing; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1046** Improving Prescribing Patterns for the Elderly Through an Online Drug Utilization Review Intervention
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **278** Bridging the science-to-service gap in schizophrenia care in the Netherlands: the Schizophrenia Quality Improvement Collaborative
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **1036** Improving laboratory monitoring at initiation of drug therapy in ambulatory care: a randomized trial.
+  - reason: Randomized trial of computerized alerts to physicians/pharmacists improving guideline-based laboratory monitoring. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **210** (final=1) Assessment of decision support for blood test ordering in primary care. a randomized trial
+  - reason: RCT of decision support nudging GPs' guideline-based blood test ordering behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1553** Reducing the amount of blood transfused: a systematic review of behavioral interventions to change physicians' transfusion practices
+  - reason: Systematic review of behavioural interventions, not an experiment.
+  - abstract: yes; run A: 0
+- **1706** Tailored skills training for practitioners to enhance assessment of prognostic factors for persistent and disabling back pain: four quasi-experimental single-subject studies
+  - reason: Quasi-experimental study of tailored skills training targeting physiotherapists' guideline-based assessment behaviour. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **412** (final=1) Comparing the efficacy of staff versus housestaff instruction in an intervention to improve hypertension management
+  - reason: Randomized comparison of two instruction leaders for guideline adherence in hypertension management. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **105** A systematic review of clinical decision support systems for antimicrobial management: are we failing to investigate these interventions appropriately?
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run A: 0
+- **450** Controlled trial of an audit facilitatorin diagnosis and treatment of childhood asthma in general practice.
+  - reason: Audit facilitator feedback may or may not be a nudge; unclear from abstract.
+  - abstract: yes; run A: 0
+- **991** Implementing clinical guidelines in the treatment of hypertension in general practice.
+  - reason: Cluster RCT of CDSS to implement hypertension guidelines; nudge taxonomy classification needs full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **691** (final=1) Electronic alerts versus on-demand decision support to improve dyslipidemia treatment: a cluster randomized controlled trial
+  - reason: Cluster RCT of alerts vs on-demand decision support for dyslipidemia guideline adherence. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **799** Failure of computerized treatment suggestions to improve health outcomes of outpatients with uncomplicated hypertension: results of a randomized controlled trial.
+  - reason: RCT of computerized evidence-based treatment suggestions to physicians/pharmacists; nudge taxonomy to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **711** Enhancing evidence-based diabetes and chronic disease control among local health departments: a multi-phase dissemination study with a stepped-wedge cluster randomized trial component
+  - reason: Targets local health department practitioners, not healthcare professionals delivering clinical care.
+  - abstract: yes; run A: 0
+- **457** Cost effectiveness of a clinical decision support system based on the recommendations of the European Society of Cardiology and other societies for the management of hypercholesterolemia: report of a cluster-randomized trial.
+  - reason: Cluster-randomized trial of guideline-based CDSS in physicians; nudge taxonomy classification to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1774** The effectiveness of interventions to improve laboratory requesting patterns among primary care physicians: a systematic review
+  - reason: Systematic review, not an experiment.
+  - abstract: yes; run A: 0
+- **1633** Self-study from web-based and printed guideline materials. A randomized, controlled trial among resident physicians
+  - reason: RCT of web-based guideline presentation to resident physicians; nudge taxonomy classification pending full text. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1315** (final=1) Opportunistic electronic reminders. Improving performance of preventive care in general practice
+  - reason: Electronic reminders randomized to GPs, preventive care behaviour outcomes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **629** Effect of written and computerized decision support aids for the U.S. Agency for Health Care Policy and Research depression guidelines on the evaluation of hypothetical clinical scenarious.
+  - reason: Randomized comparison of guideline decision support aids on residents' scenario evaluations. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1148** Learning with computerized guidelines in general practice? A randomized controlled trial.
+  - reason: Randomized controlled trial of computerized guideline access among general practitioners. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1476** Promoting use of colorectal cancer screening tests
+  - reason: Randomized trial of academic detailing on CRC screening rates. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0

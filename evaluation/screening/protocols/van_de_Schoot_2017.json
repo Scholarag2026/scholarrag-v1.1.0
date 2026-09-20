@@ -1,0 +1,102 @@
+{
+  "dataset_id": "van_de_Schoot_2017",
+  "source_review_doi": "10.1080/00273171.2017.1412293",
+  "source_review": {
+    "title": "Bayesian PTSD-Trajectory Analysis with Informed Priors Based on a Systematic Literature Search and Expert Elicitation",
+    "authors": "van de Schoot R, Sijbrandij M, Depaoli S, Winter SD, Olff M, van Loey NE",
+    "journal": "Multivariate Behavioral Research",
+    "year": 2018,
+    "volume_issue": "53(2):267-291",
+    "url": "https://doi.org/10.1080/00273171.2017.1412293"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY (asreview/systematic-review-datasets, metadata-v1-final)",
+    "route": "v1",
+    "url": "https://raw.githubusercontent.com/asreview/systematic-review-datasets/metadata-v1-final/datasets/van_de_Schoot_2017/output/van_de_Schoot_2017.csv",
+    "license": "CC-BY Attribution 4.0 International",
+    "n_records": 6189,
+    "n_label_abstract_screening": 388,
+    "n_label_included": 43,
+    "n_missing_abstract": 764,
+    "n_missing_title": 5,
+    "n_with_issn": 331,
+    "fetched_at": "2026-09-03T05:20:20+00:00",
+    "hydration": {
+      "mode": "included",
+      "lookup": "crossref",
+      "date": "2026-09-03",
+      "n_targets": 388,
+      "n_targets_with_issn": 331,
+      "n_final_inclusions_with_issn": 42,
+      "by_doi": 112,
+      "by_title_exact": 0,
+      "by_title_exact_year": 219,
+      "year_check": "the v1 CSV carries a year for 6,173/6,189 records; every title match of the 2026-09-03 05:20 UTC hydration was required to lie within +-1 year of it (match_method title_exact_year; no title_exact match remains). Two records that an earlier title-only pass had resolved fall outside the window and are now unresolved: 349 (CSV 2016 vs Crossref 2014, Journal of Positive Psychology) and 899 (CSV 2010 vs Crossref 2005, JAMA)",
+      "reprint_venues_excluded": {
+        "date": "2026-09-03",
+        "rule": "fetch_synergy.is_reprint_venue ('Yearbook of ...' container titles) applied to every title lookup of the 05:20 UTC hydration",
+        "records_rehydrated": [],
+        "resolved_again": 0,
+        "note": "records 720 and 721 resolve to the British Journal of Psychiatry (0007-1250, year-checked); 2618, 2619 and 2732, whose only exact-title hits were yearbook reprints, are unresolved"
+      },
+      "spot_check": {
+        "date": "2026-09-03",
+        "judged_by": "harness fix agent, 2026-09-03 (not yet re-read by the authors)",
+        "method": "screening/spot_check_hydration.py --dataset van_de_Schoot_2017 --n 20 --seed 20260903 --judgements protocols/spot_checks/van_de_Schoot_2017.judgements.json --judged-by 'harness fix agent, 2026-09-03' --judged-on 2026-09-03: seeded random sample of title matches, Crossref record of the matched DOI (title, container title, year, type) read against the SYNERGY title/abstract head and judged record by record for venue plausibility and year agreement; the judged 20-record file is committed as protocols/spot_checks/van_de_Schoot_2017.spot_check.json",
+        "n": 20,
+        "correct": 20,
+        "incorrect": 0,
+        "unsure": 0,
+        "incorrect_record_ids": [],
+        "year_within_1": 20,
+        "year_identical": 18,
+        "evidence_file": "protocols/spot_checks/van_de_Schoot_2017.spot_check.json",
+        "note": "sample drawn from the 219 title_exact_year matches of the 05:20 UTC hydration (after the year rule and the reprint-venue exclusion, so the two yearbook reprints found by the earlier check no longer occur). Records 3143 and 2010 are online-first (Crossref) vs volume-year (CSV) pairs, both within +-1; record 898 has no abstract in the export and was judged on the exact title alone."
+      },
+      "doi_export_corrected": {
+        "record_ids": [
+          1631
+        ],
+        "note": "the CSV DOI 10.1037.a0037593 is malformed (dot instead of slash) and could not be looked up; the record was matched by title and year and carries the Crossref DOI 10.1037/a0037593, the export value is kept as doi_export"
+      }
+    }
+  },
+  "research_question": "Longitudinal studies that used latent growth mixture modelling (LGMM) or a related clustering method (latent class growth analysis, hierarchical cluster analysis) to identify latent trajectories of posttraumatic stress symptoms (PTSD) after a traumatic event: which trajectories are reported, in what proportions, and with which growth parameters, so that the findings can inform the priors of a Bayesian latent growth mixture model of PTSD trajectories?",
+  "inclusion_criteria": [
+    "Longitudinal study with at least three measurement waves measuring PTSD.",
+    {
+      "text": "PTSD was measured on a continuous scale via an interview or questionnaire.",
+      "stage": "full_text",
+      "stage_rationale": "Whether PTSD was measured on a continuous scale, by interview or questionnaire specifically, is a Methods-section fact, not routinely stated in an abstract."
+    },
+    "The study used a clustering method (latent growth mixture modelling, latent class growth analysis, hierarchical cluster analysis) to identify trajectories or classes.",
+    "Traumatic stress symptoms follow events that appear to fulfill DSM-IV criterion A1 for PTSD or acute stress disorder.",
+    {
+      "text": "At title/abstract stage the screening was over-inclusive: any paper that appears to apply one of the cluster techniques within the context of trauma is kept, and if there is any doubt the study is included for full-text reading.",
+      "stage": "abstract",
+      "stage_rationale": "This is the review's own abstract-stage screening instruction, not an eligibility test to be decided from the full text; it is marked here to record explicitly that it stays abstract-stage."
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "text": "Exact duplicate of another record.",
+      "stage": "abstract",
+      "absence": false
+    },
+    {
+      "text": "Obviously irrelevant paper: cross-sectional study, neurobiological study, or a study from another field (for example a study examining medical procedures after physical trauma).",
+      "stage": "abstract",
+      "absence": false
+    },
+    "Not longitudinal or fewer than three measurement waves measuring PTSD.",
+    {
+      "text": "PTSD not measured on a continuous scale via an interview or questionnaire.",
+      "stage": "full_text",
+      "stage_rationale": "Negation of the continuous-scale inclusion criterion: whether PTSD was measured on a continuous scale by interview or questionnaire is a Methods-section fact (see that criterion's stage_rationale)."
+    },
+    "No clustering method (LGMM, LCGA, hierarchical cluster analysis) applied to trajectories.",
+    "Symptoms do not follow an event fulfilling DSM-IV criterion A1 for PTSD or acute stress disorder."
+  ],
+  "label_field": "label_abstract_screening",
+  "notes": "Source review: Appendix A 'Details of the systematic Review' (Data sources, Study selection), pp. 287-288 of the open-access PDF fetched from Utrecht University's repository (https://dspace.library.uu.nl/bitstreams/5a220247-aad3-4875-b735-3d185b537bed/download, landing page https://dspace.library.uu.nl/handle/1874/362156; publisher PDF https://www.tandfonline.com/doi/pdf/10.1080/00273171.2017.1412293) on 2026-09-02 and read with PyMuPDF. Research question compiled from the Introduction/Methods (the search 'for articles using LGMM to study the development of PTSD' whose trajectories informed the priors of the Bayesian LGMM). Inclusion criteria (a)-(d) are the full-text criteria quoted verbatim from Appendix A: '(a) longitudinal studies with at least three measurement waves measuring PTSD, (b) studies that measured PTSD on a continuous scale via an interview or questionnaire, (c) and studies that used a clustering method (LGMM, LCGA, hierarchical cluster analysis), (d) traumatic stress symptoms following events that appeared to fulfill DSM-IV criterion A1 for PTSD or acute stress disorder.' Item 5 transcribes the title/abstract-stage rule: 'All relevant papers were screened for the actual application of one of the cluster techniques described in Table A1 within the context of trauma. If there was any doubt, the study was included for the second round.' Exclusion items 1-2 are quoted from the same passage ('exact duplicates were excluded'; 'obviously irrelevant papers (N = 5,822) were removed, for example cross-sectional studies, neurobiological studies and studies from other fields such as studies examining medical procedures after physical trauma'); items 3-6 are DERIVED as the negations of (a)-(d) because the review publishes no itemised exclusion list (full-text decisions and reasons: https://osf.io/vk4be/). Search: PubMed, Embase, PsycINFO, Scopus, all years until 10 February 2016. Title/abstract screening was done by ONE author (label noise possible); full texts by two authors. label_field = label_abstract_screening because the evaluated task is title-and-abstract screening (388 records kept for full-text reading in the SYNERGY v1 export; 43 final inclusions = label_included, reported as a secondary recall target). Index reference caveat: the v1 index 'reference' column for this dataset is https://doi.org/10.1080/10705511.2016.1247646 (the GRoLTS checklist paper, Structural Equation Modeling 2016) -- a checklist paper, not the criteria source; the labels come from the systematic search of the Multivariate Behavioral Research article above (Crossref-verified 2026-09-02). SYNERGY's v2 export of the same review (van_de_Schoot_2018) holds 4,544 records / 38 inclusions with label_included only; the v1 export is used because it carries the title/abstract decision. Fetch 2026-09-03 05:20 UTC (fetch_synergy.py --dataset van_de_Schoot_2017 --route v1 --hydrate included --lookup crossref): 6,189 records, 43 included, 388 title/abstract-included, 764 without abstract (12.3 %), 5 without title; the CSV carries a non-empty DOI cell for 1,410 records (1,406 of them well-formed). Hydration of the 388 title/abstract-included records in Crossref in that single run: 113 targets had a CSV DOI, 112 resolved by DOI (record 1631's malformed DOI 10.1037.a0037593 returned 404 and was then matched by title and year; it now carries the Crossref DOI and keeps the export value as doi_export); the remaining 276 were looked up by exact normalised title with the +-1-year rule and the 'Yearbook of ...' exclusion, 219 resolved (match_method title_exact_year); 331/388 resolved to an ISSN (42/43 of the final inclusions), 57 are reported as unresolved. fetch.json: n_with_doi = 1,628 (1,410 CSV DOIs, less the corrected record, plus the DOIs of the title-matched records), n_with_issn = 331. n_missing_abstract = 764 equals the SYNERGY index value; an earlier fetch reported 763 because one empty abstract had been filled from OpenAlex during hydration, which fetch_synergy.py no longer does -- the screener sees exactly the export text the human screeners saw. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta), because the SYNERGY export lists the human-included records first and file-order batches would be label-sorted; the order is identical for runs A and B and across resumes (see protocols/README.md). Title-only matches carry a same-title risk: a comment, reprint, erratum or conference abstract that repeats the title would attribute a wrong venue (ISSN) to the WoS test; a title match must therefore lie within +-1 year of the CSV year (the CSV carries a year for 6,173 records) and hits in 'Yearbook of ...' series are skipped (fetch_synergy.is_reprint_venue). A seeded random sample of 20 of the 219 title_exact_year matches was checked on 2026-09-03 (dataset_source.hydration.spot_check; per-record judgements in protocols/spot_checks/van_de_Schoot_2017.spot_check.json, judged by the harness fix agent, to be re-read by the authors): 20/20 plausible journal articles with the matching title, all within +-1 year of the CSV year (18 identical). summarize.py reports the gate's recall ceiling as an interval: lower bound = in WoS / 388 (unresolved counted as outside WoS), upper bound = (in WoS + unresolved) / 388 (unresolved counted as inside WoS), with the share of resolved records only (in WoS / 331) reported alongside as a point estimate; with the 2026-09-03 hydration 317 of the 331 resolved records are in a WoS collection, i.e. 0.817-0.964 (resolved-only 0.958). WP-B9 S8 (2026-09-06, .superpowers/sdd/wpB9-S8-brief.md) marks I2 and E4 full_text: whether PTSD was measured on a continuous scale by interview or questionnaire is a Methods-section fact, a property of the criterion text itself, independent of any record, result or run. I5 stays abstract and is marked as the review's own abstract-stage instruction (see its stage_rationale), not an eligibility test. E1 ('exact duplicate') and E2 ('obviously irrelevant paper') carry an explicit absence: false, because each tests a positively established fact rather than the absence of one."
+}

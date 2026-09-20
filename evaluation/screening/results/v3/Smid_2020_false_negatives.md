@@ -1,0 +1,171 @@
+# False negatives - Smid_2020
+
+Records the human screeners included (protocol label) that the LLM screener excluded, with the screener's stated reason. `final=1` marks records that were also in the review's final inclusion set; `abstract: no` marks records screened on the title alone; the other run's decision on the same record is given for context.
+
+## Run A (27 false negatives)
+
+- **3** (final=1) Comparing interval estimates for small sample ordinal CFA models
+  - reason: Simulation comparing Bayesian vs frequentist interval estimates in small-sample ordinal CFA. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **19** (final=1) Pushing the Limits
+  - reason: Simulation comparing ML and Bayesian estimation in small subsample latent growth models. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **11** (final=1) Evaluation of the Bayesian and Maximum Likelihood Approaches in Analyzing Structural Equation Models with Small Sample Sizes
+  - reason: Simulation comparing Bayesian and ML for SEM with small samples; matches topic. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **5** (final=1) Analyzing indirect effects in cluster randomized trials. The effect of estimation method, number of groups and group sizes on accuracy and power
+  - reason: Simulation comparing ML to Bayesian multilevel SEM indirect effects with small cluster sizes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **24** (final=1) An Empirical Evaluation of Mediation Effect Analysis With Manifest and Latent Variables Using Markov Chain Monte Carlo and Alternative Estimation Methods
+  - reason: Monte Carlo simulation comparing MCMC to traditional estimation in mediation SEM. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **8** (final=1) Small Sample Properties of Bayesian Multivariate Autoregressive Time Series Models
+  - reason: Simulation comparing Bayesian vs frequentist small-sample SEM performance. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **10** (final=1) Using Data-Dependent Priors to Mitigate Small Sample Bias in Latent Growth Models
+  - reason: Latent growth SEM tutorial comparing Bayesian and frequentist approaches with small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **25** (final=1) Statistical properties of four effect-size measures for mediation models
+  - reason: Simulation comparing Bayesian and classical estimators for mediation (SEM) effect sizes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **9** (final=1) Evaluation of a Bayesian Approach to Estimating Nonlinear Mixed-Effects Mixture Models
+  - reason: Bayesian estimation of growth mixture SEM compared to MLE; small-sample details to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **23** (final=1) Modeling Clustered Data with Very Few Clusters
+  - reason: Simulation comparing 12 methods including Bayesian priors for clustered data with few clusters. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **12** (final=1) How few countries will do? Comparative survey analysis from a Bayesian perspective
+  - reason: Simulation comparing Bayesian vs frequentist multilevel SEM with small country samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **17** (final=1) On Using Bayesian Methods to Address Small Sample Problems
+  - reason: Simulations comparing Bayesian vs frequentist estimation for small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **27** (final=1) A Comparison of ML, WLSMV, and Bayesian Methods for Multilevel Structural Equation Models in Small Samples: A Simulation Study
+  - reason: Monte Carlo simulation comparing Bayesian vs classical estimation for multilevel SEM in small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **7** (final=1) A Bayesian Approach to Multilevel Structural Equation Modeling With Continuous and Dichotomous Outcomes
+  - reason: Simulation study comparing Bayesian and frequentist multilevel SEM estimation with prior distributions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **4** (final=1) Mixture class recovery in GMM under varying degrees of class separation: Frequentist versus Bayesian estimation.
+  - reason: GMM simulation comparing ML and Bayesian priors; small sample size not stated. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **22** (final=1) Computation of reference Bayesian inference for variance components in longitudinal studies
+  - reason: No abstract; title concerns Bayesian variance components, unclear if SEM simulation comparison.
+  - abstract: no; run B: 0
+- **16** (final=1) Prior sensitivity analysis in default Bayesian structural equation modeling.
+  - reason: Simulation study of default priors in BSEM, especially with small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **2** (final=1) Bayesian and maximum likelihood estimation of hierarchical response time models
+  - reason: No abstract; title suggests Bayesian vs ML comparison but topic unclear.
+  - abstract: no; run B: 0
+- **14** (final=1) A comparison of Bayesian and likelihood-based methods for fitting multilevel models
+  - reason: Simulation comparing Bayesian MCMC to ML/REML for multilevel models, small samples, coverage/bias. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **6** (final=1) Bayesian mediation analysis.
+  - reason: Bayesian mediation analysis with simulation studies comparing to frequentist, small samples mentioned. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **21** (final=1) Measurement and Structural Model Class Separation in Mixture CFA: ML/EM Versus MCMC
+  - reason: Simulation comparing ML/EM to MCMC Bayesian estimation in mixture CFA; small-sample status and peer review to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **20** (final=1) Analyzing small data sets using Bayesian estimation: the case of posttraumatic stress symptoms following mechanical ventilation in burn survivors
+  - reason: Simulation comparing Bayesian vs ML estimation for small longitudinal SEM samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **1** (final=1) Bayesian methods for the analysis of small sample multilevel data with a complex variance structure.
+  - reason: Monte Carlo study comparing Bayesian and REML multilevel estimation with small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **26** (final=1) Small sample mediation testing: Misplaced confidence in bootstrapped confidence intervals.
+  - reason: Simulation study comparing bootstrapping, resampling and Bayesian approaches in small-sample mediation. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **13** (final=1) Estimation of the latent mediated effect with ordinal data using the limited-information and Bayesian full-information approaches
+  - reason: No abstract; title suggests Bayesian and frequentist mediation estimation.
+  - abstract: no; run B: 0
+- **15** (final=1) How Many Countries for Multilevel Modeling? A Comparison of Frequentist and Bayesian Approaches
+  - reason: Monte Carlo comparison of frequentist and Bayesian multilevel models with few countries. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run B: 0
+- **18** (final=1) Implementation and performance issues in the Bayesian and likelihood fitting of multilevel models
+  - reason: No abstract; title suggests Bayesian and likelihood multilevel fitting comparison.
+  - abstract: no; run B: 0
+
+## Run B (27 false negatives)
+
+- **3** (final=1) Comparing interval estimates for small sample ordinal CFA models
+  - reason: Simulation comparing Bayesian vs frequentist interval estimates in small-sample ordinal CFA. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **19** (final=1) Pushing the Limits
+  - reason: Simulation comparing ML and Bayesian estimation in small subsample latent growth models. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **11** (final=1) Evaluation of the Bayesian and Maximum Likelihood Approaches in Analyzing Structural Equation Models with Small Sample Sizes
+  - reason: Simulation comparing Bayesian and ML for SEM with small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **5** (final=1) Analyzing indirect effects in cluster randomized trials. The effect of estimation method, number of groups and group sizes on accuracy and power
+  - reason: Simulation comparing ML to Bayesian multilevel SEM indirect effects with small cluster sizes. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **24** (final=1) An Empirical Evaluation of Mediation Effect Analysis With Manifest and Latent Variables Using Markov Chain Monte Carlo and Alternative Estimation Methods
+  - reason: Monte Carlo simulation comparing MCMC to traditional estimation in mediation SEM. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **8** (final=1) Small Sample Properties of Bayesian Multivariate Autoregressive Time Series Models
+  - reason: Monte Carlo comparison of Bayesian vs frequentist SEM estimation under small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **10** (final=1) Using Data-Dependent Priors to Mitigate Small Sample Bias in Latent Growth Models
+  - reason: Latent growth SEM with small samples, Bayesian priors vs frequentist bias discussed. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **25** (final=1) Statistical properties of four effect-size measures for mediation models
+  - reason: Simulation comparing Bayesian and classical estimators in mediation SEM. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **23** (final=1) Modeling Clustered Data with Very Few Clusters
+  - reason: Simulation comparing 12 methods including Bayesian priors for clustered data with few clusters. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **9** (final=1) Evaluation of a Bayesian Approach to Estimating Nonlinear Mixed-Effects Mixture Models
+  - reason: Bayesian estimation of growth mixture SEM compared to MLE; small samples to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **12** (final=1) How few countries will do? Comparative survey analysis from a Bayesian perspective
+  - reason: Simulation comparing Bayesian vs frequentist multilevel SEM with small country samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **27** (final=1) A Comparison of ML, WLSMV, and Bayesian Methods for Multilevel Structural Equation Models in Small Samples: A Simulation Study
+  - reason: Monte Carlo simulation comparing Bayesian and classical estimation for multilevel SEM in small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **7** (final=1) A Bayesian Approach to Multilevel Structural Equation Modeling With Continuous and Dichotomous Outcomes
+  - reason: Simulation study comparing Bayesian and frequentist multilevel SEM estimation with prior distributions. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **17** (final=1) On Using Bayesian Methods to Address Small Sample Problems
+  - reason: Simulation comparing Bayesian vs frequentist estimation for small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **4** (final=1) Mixture class recovery in GMM under varying degrees of class separation: Frequentist versus Bayesian estimation.
+  - reason: GMM simulation comparing ML and Bayesian priors; small sample size not stated (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **22** (final=1) Computation of reference Bayesian inference for variance components in longitudinal studies
+  - reason: No abstract; title suggests variance components Bayesian inference, unclear if SEM simulation.
+  - abstract: no; run A: 0
+- **16** (final=1) Prior sensitivity analysis in default Bayesian structural equation modeling.
+  - reason: Simulation study of default priors in BSEM, especially with small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **2** (final=1) Bayesian and maximum likelihood estimation of hierarchical response time models
+  - reason: No abstract; title concerns hierarchical response time models, not clearly SEM.
+  - abstract: no; run A: 0
+- **14** (final=1) A comparison of Bayesian and likelihood-based methods for fitting multilevel models
+  - reason: Simulation comparing Bayesian MCMC to ML/REML for multilevel models, small samples discussed. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **6** (final=1) Bayesian mediation analysis.
+  - reason: Bayesian mediation analysis with simulations comparing to frequentist, small samples mentioned. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **21** (final=1) Measurement and Structural Model Class Separation in Mixture CFA: ML/EM Versus MCMC
+  - reason: Simulation comparing ML/EM to MCMC Bayesian estimation in mixture CFA; small-sample status and peer review to confirm. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **20** (final=1) Analyzing small data sets using Bayesian estimation: the case of posttraumatic stress symptoms following mechanical ventilation in burn survivors
+  - reason: Simulation comparing Bayesian vs maximum likelihood SEM estimation with small samples and priors. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **1** (final=1) Bayesian methods for the analysis of small sample multilevel data with a complex variance structure.
+  - reason: Monte Carlo study comparing Bayesian and adjusted REML multilevel estimation in small samples. (guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text)
+  - abstract: yes; run A: 0
+- **26** (final=1) Small sample mediation testing: Misplaced confidence in bootstrapped confidence intervals.
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **13** (final=1) Estimation of the latent mediated effect with ordinal data using the limited-information and Bayesian full-information approaches
+  - reason: No abstract; title suggests Bayesian and frequentist mediation SEM estimation.
+  - abstract: no; run A: 0
+- **15** (final=1) How Many Countries for Multilevel Modeling? A Comparison of Frequentist and Bayesian Approaches
+  - reason: guard: INCLUDE routed to NEEDS_REVIEW -- one or more full-text inclusion criteria are not yet confirmed by the shown text
+  - abstract: yes; run A: 0
+- **18** (final=1) Implementation and performance issues in the Bayesian and likelihood fitting of multilevel models
+  - reason: No abstract; title suggests Bayesian and likelihood multilevel fitting comparison.
+  - abstract: no; run A: 0

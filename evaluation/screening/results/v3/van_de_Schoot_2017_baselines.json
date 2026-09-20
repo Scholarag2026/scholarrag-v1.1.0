@@ -1,0 +1,50 @@
+{
+  "dataset": "van_de_Schoot_2017",
+  "generated": "2026-09-15T19:16:24+00:00",
+  "run_file": "van_de_Schoot_2017_runA.jsonl",
+  "label_field": "label_included",
+  "label_choice": "primary",
+  "query_mode": "rq+criteria",
+  "query_text": "Longitudinal studies that used latent growth mixture modelling (LGMM) or a related clustering method (latent class growth analysis, hierarchical cluster analysis) to identify latent trajectories of posttraumatic stress symptoms (PTSD) after a traumatic event: which trajectories are reported, in what proportions, and with which growth parameters, so that the findings can inform the priors of a Bayesian latent growth mixture model of PTSD trajectories? Longitudinal study with at least three measurement waves measuring PTSD. PTSD was measured on a continuous scale via an interview or questionnaire. The study used a clustering method (latent growth mixture modelling, latent class growth analysis, hierarchical cluster analysis) to identify trajectories or classes. Traumatic stress symptoms follow events that appear to fulfill DSM-IV criterion A1 for PTSD or acute stress disorder. At title/abstract stage the screening was over-inclusive: any paper that appears to apply one of the cluster techniques within the context of trauma is kept, and if there is any doubt the study is included for full-text reading.",
+  "n_unscreened_excluded": 0,
+  "k_basis": "screened_in",
+  "n": 6189,
+  "k": 981,
+  "include_all": {
+    "n": 6189,
+    "n_skipped": 0,
+    "tp": 43,
+    "fp": 6146,
+    "tn": 0,
+    "fn": 0,
+    "prevalence": 0.006947810631766037,
+    "recall": 1.0,
+    "precision": 0.006947810631766037,
+    "f1": 0.013799743260590502,
+    "specificity": 0.0,
+    "inclusion_rate": 1.0,
+    "wss_at_achieved_recall": 0.0,
+    "wss_at_95": -0.050000000000000044
+  },
+  "tfidf": {
+    "threshold": 0.01916342347228585,
+    "metrics": {
+      "n": 6189,
+      "n_skipped": 0,
+      "tp": 40,
+      "fp": 941,
+      "tn": 5205,
+      "fn": 3,
+      "prevalence": 0.006947810631766037,
+      "recall": 0.9302325581395349,
+      "precision": 0.040774719673802244,
+      "f1": 0.078125,
+      "specificity": 0.8468922876667752,
+      "inclusion_rate": 0.1585070285991275,
+      "wss_at_achieved_recall": 0.7717255295404074,
+      "wss_at_95": null
+    },
+    "wss_at_95_ranking": 0.7661253837453547,
+    "wss_at_achieved_recall_ranking": 0.8245612057401166
+  }
+}

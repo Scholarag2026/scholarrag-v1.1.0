@@ -1,0 +1,1243 @@
+{
+  "draft_id": "691cc0d5-3a79-435b-b317-047f5a828339",
+  "verifications": [
+    {
+      "claim_text": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+      "paper_id": "97cf5561-3b51-4078-8195-5daec01ec5cd",
+      "status": "verified",
+      "evidence_quote": "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+      "explanation": "The claim's central proposition — that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback — is stated in the source almost verbatim: \"This more retiring or 'invisible' stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.\" The peripheral proposition that ChatGPT uses stance features at a lower frequency is also supported by Table 3 and the accompanying text: \"we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3).\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+          "central": true,
+          "entity": "ChatGPT",
+          "measure": "ability to offer accurate rhetorical and pragmatic feedback, attributed to its lower frequency of stance features",
+          "quotes": [
+            "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers."
+          ]
+        },
+        {
+          "text": "ChatGPT texts contain a lower frequency of stance features than human student essays.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": null,
+          "source_value": null,
+          "quote": "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3).",
+          "central": false,
+          "entity": "ChatGPT 4 essays compared with British student essays",
+          "measure": "frequency of stance features (hedges, boosters, attitude markers, self-mention)",
+          "quotes": [
+            "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+        "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Hyland (2025) argues that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+      "citation": "Hyland (2025)",
+      "paper_doi": "10.1017/s0261444825101018",
+      "paper_title": "EFL teachers and feedback fatigue: AI to the rescue?",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 1 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+            "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+          ],
+          "tokens": {
+            "input_tokens": 14544,
+            "output_tokens": 779
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+      "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+      "status": "verified",
+      "evidence_quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+      "explanation": "All propositions are supported. The precision figures (94%, 98%, 94%) match the source verbatim: \"ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3\" and the Total row of Table 1 (94, 98, 94). The recall figures (10%, 33%, 55%) match: \"the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively\" and Table 1's Total row (10, 33, 55). The four high-frequency categories overtaken are stated: \"it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation ... word choice or expression ... sentence structure ... and pronoun\". The five categories lagged are stated: \"ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner ... preposition ... spelling ... verb form ... and word form\". No assertion is contradicted, absent, or hedged.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "ChatGPT's precision was 94% with Prompt 1 (zero-shot generic)",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "94%",
+          "source_value": "94%",
+          "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+          "central": false,
+          "entity": "ChatGPT (GPT-P1)",
+          "measure": "overall precision",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+          ]
+        },
+        {
+          "text": "ChatGPT's precision was 98% with Prompt 2 (zero-shot domain-specific)",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "98%",
+          "source_value": "98%",
+          "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+          "central": false,
+          "entity": "ChatGPT (GPT-P2)",
+          "measure": "overall precision",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+          ]
+        },
+        {
+          "text": "ChatGPT's precision was 94% with Prompt 3 (one-shot domain-specific)",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "94%",
+          "source_value": "94%",
+          "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+          "central": false,
+          "entity": "ChatGPT (GPT-P3)",
+          "measure": "overall precision",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+          ]
+        },
+        {
+          "text": "ChatGPT's precision remained high across the three prompts",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "remained high",
+          "source_value": "remained consistently high",
+          "quote": "ChatGPT remained consistently high in precision regardless of prompts",
+          "central": false,
+          "entity": "ChatGPT",
+          "measure": "overall precision across prompts",
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts"
+          ]
+        },
+        {
+          "text": "ChatGPT's recall rose considerably with prompt sophistication",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "rose considerably",
+          "source_value": "considerably improved",
+          "quote": "the recall of ChatGPT considerably improved across prompts",
+          "central": true,
+          "entity": "ChatGPT",
+          "measure": "overall recall across prompts",
+          "quotes": [
+            "the recall of ChatGPT considerably improved across prompts"
+          ]
+        },
+        {
+          "text": "ChatGPT's recall was 10% with Prompt 1",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "10%",
+          "source_value": "10%",
+          "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "central": false,
+          "entity": "ChatGPT (GPT-P1)",
+          "measure": "overall recall",
+          "quotes": [
+            "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+          ]
+        },
+        {
+          "text": "ChatGPT's recall was 33% with Prompt 2",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "33%",
+          "source_value": "33%",
+          "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "central": false,
+          "entity": "ChatGPT (GPT-P2)",
+          "measure": "overall recall",
+          "quotes": [
+            "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+          ]
+        },
+        {
+          "text": "ChatGPT's recall was 55% with Prompt 3",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "55%",
+          "source_value": "55%",
+          "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+          "central": false,
+          "entity": "ChatGPT (GPT-P3)",
+          "measure": "overall recall",
+          "quotes": [
+            "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+          ]
+        },
+        {
+          "text": "ChatGPT overtook Grammarly on four high-frequency error categories",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "overtook on four",
+          "source_value": "far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus",
+          "quote": "it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly)",
+          "central": false,
+          "entity": "ChatGPT (GPT-P3) vs. Grammarly",
+          "measure": "detection of the four most frequent error categories",
+          "quotes": [
+            "it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly)"
+          ]
+        },
+        {
+          "text": "ChatGPT lagged behind Grammarly on five other error categories",
+          "kind": "direction",
+          "verdict": "supported",
+          "claim_value": "lagged on five",
+          "source_value": "lagged behind Grammarly in five error categories (1/3 of all categories)",
+          "quote": "ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)",
+          "central": false,
+          "entity": "ChatGPT vs. Grammarly",
+          "measure": "detection in five error categories",
+          "quotes": [
+            "ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+        "In contrast, the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively.",
+        "Conspicuously, it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly).",
+        "Admittedly, ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Luo et al. (2025) found that ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+      "citation": "Luo et al. (2025)",
+      "paper_doi": "10.1017/s095834402510044x",
+      "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+            "In contrast, the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively.",
+            "Conspicuously, it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly).",
+            "Admittedly, ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)."
+          ],
+          "tokens": {
+            "input_tokens": 14858,
+            "output_tokens": 2940
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "one student resubmitting 13 times with scores rising from 79 to 90, against another who resubmitted once in under 14 minutes; they also found teacher feedback addressed more error types (16) than AWCF (8), though assignment differences may have confounded this.",
+      "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+      "status": "verified",
+      "evidence_quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+      "explanation": "Every proposition in the claim is stated in the source. The central assertion — Flora's 13 resubmissions — is stated verbatim: \"Flora resubmitted her essay 13 times, while David made one resubmission.\" The score trajectory is given as \"the score rose from 79 to 90 (100 as the full score)\". David's single resubmission and time on task are given as \"David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.\" The error-type comparison and the confound caveat are reproduced almost word for word: \"Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.\" No assertion is contradicted, none is absent, and no hedge is removed (the claim preserves the source's own hedging about assignment differences).",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "One student (Flora) resubmitted her essay 13 times.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "13",
+          "source_value": "13",
+          "quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+          "central": true,
+          "entity": "Flora, an L2 student in the study",
+          "measure": "number of resubmissions to the AWE system",
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+          ]
+        },
+        {
+          "text": "That student's AWE scores rose from 79 to 90.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "79 to 90",
+          "source_value": "79 to 90",
+          "quote": "the score rose from 79 to 90 (100 as the full score)",
+          "central": false,
+          "entity": "Flora's AWE scores",
+          "measure": "AWE score change across submissions",
+          "quotes": [
+            "the score rose from 79 to 90 (100 as the full score)"
+          ]
+        },
+        {
+          "text": "Another student (David) resubmitted once.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "once",
+          "source_value": "once",
+          "quote": "David only resubmitted his essay once after receiving AWE feedback",
+          "central": false,
+          "entity": "David, an L2 student in the study",
+          "measure": "number of resubmissions to the AWE system",
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "David only resubmitted his essay once after receiving AWE feedback"
+          ]
+        },
+        {
+          "text": "That other student spent under 14 minutes on the resubmission task.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "under 14 minutes",
+          "source_value": "less than 14 minutes",
+          "quote": "only spent less than 14 minutes on the task",
+          "central": false,
+          "entity": "David",
+          "measure": "time spent on the AWE revision task",
+          "quotes": [
+            "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+          ]
+        },
+        {
+          "text": "Teacher feedback addressed more error types (16) than the AWE feedback (8).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "16 vs 8",
+          "source_value": "16 vs 8",
+          "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "central": false,
+          "entity": "teacher feedback vs. AWE feedback in the study",
+          "measure": "number of error types addressed",
+          "quotes": [
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors."
+          ]
+        },
+        {
+          "text": "Differences in the two assignments may have confounded the comparison of error types addressed.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": "assignment differences may have confounded this",
+          "source_value": "differences in the two assignments may have influenced this",
+          "quote": "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+          "central": false,
+          "entity": "the two assignments (Advanced English and Tourism English essays)",
+          "measure": "possible confounding influence on the error-type comparison",
+          "quotes": [
+            "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "Flora resubmitted her essay 13 times, while David made one resubmission.",
+        "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+        "the score rose from 79 to 90 (100 as the full score)",
+        "David only resubmitted his essay once after receiving AWE feedback",
+        "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.",
+        "only spent less than 14 minutes on the task",
+        "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+        "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.",
+        "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2018) documented one student resubmitting 13 times with scores rising from 79 to 90, against another who resubmitted once in under 14 minutes; they also found teacher feedback addressed more error types (16) than AWCF (8), though assignment differences may have confounded this.",
+      "citation": "Zhang and Hyland (2018)",
+      "paper_doi": "10.1016/j.asw.2018.02.004",
+      "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+            "the score rose from 79 to 90 (100 as the full score)",
+            "David only resubmitted his essay once after receiving AWE feedback",
+            "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.",
+            "only spent less than 14 minutes on the task",
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.",
+            "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+          ],
+          "tokens": {
+            "input_tokens": 17599,
+            "output_tokens": 1550
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "88% of 33 students submitted more than five times (M = 9.5, SD = 4.07), yet some students disengaged, treating the revision cycle as overkill.",
+      "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+      "status": "verified",
+      "evidence_quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+      "explanation": "The central quantitative assertion is stated verbatim in the source: \"88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07)\". The peripheral assertion about disengagement is also supported: the Discussion states \"there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.\" The claim's \"some students\" is a weaker quantifier than the source's existential statement, so no quantifier conflict arises, and no assertion is contradicted.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "88% of the 33 students submitted to the AWE system more than five times.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "88%",
+          "source_value": "88%",
+          "quote": "88% of the 33 students submitted to the AWE system more than five times",
+          "central": true,
+          "entity": "the 33 students in the study",
+          "measure": "percentage submitting to the AWE system more than five times",
+          "quotes": [
+            "88% of the 33 students submitted to the AWE system more than five times"
+          ]
+        },
+        {
+          "text": "The mean number of submissions was 9.5 (SD = 4.07).",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "M = 9.5, SD = 4.07",
+          "source_value": "mean number of submissions of 9.5 (SD = 4.07)",
+          "quote": "with a mean number of submissions of 9.5 (SD = 4.07)",
+          "central": false,
+          "entity": "the 33 students in the study",
+          "measure": "mean number of AWE submissions and standard deviation",
+          "quotes": [
+            "with a mean number of submissions of 9.5 (SD = 4.07)"
+          ]
+        },
+        {
+          "text": "Some students disengaged, treating the revision cycle as overkill.",
+          "kind": "attribution",
+          "verdict": "supported",
+          "claim_value": "some students disengaged, seeing the revision cycle as overkill",
+          "source_value": "there were students in this study that failed to engage ... seeing the revision cycle as overkill and inefficacious",
+          "quote": "there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious",
+          "central": false,
+          "entity": "students in this study",
+          "measure": "reported disengagement and view of the revision cycle",
+          "quotes": [
+            "there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious"
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+        "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Zhang and Hyland (2021) reported that 88% of 33 students submitted more than five times (M = 9.5, SD = 4.07), yet some students disengaged, treating the revision cycle as overkill.",
+      "citation": "Zhang and Hyland (2021)",
+      "paper_doi": "10.1016/j.asw.2021.100586",
+      "paper_title": "Fostering student engagement with feedback: An integrated approach",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+            "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+          ],
+          "tokens": {
+            "input_tokens": 12734,
+            "output_tokens": 954
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    },
+    {
+      "claim_text": "no division of labour among teachers using Grammarly, with four of six positive and two sceptical, but the study captured only one-time use in a hypothetical scenario.",
+      "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+      "status": "verified",
+      "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+      "explanation": "All four propositions are stated in the source. The central assertion (no division of labour) is supported by the abstract: \"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.\" The perception split is supported: \"Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.\" The methodological limitation is supported: \"The study focused on a hypothetical scenario and provided insight into teachers' one-time use of Grammarly.\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+      "suggested_revision": null,
+      "assertions": [
+        {
+          "text": "There was no division of labour among teachers using Grammarly (i.e., teachers did not leave lower-order concerns to Grammarly while handling higher-order concerns themselves).",
+          "kind": "other",
+          "verdict": "supported",
+          "claim_value": "no division of labour",
+          "source_value": "no division of labor",
+          "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+          "central": true,
+          "entity": "postsecondary L2 writing teachers using Grammarly as a complement",
+          "measure": "presence/absence of a division of labour between teacher and Grammarly",
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns."
+          ]
+        },
+        {
+          "text": "Four of the six teachers were positive about Grammarly.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "four of six",
+          "source_value": "four of the six teachers",
+          "quote": "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+          "central": false,
+          "entity": "the six participating teachers",
+          "measure": "number of teachers positive about Grammarly",
+          "quotes": [
+            "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical."
+          ]
+        },
+        {
+          "text": "Two of the six teachers were sceptical about Grammarly.",
+          "kind": "quantity",
+          "verdict": "supported",
+          "claim_value": "two of six",
+          "source_value": "two were skeptical",
+          "quote": "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+          "central": false,
+          "entity": "the six participating teachers",
+          "measure": "number of teachers skeptical about Grammarly",
+          "quotes": [
+            "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical."
+          ]
+        },
+        {
+          "text": "The study captured only one-time use of Grammarly in a hypothetical scenario.",
+          "kind": "scope",
+          "verdict": "supported",
+          "claim_value": "one-time use in a hypothetical scenario",
+          "source_value": "a hypothetical scenario and ... teachers’ one-time use of Grammarly",
+          "quote": "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+          "central": false,
+          "entity": "the study's data collection design",
+          "measure": "nature of Grammarly use captured (one-time use in a hypothetical scenario)",
+          "quotes": [
+            "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+          ]
+        }
+      ],
+      "unstated_details": [],
+      "evidence_quotes": [
+        "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+        "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+      ],
+      "model_reported": "deepseek-flash",
+      "claim_sentence": "Koltovskaia (2022) found no division of labour among teachers using Grammarly, with four of six positive and two sceptical, but the study captured only one-time use in a hypothetical scenario.",
+      "citation": "Koltovskaia (2022)",
+      "paper_doi": "10.1017/s0958344022000179",
+      "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+      "acquisition_route": "unpaywall",
+      "evidence_location": "chunk 2 (abstract)",
+      "model_status": "verified",
+      "machine_reasons": [],
+      "diagnostics": [],
+      "quote_relocations": [],
+      "passes": [
+        {
+          "quotes": [
+            "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+            "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+            "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+          ],
+          "tokens": {
+            "input_tokens": 14440,
+            "output_tokens": 1089
+          },
+          "diagnostics": [],
+          "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+          "model_status": "verified",
+          "machine_reasons": [],
+          "repair_prompt_version": null
+        }
+      ]
+    }
+  ],
+  "verified_count": 5,
+  "unsupported_count": 0,
+  "nuance_count": 0,
+  "abstract_only_count": 0,
+  "error_count": 0,
+  "needs_rewrite": 0,
+  "needs_removal": 0,
+  "provenance": {
+    "agent": "claim_verification",
+    "calls": 5,
+    "temperature": 0.0,
+    "guard_digest": "8a6c833ffc329f89",
+    "input_tokens": 74175,
+    "output_tokens": 7312,
+    "model_reported": [
+      "deepseek-flash"
+    ],
+    "prompt_version": "sha256:49fcfbfaf2f6",
+    "model_configured": "deepseek-chat",
+    "system_fingerprints": [
+      "aeb56401ca74e127821c4f9126dcb669"
+    ],
+    "repair_prompt_version": "sha256:7ec7cffe852d",
+    "quote_relocation_version": "0269a13351c0da7d",
+    "verification_policy_version": "667bcc9209126ddc"
+  },
+  "full_text_coverage": 1.0,
+  "task_id": "6a6ee844-12ba-454c-bb71-915b58020d3c",
+  "contradicted_count": 0,
+  "guarded_count": 0,
+  "citation_coverage": {
+    "found": 5,
+    "linked": 5,
+    "sent_to_verifier": 5,
+    "unresolved": 0,
+    "unresolved_citations": [],
+    "by_source": {
+      "mapping": 5,
+      "numbered": 0,
+      "author-year": 0
+    }
+  },
+  "healed": true,
+  "finalize_stats": {
+    "frame_spans_accepted": 5,
+    "sentences_residue_excised": 0,
+    "sentences_removed_dangling": 0,
+    "sentences_unclassified_kept": 0,
+    "sentences_removed_unverified": 0,
+    "citations_dropped_no_full_text": 0,
+    "needs_citation_markers_removed": 0,
+    "sentences_removed_no_full_text": 0,
+    "sentences_removed_verb_initial": 0,
+    "sentences_removed_heading_shaped": 0,
+    "sentences_removed_uncited_finding": 0,
+    "sentences_removed_coverage_incomplete": 0,
+    "sentences_truncated_fragment_repaired": 0,
+    "sentences_removed_meta_evaluation_uncited": 0
+  },
+  "final_report": {
+    "verifications": [
+      {
+        "claim_text": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+        "paper_id": "97cf5561-3b51-4078-8195-5daec01ec5cd",
+        "status": "verified",
+        "evidence_quote": "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+        "explanation": "The claim's central proposition — that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback — is stated in the source almost verbatim: \"This more retiring or 'invisible' stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.\" The peripheral proposition that ChatGPT uses stance features at a lower frequency is also supported by Table 3 and the accompanying text: \"we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3).\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+            "central": true,
+            "entity": "ChatGPT",
+            "measure": "ability to offer accurate rhetorical and pragmatic feedback, attributed to its lower frequency of stance features",
+            "quotes": [
+              "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers."
+            ]
+          },
+          {
+            "text": "ChatGPT texts contain a lower frequency of stance features than human student essays.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": null,
+            "source_value": null,
+            "quote": "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3).",
+            "central": false,
+            "entity": "ChatGPT 4 essays compared with British student essays",
+            "measure": "frequency of stance features (hedges, boosters, attitude markers, self-mention)",
+            "quotes": [
+              "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+          "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Hyland (2025) argues that ChatGPT's lower frequency of stance features leaves it unable to offer accurate rhetorical and pragmatic feedback.",
+        "citation": "Hyland (2025)",
+        "paper_doi": "10.1017/s0261444825101018",
+        "paper_title": "EFL teachers and feedback fatigue: AI to the rescue?",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 1 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "This more retiring or ‘invisible’ stance means that ChatGPT is unable to accurately offer feedback on rhetorical and pragmatic aspects of arguments produced by real human writers.",
+              "we found that the ChatGPT 4 essays, though structurally coherent and logically organised, contained a significantly lower frequency of features such as hedges, boosters, attitude markers, and self-mention (Table 3)."
+            ],
+            "tokens": {
+              "input_tokens": 14544,
+              "output_tokens": 779
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+        "paper_id": "32b5f944-5fc4-47a0-b5ac-61129159eab9",
+        "status": "verified",
+        "evidence_quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+        "explanation": "All propositions are supported. The precision figures (94%, 98%, 94%) match the source verbatim: \"ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3\" and the Total row of Table 1 (94, 98, 94). The recall figures (10%, 33%, 55%) match: \"the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively\" and Table 1's Total row (10, 33, 55). The four high-frequency categories overtaken are stated: \"it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation ... word choice or expression ... sentence structure ... and pronoun\". The five categories lagged are stated: \"ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner ... preposition ... spelling ... verb form ... and word form\". No assertion is contradicted, absent, or hedged.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "ChatGPT's precision was 94% with Prompt 1 (zero-shot generic)",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "94%",
+            "source_value": "94%",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+            "central": false,
+            "entity": "ChatGPT (GPT-P1)",
+            "measure": "overall precision",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+            ]
+          },
+          {
+            "text": "ChatGPT's precision was 98% with Prompt 2 (zero-shot domain-specific)",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "98%",
+            "source_value": "98%",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+            "central": false,
+            "entity": "ChatGPT (GPT-P2)",
+            "measure": "overall precision",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+            ]
+          },
+          {
+            "text": "ChatGPT's precision was 94% with Prompt 3 (one-shot domain-specific)",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "94%",
+            "source_value": "94%",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3",
+            "central": false,
+            "entity": "ChatGPT (GPT-P3)",
+            "measure": "overall precision",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3"
+            ]
+          },
+          {
+            "text": "ChatGPT's precision remained high across the three prompts",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "remained high",
+            "source_value": "remained consistently high",
+            "quote": "ChatGPT remained consistently high in precision regardless of prompts",
+            "central": false,
+            "entity": "ChatGPT",
+            "measure": "overall precision across prompts",
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts"
+            ]
+          },
+          {
+            "text": "ChatGPT's recall rose considerably with prompt sophistication",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "rose considerably",
+            "source_value": "considerably improved",
+            "quote": "the recall of ChatGPT considerably improved across prompts",
+            "central": true,
+            "entity": "ChatGPT",
+            "measure": "overall recall across prompts",
+            "quotes": [
+              "the recall of ChatGPT considerably improved across prompts"
+            ]
+          },
+          {
+            "text": "ChatGPT's recall was 10% with Prompt 1",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "10%",
+            "source_value": "10%",
+            "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "central": false,
+            "entity": "ChatGPT (GPT-P1)",
+            "measure": "overall recall",
+            "quotes": [
+              "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+            ]
+          },
+          {
+            "text": "ChatGPT's recall was 33% with Prompt 2",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "33%",
+            "source_value": "33%",
+            "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "central": false,
+            "entity": "ChatGPT (GPT-P2)",
+            "measure": "overall recall",
+            "quotes": [
+              "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+            ]
+          },
+          {
+            "text": "ChatGPT's recall was 55% with Prompt 3",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "55%",
+            "source_value": "55%",
+            "quote": "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively",
+            "central": false,
+            "entity": "ChatGPT (GPT-P3)",
+            "measure": "overall recall",
+            "quotes": [
+              "with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively"
+            ]
+          },
+          {
+            "text": "ChatGPT overtook Grammarly on four high-frequency error categories",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "overtook on four",
+            "source_value": "far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus",
+            "quote": "it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly)",
+            "central": false,
+            "entity": "ChatGPT (GPT-P3) vs. Grammarly",
+            "measure": "detection of the four most frequent error categories",
+            "quotes": [
+              "it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly)"
+            ]
+          },
+          {
+            "text": "ChatGPT lagged behind Grammarly on five other error categories",
+            "kind": "direction",
+            "verdict": "supported",
+            "claim_value": "lagged on five",
+            "source_value": "lagged behind Grammarly in five error categories (1/3 of all categories)",
+            "quote": "ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)",
+            "central": false,
+            "entity": "ChatGPT vs. Grammarly",
+            "measure": "detection in five error categories",
+            "quotes": [
+              "ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+          "In contrast, the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively.",
+          "Conspicuously, it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly).",
+          "Admittedly, ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Luo et al. (2025) found that ChatGPT's precision remained high across prompts (94%, 98%, and 94%) while recall rose considerably with prompt sophistication (10%, 33%, and 55%), and that ChatGPT overtook Grammarly on four high-frequency error categories yet lagged on five others.",
+        "citation": "Luo et al. (2025)",
+        "paper_doi": "10.1017/s095834402510044x",
+        "paper_title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "ChatGPT remained consistently high in precision regardless of prompts, being 94%, 98% and 94% respectively for GPT-P1, GPT-P2 and GPT-P3, higher than Grammarly (85%).",
+              "In contrast, the recall of ChatGPT considerably improved across prompts, with that of GPT-P1, GPT-P2 and GPT-P3 being 10%, 33% and 55% respectively.",
+              "Conspicuously, it far outstripped Grammarly in correctly spotting the four categories accounting for most of the errors in the corpus (62%, 206/334), namely errors of direct translation (37/54, 69% for GPT-P3 vs. 1/54, 2% for Grammarly), word choice or expression (37/76, 49% for GPT-P3 vs. 16/76, 21% for Grammarly), sentence structure (23/39, 59% for GPT-P3 vs. 13/39, 33% for Grammarly) and pronoun (15/36, 42% for GPT-P3 vs. 7/36, 19% for Grammarly).",
+              "Admittedly, ChatGPT across prompts lagged behind Grammarly in five error categories (1/3 of all categories), namely errors of article/determiner (5/20, 25% for GPT-P3 vs. 11/20, 55% for Grammarly), preposition (4/7, 57% for GPT-P3 vs. 7/7, 100% for Grammarly), spelling (14/15, 93% for GPT-P3 vs. 15/15, 100% for Grammarly), verb form (11/16, 69% for GPT-P3 vs. 14/16, 88% for Grammarly) and word form (2/6, 33% for GPT-P3 vs. 3/6, 50% for Grammarly)."
+            ],
+            "tokens": {
+              "input_tokens": 14858,
+              "output_tokens": 2940
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "one student resubmitting 13 times with scores rising from 79 to 90, against another who resubmitted once in under 14 minutes; they also found teacher feedback addressed more error types (16) than AWCF (8), though assignment differences may have confounded this.",
+        "paper_id": "7722278d-7951-4774-b487-f03ef4bd4213",
+        "status": "verified",
+        "evidence_quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+        "explanation": "Every proposition in the claim is stated in the source. The central assertion — Flora's 13 resubmissions — is stated verbatim: \"Flora resubmitted her essay 13 times, while David made one resubmission.\" The score trajectory is given as \"the score rose from 79 to 90 (100 as the full score)\". David's single resubmission and time on task are given as \"David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.\" The error-type comparison and the confound caveat are reproduced almost word for word: \"Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.\" No assertion is contradicted, none is absent, and no hedge is removed (the claim preserves the source's own hedging about assignment differences).",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "One student (Flora) resubmitted her essay 13 times.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "13",
+            "source_value": "13",
+            "quote": "Flora resubmitted her essay 13 times, while David made one resubmission.",
+            "central": true,
+            "entity": "Flora, an L2 student in the study",
+            "measure": "number of resubmissions to the AWE system",
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score)."
+            ]
+          },
+          {
+            "text": "That student's AWE scores rose from 79 to 90.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "79 to 90",
+            "source_value": "79 to 90",
+            "quote": "the score rose from 79 to 90 (100 as the full score)",
+            "central": false,
+            "entity": "Flora's AWE scores",
+            "measure": "AWE score change across submissions",
+            "quotes": [
+              "the score rose from 79 to 90 (100 as the full score)"
+            ]
+          },
+          {
+            "text": "Another student (David) resubmitted once.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "once",
+            "source_value": "once",
+            "quote": "David only resubmitted his essay once after receiving AWE feedback",
+            "central": false,
+            "entity": "David, an L2 student in the study",
+            "measure": "number of resubmissions to the AWE system",
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "David only resubmitted his essay once after receiving AWE feedback"
+            ]
+          },
+          {
+            "text": "That other student spent under 14 minutes on the resubmission task.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "under 14 minutes",
+            "source_value": "less than 14 minutes",
+            "quote": "only spent less than 14 minutes on the task",
+            "central": false,
+            "entity": "David",
+            "measure": "time spent on the AWE revision task",
+            "quotes": [
+              "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task."
+            ]
+          },
+          {
+            "text": "Teacher feedback addressed more error types (16) than the AWE feedback (8).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "16 vs 8",
+            "source_value": "16 vs 8",
+            "quote": "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+            "central": false,
+            "entity": "teacher feedback vs. AWE feedback in the study",
+            "measure": "number of error types addressed",
+            "quotes": [
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors."
+            ]
+          },
+          {
+            "text": "Differences in the two assignments may have confounded the comparison of error types addressed.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": "assignment differences may have confounded this",
+            "source_value": "differences in the two assignments may have influenced this",
+            "quote": "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors",
+            "central": false,
+            "entity": "the two assignments (Advanced English and Tourism English essays)",
+            "measure": "possible confounding influence on the error-type comparison",
+            "quotes": [
+              "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "Flora resubmitted her essay 13 times, while David made one resubmission.",
+          "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+          "the score rose from 79 to 90 (100 as the full score)",
+          "David only resubmitted his essay once after receiving AWE feedback",
+          "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.",
+          "only spent less than 14 minutes on the task",
+          "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+          "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.",
+          "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2018) documented one student resubmitting 13 times with scores rising from 79 to 90, against another who resubmitted once in under 14 minutes; they also found teacher feedback addressed more error types (16) than AWCF (8), though assignment differences may have confounded this.",
+        "citation": "Zhang and Hyland (2018)",
+        "paper_doi": "10.1016/j.asw.2018.02.004",
+        "paper_title": "Student engagement with teacher and automated feedback on L2 writing",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "Flora resubmitted her essay 13 times, while David made one resubmission.",
+              "Figure 4, from the AWE record, shows that Flora resubmitted her essay 13 times, and the score rose from 79 to 90 (100 as the full score).",
+              "the score rose from 79 to 90 (100 as the full score)",
+              "David only resubmitted his essay once after receiving AWE feedback",
+              "David only resubmitted his essay once after receiving AWE feedback and only spent less than 14 minutes on the task.",
+              "only spent less than 14 minutes on the task",
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8)",
+              "Teacher feedback addressed more error types (16) than the AWE feedback (8), although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors.",
+              "although differences in the two assignments may have influenced this, with factors such as difficulty and length causing students to commit different types of errors"
+            ],
+            "tokens": {
+              "input_tokens": 17599,
+              "output_tokens": 1550
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "88% of 33 students submitted more than five times (M = 9.5, SD = 4.07), yet some students disengaged, treating the revision cycle as overkill.",
+        "paper_id": "e6f72954-a5dc-476d-b7f9-e4d7b5c8d864",
+        "status": "verified",
+        "evidence_quote": "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+        "explanation": "The central quantitative assertion is stated verbatim in the source: \"88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07)\". The peripheral assertion about disengagement is also supported: the Discussion states \"there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious.\" The claim's \"some students\" is a weaker quantifier than the source's existential statement, so no quantifier conflict arises, and no assertion is contradicted.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "88% of the 33 students submitted to the AWE system more than five times.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "88%",
+            "source_value": "88%",
+            "quote": "88% of the 33 students submitted to the AWE system more than five times",
+            "central": true,
+            "entity": "the 33 students in the study",
+            "measure": "percentage submitting to the AWE system more than five times",
+            "quotes": [
+              "88% of the 33 students submitted to the AWE system more than five times"
+            ]
+          },
+          {
+            "text": "The mean number of submissions was 9.5 (SD = 4.07).",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "M = 9.5, SD = 4.07",
+            "source_value": "mean number of submissions of 9.5 (SD = 4.07)",
+            "quote": "with a mean number of submissions of 9.5 (SD = 4.07)",
+            "central": false,
+            "entity": "the 33 students in the study",
+            "measure": "mean number of AWE submissions and standard deviation",
+            "quotes": [
+              "with a mean number of submissions of 9.5 (SD = 4.07)"
+            ]
+          },
+          {
+            "text": "Some students disengaged, treating the revision cycle as overkill.",
+            "kind": "attribution",
+            "verdict": "supported",
+            "claim_value": "some students disengaged, seeing the revision cycle as overkill",
+            "source_value": "there were students in this study that failed to engage ... seeing the revision cycle as overkill and inefficacious",
+            "quote": "there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious",
+            "central": false,
+            "entity": "students in this study",
+            "measure": "reported disengagement and view of the revision cycle",
+            "quotes": [
+              "there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious"
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+          "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Zhang and Hyland (2021) reported that 88% of 33 students submitted more than five times (M = 9.5, SD = 4.07), yet some students disengaged, treating the revision cycle as overkill.",
+        "citation": "Zhang and Hyland (2021)",
+        "paper_doi": "10.1016/j.asw.2021.100586",
+        "paper_title": "Fostering student engagement with feedback: An integrated approach",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "88% of the 33 students submitted to the AWE system more than five times with a mean number of submissions of 9.5 (SD = 4.07), indicating a general willingness to engage with AWE feedback and revise.",
+              "Indeed, there were students in this study that failed to engage and responded with indifference to the multiple feedback types, seeing the revision cycle as overkill and inefficacious."
+            ],
+            "tokens": {
+              "input_tokens": 12734,
+              "output_tokens": 954
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      },
+      {
+        "claim_text": "no division of labour among teachers using Grammarly, with four of six positive and two sceptical, but the study captured only one-time use in a hypothetical scenario.",
+        "paper_id": "c09c8dac-4649-414d-82e4-3a559bc3b741",
+        "status": "verified",
+        "evidence_quote": "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+        "explanation": "All four propositions are stated in the source. The central assertion (no division of labour) is supported by the abstract: \"there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.\" The perception split is supported: \"Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.\" The methodological limitation is supported: \"The study focused on a hypothetical scenario and provided insight into teachers' one-time use of Grammarly.\" No assertion is contradicted and no hedge is removed, so the claim is verified.",
+        "suggested_revision": null,
+        "assertions": [
+          {
+            "text": "There was no division of labour among teachers using Grammarly (i.e., teachers did not leave lower-order concerns to Grammarly while handling higher-order concerns themselves).",
+            "kind": "other",
+            "verdict": "supported",
+            "claim_value": "no division of labour",
+            "source_value": "no division of labor",
+            "quote": "there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns",
+            "central": true,
+            "entity": "postsecondary L2 writing teachers using Grammarly as a complement",
+            "measure": "presence/absence of a division of labour between teacher and Grammarly",
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns."
+            ]
+          },
+          {
+            "text": "Four of the six teachers were positive about Grammarly.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "four of six",
+            "source_value": "four of the six teachers",
+            "quote": "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+            "central": false,
+            "entity": "the six participating teachers",
+            "measure": "number of teachers positive about Grammarly",
+            "quotes": [
+              "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical."
+            ]
+          },
+          {
+            "text": "Two of the six teachers were sceptical about Grammarly.",
+            "kind": "quantity",
+            "verdict": "supported",
+            "claim_value": "two of six",
+            "source_value": "two were skeptical",
+            "quote": "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+            "central": false,
+            "entity": "the six participating teachers",
+            "measure": "number of teachers skeptical about Grammarly",
+            "quotes": [
+              "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical."
+            ]
+          },
+          {
+            "text": "The study captured only one-time use of Grammarly in a hypothetical scenario.",
+            "kind": "scope",
+            "verdict": "supported",
+            "claim_value": "one-time use in a hypothetical scenario",
+            "source_value": "a hypothetical scenario and ... teachers’ one-time use of Grammarly",
+            "quote": "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly.",
+            "central": false,
+            "entity": "the study's data collection design",
+            "measure": "nature of Grammarly use captured (one-time use in a hypothetical scenario)",
+            "quotes": [
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+            ]
+          }
+        ],
+        "unstated_details": [],
+        "evidence_quotes": [
+          "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+          "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+          "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+        ],
+        "model_reported": "deepseek-flash",
+        "claim_sentence": "Koltovskaia (2022) found no division of labour among teachers using Grammarly, with four of six positive and two sceptical, but the study captured only one-time use in a hypothetical scenario.",
+        "citation": "Koltovskaia (2022)",
+        "paper_doi": "10.1017/s0958344022000179",
+        "paper_title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+        "acquisition_route": "unpaywall",
+        "evidence_location": "chunk 2 (abstract)",
+        "model_status": "verified",
+        "machine_reasons": [],
+        "diagnostics": [],
+        "quote_relocations": [],
+        "passes": [
+          {
+            "quotes": [
+              "The findings showed that teachers provided feedback both on global and local aspects of writing despite using Grammarly as a complement, and there was no division of labor such as that a teacher takes care of higher-order and Grammarly takes care of lower-order concerns.",
+              "Overall, of the six teachers, four were positive about Grammarly, while two were skeptical.",
+              "The study focused on a hypothetical scenario and provided insight into teachers’ one-time use of Grammarly."
+            ],
+            "tokens": {
+              "input_tokens": 14440,
+              "output_tokens": 1089
+            },
+            "diagnostics": [],
+            "fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+            "model_status": "verified",
+            "machine_reasons": [],
+            "repair_prompt_version": null
+          }
+        ]
+      }
+    ],
+    "verified_count": 5
+  }
+}

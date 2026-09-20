@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  backend-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: deepresearch
+          POSTGRES_PASSWORD: secret
+          POSTGRES_DB: deepresearch
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      # DATABASE_URL is what the application (and alembic) use; the test suite refuses to run
+      # against it and only ever touches TEST_DATABASE_URL (see backend/tests/conftest.py).
+      DATABASE_URL: postgresql+asyncpg://deepresearch:secret@localhost:5432/deepresearch
+      TEST_DATABASE_URL: postgresql+asyncpg://deepresearch:secret@localhost:5432/deepresearch_test
+      DEEPSEEK_API_KEY: test-key-not-real
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+      - name: Create test database
+        run: >-
+          PGPASSWORD=secret psql -h localhost -U deepresearch -d deepresearch
+          -c "CREATE DATABASE deepresearch_test"
+      - name: Run migrations
+        run: cd backend && python -m alembic upgrade head
+      - name: Run tests
+        run: cd backend && python -m pytest tests/ -v --tb=short
+
+  frontend-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: cd frontend && npm ci
+      - name: Lint
+        run: cd frontend && npm run lint
+      - name: Build
+        run: cd frontend && npm run build

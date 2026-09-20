@@ -1,0 +1,489 @@
+{
+  "n_items": 30,
+  "n_items_evidence_subset": 25,
+  "annotators": [
+    "A",
+    "B",
+    "C"
+  ],
+  "categories": [
+    "needs_nuance",
+    "no_full_text",
+    "unsupported",
+    "verified"
+  ],
+  "unanimity_count": 28,
+  "non_unanimous_items": [
+    "hss-altered-01",
+    "hss-altered-02"
+  ],
+  "fleiss_kappa_all30": 0.929714955095666,
+  "fleiss_kappa_evidence25": 0.8955431754874653,
+  "pairwise_agreement_all30": {
+    "AB": {
+      "percent_agreement": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "AC": {
+      "percent_agreement": 0.9333333333333333,
+      "cohen_kappa": 0.896551724137931
+    },
+    "BC": {
+      "percent_agreement": 0.9333333333333333,
+      "cohen_kappa": 0.896551724137931
+    }
+  },
+  "pairwise_agreement_evidence25": {
+    "AB": {
+      "percent_agreement": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "AC": {
+      "percent_agreement": 0.92,
+      "cohen_kappa": 0.8484848484848485
+    },
+    "BC": {
+      "percent_agreement": 0.92,
+      "cohen_kappa": 0.8484848484848485
+    }
+  },
+  "overall_majority_vs_expected_agreement": 1.0,
+  "per_construction_category_agreement": {
+    "altered": {
+      "n": 10,
+      "agreement_rate": 1.0
+    },
+    "no_full_text": {
+      "n": 5,
+      "agreement_rate": 1.0
+    },
+    "paraphrase": {
+      "n": 5,
+      "agreement_rate": 1.0
+    },
+    "verbatim": {
+      "n": 5,
+      "agreement_rate": 1.0
+    },
+    "wrong_paper": {
+      "n": 5,
+      "agreement_rate": 1.0
+    }
+  },
+  "confusion_majority_vs_expected": {
+    "no_full_text": {
+      "no_full_text": 5,
+      "unsupported": 0,
+      "unsupported|needs_nuance": 0,
+      "verified": 0
+    },
+    "unsupported": {
+      "no_full_text": 0,
+      "unsupported": 5,
+      "unsupported|needs_nuance": 10,
+      "verified": 0
+    },
+    "verified": {
+      "no_full_text": 0,
+      "unsupported": 0,
+      "unsupported|needs_nuance": 0,
+      "verified": 10
+    }
+  },
+  "items_needing_adjudication": [
+    "hss-altered-01",
+    "hss-altered-02"
+  ],
+  "items": [
+    {
+      "ann_id": "ann-01",
+      "item_id": "hss-no_full_text-02",
+      "evidence_mode": "withheld",
+      "label_A": "no_full_text",
+      "label_B": "no_full_text",
+      "label_C": "no_full_text",
+      "majority_label": "no_full_text",
+      "unanimous": true,
+      "construction_category": "no_full_text",
+      "expected_label": "no_full_text",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-02",
+      "item_id": "hss-no_full_text-04",
+      "evidence_mode": "withheld",
+      "label_A": "no_full_text",
+      "label_B": "no_full_text",
+      "label_C": "no_full_text",
+      "majority_label": "no_full_text",
+      "unanimous": true,
+      "construction_category": "no_full_text",
+      "expected_label": "no_full_text",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-03",
+      "item_id": "hss-paraphrase-05",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "paraphrase",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-04",
+      "item_id": "hss-wrong_paper-03",
+      "evidence_mode": "no_match",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "wrong_paper",
+      "expected_label": "unsupported",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-05",
+      "item_id": "hss-paraphrase-01",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "paraphrase",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-06",
+      "item_id": "hss-altered-04",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-07",
+      "item_id": "hss-altered-05",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-08",
+      "item_id": "hss-wrong_paper-04",
+      "evidence_mode": "no_match",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "wrong_paper",
+      "expected_label": "unsupported",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-09",
+      "item_id": "hss-paraphrase-02",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "paraphrase",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-10",
+      "item_id": "hss-verbatim-01",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "verbatim",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-11",
+      "item_id": "hss-altered-08",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-12",
+      "item_id": "hss-paraphrase-03",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "paraphrase",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-13",
+      "item_id": "hss-wrong_paper-02",
+      "evidence_mode": "no_match",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "wrong_paper",
+      "expected_label": "unsupported",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-14",
+      "item_id": "hss-altered-03",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-15",
+      "item_id": "hss-verbatim-02",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "verbatim",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-16",
+      "item_id": "hss-no_full_text-03",
+      "evidence_mode": "withheld",
+      "label_A": "no_full_text",
+      "label_B": "no_full_text",
+      "label_C": "no_full_text",
+      "majority_label": "no_full_text",
+      "unanimous": true,
+      "construction_category": "no_full_text",
+      "expected_label": "no_full_text",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-17",
+      "item_id": "hss-verbatim-04",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "verbatim",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-18",
+      "item_id": "hss-no_full_text-01",
+      "evidence_mode": "withheld",
+      "label_A": "no_full_text",
+      "label_B": "no_full_text",
+      "label_C": "no_full_text",
+      "majority_label": "no_full_text",
+      "unanimous": true,
+      "construction_category": "no_full_text",
+      "expected_label": "no_full_text",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-19",
+      "item_id": "hss-paraphrase-04",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "paraphrase",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-20",
+      "item_id": "hss-verbatim-03",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "verbatim",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-21",
+      "item_id": "hss-altered-09",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-22",
+      "item_id": "hss-altered-01",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "needs_nuance",
+      "majority_label": "unsupported",
+      "unanimous": false,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": true
+    },
+    {
+      "ann_id": "ann-23",
+      "item_id": "hss-altered-02",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "needs_nuance",
+      "majority_label": "unsupported",
+      "unanimous": false,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": true
+    },
+    {
+      "ann_id": "ann-24",
+      "item_id": "hss-altered-06",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-25",
+      "item_id": "hss-wrong_paper-01",
+      "evidence_mode": "no_match",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "wrong_paper",
+      "expected_label": "unsupported",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-26",
+      "item_id": "hss-no_full_text-05",
+      "evidence_mode": "withheld",
+      "label_A": "no_full_text",
+      "label_B": "no_full_text",
+      "label_C": "no_full_text",
+      "majority_label": "no_full_text",
+      "unanimous": true,
+      "construction_category": "no_full_text",
+      "expected_label": "no_full_text",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-27",
+      "item_id": "hss-altered-10",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-28",
+      "item_id": "hss-altered-07",
+      "evidence_mode": "passage",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "altered",
+      "expected_label": "unsupported|needs_nuance",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-29",
+      "item_id": "hss-verbatim-05",
+      "evidence_mode": "passage",
+      "label_A": "verified",
+      "label_B": "verified",
+      "label_C": "verified",
+      "majority_label": "verified",
+      "unanimous": true,
+      "construction_category": "verbatim",
+      "expected_label": "verified",
+      "needs_adjudication": false
+    },
+    {
+      "ann_id": "ann-30",
+      "item_id": "hss-wrong_paper-05",
+      "evidence_mode": "no_match",
+      "label_A": "unsupported",
+      "label_B": "unsupported",
+      "label_C": "unsupported",
+      "majority_label": "unsupported",
+      "unanimous": true,
+      "construction_category": "wrong_paper",
+      "expected_label": "unsupported",
+      "needs_adjudication": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "dataset": "van_de_Schoot_2017",
+  "judged_by": "harness fix agent, 2026-09-03",
+  "judged_on": "2026-09-03",
+  "basis": "SYNERGY title (and abstract head) read against the matched Crossref record's title, container title, year and type",
+  "records": {
+    "4406": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "5286": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "1628": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "1934": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "721": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "3388": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "4528": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "898": {
+      "judgement": "correct",
+      "note": "export has no abstract; exact title, British Journal of Psychiatry 2015 volume"
+    },
+    "2824": {
+      "judgement": "correct",
+      "note": "the export record is itself the special-issue introduction; matched to that introduction"
+    },
+    "5117": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "2020": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "3143": {
+      "judgement": "correct",
+      "note": "Crossref 2009 (online) vs export 2010 (volume year); same article in J. Pediatric Psychology"
+    },
+    "1623": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "2744": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "4259": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "2010": {
+      "judgement": "correct",
+      "note": "Crossref 2013 (online) vs export 2014 (volume year); same article in JMFT"
+    },
+    "5891": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "1761": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "2803": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    },
+    "1691": {
+      "judgement": "correct",
+      "note": "exact title, journal-article, plausible venue, year within +-1"
+    }
+  }
+}

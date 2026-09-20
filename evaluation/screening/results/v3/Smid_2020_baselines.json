@@ -1,0 +1,50 @@
+{
+  "dataset": "Smid_2020",
+  "generated": "2026-09-15T19:16:22+00:00",
+  "run_file": "Smid_2020_runA.jsonl",
+  "label_field": "label_included",
+  "label_choice": "primary",
+  "query_mode": "rq+criteria",
+  "query_text": "What is the performance of Bayesian estimation for structural equation models (SEM) with small samples in comparison to frequentist estimation? The review seeks simulation studies that compare the two estimation approaches for the same SEM under small-sample conditions, to report the conditions investigated, which sample sizes the authors defined as small, and which prior distributions were used, to aggregate coverage, power and relative bias, and to derive recommendations for analysing small data sets and specifying thoughtful priors. A simulation study was used to investigate and compare the performance of Bayesian estimation to frequentist methods in structural equation models with a small sample size. Peer-reviewed paper in the field of social sciences. Simulation study: multiple replicated datasets were analyzed, and results were summarized for all simulated data sets. Bayesian estimation was compared to frequentist estimation methods: the performance of Bayesian and frequentist estimation was investigated for the exact same model, so that the results can be compared across the two estimation methods. Structural equation models: models of interest fall under the umbrella of structural equation models including mediation, CFA, latent growth, multilevel, and mixture models. Small sample size: the original authors stated that at least one of the sample sizes in the simulation study represents a small sample size for their specific model, and small sample conditions were reported explicitly.",
+  "n_unscreened_excluded": 0,
+  "k_basis": "screened_in",
+  "n": 2627,
+  "k": 1003,
+  "include_all": {
+    "n": 2627,
+    "n_skipped": 0,
+    "tp": 27,
+    "fp": 2600,
+    "tn": 0,
+    "fn": 0,
+    "prevalence": 0.010277883517320136,
+    "recall": 1.0,
+    "precision": 0.010277883517320136,
+    "f1": 0.020346646571213264,
+    "specificity": 0.0,
+    "inclusion_rate": 1.0,
+    "wss_at_achieved_recall": 0.0,
+    "wss_at_95": -0.050000000000000044
+  },
+  "tfidf": {
+    "threshold": 0.016958880505689798,
+    "metrics": {
+      "n": 2627,
+      "n_skipped": 0,
+      "tp": 26,
+      "fp": 977,
+      "tn": 1623,
+      "fn": 1,
+      "prevalence": 0.010277883517320136,
+      "recall": 0.9629629629629629,
+      "precision": 0.0259222333000997,
+      "f1": 0.05048543689320389,
+      "specificity": 0.6242307692307693,
+      "inclusion_rate": 0.38180433955081844,
+      "wss_at_achieved_recall": 0.5811586234121445,
+      "wss_at_95": 0.5681956604491816
+    },
+    "wss_at_95_ranking": 0.6960982108869432,
+    "wss_at_achieved_recall_ranking": 0.7090611738499062
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.mypy_cache
+tests/
+*.egg-info
+.git
+.env
+=1.24.0

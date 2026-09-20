@@ -1,0 +1,10 @@
+[
+  {
+    "doi": "10.1234/fixture.2026",
+    "authors_crossref": ["Ada Fixture", "Sam Sample"],
+    "year": 2026,
+    "first_author_surname": "Fixture",
+    "title": "Fixture Paper on Internet-Delivered Interventions",
+    "journal": "Journal of Fixtures"
+  }
+]

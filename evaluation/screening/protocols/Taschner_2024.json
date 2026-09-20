@@ -1,0 +1,167 @@
+{
+  "dataset_id": "Taschner_2024",
+  "source_review_doi": "10.3102/00346543231221499",
+  "source_review": {
+    "title": "\"Yes, I Can!\" A Systematic Review and Meta-Analysis of Intervention Studies Promoting Teacher Self-Efficacy",
+    "authors": "Taschner J, Dicke T, Reinhold S, Holzberger D",
+    "journal": "Review of Educational Research",
+    "year": 2024,
+    "volume_issue": "95(1):3-52",
+    "url": "https://doi.org/10.3102/00346543231221499"
+  },
+  "dataset_source": {
+    "collection": "SYNERGY+ (Campos DG, Futterer T, Gfrorer T, Lavelle-Hill R, Murayama K, Konig L, Hecht M, Zitzmann S, Scherer R. Screening Smarter, Not Harder: A Comparative Analysis of Machine Learning Screening Algorithms and Heuristic Stopping Criteria for Systematic Reviews in Educational Research. Educational Psychology Review 2024;36(1). DOI 10.1007/s10648-024-09862-5)",
+    "cache_path": "~/.synergy_dataset_source/synergy-dataset-plus/Taschner_2024/ (read-only upstream release cache, not part of this repository; works_1.zip is cached alongside labels.csv)",
+    "deposit_doi": "10.17605/OSF.IO/UYB7X",
+    "license": "CC BY 4.0 (DataCite record for the OSF deposit https://doi.org/10.17605/OSF.IO/UYB7X, checked 2026-09-06)",
+    "route": "plus (planned; evaluation/screening/fetch_synergy.py has no --route plus yet, added at WP-B9 phase S3; this protocol records eligibility criteria only and was not produced by running the fetch harness)",
+    "n_records": 3828,
+    "n_label_included": 109,
+    "n_label_abstract_included": 775,
+    "n_with_doi": 2906,
+    "catalogue_n_records": 3830,
+    "catalogue_n_records_included": 109,
+    "catalogue_note": "metadata.json's data.n_records (3,830) disagrees with the labels.csv row count above (3,828); data.n_records_included (109) agrees. Per wpB9-lean-brief.md section 1, labels.csv is the counted source for n, positives and record_id, and the catalogue figure is kept here for reference only.",
+    "read_at": "2026-09-06"
+  },
+  "primary_label": "label_included",
+  "research_question": "Whether, and to what degree, interventions can promote teacher self-efficacy in pre-service and in-service teachers, and whether the sources of self-efficacy an intervention targets (per Bandura's sociocognitive theory, e.g. mastery experiences) and other intervention features moderate the effect, synthesised by a preregistered meta-analysis of controlled or pre-post intervention studies that measured teacher self-efficacy with the Teachers' Sense of Efficacy Scale (TSES) or a comparable instrument.",
+  "inclusion_criteria": [
+    "The study is an empirical primary study that implemented some form of intervention (e.g. internship, classroom-management training, coaching); purely longitudinal studies were excluded.",
+    "The sample consists mainly of pre-service teachers, teacher students, or in-service teachers for elementary, middle, high, or vocational schools; samples consisting mainly of pre-school, higher-education, or special-education teachers were excluded.",
+    "The sample size is at least 10 persons.",
+    "Teacher self-efficacy is the outcome variable.",
+    "Teacher self-efficacy was measured with the Teachers' Sense of Efficacy Scale (TSES) of Tschannen-Moran and Woolfolk Hoy (2001), or with a scale having at least one subscale comparable to one of the TSES's three subscales, in which case all items of that scale must be available.",
+    "The study provides a pre- and post-measure of teacher self-efficacy.",
+    "The study provides sufficient quantitative data to calculate the standardized mean change (M, SD, and n for the pre- and post-test); mixed-methods studies are included.",
+    "The study is written in English or German.",
+    "The study is available in full text."
+  ],
+  "exclusion_criteria": [
+    "Purely longitudinal studies, or studies that did not implement any form of intervention, were excluded.",
+    "Samples consisting mainly of pre-school, higher-education, or special-education teachers were excluded.",
+    "Samples of fewer than 10 persons were excluded.",
+    "Studies that did not use teacher self-efficacy as the outcome variable were excluded.",
+    "Studies that did not use the TSES, used a scale with no subscale comparable to a TSES subscale, or for which not all items of a comparable scale were available, were excluded.",
+    "Studies that did not provide both a pre- and a post-measure of teacher self-efficacy were excluded.",
+    "Studies that did not provide sufficient quantitative data to calculate the standardized mean change (M, SD, n for pre- and post-test) were excluded.",
+    "Studies not written in English or German were excluded.",
+    "Studies not available in full text were excluded."
+  ],
+  "label_field": "label_abstract_screening",
+  "criteria_provenance": {
+    "inclusion": [
+      {
+        "id": "I1",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 1, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I2",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 2a, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I3",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 2b, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I4",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 3, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I5",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 4a/4b, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I6",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 5, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I7",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 6, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I8a",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 7, metadata.json",
+        "derived": false
+      },
+      {
+        "id": "I8b",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 8, metadata.json",
+        "derived": false
+      }
+    ],
+    "exclusion": [
+      {
+        "id": "E1",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 1 states this exclusion verbatim ('Purely longitudinal studies were excluded'); the intervention half is a derived complement of I1",
+        "derived": true
+      },
+      {
+        "id": "E2",
+        "source": "metadata",
+        "location": "publication.eligibility_criteria item 2a states this exclusion verbatim ('... were excluded')",
+        "derived": false
+      },
+      {
+        "id": "E3",
+        "source": "derived",
+        "location": "negation of I3 (item 2b); the source states a minimum, not an exclusion sentence",
+        "derived": true
+      },
+      {
+        "id": "E4",
+        "source": "derived",
+        "location": "negation of I4 (item 3); the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E5",
+        "source": "derived",
+        "location": "negation of I5 (item 4a/4b); the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E6",
+        "source": "derived",
+        "location": "negation of I6 (item 5); the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E7",
+        "source": "derived",
+        "location": "negation of I7 (item 6); the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E8",
+        "source": "derived",
+        "location": "negation of I8a (item 7); the source states no separate exclusion list",
+        "derived": true
+      },
+      {
+        "id": "E9",
+        "source": "derived",
+        "location": "negation of I8b (item 8); the source states no separate exclusion list",
+        "derived": true
+      }
+    ]
+  },
+  "notes": "Transcribed 2026-09-06 from the SYNERGY+ cache (~/.synergy_dataset_source/synergy-dataset-plus/Taschner_2024/metadata.json, read-only, not part of this repository), publication.eligibility_criteria, a verbatim eight-item numbered list with sub-parts 2a/2b and 4a/4b: '1) The study is an empirical primary study that implemented some form of intervention ... Purely longitudinal studies were excluded. 2) Sample characteristics: a. ... Studies with samples consisting mainly of teachers for pre-school, higher education, or special education were excluded. b. The sample size is at least 10 persons. 3) Teacher self-efficacy is the outcome variable. 4) The measure of teacher self-efficacy: a. Studies used the TSES ... b. Studies with scales with at least one subscale comparable ... 5) The study provides a pre- and post-measure of teacher self-efficacy. 6) The study provides sufficient quantitative data to calculate the standardized mean change ... 7) The study is written in English or German. 8) The study is available in full text.' inclusion_criteria above render that list as nine full sentences (each subpart of items 2 and 4 as its own sentence; the file's flat numbering I1..I8b maps back to the source's items 1-8 via criteria_provenance), all source=metadata, derived=false. The article is open access (CC BY, OpenAlex W4391316815, PDF at https://journals.sagepub.com/doi/pdf/10.3102/00346543231221499) but that domain could not be reached from this environment on 2026-09-06 (TLS handshake failure) and the mirror copy at Technical University of Munich's mediaTUM repository (https://mediatum.ub.tum.de/1745559) exposed no direct PDF link without a JS-rendered session; the eight-item metadata string is complete on its own (wpB9-lean-brief.md section 4.1: 'Taschner_2024 eight numbered criteria with sub-parts 2a, 2b, 4a, 4b'), so no criterion text needed the full paper, but page numbers could not be attached and the authors should re-read the open-access PDF against these nine sentences before the manuscript relies on them. exclusion_criteria are negations of the paired inclusion criterion written by the protocol transcriber (source=derived, derived=true), except E1 and E2 which additionally restate exclusion wording the metadata string itself states verbatim for items 1 and 2a (see criteria_provenance; E1 is still marked derived=true because its second half, the intervention complement, is a transcriber negation). label_field = label_abstract_screening because the evaluated task is title-and-abstract screening and the cached labels.csv carries a distinct label_abstract_included column (775/3,828 positives), renamed to label_abstract_screening by fetch_synergy.py's route-plus export per wpB9-lean-brief.md section 1.1 rule 4; primary_label = label_included (109/3,828 positives, the review's final inclusion decision) per protocols/README.md's 'Choosing the primary label and label_field' section. Counts (n_records, n_label_included, n_label_abstract_included, n_with_doi) were read directly from the cached labels.csv on 2026-09-06 with a one-off script, not via fetch_synergy.py (whose --route plus does not exist yet; it is added at WP-B9 phase S3), so no data/Taschner_2024.fetch.json exists yet and no hydration has been run. Record order: run_screening.py shuffles the records deterministically before batching (random.Random('<dataset>:20260902'), recorded as record_order_seed in the run meta); this is unchanged by this protocol (see protocols/README.md)."
+}

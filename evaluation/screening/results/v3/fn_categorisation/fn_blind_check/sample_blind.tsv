@@ -1,0 +1,73 @@
+1	Nagtegaal_2019|A|1016	Quality improvement and community health worker strategies; not a nudge intervention.
+2	Nagtegaal_2019|A|1192	Prospective cohort study on sepsis bundle compliance, not an experiment comparing interventions.
+3	Nagtegaal_2019|A|1259	
+4	Nagtegaal_2019|A|1615	Sigmoidoscopy screening feasibility study targeting general population compliance; not nudges on healthcare professionals.
+5	Nagtegaal_2019|A|1627	Cochrane protocol on conditional plans for health behaviour, not a completed experiment on nudges.
+6	Nagtegaal_2019|A|1633	Compares web vs print guideline self-study; educational intervention, not a nudge.
+7	Nagtegaal_2019|A|1805	No abstract available; cannot confirm nudge experiment on evidence-based medicine.
+8	Nagtegaal_2019|A|1851	Theoretical discussion of patient safety practices implementation; not a nudge experiment.
+9	Nagtegaal_2019|A|1859	Program implementation of CPGs; unclear if nudge experiment with comparison of interventions.
+10	Nagtegaal_2019|A|2019	
+11	Nagtegaal_2019|A|456	Cost consequences of CDSS for lab tests; economic evaluation, not a nudge experiment on behaviour.
+12	Nagtegaal_2019|A|520	Program implementation for VTE prophylaxis; not clearly a nudge experiment with comparison of interventions.
+13	Nagtegaal_2019|A|526	About allocation instrument for hospital-level intervention, not nudges targeting professional behaviour.
+14	Nagtegaal_2019|A|822	Targets healthy women/patients, not healthcare professionals; about trial participation framing, not EBM.
+15	Nagtegaal_2019|A|952	Quality improvement learning collaborative for asthma; not a nudge per taxonomy.
+16	Nagtegaal_2019|B|1013	Tests academic detailing and CDSS on prescribing, but these are not nudges per soft-steering taxonomy.
+17	Nagtegaal_2019|B|1016	Quality improvement and community health worker strategies; not a nudge intervention.
+18	Nagtegaal_2019|B|1032	Guideline adherence trial for beta-blockers; interventions not classified as nudges.
+19	Nagtegaal_2019|B|1406	Evaluation of a research lead post; not a nudge experiment with intervention comparison.
+20	Nagtegaal_2019|B|164	RCT on EMR intervention for GERD quality of care, but no evidence of nudge taxonomy-based intervention.
+21	Nagtegaal_2019|B|1904	About translating appropriateness criteria into guidelines using decision tables; not a nudge experiment.
+22	Nagtegaal_2019|B|414	CME educational intervention comparison; education, not nudge-based soft steering.
+23	Nagtegaal_2019|B|435	Computerized decision support is not a nudge per taxonomy; it's a decision support system.
+24	Nagtegaal_2019|B|436	Computerized decision support intervention; CDSS is not a nudge per taxonomy.
+25	Nagtegaal_2019|B|525	Development of a complex intervention, not an experiment testing nudges; no comparison of interventions reported.
+26	Nagtegaal_2019|B|658	Physical therapy effectiveness for neck pain patients, not nudges targeting healthcare professionals.
+27	Nagtegaal_2019|B|692	Computerized antimicrobial approval system is a hard restriction/approval mechanism, not a soft nudge; unclear experiment comparison.
+28	Nagtegaal_2019|B|698	Prospective study of electronic reminder system; not framed as nudge experiment.
+29	Nagtegaal_2019|B|925	Payment system incentives experiment; financial incentives, not soft nudges.
+30	Nagtegaal_2019|B|999	Opinion leader intervention, not a nudge per taxonomy; multicomponent intervention study.
+31	van_de_Schoot_2017|A|1208	Latent profile analysis of PTSD symptoms and personality traits, not longitudinal trajectory clustering.
+32	van_de_Schoot_2017|A|1831	Longitudinal PTSD symptom analysis but uses confirmatory factor/correlation, not LGMM/LCGA clustering.
+33	van_de_Schoot_2017|A|1888	Neurohormone study, cross-sectional, no trajectory clustering method.
+34	van_de_Schoot_2017|A|2020	Focuses on PTSD symptom clusters and quality of life, no clustering method for trajectories mentioned.
+35	van_de_Schoot_2017|A|2352	Distress trajectories after breast cancer diagnosis; not PTSD symptoms following DSM-IV A1 trauma.
+36	van_de_Schoot_2017|A|2803	Cross-sectional comparison of PTSD symptom profiles across trauma types, no longitudinal trajectories.
+37	van_de_Schoot_2017|A|3056	Two-wave prospective design, fewer than three measurement waves; no clustering method mentioned.
+38	van_de_Schoot_2017|A|322	Latent class analysis of alcohol dependence subtypes, not PTSD trajectories after trauma.
+39	van_de_Schoot_2017|A|3336	Cross-sectional study of 23 Holocaust survivors examining posttraumatic growth correlates; no longitudinal trajectory clustering method.
+40	van_de_Schoot_2017|A|3558	Examines co-occurrence of PTSD and SUD over time; no clustering method identifying PTSD trajectories.
+41	van_de_Schoot_2017|A|3567	Prospective memory study in veterans, no longitudinal trajectory clustering of PTSD.
+42	van_de_Schoot_2017|A|3692	Trajectories of student-teacher relationship quality, not PTSD symptoms following trauma.
+43	van_de_Schoot_2017|A|4089	Latent class analysis of early childhood risk factors, not PTSD trajectories.
+44	van_de_Schoot_2017|A|4734	Focuses on depression/anxiety trajectories in musculoskeletal pain, not PTSD following a traumatic event.
+45	van_de_Schoot_2017|A|719	Conceptual/theoretical mapping of heterogeneity of trauma responses; no longitudinal clustering method described in abstract.
+46	van_de_Schoot_2017|B|1691	Pharmacokinetic study of vasopressin antagonist; unrelated to PTSD trajectory clustering.
+47	van_de_Schoot_2017|B|1705	Cross-sectional retrospective study of ACEs and personality in depression; no PTSD trajectories.
+48	van_de_Schoot_2017|B|1745	Cross-sectional study of anxiety sensitivity and PTSD symptom clusters; no longitudinal trajectory clustering.
+49	van_de_Schoot_2017|B|1746	Cross-sectional community sample exploring intolerance of uncertainty and PTSD; no trajectory clustering method.
+50	van_de_Schoot_2017|B|1761	Mental health benefits of Army service; no PTSD trajectory clustering method.
+51	van_de_Schoot_2017|B|1840	Cross-sectional prevalence study of common mental disorders in primary care, not longitudinal PTSD trajectory clustering.
+52	van_de_Schoot_2017|B|2410	Only two time points measured; fewer than three waves required for trajectory modelling.
+53	van_de_Schoot_2017|B|2437	Cross-sectional patterns of distress in mothers of preterm infants, not longitudinal trajectory clustering.
+54	van_de_Schoot_2017|B|2516	Longitudinal tsunami study but no evidence of LGMM/LCGA/clustering of trajectories.
+55	van_de_Schoot_2017|B|3226	Hierarchical cluster analysis of symptoms but cross-sectional, not longitudinal trajectory study.
+56	van_de_Schoot_2017|B|327	Latent profile analysis is cross-sectional comorbidity patterns, not longitudinal trajectory clustering.
+57	van_de_Schoot_2017|B|3557	Longitudinal but examines co-occurrence rates, not trajectory clustering of PTSD symptoms.
+58	van_de_Schoot_2017|B|4305	Prospective cross-sectional study of PTS in relatives after TBI; not longitudinal trajectory clustering.
+59	van_de_Schoot_2017|B|5569	Cross-sectional examination of PTS-substance associations; no longitudinal trajectory clustering method.
+60	van_de_Schoot_2017|B|557	Naturalistic prospective study of PTSD course using survival analysis, no LGMM/LCGA clustering method.
+61	Smid_2020|A|18	No abstract; title suggests multilevel model fitting but no evidence of small-sample SEM comparison.
+62	Smid_2020|A|2	Hierarchical response time models, not SEM; no abstract confirming Bayesian vs frequentist SEM comparison.
+63	Smid_2020|A|22	No abstract; title about variance components in longitudinal studies, not SEM Bayesian vs frequentist small-sample comparison.
+64	Smid_2020|A|23	Clustered data methods comparison, not specifically SEM Bayesian vs frequentist.
+65	Smid_2020|A|25	Effect sizes for mediation models; no explicit small-sample comparison of Bayesian vs frequentist SEM estimation.
+66	Smid_2020|A|9	Nonlinear mixed-effects mixture models, no explicit small-sample frequentist comparison.
+67	Smid_2020|B|18	No abstract; title suggests multilevel model fitting but no clear SEM small-sample comparison.
+68	Smid_2020|B|2	About hierarchical response time models; no abstract and unclear SEM small-sample comparison.
+69	Smid_2020|B|22	About Bayesian inference for variance components in longitudinal studies; no SEM, no small-sample comparison to frequentist.
+70	Smid_2020|B|23	Clustered data small-sample methods, not SEM Bayesian vs frequentist comparison.
+71	Smid_2020|B|25	Effect sizes for mediation models; not focused on small samples or SEM parameter estimation comparison.
+72	Smid_2020|B|6	Proposes Bayesian mediation analysis but no simulation comparing Bayesian to frequentist estimation for SEM with small samples.
+73	Smid_2020|B|9	Nonlinear mixed-effects mixture models; no explicit small-sample Bayesian vs frequentist comparison.

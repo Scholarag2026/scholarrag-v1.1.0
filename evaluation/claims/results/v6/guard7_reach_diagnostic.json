@@ -1,0 +1,84 @@
+{
+  "purpose": "Ungated reach of guard 7's own comparison, regardless of status; never applied to predicted_status. Eleven such firings across all 852 v5 rows, every one already predicted unsupported.",
+  "per_file": {
+    "scifact_runA": [
+      {
+        "item_id": "814:33387953",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      }
+    ],
+    "scifact_runB": [],
+    "hss_runA": [
+      {
+        "item_id": "hss-altered-01",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-12",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-14",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-17",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      }
+    ],
+    "hss_runB": [
+      {
+        "item_id": "hss-altered-01",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-12",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-14",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      },
+      {
+        "item_id": "hss-altered-17",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      }
+    ],
+    "real_runA": [
+      {
+        "item_id": "real-test-09",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      }
+    ],
+    "real_runB": [
+      {
+        "item_id": "real-test-09",
+        "stored_predicted_status": "unsupported",
+        "scale_word_mismatch": true,
+        "negation_scope_shift": false
+      }
+    ]
+  },
+  "n_total": 11,
+  "all_already_unsupported": true
+}

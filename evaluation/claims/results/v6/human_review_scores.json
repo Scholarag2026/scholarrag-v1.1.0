@@ -1,0 +1,99 @@
+{
+  "generated": "2026-09-15T04:31:27+00:00",
+  "label_of_record": "human majority verdict (results/v6/human_labels.json)",
+  "note": "Scored against results/v6/*.jsonl (the guard-7 replay of the cached model answers), not against the workbook's own stored verifier_status column.",
+  "by_set": {
+    "constructed": {
+      "run_A": {
+        "n": 60,
+        "n_matched_to_human_label": 60,
+        "n_missing_human_label": 0,
+        "accuracy": 0.9166666666666666,
+        "n_correct": 55,
+        "accuracy_wilson_95": [
+          0.8193105798166559,
+          0.9638795433982693
+        ],
+        "kappa": 0.8784440842787683,
+        "verified_precision": 1.0,
+        "verified_recall": 0.875,
+        "falsely_verified": 0,
+        "confusion": {
+          "needs_nuance->needs_nuance": 7,
+          "needs_nuance->unsupported": 3,
+          "no_full_text->no_full_text": 8,
+          "unsupported->unsupported": 26,
+          "verified->needs_nuance": 2,
+          "verified->verified": 14
+        }
+      },
+      "run_B": {
+        "n": 60,
+        "n_matched_to_human_label": 60,
+        "n_missing_human_label": 0,
+        "accuracy": 0.9,
+        "n_correct": 54,
+        "accuracy_wilson_95": [
+          0.7985053527602124,
+          0.9533571655261158
+        ],
+        "kappa": 0.8544866612772839,
+        "verified_precision": 1.0,
+        "verified_recall": 0.8125,
+        "falsely_verified": 0,
+        "confusion": {
+          "needs_nuance->needs_nuance": 7,
+          "needs_nuance->unsupported": 3,
+          "no_full_text->no_full_text": 8,
+          "unsupported->unsupported": 26,
+          "verified->needs_nuance": 3,
+          "verified->verified": 13
+        }
+      }
+    },
+    "real": {
+      "run_A": {
+        "n": 26,
+        "n_matched_to_human_label": 26,
+        "n_missing_human_label": 0,
+        "accuracy": 0.8846153846153846,
+        "n_correct": 23,
+        "accuracy_wilson_95": [
+          0.7102409678828636,
+          0.959967553763894
+        ],
+        "kappa": 0.806930693069307,
+        "verified_precision": 1.0,
+        "verified_recall": 1.0,
+        "falsely_verified": 0,
+        "confusion": {
+          "needs_nuance->needs_nuance": 13,
+          "needs_nuance->unsupported": 3,
+          "unsupported->unsupported": 4,
+          "verified->verified": 6
+        }
+      },
+      "run_B": {
+        "n": 26,
+        "n_matched_to_human_label": 26,
+        "n_missing_human_label": 0,
+        "accuracy": 0.8846153846153846,
+        "n_correct": 23,
+        "accuracy_wilson_95": [
+          0.7102409678828636,
+          0.959967553763894
+        ],
+        "kappa": 0.806930693069307,
+        "verified_precision": 1.0,
+        "verified_recall": 1.0,
+        "falsely_verified": 0,
+        "confusion": {
+          "needs_nuance->needs_nuance": 13,
+          "needs_nuance->unsupported": 3,
+          "unsupported->unsupported": 4,
+          "verified->verified": 6
+        }
+      }
+    }
+  }
+}

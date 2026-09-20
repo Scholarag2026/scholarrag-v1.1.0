@@ -1,0 +1,22 @@
+[project]
+name = "deepresearch-backend"
+version = "1.1.0"
+requires-python = ">=3.12"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"app/agents/compliance_rules_agent.py" = ["E501"]
+"app/services/writing.py" = ["E501"]
+"tests/test_compliance_api.py" = ["E501"]
+"tests/test_compliance_service.py" = ["E501"]
+"tests/test_draft_export.py" = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

@@ -1,0 +1,77 @@
+{
+  "name": "scifact",
+  "run": "B",
+  "dry_run": false,
+  "retried_failed": 0,
+  "started": "2026-09-14T10:50:11+00:00",
+  "finished": "2026-09-14T10:52:25+00:00",
+  "sessions": [
+    {
+      "started": "2026-09-14T10:50:11+00:00",
+      "finished": "2026-09-14T10:52:25+00:00",
+      "retried_failed": 0
+    }
+  ],
+  "model_configured": "deepseek-chat",
+  "model_reported": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "aeb56401ca74e127821c4f9126dcb669"
+  ],
+  "temperature": 0.0,
+  "prompt_version": "sha256:49fcfbfaf2f6",
+  "guard_digest": "570a5b663e6140da",
+  "quote_relocation_version": "0269a13351c0da7d",
+  "verification_policy_version": "667bcc9209126ddc",
+  "repair_prompt_version": "sha256:7ec7cffe852d",
+  "concurrency": 8,
+  "limit": null,
+  "n_items": 340,
+  "n_rows": 340,
+  "n_errors": 0,
+  "n_deterministic": 0,
+  "status_counts": {
+    "unsupported": 226,
+    "needs_nuance": 56,
+    "verified": 58
+  },
+  "price": {
+    "model": "deepseek-chat",
+    "price_model": "deepseek-v4-flash",
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "tiers": {
+      "input_cache_miss": {
+        "peak": 0.44,
+        "offpeak": 0.22
+      },
+      "input_cache_hit": {
+        "peak": 0.014,
+        "offpeak": 0.007
+      },
+      "output": {
+        "peak": 1.32,
+        "offpeak": 0.66
+      }
+    },
+    "peak_hours_utc": "01:00-04:00 and 06:00-10:00, Monday-Friday; all other hours off-peak",
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "accessed": "2026-09-02"
+  },
+  "total_input_tokens": 1085899,
+  "total_output_tokens": 274247,
+  "total_cache_read_tokens": 995932,
+  "total_cost": 0.20776728399999986,
+  "cost_basis": "list price, tier by call time, cache-hit tokens at cache-hit rate",
+  "total_cost_flat": null,
+  "latency_s": {
+    "n": 340,
+    "median": 2.885,
+    "p90": 4.156,
+    "mean": 3.077744117647059,
+    "total": 1046.433
+  }
+}

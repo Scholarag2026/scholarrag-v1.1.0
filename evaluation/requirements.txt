@@ -1,0 +1,25 @@
+# Dependencies of the evaluation-only interpreter (evaluation/.venv), i.e. every script in
+# the "httpx / scikit-learn / stdlib only" row of the "Interpreters and working directory"
+# table in README.md: screening/fetch_synergy.py, baselines.py, wos_gate_effect.py,
+# spot_check_hydration.py, summarize.py, claims/fetch_scifact.py, baseline_lexical.py,
+# claims/summarize.py, and the pytest suite -- plus the lint gate
+# (`ruff check evaluation --config evaluation/ruff.toml`), which is run without specifying an
+# interpreter. It does NOT cover run_screening.py, claims/run_scifact.py, claims/run_hss.py or
+# claims/build_hss_set.py, which need the backend's dependencies (backend/requirements.txt) on
+# the system interpreter instead.
+#
+# Install: evaluation/.venv/Scripts/python -m pip install -r evaluation/requirements.txt
+# (POSIX: evaluation/.venv/bin/python). Versions pinned as installed on 2026-09-05 with
+# Python 3.13.5; numpy/scipy are scikit-learn's own transitive dependencies, pinned here so
+# a reviewer's install matches exactly.
+httpx==0.28.1
+scikit-learn==1.9.0
+numpy==2.5.2
+scipy==1.18.1
+pytest==9.0.2
+ruff==0.15.6
+# claims/export_review_sheet.py and claims/score_review_sheet.py (the Excel review workbook
+# exporter and its score-back script; installed and pinned 2026-09-06 with Python 3.13.5).
+# et-xmlfile is openpyxl's own transitive dependency.
+openpyxl==3.1.5
+et-xmlfile==2.0.0

@@ -1,0 +1,12 @@
+{
+ "paper_id": "53ae2131-383c-4642-ae68-6e14983b73f9",
+ "title": "The impact of written corrective feedback on students' writing performance, self-efficacy, and anxiety",
+ "year": 2024,
+ "note": "The header window plus the byline exactly as the live PDF acquisition extracted them -- the running-header contact block ahead of the title and the real byline is what defeated a membership-only check in `_accept_bylines`. The existing committed fixture 53ae2131-383c-4642-ae68-6e14983b73f9.json replaces this same block with a [TEXT OMITTED FROM FIXTURE] placeholder, which is exactly why it never caught this. This fixture is reduced from the whole 8,015-character chunk to the header window plus the byline; the rest of the chunk (abstract, body, tables) is replaced by the same [TEXT OMITTED FROM FIXTURE] marker the existing fixture uses, since `_byline_prefix` cuts the parse input at the first affiliation-footnote line and never reads past it, so the smaller fixture reproduces the identical parse and acceptance result.",
+ "chunks": [
+  {
+   "section": "preamble",
+   "text": "ective feedback on students’ writing performance, \nself-efficacy, and anxiety. Journal of Writing Research, volume(issue), ##-##. DOI: xx \nContact: Mohammad Hasan Razmi, Department of Foreign Languages, Shahid Bahonar \nUniversity of Kerman, Kerman | Iran Email: hasanrazmi2000@gmail.com  ORCID: \nhttps://orcid.org/0000-0002-0891-8831 \nCopyright: Earli | This article is published under Creative Commons Attribution-\nNoncommercial-No Derivative Works 3.0 Unported license. \nThe impact of written corrective \nfeedback on students’ writing \nperformance, self-efficacy, and anxiety \nMohammad Hossein Ghane1, Mohammad Hasan Razmi2, Farzaneh \nDehghanpoor1 and Rouhollah Nematollahi2 \n1 Yazd University  | Iran \n2 Shahid Bahonar University of Kerman  | Iran \n[TEXT OMITTED FROM FIXTURE]."
+  }
+ ]
+}

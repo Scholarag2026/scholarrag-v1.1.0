@@ -1,0 +1,1371 @@
+{
+  "n_records": 140,
+  "final_status_counts": {
+    "INCLUDE": 24,
+    "EXCLUDE": 67,
+    "NEEDS_REVIEW": 49
+  },
+  "majority_verdict_counts": {
+    "exclude": 93,
+    "needs_review": 24,
+    "include": 23
+  },
+  "inclusions_upheld": {
+    "value": 0.9166666666666666,
+    "k": 22,
+    "n": 24
+  },
+  "per_reviewer_upheld_sorted": [
+    0.8333333333333334,
+    0.9166666666666666,
+    0.9166666666666666
+  ],
+  "exclusions_upheld_lenient": {
+    "value": 1.0,
+    "k": 67,
+    "n": 67
+  },
+  "exclusions_upheld_strict": {
+    "value": 0.9850746268656716,
+    "k": 66,
+    "n": 67
+  },
+  "queue_agreement": {
+    "value": 0.4489795918367347,
+    "k": 22,
+    "n": 49
+  },
+  "hard_gate": {
+    "majority_include_records_excluded": 0,
+    "any_reviewer_include_records_excluded": 0,
+    "passes": true
+  },
+  "stage_timing": {
+    "n_candidates": 37,
+    "wall_time_s": 55.425,
+    "reported_wall_time_s": 55.425,
+    "n_calls": 8,
+    "per_call_latency_s": [
+      7.389,
+      12.608,
+      15.543,
+      32.232,
+      35.424,
+      46.589,
+      46.756,
+      55.206
+    ],
+    "n_skipped_budget": 0,
+    "n_demoted": 13,
+    "n_malformed_or_failed": 0
+  },
+  "malformed_replies": [],
+  "provenance": {
+    "pass1": {
+      "calls": 14,
+      "input_tokens": 70592,
+      "output_tokens": 10249,
+      "output_tokens_per_record": 73.2,
+      "model_reported": [
+        "deepseek-flash"
+      ],
+      "system_fingerprints": [
+        "aeb56401ca74e127821c4f9126dcb669"
+      ],
+      "output_mode": [],
+      "reasoning_effort": [],
+      "latency_s_total": 45.293,
+      "cost_usd_estimate": 0.02229458
+    },
+    "second_pass": {
+      "calls": 8,
+      "input_tokens": 19827,
+      "output_tokens": 54018,
+      "output_tokens_per_record": 1459.9,
+      "model_reported": [
+        "deepseek-flash"
+      ],
+      "system_fingerprints": [
+        "aeb56401ca74e127821c4f9126dcb669"
+      ],
+      "output_mode": [
+        "prompted"
+      ],
+      "reasoning_effort": [
+        "high"
+      ],
+      "latency_s_total": 251.747,
+      "cost_usd_estimate": 0.040013820000000005
+    }
+  },
+  "records": {
+    "S-001": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-002": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-003": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-004": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-005": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-006": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-007": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-008": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-009": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-010": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-011": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-012": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": true
+    },
+    "S-013": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-014": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-015": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-016": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E1",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-017": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-018": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-019": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-020": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-021": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-022": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-023": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-024": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-025": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-026": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-027": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-028": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-029": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-030": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-031": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-032": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-033": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-034": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-035": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "unanchored_exclude",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-036": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-037": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "unanchored_exclude",
+      "criterion": "E1",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-038": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-039": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-040": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-041": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-042": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-043": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-044": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-045": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-046": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-047": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E1",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-048": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-049": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-050": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-051": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-052": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-053": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-054": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-055": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-056": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-057": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-058": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-059": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-060": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-061": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-062": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-063": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-064": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-065": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-066": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-067": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-068": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-069": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-070": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-071": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E1",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-072": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-073": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-074": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-075": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-076": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-077": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-078": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-079": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-080": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-081": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-082": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-083": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-084": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-085": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-086": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-087": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-088": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-089": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-090": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-091": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-092": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-093": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-094": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-095": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-096": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-097": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-098": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-099": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-100": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E1",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-101": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-102": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-103": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "unanchored_exclude",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-104": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-105": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-106": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-107": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "not_established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-108": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-109": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-110": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "not_established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-111": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "not_established"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-112": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-113": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-114": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-115": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": true
+    },
+    "S-116": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "synthesis"
+      },
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-117": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "study"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-118": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-119": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-120": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-121": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-122": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-123": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-124": {
+      "status": "INCLUDE",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": {
+        "population": "established",
+        "outcome": "established",
+        "study_type": "study"
+      },
+      "majority_verdict": "include",
+      "any_reviewer_include": true
+    },
+    "S-125": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "I3",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-126": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-127": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-128": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-129": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "E4",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-130": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-131": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-132": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "not_established",
+      "criterion": "",
+      "second_pass": {
+        "population": "not_established",
+        "outcome": "not_established",
+        "study_type": "not_established"
+      },
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-133": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-134": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-135": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-136": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-137": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-138": {
+      "status": "EXCLUDE",
+      "guard_reason": "",
+      "criterion": "TOPIC",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    },
+    "S-139": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "needs_review",
+      "any_reviewer_include": false
+    },
+    "S-140": {
+      "status": "NEEDS_REVIEW",
+      "guard_reason": "",
+      "criterion": "",
+      "second_pass": null,
+      "majority_verdict": "exclude",
+      "any_reviewer_include": false
+    }
+  }
+}

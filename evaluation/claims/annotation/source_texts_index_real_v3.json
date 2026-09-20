@@ -1,0 +1,158 @@
+{
+  "annr-01": {
+    "cited_paper_doi": "10.3389/feduc.2020.00059",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3389_feduc-2020-00059.json"
+    ]
+  },
+  "annr-02": {
+    "cited_paper_doi": "10.1111/jcpp.12352",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1111_jcpp-12352.json"
+    ]
+  },
+  "annr-03": {
+    "cited_paper_doi": "10.14742/ajet.1026",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-14742_ajet-1026.json"
+    ]
+  },
+  "annr-04": {
+    "cited_paper_doi": "10.14483/calj.v18n2.10610",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-14483_calj-v18n2-10610.json"
+    ]
+  },
+  "annr-05": {
+    "cited_paper_doi": "10.3389/fpubh.2022.1036071",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3389_fpubh-2022-1036071.json"
+    ]
+  },
+  "annr-06": {
+    "cited_paper_doi": "10.1007/s10833-018-9320-9",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s10833-018-9320-9.json"
+    ]
+  },
+  "annr-07": {
+    "cited_paper_doi": "10.1080/09243453.2020.1746363",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1080_09243453-2020-1746363.json"
+    ]
+  },
+  "annr-08": {
+    "cited_paper_doi": "10.3389/fpsyg.2022.1057730",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3389_fpsyg-2022-1057730.json"
+    ]
+  },
+  "annr-09": {
+    "cited_paper_doi": "10.21601/ijese/10966",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-21601_ijese_10966.json"
+    ]
+  },
+  "annr-10": {
+    "cited_paper_doi": "10.1375/ajgc.17.2.160",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1375_ajgc-17-2-160.json"
+    ]
+  },
+  "annr-11": {
+    "cited_paper_doi": "10.14742/ajet.4310",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-14742_ajet-4310.json"
+    ]
+  },
+  "annr-12": {
+    "cited_paper_doi": "10.3402/rlt.v20i0.14430",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3402_rlt-v20i0-14430.json"
+    ]
+  },
+  "annr-13": {
+    "cited_paper_doi": "10.3991/ijet.v15i23.18799",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3991_ijet-v15i23-18799.json"
+    ]
+  },
+  "annr-14": {
+    "cited_paper_doi": "10.3991/ijet.v9i8.3805",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3991_ijet-v9i8-3805.json"
+    ]
+  },
+  "annr-15": {
+    "cited_paper_doi": "10.1007/s10993-023-09649-4",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s10993-023-09649-4.json"
+    ]
+  },
+  "annr-16": {
+    "cited_paper_doi": "10.1007/s11251-008-9065-6",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s11251-008-9065-6.json"
+    ]
+  },
+  "annr-17": {
+    "cited_paper_doi": "10.1007/s11858-017-0878-0",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s11858-017-0878-0.json"
+    ]
+  },
+  "annr-18": {
+    "cited_paper_doi": "10.1111/jcpp.12605",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1111_jcpp-12605.json"
+    ]
+  },
+  "annr-19": {
+    "cited_paper_doi": "10.3384/rela.2000-7426.rela9063",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-3384_rela-2000-7426-rela9063.json"
+    ]
+  },
+  "annr-20": {
+    "cited_paper_doi": "10.4018/978-1-4666-3914-0.ch013",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-4018_978-1-4666-3914-0-ch013.json"
+    ]
+  },
+  "annr-21": {
+    "cited_paper_doi": "10.14483/22487085.13373",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-14483_22487085-13373.json"
+    ]
+  },
+  "annr-22": {
+    "cited_paper_doi": "10.1007/s10734-010-9356-0",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s10734-010-9356-0.json"
+    ]
+  },
+  "annr-23": {
+    "cited_paper_doi": "10.1007/bf02213420",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_bf02213420.json"
+    ]
+  },
+  "annr-24": {
+    "cited_paper_doi": "10.1007/s10643-019-00971-3",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-1007_s10643-019-00971-3.json"
+    ]
+  },
+  "annr-25": {
+    "cited_paper_doi": "10.23917/humaniora.v19i2.6809",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-23917_humaniora-v19i2-6809.json"
+    ]
+  },
+  "annr-26": {
+    "cited_paper_doi": "10.30935/scimath/9511",
+    "paths": [
+      "evaluation/claims/data/real_claims_fulltext/10-30935_scimath_9511.json"
+    ]
+  }
+}

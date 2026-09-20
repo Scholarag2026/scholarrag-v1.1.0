@@ -1,0 +1,555 @@
+[
+ {
+  "id": "W2793493211",
+  "doi": "10.1016/j.asw.2018.02.004",
+  "title": "Student engagement with teacher and automated feedback on L2 writing",
+  "year": 2018,
+  "journal": "Assessing Writing",
+  "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "bytes": 1860549
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+   "bytes": 1860549
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Zhe (Victor) Zhang",
+   "Ken Hyland"
+  ],
+  "first_author_surname": "Zhang",
+  "citation_key": "zhang_2018"
+ },
+ {
+  "id": "W3213434080",
+  "doi": "10.1016/j.asw.2021.100586",
+  "title": "Fostering student engagement with feedback: An integrated approach",
+  "year": 2021,
+  "journal": "Assessing Writing",
+  "pdf": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "bytes": 917578
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+   "bytes": 917578
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2,
+  "authors_crossref": [
+   "Zhe (Victor) Zhang",
+   "Ken Hyland"
+  ],
+  "first_author_surname": "Zhang",
+  "citation_key": "zhang_2021"
+ },
+ {
+  "id": "W4391494778",
+  "doi": "10.1016/j.asw.2024.100811",
+  "title": "Assessing metacognition-based student feedback literacy for academic writing",
+  "year": 2024,
+  "journal": "Assessing Writing",
+  "pdf": "https://hal.science/hal-04963137v1/document",
+  "lic": null,
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://hal.science/hal-04963137v1/document",
+   "url": "https://hal.science/hal-04963137v1/document",
+   "version": "submittedVersion",
+   "license": null,
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://hal.science/hal-04963137v1/document",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://hal.science/hal-04963137v1/document",
+   "bytes": 3942407
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "text/html",
+   "is_pdf": false,
+   "final": "https://hal.science/hal-04963137v1/document",
+   "bytes": 12601
+  },
+  "ok_browser_ua": false,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Mark Feng Teng",
+   "Maggie Ma"
+  ],
+  "first_author_surname": "Teng",
+  "citation_key": "teng_2024"
+ },
+ {
+  "id": "W2979353953",
+  "doi": "10.17239/jowr-2019.11.02.03",
+  "title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+  "year": 2019,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "bytes": 744150
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+   "bytes": 744150
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Qiandi Liu",
+   "Shinian Wu"
+  ],
+  "first_author_surname": "Liu",
+  "citation_key": "liu_2019"
+ },
+ {
+  "id": "W3129333018",
+  "doi": "10.17239/jowr-2021.12.03.02",
+  "title": "The affect and effect of asynchronous written feedback comments on the peer feedback process: An ethnographic case-study approach within one L2 English doctorate writing group",
+  "year": 2021,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "bytes": 1959478
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+   "bytes": 1959478
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "R. M. A. Yallop",
+   "P. Taremaa",
+   "D. A. J. Leijen"
+  ],
+  "first_author_surname": "Yallop",
+  "citation_key": "yallop_2021"
+ },
+ {
+  "id": "W4403772765",
+  "doi": "10.17239/jowr-2024.16.02.04",
+  "title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+  "year": 2024,
+  "journal": "Journal of Writing Research",
+  "pdf": "https://www.jowr.org/jowr/article/download/1031/958",
+  "lic": "cc-by-nc-nd",
+  "ver": "publishedVersion",
+  "status": "diamond",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.jowr.org/jowr/article/download/1031/958",
+   "url": "https://www.jowr.org/jowr/article/download/1031/958",
+   "version": "publishedVersion",
+   "license": "cc-by-nc-nd",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.jowr.org/jowr/article/download/1031/958",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/jowr/article/download/1031/958",
+   "bytes": 393398
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.jowr.org/jowr/article/download/1031/958",
+   "bytes": 393398
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Mohammad Hasan Razmi",
+   "Mohammad Hossein Ghane"
+  ],
+  "first_author_surname": "Razmi",
+  "citation_key": "razmi_2024"
+ },
+ {
+  "id": "W2808587213",
+  "doi": "10.1111/lang.12295",
+  "title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+  "year": 2018,
+  "journal": "Language Learning",
+  "pdf": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+  "lic": "other-oa",
+  "ver": "submittedVersion",
+  "status": "green",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "version": "submittedVersion",
+   "license": "other-oa",
+   "host_type": "repository"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "bytes": 716474
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+   "bytes": 716474
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Marisela Bonilla López",
+   "Elke Van Steendam",
+   "Dirk Speelman",
+   "Kris Buyse"
+  ],
+  "first_author_surname": "López",
+  "citation_key": "lópez_2018"
+ },
+ {
+  "id": "W4391322029",
+  "doi": "10.1017/s0261444823000393",
+  "title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+  "year": 2024,
+  "journal": "Language Teaching",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "bytes": 473566
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+   "bytes": 473566
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Zhicheng Mao",
+   "Icy Lee",
+   "Shaofeng Li"
+  ],
+  "first_author_surname": "Mao",
+  "citation_key": "mao_2024"
+ },
+ {
+  "id": "W4416094391",
+  "doi": "10.1017/s0261444825101018",
+  "title": "EFL teachers and feedback fatigue: AI to the rescue?",
+  "year": 2025,
+  "journal": "Language Teaching",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+  "lic": "cc-by-nc",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "bytes": 317108
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+   "bytes": 317108
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Ken Hyland"
+  ],
+  "first_author_surname": "Hyland",
+  "citation_key": "hyland_2025"
+ },
+ {
+  "id": "W4300960755",
+  "doi": "10.1017/s0958344022000179",
+  "title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+  "year": 2022,
+  "journal": "ReCALL",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+  "lic": "cc-by",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "bytes": 540197
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+   "bytes": 540197
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Svetlana Koltovskaia"
+  ],
+  "first_author_surname": "Koltovskaia",
+  "citation_key": "koltovskaia_2022"
+ },
+ {
+  "id": "W7117467041",
+  "doi": "10.1017/s095834402510044x",
+  "title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+  "year": 2025,
+  "journal": "ReCALL",
+  "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+  "lic": "cc-by-nc",
+  "ver": "publishedVersion",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by-nc",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "bytes": 382495
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+   "bytes": 382495
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 1,
+  "authors_crossref": [
+   "Na Luo",
+   "Yifan Wang",
+   "Zhe (Victor) Zhang",
+   "Yile Zhou",
+   "Rongfu Zhao"
+  ],
+  "first_author_surname": "Luo",
+  "citation_key": "luo_2025"
+ },
+ {
+  "id": "W4384206431",
+  "doi": "10.1007/s11145-023-10466-8",
+  "title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+  "year": 2023,
+  "journal": "Reading and Writing",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+  "status": "hybrid",
+  "unpaywall": {
+   "is_oa": true,
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "version": "publishedVersion",
+   "license": "cc-by",
+   "host_type": "publisher"
+  },
+  "route": "unpaywall",
+  "checked_url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+  "verified_at": "2026-09-02",
+  "client": "backend",
+  "http": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "bytes": 1053690
+  },
+  "ok": true,
+  "http_browser_ua": {
+   "status": 200,
+   "ctype": "application/pdf",
+   "is_pdf": true,
+   "final": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+   "bytes": 1053690
+  },
+  "ok_browser_ua": true,
+  "screening_pass": 2,
+  "authors_crossref": [
+   "Albert W. Li",
+   "Michael Hebert"
+  ],
+  "first_author_surname": "Li",
+  "citation_key": "li_2023"
+ }
+]

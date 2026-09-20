@@ -1,0 +1,88 @@
+{
+  "dataset": "Nagtegaal_2019",
+  "judged_by": "harness fix agent, 2026-09-03",
+  "judged_on": "2026-09-03",
+  "basis": "SYNERGY title (and abstract head) read against the matched Crossref record's title, container title and type; the v1 export carries no year, so no year agreement was checked",
+  "records": {
+    "594": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "977": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "109": {
+      "judgement": "correct",
+      "note": "DOI volume 2016, Crossref issued 2015 (online first); Implementation Science"
+    },
+    "1731": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "194": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1412": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1010": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1540": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1537": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "555": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1384": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1003": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "701": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1406": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "644": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1029": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "895": {
+      "judgement": "correct",
+      "note": "DOI year 2008, Crossref issued 2007 (online first); Psychological Science in the Public Interest"
+    },
+    "2019": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "1148": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    },
+    "978": {
+      "judgement": "correct",
+      "note": "exact normalised title, journal-article, plausible venue; no export year to check (synergy_year is null: the record year is the hydrated Crossref year)"
+    }
+  }
+}

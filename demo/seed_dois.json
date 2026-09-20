@@ -1,0 +1,151 @@
+{
+  "topic": "Written corrective feedback in second-language writing",
+  "selected_at": "2026-09-02",
+  "selection_method": "OpenAlex /works search ('\"written corrective feedback\"' and '\"corrective feedback\" writing accuracy') filtered to is_oa:true, type:article, publication_year:2015-2025 and primary_location.source.id in 19 applied-linguistics journals (446 works); two screening passes over titles/abstracts (feedback + writing, PDF URL present, not Frontiers in Psychology) gave 51 candidates; each candidate was verified with the Unpaywall API (best_oa_location.url_for_pdf, else the OpenAlex best_oa_location pdf_url) and an HTTP GET made with a client equivalent to the backend's fetch_pdf_from_url (httpx, 30 s timeout, redirects followed, default User-Agent, no extra headers) that had to return 200 with content-type application/pdf and a body starting with %PDF; 14 passed and 12 were kept for journal/year spread (6 journals, 2018-2025). See demo/SOURCES.md.",
+  "papers": [
+    {
+      "doi": "10.1016/j.asw.2018.02.004",
+      "title": "Student engagement with teacher and automated feedback on L2 writing",
+      "year": 2018,
+      "journal": "Assessing Writing",
+      "openalex_id": "W2793493211",
+      "oa_pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/66278/1/Accepted_manuscript.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1016/j.asw.2021.100586",
+      "title": "Fostering student engagement with feedback: An integrated approach",
+      "year": 2021,
+      "journal": "Assessing Writing",
+      "openalex_id": "W3213434080",
+      "oa_pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/82259/1/Integrated_engagement_final.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1016/j.asw.2024.100811",
+      "title": "Assessing metacognition-based student feedback literacy for academic writing",
+      "year": 2024,
+      "journal": "Assessing Writing",
+      "openalex_id": "W4391494778",
+      "oa_pdf_url": "https://hal.science/hal-04963137v1/document",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.17239/jowr-2019.11.02.03",
+      "title": "Same goal, different beliefs: Students’ preferences and teachers’ perceptions of feedback on second language writing",
+      "year": 2019,
+      "journal": "Journal of Writing Research",
+      "openalex_id": "W2979353953",
+      "oa_pdf_url": "https://www.jowr.org/index.php/jowr/article/download/589/483",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.17239/jowr-2021.12.03.02",
+      "title": "The affect and effect of asynchronous written feedback comments on the peer feedback process: An ethnographic case-study approach within one L2 English doctorate writing group",
+      "year": 2021,
+      "journal": "Journal of Writing Research",
+      "openalex_id": "W3129333018",
+      "oa_pdf_url": "https://www.jowr.org/index.php/jowr/article/download/768/825",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.17239/jowr-2024.16.02.04",
+      "title": "The impact of written corrective feedback on students’ writing performance, self-efficacy, and anxiety",
+      "year": 2024,
+      "journal": "Journal of Writing Research",
+      "openalex_id": "W4403772765",
+      "oa_pdf_url": "https://www.jowr.org/jowr/article/download/1031/958",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1111/lang.12295",
+      "title": "The Differential Effects of Comprehensive Feedback Forms in the Second Language Writing Class",
+      "year": 2018,
+      "journal": "Language Learning",
+      "openalex_id": "W2808587213",
+      "oa_pdf_url": "https://lirias.kuleuven.be/retrieve/fcf5ca14-f4b6-4ff9-8f9f-fd3c80421158",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1017/s0261444823000393",
+      "title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "year": 2024,
+      "journal": "Language Teaching",
+      "openalex_id": "W4391322029",
+      "oa_pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/928D49660B199C493E3ED93B2EC043C6/S0261444823000393a.pdf/div-class-title-written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies-div.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1017/s0261444825101018",
+      "title": "EFL teachers and feedback fatigue: AI to the rescue?",
+      "year": 2025,
+      "journal": "Language Teaching",
+      "openalex_id": "W4416094391",
+      "oa_pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/03AF36DEF9189D2725013F6C50BA8ED3/S0261444825101018a.pdf/div-class-title-efl-teachers-and-feedback-fatigue-ai-to-the-rescue-div.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1017/s0958344022000179",
+      "title": "Postsecondary L2 writing teachers’ use and perceptions of Grammarly as a complement to their feedback",
+      "year": 2022,
+      "journal": "ReCALL",
+      "openalex_id": "W4300960755",
+      "oa_pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/424747C1F1948DB943C8AF21193B4F7A/S0958344022000179a.pdf/div-class-title-postsecondary-l2-writing-teachers-use-and-perceptions-of-grammarly-as-a-complement-to-their-feedback-div.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1017/s095834402510044x",
+      "title": "Impact of prompt sophistication on ChatGPT’s output for automated written corrective feedback",
+      "year": 2025,
+      "journal": "ReCALL",
+      "openalex_id": "W7117467041",
+      "oa_pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E15580A5BC9C13988936CC699761DED2/S095834402510044Xa.pdf/div-class-title-impact-of-prompt-sophistication-on-chatgpt-s-output-for-automated-written-corrective-feedback-div.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.1007/s11145-023-10466-8",
+      "title": "Unpacking an online peer-mediated and self-reflective revision process in second-language persuasive writing",
+      "year": 2023,
+      "journal": "Reading and Writing",
+      "openalex_id": "W4384206431",
+      "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s11145-023-10466-8.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    }
+  ]
+}

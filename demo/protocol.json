@@ -1,0 +1,40 @@
+{
+  "topic": "Written corrective feedback in second-language writing",
+  "research_question": "In second-language (L2) writers receiving instruction, what are the effects of written corrective feedback (teacher-provided, peer-provided or automated) on writing accuracy, revision behaviour and learner engagement, compared with no feedback or alternative feedback conditions?",
+  "inclusion_criteria": [
+    "Empirical study (experimental, quasi-experimental, observational or case study) or a research synthesis of empirical studies",
+    "Participants are second- or foreign-language writers (any age or proficiency level) in an instructed setting",
+    "The study examines written corrective feedback or written feedback on L2 writing, whether from a teacher, a peer or an automated tool",
+    "Reports at least one outcome concerning writing accuracy, revision or uptake, learner engagement, or beliefs and preferences about feedback"
+  ],
+  "exclusion_criteria": [
+    "Feedback is exclusively oral (spoken corrective feedback in speaking tasks) rather than written",
+    "Participants are first-language writers only, with no second- or foreign-language writing component",
+    "Non-empirical contributions such as editorials, book reviews, position pieces or conference announcements",
+    "The study concerns feedback on non-writing skills (e.g. pronunciation, listening, vocabulary tests) only"
+  ],
+  "wos_filter": "off",
+  "publication_date_max": "2026-09-08",
+  "section": {
+    "title": "Effects of written corrective feedback on L2 writing accuracy",
+    "instructions": "Write a short literature-review section (about 300-400 words) that summarises what the project library says about the effects of written corrective feedback on second-language writing accuracy and revision, distinguishing direct corrections, metalinguistic codes and automated feedback. Cite only sources from the project library in APA 7 author-date style and mark any statement that lacks a library source with [NEEDS CITATION].",
+    "target_words": 400
+  },
+  "claims": [
+    {
+      "id": "supported-1",
+      "text": "A systematic search for the review identified 50 empirical studies meeting its inclusion criteria, revealing four major themes: teacher feedback practices in L2 writing classrooms, L2 learner responses to feedback, stakeholders' beliefs and perspectives about feedback, and feedback-related motivation and emotions (Mao et al., 2024).",
+      "source_doi": "10.1017/s0261444823000393",
+      "expected_status": "verified",
+      "construction": "A close paraphrase of the one abstract sentence of the published (CC BY) article Mao, Lee & Li (2024), Language Teaching, 57(1), text extracted with pymupdf from the Cambridge PDF recorded in seed_dois.json, that the model quotes verbatim on every run: \"A systematic search generated 50 empirical studies that met our inclusion criteria for the current review, which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders' beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions.\" The four themes are stated in the paper's own order. This fixture uses only this one abstract sentence, not a second one about the review's naturalistic, non-manipulated study design, because verifying a second sentence leads the model to also draw on the paper's own body text, which restates the same four themes as \"four research strands\" inside a longer sentence (\"...we looked for patterns, similarities, differences, and gaps across the studies, and synthesized the key empirical findings into four research strands: (a) teacher WCF practices...\"): three of four runs quoted a truncated \"we synthesized the key empirical findings into four research strands\" that is not a verbatim span of that sentence (the actual clause reads \"...and synthesized...\", not \"...we synthesized...\"), which the quote_not_verbatim guard correctly catches and the repair turn cannot fix (it returns the identical quote list). Using only the first sentence removes the reason the model ever reaches for the body-text restatement at all. The citation form (Mao et al., 2024) is what the backend claim extractor parses (single ASCII surname + year); the backend keys the paper as mao_2024 from OpenAlex first author Zhicheng Mao."
+    },
+    {
+      "id": "unsupported-1",
+      "text": "Screening yielded the same 50 eligible studies for the review, sorted into two major themes: writing accuracy outcomes and learner motivation only (Mao et al., 2024).",
+      "source_doi": "10.1017/s0261444823000393",
+      "expected_status": "unsupported",
+      "construction": "The reversed twin of supported-1: it has a distinct opening clause ('Screening yielded ... sorted into', rather than supported-1's own 'A systematic search for the review identified ... revealing') so a model-cut proposition narrowed down to the shared '50 studies for the review' clause alone cannot match both fixtures under run_demo.match_claim_results's and check_fixture_claims's two-way containment test, which would otherwise let the first fixture in protocol order win a match that belongs to the other. This fixture asserts two falsehoods, not one: the theme COUNT -- the abstract reports FOUR major themes (teacher WCF practices, L2 learner responses, stakeholders' beliefs and perspectives, and WCF-related motivation and emotions), not two -- and one invented theme label. Of the fixture's own two named themes, 'learner motivation' is a close paraphrase of the paper's own fourth theme, 'WCF-related motivation and emotions'; but 'writing accuracy outcomes' is not a paraphrase of any of the four and names nothing the source states at all, so it is itself fabricated, on top of the count reversal. Source sentence: \"A systematic search generated 50 empirical studies that met our inclusion criteria for the current review, which revealed four major themes: (1) teacher WCF practices in L2 writing classrooms, (2) L2 learner responses to WCF, (3) stakeholders' beliefs and perspectives on WCF, and (4) WCF-related motivation and emotions.\""
+    }
+  ],
+  "notes": "Demo protocol for ScholarRAG v1.1.0. The Web of Science venue filter is off so the demo runs without licensed data. Claims are labelled by construction (see 'construction'): expected_status is what the construction implies, not a measurement; the statuses observed in the authors' run are recorded in demo/expected/summary.json and may differ under model drift. Both claims cite the same seed paper with a single-token ASCII surname so that the backend claim extractor can parse the citation and key it to the paper. Retrieval results from Smart Search drift over time; compare against demo/expected/ with the tolerances documented in demo/README.md."
+}

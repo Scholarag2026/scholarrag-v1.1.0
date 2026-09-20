@@ -1,0 +1,101 @@
+{
+  "dataset": "Nagtegaal_2019",
+  "run": "A",
+  "dry_run": false,
+  "record_order_seed": 20260902,
+  "retried_failed": 0,
+  "started": "2026-09-15T05:16:27+00:00",
+  "finished": "2026-09-15T05:17:44+00:00",
+  "sessions": [
+    {
+      "started": "2026-09-15T05:16:27+00:00",
+      "finished": "2026-09-15T05:17:44+00:00",
+      "retried_failed": 0
+    }
+  ],
+  "protocol_file": "Nagtegaal_2019.json",
+  "protocol_sha": "sha256:1ae48c142315",
+  "full_text_criteria": [
+    "I1",
+    "E1",
+    "E5"
+  ],
+  "label_field": "label_abstract_screening",
+  "model_configured": "deepseek-flash",
+  "model_reported": [
+    "deepseek-flash"
+  ],
+  "system_fingerprints": [
+    "aeb56401ca74e127821c4f9126dcb669"
+  ],
+  "temperature": 0.0,
+  "prompt_version": [
+    "sha256:9bc741046cd6"
+  ],
+  "prompt_version_flag": "v3",
+  "abstract_cap": 10000,
+  "batch_size": 10,
+  "concurrency": 8,
+  "limit": null,
+  "n_records": 2019,
+  "n_batches": 202,
+  "reask_batches_run": 0,
+  "n_batches_completed": 202,
+  "n_calls": 202,
+  "superseded_calls": 0,
+  "superseded_input_tokens": 0,
+  "superseded_output_tokens": 0,
+  "superseded_call_rows": [],
+  "failures": 0,
+  "n_rows": 2019,
+  "n_unscreened_records": 0,
+  "n_padded_include": 0,
+  "n_padded_decisions": 0,
+  "price": {
+    "model": "deepseek-flash",
+    "price_model": "deepseek-v4-flash",
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "tiers": {
+      "input_cache_miss": {
+        "peak": 0.44,
+        "offpeak": 0.22
+      },
+      "input_cache_hit": {
+        "peak": 0.014,
+        "offpeak": 0.007
+      },
+      "output": {
+        "peak": 1.32,
+        "offpeak": 0.66
+      }
+    },
+    "peak_hours_utc": "01:00-04:00 and 06:00-10:00, Monday-Friday; all other hours off-peak",
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "accessed": "2026-09-02"
+  },
+  "n_missing_abstract": 169,
+  "share_missing_abstract": 0.08370480435859336,
+  "n_missing_title": 0,
+  "total_input_tokens": 1343874,
+  "total_output_tokens": 142684,
+  "cost_basis": "list price, tier by call time, cache-miss assumed (upper bound)",
+  "total_cost": 0.38982372,
+  "total_cost_flat": null,
+  "latency_s": {
+    "n": 202,
+    "median": 2.841,
+    "p90": 3.51,
+    "mean": 2.975752475247525,
+    "total": 601.102
+  },
+  "second_pass": {
+    "calls": 0,
+    "model_reported": [],
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_cost": null
+  }
+}

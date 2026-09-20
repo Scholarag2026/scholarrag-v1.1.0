@@ -1,0 +1,14 @@
+# Ruff settings for the evaluation harness (mirrors backend/pyproject.toml).
+target-version = "py312"
+line-length = 100
+extend-exclude = [".venv", "data"]
+
+[lint]
+select = ["E", "F", "I", "N", "W"]
+
+[lint.isort]
+known-first-party = [
+  "common", "fetch_synergy", "run_screening", "baselines", "wos_gate_effect",
+  "verify_common", "run_scifact", "baseline_lexical", "build_hss_set", "run_hss",
+  "fetch_scifact",
+]

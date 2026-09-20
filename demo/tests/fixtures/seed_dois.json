@@ -1,0 +1,151 @@
+{
+  "topic": "Test fixture topic",
+  "selected_at": "2026-09-02",
+  "selection_method": "fixture: synthetic records for demo/tests only",
+  "papers": [
+    {
+      "doi": "10.5555/demo-001",
+      "title": "Fixture paper 1",
+      "year": 2016,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100001",
+      "oa_pdf_url": "https://example.org/fixtures/paper-001.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-002",
+      "title": "Fixture paper 2",
+      "year": 2017,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100002",
+      "oa_pdf_url": "https://example.org/fixtures/paper-002.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-003",
+      "title": "Fixture paper 3",
+      "year": 2018,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100003",
+      "oa_pdf_url": "https://example.org/fixtures/paper-003.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-004",
+      "title": "Fixture paper 4",
+      "year": 2019,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100004",
+      "oa_pdf_url": "https://example.org/fixtures/paper-004.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-005",
+      "title": "Fixture paper 5",
+      "year": 2020,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100005",
+      "oa_pdf_url": "https://example.org/fixtures/paper-005.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-006",
+      "title": "Fixture paper 6",
+      "year": 2021,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100006",
+      "oa_pdf_url": "https://example.org/fixtures/paper-006.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-007",
+      "title": "Fixture paper 7",
+      "year": 2022,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100007",
+      "oa_pdf_url": "https://example.org/fixtures/paper-007.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-008",
+      "title": "Fixture paper 8",
+      "year": 2023,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100008",
+      "oa_pdf_url": "https://example.org/fixtures/paper-008.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-009",
+      "title": "Fixture paper 9",
+      "year": 2024,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100009",
+      "oa_pdf_url": "https://example.org/fixtures/paper-009.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-010",
+      "title": "Fixture paper 10",
+      "year": 2025,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100010",
+      "oa_pdf_url": "https://example.org/fixtures/paper-010.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-011",
+      "title": "Fixture paper 11",
+      "year": 2026,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100011",
+      "oa_pdf_url": "https://example.org/fixtures/paper-011.pdf",
+      "oa_verified_via": "unpaywall",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    },
+    {
+      "doi": "10.5555/demo-012",
+      "title": "Fixture paper 12",
+      "year": 2027,
+      "journal": "Fixture Journal of Applied Linguistics",
+      "openalex_id": "W100012",
+      "oa_pdf_url": "https://example.org/fixtures/paper-012.pdf",
+      "oa_verified_via": "openalex",
+      "oa_verified_at": "2026-09-02",
+      "pdf_http_status": 200,
+      "pdf_content_type": "application/pdf"
+    }
+  ]
+}

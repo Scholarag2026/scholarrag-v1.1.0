@@ -1,0 +1,88 @@
+# Production-style stack: Postgres + backend (migrates on start) + frontend (static Next.js build).
+#
+#   cp .env.example .env    # set DEEPSEEK_API_KEY and JWT_SECRET_KEY at minimum
+#   docker compose -f docker-compose.prod.yml up --build -d
+#
+# The backend below runs with APP_ENV=production. backend/app/config.py's
+# validate_security_settings refuses to start when JWT_SECRET_KEY is unset, still the
+# placeholder "change-me", or under 32 characters -- set a real, 32-character-or-longer
+# JWT_SECRET_KEY in .env before running this file.
+#
+# NEXT_PUBLIC_API_URL is inlined into the frontend bundle at BUILD time (Next.js semantics), so
+# it is passed as a build argument. It must be the backend URL as seen from the browser, e.g.
+# http://localhost:8000/api/v1 for a local run or https://api.example.org/api/v1 behind a
+# reverse proxy. Changing it requires rebuilding the frontend image.
+#
+# The browser-facing origins default to http://localhost:<host port> and follow
+# FRONTEND_PORT / BACKEND_PORT. Behind a reverse proxy override them with these compose-only
+# variables (deliberately NOT the FRONTEND_URL / BACKEND_URL / NEXT_PUBLIC_API_URL names from
+# .env, which would otherwise pin the origins to ports 3000/8000 regardless of the port variables):
+#   PUBLIC_FRONTEND_ORIGIN  -> FRONTEND_URL in the backend (CORS allow-list)
+#   PUBLIC_BACKEND_ORIGIN   -> BACKEND_URL in the backend (CORS allow-list)
+#   PUBLIC_API_URL          -> NEXT_PUBLIC_API_URL baked into the frontend build
+#
+# DATABASE_URL always points at the bundled `postgres` service (it is not read from .env, whose
+# value is meant for a non-Docker run). To use an external database edit the backend
+# environment below and remove the postgres service.
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-deepresearch}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-secret}
+      POSTGRES_DB: ${POSTGRES_DB:-deepresearch}
+    # Postgres is reached by the backend over the compose network only; it is deliberately not
+    # published on the host. For local admin access uncomment the loopback-only mapping below.
+    # ports:
+    #   - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-deepresearch} -d ${POSTGRES_DB:-deepresearch}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # The image CMD listens on $PORT (Zeabur convention); pin it to the mapped container port.
+      PORT: "8000"
+      # This is the production-style stack (see the file header). Hardcoded, like
+      # DATABASE_URL below, rather than read from .env: .env's own APP_ENV defaults to
+      # "development" for a non-Docker run, and letting that value leak in here would let
+      # this file boot with the placeholder JWT secret again. backend/app/config.py's
+      # validate_security_settings refuses to start with APP_ENV=production unless
+      # JWT_SECRET_KEY is both set and at least 32 characters.
+      APP_ENV: production
+      # Bundled postgres service; see the header for the external-database case.
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-deepresearch}:${POSTGRES_PASSWORD:-secret}@postgres:5432/${POSTGRES_DB:-deepresearch}
+      # CORS allow-list: the browser-facing origins, so they follow FRONTEND_PORT / BACKEND_PORT.
+      # Behind a reverse proxy set PUBLIC_FRONTEND_ORIGIN / PUBLIC_BACKEND_ORIGIN (see header).
+      FRONTEND_URL: ${PUBLIC_FRONTEND_ORIGIN:-http://localhost:${FRONTEND_PORT:-3000}}
+      BACKEND_URL: ${PUBLIC_BACKEND_ORIGIN:-http://localhost:${BACKEND_PORT:-8000}}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:${BACKEND_PORT:-8000}/api/v1}
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

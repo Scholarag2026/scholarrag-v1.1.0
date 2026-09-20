@@ -1,0 +1,528 @@
+{
+  "dataset": "van_de_Schoot_2017",
+  "generated": "2026-09-03T05:22:34+00:00",
+  "seed": 20260903,
+  "n_pool": 219,
+  "n": 20,
+  "judged_by": "harness fix agent, 2026-09-03",
+  "judged_on": "2026-09-03",
+  "n_correct": 20,
+  "n_incorrect": 0,
+  "n_unsure": 0,
+  "n_unjudged": 0,
+  "judgement_values": [
+    "correct",
+    "incorrect",
+    "unsure"
+  ],
+  "records": [
+    {
+      "record_id": 4406,
+      "synergy_title": "Risk and Resilience Factors among Italian Municipal Police Officers Exposed to Critical Incidents",
+      "synergy_year": 2009,
+      "synergy_abstract_head": "Police officers are exposed to critical events as part of their duty which can affect their well-being. The present study examines the relationships between risk and protective factors and health outc",
+      "match_method": "title_exact_year",
+      "doi": "10.1007/s11896-009-9052-0",
+      "issn": [
+        "0882-0783",
+        "1936-6469"
+      ],
+      "crossref": {
+        "title": "Risk and Resilience Factors among Italian Municipal Police Officers Exposed to Critical Incidents",
+        "container_title": "Journal of Police and Criminal Psychology",
+        "year": 2009,
+        "type": "journal-article",
+        "issn": [
+          "0882-0783",
+          "1936-6469"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 5286,
+      "synergy_title": "Similar factors predict disability and posttraumatic stress disorder trajectories after whiplash injury",
+      "synergy_year": 2011,
+      "synergy_abstract_head": "Distinct developmental trajectories for neck disability and posttraumatic stress disorder (PTSD) symptoms after whiplash injury have recently been identified. This study aimed to identify baseline pre",
+      "match_method": "title_exact_year",
+      "doi": "10.1016/j.pain.2011.01.056",
+      "issn": [
+        "0304-3959"
+      ],
+      "crossref": {
+        "title": "Similar factors predict disability and posttraumatic stress disorder trajectories after whiplash injury",
+        "container_title": "Pain",
+        "year": 2011,
+        "type": "journal-article",
+        "issn": [
+          "0304-3959"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1628,
+      "synergy_title": "Content not quantity is a better measure of muscle degeneration in whiplash",
+      "synergy_year": 2013,
+      "synergy_abstract_head": "Whiplash associated disorder (WAD) represents an enormous economic, social and personal burden. Five out of 10 people with WAD never fully recover and up to 25% continue to have moderate to severe pai",
+      "match_method": "title_exact_year",
+      "doi": "10.1016/j.math.2013.02.002",
+      "issn": [
+        "1356-689X"
+      ],
+      "crossref": {
+        "title": "Content not quantity is a better measure of muscle degeneration in whiplash",
+        "container_title": "Manual Therapy",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "1356-689X"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1934,
+      "synergy_title": "Peritraumatic and trait dissociation differentiate police officers with resilient versus symptomatic trajectories of posttraumatic stress symptoms",
+      "synergy_year": 2011,
+      "synergy_abstract_head": "Research has consistently demonstrated that stress reactions to potentially traumatic events do not represent a unified phenomenon. Instead, individuals tend to cluster into prototypical response patt",
+      "match_method": "title_exact_year",
+      "doi": "10.1002/jts.20684",
+      "issn": [
+        "0894-9867",
+        "1573-6598"
+      ],
+      "crossref": {
+        "title": "Peritraumatic and trait dissociation differentiate police officers with resilient versus symptomatic trajectories of posttraumatic stress symptoms",
+        "container_title": "Journal of Traumatic Stress",
+        "year": 2011,
+        "type": "journal-article",
+        "issn": [
+          "0894-9867",
+          "1573-6598"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 721,
+      "synergy_title": "Trajectories of trauma symptoms and resilience in deployed US military service members: Prospective cohort study",
+      "synergy_year": 2012,
+      "synergy_abstract_head": "Background: Most previous attempts to determine the psychological cost of military deployment have been limited by reliance on convenience samples, lack of pre-deployment data or confidentiality and c",
+      "match_method": "title_exact_year",
+      "doi": "10.1192/bjp.bp.111.096552",
+      "issn": [
+        "0007-1250",
+        "1472-1465"
+      ],
+      "crossref": {
+        "title": "Trajectories of trauma symptoms and resilience in deployed US military service members: Prospective cohort study",
+        "container_title": "British Journal of Psychiatry",
+        "year": 2012,
+        "type": "journal-article",
+        "issn": [
+          "0007-1250",
+          "1472-1465"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 3388,
+      "synergy_title": "Posttraumatic stress symptoms and trajectories in child sexual abuse victims: An analysis of sex differences using the national survey of child and adolescent well-being",
+      "synergy_year": 2009,
+      "synergy_abstract_head": "Very few studies have prospectively examined sex differences in posttraumatic stress symptoms and symptom trajectories in youth victimized by childhood sexual abuse. This study addresses that question",
+      "match_method": "title_exact_year",
+      "doi": "10.1007/s10802-009-9300-x",
+      "issn": [
+        "0091-0627",
+        "1573-2835"
+      ],
+      "crossref": {
+        "title": "Posttraumatic Stress Symptoms and Trajectories in Child Sexual Abuse Victims: An Analysis of Sex Differences Using the National Survey of Child and Adolescent Well-Being",
+        "container_title": "Journal of Abnormal Child Psychology",
+        "year": 2009,
+        "type": "journal-article",
+        "issn": [
+          "0091-0627",
+          "1573-2835"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 4528,
+      "synergy_title": "Presence of Spontaneous Pain and Comorbid Pain Conditions Identifies Vulvodynia Subgroups",
+      "synergy_year": 2016,
+      "synergy_abstract_head": "Objective The aims of the study were to define the heterogeneity of vulvodynia by determining data-driven subgroups within the vulvodynia diagnosis using exploratory cluster analysis and to characteri",
+      "match_method": "title_exact_year",
+      "doi": "10.1097/lgt.0000000000000166",
+      "issn": [
+        "1089-2591"
+      ],
+      "crossref": {
+        "title": "Presence of Spontaneous Pain and Comorbid Pain Conditions Identifies Vulvodynia Subgroups",
+        "container_title": "Journal of Lower Genital Tract Disease",
+        "year": 2016,
+        "type": "journal-article",
+        "issn": [
+          "1089-2591"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 898,
+      "synergy_title": "Trajectory of post-traumatic stress following traumatic injury: 6-year follow-up",
+      "synergy_year": 2015,
+      "synergy_abstract_head": "",
+      "match_method": "title_exact_year",
+      "doi": "10.1192/bjp.bp.114.145516",
+      "issn": [
+        "0007-1250",
+        "1472-1465"
+      ],
+      "crossref": {
+        "title": "Trajectory of post-traumatic stress following traumatic injury: 6-year follow-up",
+        "container_title": "British Journal of Psychiatry",
+        "year": 2015,
+        "type": "journal-article",
+        "issn": [
+          "0007-1250",
+          "1472-1465"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "export has no abstract; exact title, British Journal of Psychiatry 2015 volume",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2824,
+      "synergy_title": "Introduction to Part I: Trauma and Juvenile Delinquency: Dynamics and Developmental Mechanisms",
+      "synergy_year": 2012,
+      "synergy_abstract_head": "This article introduces the first part of a two-part special issue featuring new directions in research on traumatized youth in the juvenile justice system. The articles in this issue focus on researc",
+      "match_method": "title_exact_year",
+      "doi": "10.1080/19361521.2012.671743",
+      "issn": [
+        "1936-1521",
+        "1936-153X"
+      ],
+      "crossref": {
+        "title": "Introduction to Part I: Trauma and Juvenile Delinquency: Dynamics and Developmental Mechanisms",
+        "container_title": "Journal of Child &amp; Adolescent Trauma",
+        "year": 2012,
+        "type": "journal-article",
+        "issn": [
+          "1936-1521",
+          "1936-153X"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "the export record is itself the special-issue introduction; matched to that introduction",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 5117,
+      "synergy_title": "Late-onset posttraumatic stress disorder following a disaster: A longitudinal study",
+      "synergy_year": 2012,
+      "synergy_abstract_head": "In disaster survivors, the occurrence of mental health problems beyond the immediate aftermath of the disaster has repeatedly been reported. The aim of the present study was to evaluate the course of ",
+      "match_method": "title_exact_year",
+      "doi": "10.1037/a0023868",
+      "issn": [
+        "1942-969X",
+        "1942-9681"
+      ],
+      "crossref": {
+        "title": "Late-onset posttraumatic stress disorder following a disaster: A longitudinal study.",
+        "container_title": "Psychological Trauma: Theory, Research, Practice, and Policy",
+        "year": 2012,
+        "type": "journal-article",
+        "issn": [
+          "1942-969X",
+          "1942-9681"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2020,
+      "synergy_title": "Symptoms and Subjective Quality of Life in Post-Traumatic Stress Disorder: A Longitudinal Study",
+      "synergy_year": 2013,
+      "synergy_abstract_head": "Background: Evidence suggests that post-traumatic stress disorder (PTSD) is associated with substantially reduced subjective quality of life (SQOL). This study aimed to explore whether and how changes",
+      "match_method": "title_exact_year",
+      "doi": "10.1371/journal.pone.0060991",
+      "issn": [
+        "1932-6203"
+      ],
+      "crossref": {
+        "title": "Symptoms and Subjective Quality of Life in Post-Traumatic Stress Disorder: A Longitudinal Study",
+        "container_title": "PLoS ONE",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "1932-6203"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 3143,
+      "synergy_title": "The course of posttraumatic stress in children: examination of recovery trajectories following traumatic injury",
+      "synergy_year": 2010,
+      "synergy_abstract_head": "OBJECTIVE: Group-based trajectory modeling was used to identify patterns of posttraumatic stress symptom (PTSS) in children 6-16 years following accidental injury. The aims were to: (a) identify proba",
+      "match_method": "title_exact_year",
+      "doi": "10.1093/jpepsy/jsp050",
+      "issn": [
+        "0146-8693",
+        "1465-735X"
+      ],
+      "crossref": {
+        "title": "The Course of Posttraumatic Stress in Children: Examination of Recovery Trajectories Following Traumatic Injury",
+        "container_title": "Journal of Pediatric Psychology",
+        "year": 2009,
+        "type": "journal-article",
+        "issn": [
+          "0146-8693",
+          "1465-735X"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "Crossref 2009 (online) vs export 2010 (volume year); same article in J. Pediatric Psychology",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1623,
+      "synergy_title": "Predicting criminality from child maltreatment typologies and posttraumatic stress symptoms",
+      "synergy_year": 2013,
+      "synergy_abstract_head": "Background: The associations between childhood abuse and subsequent criminality and posttraumatic stress disorder (PTSD) are well known. However, a major limitation of research related to childhood ab",
+      "match_method": "title_exact_year",
+      "doi": "10.3402/ejpt.v4i0.19825",
+      "issn": [
+        "2000-8066"
+      ],
+      "crossref": {
+        "title": "Predicting criminality from child maltreatment typologies and posttraumatic stress symptoms",
+        "container_title": "European Journal of Psychotraumatology",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "2000-8066"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2744,
+      "synergy_title": "Community integration after deployment to Afghanistan: a longitudinal investigation of Danish soldiers",
+      "synergy_year": 2014,
+      "synergy_abstract_head": "Methods: In a prospective, longitudinal study of Danish soldiers deployed to Afghanistan in 2009 (N = 743), we assessed community reintegration difficulties 2.5 years after home coming (study sample: ",
+      "match_method": "title_exact_year",
+      "doi": "10.1007/s00127-014-0973-2",
+      "issn": [
+        "0933-7954",
+        "1433-9285"
+      ],
+      "crossref": {
+        "title": "Community integration after deployment to Afghanistan: a longitudinal investigation of Danish soldiers",
+        "container_title": "Social Psychiatry and Psychiatric Epidemiology",
+        "year": 2014,
+        "type": "journal-article",
+        "issn": [
+          "0933-7954",
+          "1433-9285"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 4259,
+      "synergy_title": "Longitudinal course of posttraumatic stress disorder and posttraumatic stress disorder symptoms in a community sample of adolescents and young adults",
+      "synergy_year": 2005,
+      "synergy_abstract_head": "Objective: Few studies have focused on the natural course of posttraumatic stress disorder (PTSD) and its determinants in samples of the general population. The authors examined determinants of remiss",
+      "match_method": "title_exact_year",
+      "doi": "10.1176/appi.ajp.162.7.1320",
+      "issn": [
+        "0002-953X",
+        "1535-7228"
+      ],
+      "crossref": {
+        "title": "Longitudinal Course of Posttraumatic Stress Disorder and Posttraumatic Stress Disorder Symptoms in a Community Sample of Adolescents and Young Adults",
+        "container_title": "American Journal of Psychiatry",
+        "year": 2005,
+        "type": "journal-article",
+        "issn": [
+          "0002-953X",
+          "1535-7228"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2010,
+      "synergy_title": "Military-related posttraumatic stress disorder and intimate relationship behaviors: A developing dyadic relationship model",
+      "synergy_year": 2014,
+      "synergy_abstract_head": "The protracted conflict in Iraq and Afghanistan and an all-volunteer military has resulted in multiple war zone deployments for many service members. While quick redeployment turnaround has left littl",
+      "match_method": "title_exact_year",
+      "doi": "10.1111/jmft.12017",
+      "issn": [
+        "0194-472X",
+        "1752-0606"
+      ],
+      "crossref": {
+        "title": "Military‐Related Posttraumatic Stress Disorder and Intimate Relationship Behaviors: A Developing Dyadic Relationship Model",
+        "container_title": "Journal of Marital and Family Therapy",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "0194-472X",
+          "1752-0606"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "Crossref 2013 (online) vs export 2014 (volume year); same article in JMFT",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 5891,
+      "synergy_title": "Social relationships and PTSD symptomatology in combat veterans",
+      "synergy_year": 2010,
+      "synergy_abstract_head": "The primary purpose of this study is to determine if recent combat veterans discriminate between different sources of social support, and then preliminarily investigate the relationship of social supp",
+      "match_method": "title_exact_year",
+      "doi": "10.1037/a0019062",
+      "issn": [
+        "1942-969X",
+        "1942-9681"
+      ],
+      "crossref": {
+        "title": "Social relationships and PTSD symptomatology in combat veterans.",
+        "container_title": "Psychological Trauma: Theory, Research, Practice, and Policy",
+        "year": 2010,
+        "type": "journal-article",
+        "issn": [
+          "1942-969X",
+          "1942-9681"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1761,
+      "synergy_title": "Serving within the British army: Research into mental health benefits",
+      "synergy_year": 2011,
+      "synergy_abstract_head": "The mental health (MH) of soldiers remains extremely newsworthy and is regularly featured in high profile media forums that focus on post-traumatic stress disorder. However, the authors feel that ther",
+      "match_method": "title_exact_year",
+      "doi": "10.12968/bjon.2011.20.19.1256",
+      "issn": [
+        "0966-0461",
+        "2052-2819"
+      ],
+      "crossref": {
+        "title": "Serving within the British army: research into mental health benefits",
+        "container_title": "British Journal of Nursing",
+        "year": 2011,
+        "type": "journal-article",
+        "issn": [
+          "0966-0461",
+          "2052-2819"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 2803,
+      "synergy_title": "A comparison of PTSD symptom patterns in three types of civilian trauma",
+      "synergy_year": 2009,
+      "synergy_abstract_head": "Posttraumatic stress disorder (PTSD) is assumed to be an equivalent syndrome regardless of the type of traumatic event that precipitated it. However, the Diagnostic and Statistical Manual of Mental Di",
+      "match_method": "title_exact_year",
+      "doi": "10.1002/jts.20406",
+      "issn": [
+        "0894-9867",
+        "1573-6598"
+      ],
+      "crossref": {
+        "title": "A comparison of PTSD symptom patterns in three types of civilian trauma",
+        "container_title": "Journal of Traumatic Stress",
+        "year": 2009,
+        "type": "journal-article",
+        "issn": [
+          "0894-9867",
+          "1573-6598"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    },
+    {
+      "record_id": 1691,
+      "synergy_title": "Pharmacokinetics and metabolism of SRX246: A potent and selective vasopressin 1a antagonist",
+      "synergy_year": 2013,
+      "synergy_abstract_head": "SRX246 is a potent, highly selective, orally bioavailable vasopressin 1a receptor antagonist that represents a novel mechanism of action for the treatment of mood disorders. The compound previously sh",
+      "match_method": "title_exact_year",
+      "doi": "10.1002/jps.23495",
+      "issn": [
+        "0022-3549"
+      ],
+      "crossref": {
+        "title": "Pharmacokinetics and Metabolism of SRX246: A Potent and Selective Vasopressin 1a Antagonist",
+        "container_title": "Journal of Pharmaceutical Sciences",
+        "year": 2013,
+        "type": "journal-article",
+        "issn": [
+          "0022-3549"
+        ]
+      },
+      "judgement": "correct",
+      "judgement_note": "exact title, journal-article, plausible venue, year within +-1",
+      "judged_by": "harness fix agent, 2026-09-03",
+      "judged_on": "2026-09-03"
+    }
+  ]
+}
